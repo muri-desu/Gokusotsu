@@ -2,7 +2,7 @@
 <Defs>
 <FactionDef Parent="FactionBase">
 	<defName>GHG_PlayerFaction</defName>
-	<label>Lost guards stronghold</label>
+	<label>Lost guards</label>
 		<description>A headquarter by gokusotsu who stayed for supporting ex-colleagues.</description>
 	<basicMemberKind>GHG_Colonist</basicMemberKind>
 	<pawnSingular>gokusotsu</pawnSingular>

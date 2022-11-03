@@ -2,7 +2,7 @@
 <Defs>
 <FactionDef Parent="FactionBase"><!-- NPC派閥 -->
 	<defName>GHG_Faction</defName>
-	<label>Lost Guards</label>
+	<label>Guards on vacation</label>
 	<description>A group of Gokusotsu enjoying a vacation on this planet.</description>
 	<pawnSingular>gokusotsu</pawnSingular>
 	<pawnsPlural>gokusotsu</pawnsPlural>
