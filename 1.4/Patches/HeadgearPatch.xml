@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationAddModExtension">
+	<!-- This xpath is not the same as a texture path, it's wierd like that. Most of the time you will only have to change the defName="xxx" part -->
+<xpath>/Defs/ThingDef[defName="Apparel_GokusotsuEarrings"]</xpath>
+	<value>
+		<li Class="RaceSpecificApparel.RaceSpecific">
+			<races>
+				<li>
+					<race>GHG_Mezu</race>
+					<customPath>Things/Apparel/Hat/EarringsMezu</customPath>
+				</li>
+				<li>
+					<race>GHG_Gozu</race>
+					<customPath>Things/Apparel/Hat/EarringsGozu</customPath>
+				</li>
+			</races>
+		</li>
+	</value>
+</Operation>
+</Patch>

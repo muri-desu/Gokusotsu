@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StyleItemCategoryDef>
+		<defName>GHG_Style</defName>
+		<label>gokusotsu style</label> 
+	</StyleItemCategoryDef>
+
+<HairDef>
+	<defName>GHG_MezuHair</defName>
+	<label>bold</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/MezuHair</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_MezuHair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Bold</defName>
+	<label>bold</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/GHG_Bald</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Bun</defName>
+	<label>bun</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/GHG_Bun</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Zanbara</defName>
+	<label>bold</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/Zanbara</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Togetoge</defName>
+	<label>bold</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/Togetoge</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_ZanbaraLong</defName>
+	<label>bold</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/ZanbaraLong</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+</Defs>

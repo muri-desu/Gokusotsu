@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<rjw.RaceGroupDef>
+		<defName>Gokusotsu</defName>
+
+		<raceNames>
+			<li>Alien_Gokusotsu</li>
+		</raceNames>
+
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Vagina</li>
+			<li>Penis</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Skin</li>
+		</tags>
+
+		<raceSexDrive>1.1</raceSexDrive>
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+
+	<rjw.RaceGroupDef>
+		<defName>MezuGozu</defName>
+
+		<raceNames>
+			<li>GHG_Mezu</li>
+			<li>GHG_Gozu</li>
+		</raceNames>
+
+		<anuses>
+			<li>Anus</li>
+		</anuses>
+
+		<femaleBreasts>
+			<li>Breasts</li>
+		</femaleBreasts>
+
+		<femaleGenitals>
+			<li>Vagina</li>
+			<li>Penis</li>
+		</femaleGenitals>
+
+		<maleBreasts>
+			<li>Breasts</li>
+		</maleBreasts>
+
+		<maleGenitals>
+			<li>Penis</li>
+		</maleGenitals>
+
+		<tags>
+			<li>Skin</li>
+			<li>Fur</li>
+		</tags>
+
+		<raceSexDrive>1.1</raceSexDrive>
+		<hasSingleGender>false</hasSingleGender>
+		<hasSexNeed>true</hasSexNeed>
+		<hasFertility>true</hasFertility>
+		<hasPregnancy>true</hasPregnancy>
+		<oviPregnancy>false</oviPregnancy>
+		<ImplantEggs>false</ImplantEggs>
+
+	</rjw.RaceGroupDef>
+
+
+</Defs>

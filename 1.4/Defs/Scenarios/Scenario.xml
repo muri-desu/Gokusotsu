@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ScenarioDef>
+<defName>GHG_Scenario</defName>
+	<label>five from hell</label>
+		<description>Gokusotsu, demon guards who were thrown out of hell were at their wits' end.\nAlthough most of them left, some of them decided to start their new base at where they landed.\nThey are free to create another dreadful hell or a fancy paradise on this lawless planet.</description>
+<scenario>
+	<summary>start with 5 gokusotsu demons.</summary>
+	<playerFaction>
+		<def>PlayerFaction</def>
+		<factionDef>GHG_PlayerFaction</factionDef>
+	</playerFaction>
+<parts>
+	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+		<def>ConfigPage_ConfigureStartingPawns</def>
+		<pawnCount>5</pawnCount>
+		<pawnChoiceCount>10</pawnChoiceCount>
+	</li>
+	<li Class="ScenPart_PlayerPawnsArriveMethod">
+		<def>PlayerPawnsArriveMethod</def>
+		<method>Standing</method>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>Meat_Human</thingDef>
+		<count>125</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>Beer</thingDef>
+		<count>50</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>GHG_Club</thingDef>
+		<stuff>Steel</stuff>
+		<count>2</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>Bow_Short</thingDef>
+		<count>2</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>MealSurvivalPack</thingDef>
+		<count>20</count>
+	</li>
+	<li Class="ScenPart_StartingThing_Defined">
+		<def>StartingThing_Defined</def>
+		<thingDef>MedicineHerbal</thingDef>
+		<count>20</count>
+	</li>
+	<li Class="ScenPart_ScatterThingsNearPlayerStart">
+		<def>StartingThing_Defined</def>
+		<thingDef>Steel</thingDef>
+		<count>350</count>
+	</li>
+	<li Class="ScenPart_ScatterThingsAnywhere">
+		<def>StartingThing_Defined</def>
+		<thingDef>WoodLog</thingDef>
+		<count>500</count>
+	</li>
+	<li Class="ScenPart_ScatterThingsAnywhere">
+		<def>ScatterThingsAnywhere</def>
+		<thingDef>ShipChunk</thingDef>
+		<allowRoofed>false</allowRoofed>
+		<count>10</count>
+	</li>
+</parts>
+</scenario>
+</ScenarioDef>
+</Defs>

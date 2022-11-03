@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingCategoryDef>
+	<defName>GHG_Headgear</defName>
+	<label>Gokusotsu' headgears</label>
+	<parent>GHG_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingDef Name="GHG_HatBase" ParentName="HatBase" Abstract="True">
+	<techLevel>Medieval</techLevel>
+	<recipeMaker>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+	</recipeMaker>
+	<apparel>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity><!-- false=ヌーディスト向け -->
+	</apparel>
+	<thingCategories>
+		<li>GHG_Headgear</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="GHG_HatBase"><!-- 眼鏡 -->
+	<defName>Apparel_GokusotsuGlasses</defName>
+		<label>Glasses</label>
+		<description>A thick glasses which looks like sake bottle bottom.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/Hat/Glasses</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(0.6, 0.6)</drawSize>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>2000</WorkToMake>
+		<MaxHitPoints>250</MaxHitPoints>
+		<Mass>0.1</Mass>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>0.3</EquipDelay>
+		</statBases>
+
+	<costList>
+		<Steel>15</Steel>
+	</costList>
+
+	<equippedStatOffsets>
+		<ResearchSpeed>0.1</ResearchSpeed>
+		<TradePriceImprovement>0.05</TradePriceImprovement>
+		<DrugSellPriceImprovement>0.05</DrugSellPriceImprovement>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<layers>
+			<li>EyeCover</li>
+		</layers>
+	<wornGraphicPath>Things/Apparel/Hat/Glasses</wornGraphicPath>
+
+	<tags>
+		<li>GHG_Trader</li>
+	</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="GHG_HatBase"><!-- 耳環 -->
+	<defName>Apparel_GokusotsuEarrings</defName>
+		<label>Earrings</label>
+		<description>Traditional earrings.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/Hat/Earrings</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(0.6, 0.6)</drawSize>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>2500</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<Mass>0.1</Mass>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>2</EquipDelay>
+		</statBases>
+
+	<stuffCategories>
+		<li>Metallic</li>
+		<li>Stony</li>
+	</stuffCategories>
+	<costStuffCount>32</costStuffCount>
+
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+	</equippedStatOffsets>
+
+	<apparel>
+		<bodyPartGroups>
+			<li>Mouth</li>
+		</bodyPartGroups>
+		<layers>
+			<li>EyeCover</li>
+		</layers>
+	<wornGraphicPath>Things/Apparel/Hat/Earrings</wornGraphicPath>
+
+	<tags>
+		<li>GHG_Boss</li>
+	</tags>
+	</apparel>
+</ThingDef>
+
+</Defs>

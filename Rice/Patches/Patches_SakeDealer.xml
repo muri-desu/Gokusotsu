@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+<xpath>Defs/TraderKindDefs[defName = "Caravan_GHG_SakeDealer"]/stockGenerators/li/thingDefs</xpath>
+<value>
+	<li Class="StockGenerator_Category">
+		<categoryDef>ZPDrugBase</categoryDef>
+		<thingDefCountRange>3~5</thingDefCountRange>
+		<countRange>5~15</countRange>
+	</li>
+</value>
+</Operation>
+</Patch>

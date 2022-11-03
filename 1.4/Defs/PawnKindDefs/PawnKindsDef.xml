@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<PawnKindDef Name="BaseGHGPawnKind" Abstract="True">
+	<combatPower>60</combatPower>
+	<isFighter>true</isFighter>
+	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<initialWillRange>1~3</initialWillRange>
+	<initialResistanceRange>10~20</initialResistanceRange>
+	<!-- <minGenerationAge>50</minGenerationAge>
+	<maxGenerationAge>90</maxGenerationAge> -->
+	<itemQuality>Poor</itemQuality>
+	<gearHealthRange>0.2~0.6</gearHealthRange>
+</PawnKindDef>
+
+<!-- player -->
+<PawnKindDef Name="BaseGHGColonist" ParentName="BaseGHGPawnKind" Abstract="True">
+	<label>colonist</label>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<apparelMoney>350~600</apparelMoney>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_player</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<apparelRequired>
+		<li>Apparel_FundoshiA</li>
+	</apparelRequired>
+	<apparelTags>
+		<li>GHG_Basic</li>
+	</apparelTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGColonist">
+	<defName>GHG_Colonist</defName>
+	<race>Alien_Gokusotsu</race>
+	<defaultFactionType>GHG_PlayerFaction</defaultFactionType>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGColonist">
+	<defName>GHG_MezuColonist</defName>
+	<race>GHG_Mezu</race>
+	<defaultFactionType>GHG_PlayerFaction</defaultFactionType>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGColonist">
+	<defName>GHG_GozuColonist</defName>
+	<race>GHG_Gozu</race>
+	<defaultFactionType>GHG_PlayerFaction</defaultFactionType>
+</PawnKindDef>
+
+<!-- wanderer -->
+<PawnKindDef Name="BaseGHGWanderer" ParentName="BaseGHGPawnKind" Abstract="True">
+	<label>wanderer</label>
+	<defaultFactionType>GHG_Faction</defaultFactionType>
+	<techHediffsChance>0.03</techHediffsChance>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_wanderer</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<apparelRequired>
+		<li>Apparel_FundoshiA</li>
+	</apparelRequired>
+	<apparelTags>
+		<li>GHG_Basic</li>
+	</apparelTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGWanderer">
+	<defName>GHG_Wanderer</defName>
+	<race>Alien_Gokusotsu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGWanderer">
+	<defName>GHG_MezuWanderer</defName>
+	<race>GHG_Mezu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGWanderer">
+	<defName>GHG_GozuWanderer</defName>
+	<race>GHG_Gozu</race>
+</PawnKindDef>
+
+<!-- slave -->
+<PawnKindDef Name="BaseGHGSlave" ParentName="BaseGHGPawnKind" Abstract="True">
+	<label>slave</label>
+	<defaultFactionType>GHG_Faction</defaultFactionType>
+	<techHediffsChance>0.1</techHediffsChance>
+	<techHediffsMoney>50~50</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+	</techHediffsTags>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_wanderer</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<apparelRequired>
+		<li>Apparel_FundoshiA</li>
+	</apparelRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGSlave">
+	<defName>GHG_Slave</defName>
+	<race>Alien_Gokusotsu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGSlave">
+	<defName>GHG_MezuSlave</defName>
+	<race>GHG_Mezu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGSlave">
+	<defName>GHG_GozuSlave</defName>
+	<race>GHG_Gozu</race>
+</PawnKindDef>
+
+<!-- npc -->
+<!-- リーダー格 -->
+<PawnKindDef Name="BaseGHGBoss" Abstract="True" ParentName="BaseGHGPawnKind">
+	<defaultFactionType>GHG_Faction</defaultFactionType>
+	<factionLeader>true</factionLeader>
+	<label>demon chief</label>
+	<trader>true</trader>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<itemQuality>Normal</itemQuality>
+	<apparelMoney>500~2500</apparelMoney>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_boss</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<apparelRequired>
+		<li>Apparel_GokusotsuEarrings</li>
+		<li>Apparel_OufukuCape</li>
+		<li>Apparel_Koshinuno</li>
+		<li>Apparel_Kyahan</li>
+	</apparelRequired>
+	<apparelTags>
+		<li>GHG_Basic</li>
+		<li>GHG_Boss</li>
+	</apparelTags>
+	<weaponMoney>
+		<min>1000</min>
+		<max>3500</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>GHG_BossMelee</li>
+		<li>NeolithicRangedHeavy</li>
+		<li>LongSword</li>
+	</weaponTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGBoss">
+	<defName>GHG_Boss</defName>
+	<race>Alien_Gokusotsu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGBoss">
+	<defName>GHG_MezuBoss</defName>
+	<race>GHG_Mezu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGBoss">
+	<defName>GHG_GozuBoss</defName>
+	<race>GHG_Gozu</race>
+</PawnKindDef>
+
+<!-- 商人 -->
+<PawnKindDef Name="BaseGHGTrader" Abstract="True" ParentName="BaseGHGPawnKind">
+	<defaultFactionType>GHG_Faction</defaultFactionType>
+	<label>trader</label>
+	<trader>true</trader>
+	<chemicalAddictionChance>0.03</chemicalAddictionChance>
+	<techHediffsChance>0.05</techHediffsChance>
+	<techHediffsMoney>500~8000</techHediffsMoney>
+	<techHediffsTags>
+		<li>Simple</li>
+	</techHediffsTags>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_trader</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<apparelRequired>
+		<li>Apparel_Happi</li>
+		<li>Apparel_GokusotsuGlasses</li>
+		<li>Apparel_Koshinuno</li>
+	</apparelRequired>
+	<apparelTags>
+		<li>GHG_Basic</li>
+		<li>GHG_Trader</li>
+	</apparelTags>
+	<weaponMoney>
+		<min>1000</min>
+		<max>3500</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>GHG_TraderMelee</li>
+	</weaponTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGTrader">
+	<defName>GHG_Trader</defName>
+	<race>Alien_Gokusotsu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGTrader">
+	<defName>GHG_MezuTrader</defName>
+	<race>GHG_Mezu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGTrader">
+	<defName>GHG_GozuTrader</defName>
+	<race>GHG_Gozu</race>
+</PawnKindDef>
+
+<!-- 近接 -->
+<PawnKindDef Name="BaseGHGMelee" Abstract="True" ParentName="BaseGHGPawnKind">
+	<defaultFactionType>GHG_Faction</defaultFactionType>
+	<label>warrior</label>
+	<techHediffsChance>0.1</techHediffsChance>
+	<techHediffsMoney>500~5000</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+		<li>Simple</li>
+	</techHediffsTags>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_wanderer</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+	<apparelRequired>
+		<li>Apparel_Nagatekkou</li>
+		<li>Apparel_Kote</li>
+		<li>Apparel_Koshinuno</li>
+	</apparelRequired>
+	<apparelTags>
+		<li>GHG_Basic</li>
+		<li>GHG_Melee</li>
+	</apparelTags>
+	<weaponMoney>
+		<min>1000</min>
+		<max>3500</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>GHG_Melee</li>
+		<li>MedievalMeleeDecent</li>
+		<li>MedievalMeleeAdvanced</li>
+	</weaponTags>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGMelee">
+	<defName>GHG_Melee</defName>
+	<race>Alien_Gokusotsu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGMelee">
+	<defName>GHG_MezuMelee</defName>
+	<race>GHG_Mezu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGMelee">
+	<defName>GHG_GozuMelee</defName>
+	<race>GHG_Gozu</race>
+</PawnKindDef>
+
+<!-- 遠距離 -->
+<PawnKindDef Name="BaseGHGRanged" Abstract="True" ParentName="BaseGHGPawnKind">
+	<defaultFactionType>GHG_Faction</defaultFactionType>
+	<label>archer</label>
+	<techHediffsChance>0.1</techHediffsChance>
+	<techHediffsMoney>500~5000</techHediffsMoney>
+	<techHediffsTags>
+		<li>Poor</li>
+		<li>Simple</li>
+	</techHediffsTags>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>GHG_wanderer</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+</PawnKindDef>
+	<apparelRequired>
+		<li>Apparel_Nagatekkou</li>
+		<li>Apparel_Igote</li>
+		<li>Apparel_Koshinuno</li>
+	</apparelRequired>
+	<apparelTags>
+		<li>GHG_Basic</li>
+		<li>GHG_Melee</li>
+	</apparelTags>
+	<weaponMoney>
+		<min>1000</min>
+		<max>3500</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>GHG_Ranged</li>
+		<li>NeolithicRangedDecent</li>
+		<li>NeolithicRangedHeavy</li>
+	</weaponTags>
+
+<PawnKindDef ParentName="BaseGHGRanged">
+	<defName>GHG_Ranged</defName>
+	<race>Alien_Gokusotsu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGRanged">
+	<defName>GHG_MezuRanged</defName>
+	<race>GHG_Mezu</race>
+</PawnKindDef>
+
+<PawnKindDef ParentName="BaseGHGRanged">
+	<defName>GHG_GozuRanged</defName>
+	<race>GHG_Gozu</race>
+</PawnKindDef>
+</Defs>

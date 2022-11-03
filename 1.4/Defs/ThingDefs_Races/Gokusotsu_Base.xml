@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BasePawn" Name="BaseGHG" Abstract="True">
+	<description>They were originally guards in a huge punishment facility spreading underground in another world. \nOne day, they were seduced by a newly-arrived scholar and sucked out into this world through a "gate" that they were made to build (perhaps with the promise of an endless supply of alcohol, etc.). \nFor a while afterwards, they worked together to find the scholar who had successfully escaped. \nHowever, they realized that their lives became mortal like the creatures of mortal world, and that their favorite things (alcohol, fighting, and human flesh) were available everywhere. In addition, the absence of their boss had destroyed their teamwork, and the all gokusotsu scattered to the planets to do as they pleased.</description>
+<race>
+	<baseBodySize>1.5</baseBodySize>
+	<baseHealthScale>1.0</baseHealthScale>
+	<thinkTreeMain>Humanlike</thinkTreeMain>
+	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+	<intelligence>Humanlike</intelligence>
+	<makesFootprints>true</makesFootprints>
+	<lifeExpectancy>300</lifeExpectancy>
+	<nameCategory>HumanStandard</nameCategory>
+	<nameGenerator>NamerGHG</nameGenerator>
+	<foodType>CarnivoreAnimal, Fluid, AnimalProduct, Liquor</foodType>
+	<hasGenders>true</hasGenders>
+	<gestationPeriodDays>100</gestationPeriodDays>
+	<litterSizeCurve>
+	<points>
+		<li>(1, 0)</li>
+		<li>(2, 100)</li>
+		<li>(3, 3)</li>
+		<li>(4, 0)</li>
+		<li>(5, 0)</li>
+	</points>
+	</litterSizeCurve>
+	<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+		<Firefighter>5</Firefighter>
+		<Patient>0</Patient>
+		<Doctor>10</Doctor>
+		<PatientBedRest>0</PatientBedRest>
+		<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+		<BasicWorker>7</BasicWorker>
+		<Warden>10</Warden>
+		<Handling>7</Handling>
+		<Cooking>10</Cooking>
+		<Hunting>7</Hunting>
+		<Construction>10</Construction>
+		<Growing>7</Growing>
+		<Mining>7</Mining>
+		<PlantCutting>7</PlantCutting>
+		<Smithing>13</Smithing>
+		<Tailoring>7</Tailoring>
+		<Art>10</Art>
+		<Crafting>7</Crafting>
+		<Hauling>3</Hauling>
+		<Cleaning>3</Cleaning>
+		<Research>13</Research>
+	</lifeStageWorkSettings>
+		<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+	<specialShadowData>
+		<volume>(0.3, 0.8, 0.4)</volume>
+		<offset>(0,0,-0.3)</offset>
+	</specialShadowData>
+	<ageGenerationCurve>
+	<points>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li><!-- Exclude 12.5-13 years -->
+		<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+		<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+		<li>(14,0)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+		<li>(50,5)</li>
+		<li>(100,100)</li>
+		<li>(200,50)</li>
+		<li>(250,5)</li>
+		<li>(300,0)</li>
+	</points>
+	</ageGenerationCurve>
+	<hediffGiverSets>
+		<li>OrganicStandard</li>
+	</hediffGiverSets>
+</race>
+
+<tools>
+	<li>
+		<label>left fist</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>10</power>
+		<cooldownTime>1.5</cooldownTime>
+		<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+	<surpriseAttack>
+		<extraMeleeDamages>
+			<li>
+				<def>Stun</def>
+				<amount>10</amount>
+			</li>
+		</extraMeleeDamages>
+	</surpriseAttack>
+	</li>
+	<li>
+		<label>right fist</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>10</power>
+		<cooldownTime>1.5</cooldownTime>
+		<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+	<surpriseAttack>
+		<extraMeleeDamages>
+			<li>
+				<def>Stun</def>
+				<amount>10</amount>
+			</li>
+		</extraMeleeDamages>
+	</surpriseAttack>
+	</li>
+	<li>
+		<label>teeth</label>
+		<capacities>
+			<li>Bite</li>
+		</capacities>
+		<power>13</power>
+		<cooldownTime>2</cooldownTime>
+		<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+	<surpriseAttack>
+		<extraMeleeDamages>
+			<li>
+				<def>Bite</def>
+				<amount>10</amount>
+			</li>
+		</extraMeleeDamages>
+	</surpriseAttack>
+		<chanceFactor>0.4</chanceFactor>
+	</li>
+	<li>
+		<label>head</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>15</power>
+		<cooldownTime>2</cooldownTime>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+		<chanceFactor>0.2</chanceFactor>
+	</li>
+</tools>
+
+<alienRace>
+<generalSettings>
+	<minAgeForAdulthood>16</minAgeForAdulthood>
+	<allowHumanBios>false</allowHumanBios>
+	<humanRecipeImport>true</humanRecipeImport>
+	<immuneToAge>true</immuneToAge>
+	<maleGenderProbability>1.0</maleGenderProbability>
+
+	<lovinIntervalHoursFromAge>
+		<points>
+			<li>(16, 5)</li>
+			<li>(22, 3)</li>
+			<li>(30, 2)</li>
+			<li>(50, 1.5)</li>
+			<li>(125, 1)</li>
+			<li>(150, 1)</li>
+			<li>(300, 5)</li>
+		</points>
+	</lovinIntervalHoursFromAge>
+
+<alienPartGenerator>
+	<bodyTypes>
+		<li>Hulk</li>
+		<li>Fat</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+	</bodyTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+    <north>(0.0, 0.0)</north>
+    <south>(0.0, 0.0)</south>
+    <east>(0.05, 0.0)</east>
+    <west>(-0.05, 0.0)</west>
+</headOffsetDirectional>
+	<customDrawSize>(1.2, 1.2)</customDrawSize>
+	<customHeadDrawSize>(1.1, 1.1)</customHeadDrawSize>
+	<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+	<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+	<getsGreyAt>200</getsGreyAt>
+
+</alienPartGenerator>
+
+<disallowedTraits>
+	<li>
+		<defName>Beauty</defName>
+		<degree>1</degree>
+		<chance>100</chance>
+	</li>
+	<li>
+		<defName>Beauty</defName>
+		<degree>2</degree>
+		<chance>100</chance>
+	</li>
+	<li>
+		<defName>Cannibal</defName>
+	</li>
+	<li>
+		<defName>Asexual</defName>
+	</li>
+	<li>
+		<defName>Wimp</defName>
+	</li>
+	<li>
+		<defName>Transhumanist</defName>
+	</li>
+	<li>
+		<defName>DrugDesire</defName>
+		<degree>-1</degree>
+	</li>
+</disallowedTraits>
+<forcedRaceTraitEntries>
+	<li>
+		<defName>Gay</defName>
+		<chance>50</chance>
+	</li>
+	<li>
+		<defName>Bisexual</defName>
+		<chance>10</chance>
+	</li>
+	<li>
+		<defName>Bloodlust</defName>
+		<chance>30</chance>
+	</li>
+	<li>
+		<defName>Brawler</defName>
+		<chance>20</chance>
+	</li>
+	</forcedRaceTraitEntries>
+
+<chemicalSettings><!-- 飲酒時hediff -->
+	<li>
+	<chemical>Alcohol</chemical>
+		<reactions>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+			<hediffDef>AlcoholHigh_GHG</hediffDef>
+			<severity>0.5</severity>
+		</li>
+		</reactions>
+	</li>
+</chemicalSettings>
+
+</generalSettings>
+
+<graphicPaths>
+		<head>Gokusotsu/Heads/</head>
+		<body>Gokusotsu/Bodies/</body>
+		<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</skeleton>
+		<stump>Gokusotsu/Bodies/Stump</stump>
+		<skinShader>Cutout</skinShader>
+</graphicPaths>
+
+<raceRestriction>
+	<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+	<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+	<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+	<onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
+	<apparelList>
+		<li>Apparel_FundoshiA</li>
+		<li>Apparel_FundoshiB</li>
+		<li>Apparel_Koshinuno</li>
+		<li>Apparel_OufukuCape</li>
+		<li>Apparel_Happi</li>
+		<li>Apparel_Nagatekkou</li>
+		<li>Apparel_Kote</li>
+		<li>Apparel_Igote</li>
+		<li>Apparel_Kyahan</li>
+		<li>Apparel_Nenju</li>
+		<li>Apparel_GokusotsuGlasses</li>
+		<li>Apparel_GokusotsuEarrings</li>
+		<li>Apparel_Haragake</li>
+	</apparelList>
+	<whiteApparelList>
+		<li>Apparel_PsychicShockLance</li>
+		<li>Apparel_PsychicInsanityLance</li>
+		<li>Apparel_ShieldBelt</li>
+		<li>Apparel_SmokepopBelt</li>
+		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+		<li>Apparel_FirefoampopPack</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlEar</li>
+	</whiteApparelList>
+	<!-- <weaponList>
+		<li>GHG_Sasumata</li>
+		<li>GHG_Club</li>
+		<li>GHG_Tonfa</li>
+		<li>GHG_Drum</li>
+		<li>GHG_Hossu</li>
+		<li>GHG_Soroban</li>
+	</weaponList> -->
+</raceRestriction>
+
+<relationSettings>
+	<relationChanceModifierChild>0</relationChanceModifierChild>
+	<relationChanceModifierExLover>0</relationChanceModifierExLover>
+	<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+	<relationChanceModifierFiance>0</relationChanceModifierFiance>
+	<relationChanceModifierLover>0</relationChanceModifierLover>
+	<relationChanceModifierParent>0</relationChanceModifierParent>
+	<relationChanceModifierSibling>0</relationChanceModifierSibling>
+	<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+</relationSettings>
+
+<thoughtSettings>
+<replacerList>
+	<li>
+		<original>ObservedLayingCorpse</original>
+		<replacer>ObservedLayingCorpse_GHG</replacer>
+	</li>
+	<li>
+		<original>ObservedLayingRottingCorpse</original>
+		<replacer>ObservedLayingRottingCorpse_GHG</replacer>
+	</li>
+	<li>
+		<original>Disfigured</original>
+		<replacer>Disfigured_GHG</replacer>
+	</li>
+	<li>
+		<original>Drunk</original>
+		<replacer>Drunk_GHG</replacer>
+	</li>
+	<li>
+		<original>Pretty</original>
+		<replacer>Pretty_GHG</replacer>
+	</li>
+	<li>
+		<original>Ugly</original>
+		<replacer>Ugly_GHG</replacer>
+	</li>
+	<li>
+		<original>AnnoyingVoice</original>
+		<replacer>AnnoyingVoice_GHG</replacer>
+	</li>
+	<li>
+		<original>CreepyBreathing</original>
+		<replacer>CreepyBreathing_GHG</replacer>
+	</li>
+	<li>
+		<original>AteCorpse</original>
+		<replacer>AteCorpse_GHG</replacer>
+	</li>
+	<li>
+		<original>AteHumanlikeMeatDirect</original>
+		<replacer>AteHumanlikeMeatDirect_GHG</replacer>
+	</li>
+	<li>
+		<original>AteHumanlikeMeatAsIngredient</original>
+		<replacer>AteHumanlikeMeatAsIngredient_GHG</replacer>
+	</li>
+</replacerList>
+<cannotReceiveThoughts>
+<!-- death -->
+	<li>KnowPrisonerDiedInnocent</li>
+<!-- organ harvested sold vanished -->
+	<li>KnowGuestOrganHarvested</li>
+	<li>KnowColonistOrganHarvested</li>
+	<li>KnowPrisonerSold</li>
+	<li>DeniedJoining</li>
+	<li>PrisonerBanishedToDie</li>
+	<li>BondedAnimalBanished</li>
+	<li>FailedToRescueRelative</li>
+	<li>RescuedRelative</li>
+	<li>SoldPrisoner</li>
+<!-- food temp naked etc -->
+	<li>Naked</li>
+	<li>AteRawFood</li>
+	<li>SleptInHeat</li>
+	<li>WitnessedDeathAlly</li>
+	<li>WitnessedDeathNonAlly</li>
+	<li>WitnessedDeathFamily</li>
+	<li>ButcheredHumanlikeCorpse</li>
+	<li>KnowButcheredHumanlikeCorpse</li>
+	<li>ButcheredHumanlikeCorpseOpinion</li>
+	<li>HumanLeatherApparelSad</li>
+	<li>WrongApparelGender</li>
+	<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
+	<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
+	<!-- room stats, need beauty -->
+	<li>NeedBeauty</li>
+	<li>AteInImpressiveDiningRoom</li>
+	<li>JoyActivityInImpressiveRecRoom</li>
+	<li>SleptInBedroom</li>
+	<li>SleptInBarracks</li>
+<!-- social opinion -->
+	<li>Affair</li>
+	<li>CheatedOnMe</li>
+	<li>Incestuous</li>
+	<li>AteRawHumanlikeMeat</li>
+	<li>ExecutedPrisoner</li>
+	<li>Disfigured</li>
+	<li>Drunk</li>
+	<!-- <li>Pretty</li>
+	<li>Ugly</li>
+	<li>AnnoyingVoice</li>
+	<li>CreepyBreathing</li> -->
+</cannotReceiveThoughts>
+
+</thoughtSettings>
+</alienRace>
+
+<statBases>
+	<Mass>110</Mass>
+	<MoveSpeed>4</MoveSpeed>
+	<Flammability>0.2</Flammability>
+	<CarryingCapacity>130</CarryingCapacity>
+	<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+	<ComfyTemperatureMax>1000</ComfyTemperatureMax>
+	<MiningSpeed>1.2</MiningSpeed>
+	<ConstructionSpeed>1.2</ConstructionSpeed>
+	<CookSpeed>0.2</CookSpeed>
+	<PlantWorkSpeed>0.7</PlantWorkSpeed>
+	<ResearchSpeed>0.5</ResearchSpeed>
+	<PainShockThreshold>1.2</PainShockThreshold>
+	<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+	<ArmorRating_Sharp>-0.1</ArmorRating_Sharp>
+	<ArmorRating_Heat>0.5</ArmorRating_Heat>
+</statBases>
+
+<recipes>
+	<li>RepairHorn_GHG</li>
+	<li>InstallArchotechEye</li>
+	<li>InstallArchotechArm</li>
+	<li>InstallArchotechLeg</li>
+	<li>InstallPowerClaw</li>
+	<li>InstallBionicEye</li>
+	<li>InstallBionicArm</li>
+	<li>InstallBionicLeg</li>
+	<li>InstallBionicSpine</li>
+	<li>InstallBionicHeart</li>
+	<li>InstallBionicStomach</li>
+	<li>InstallBionicEar</li>
+	<li>InstallSimpleProstheticArm</li>
+	<li>InstallSimpleProstheticLeg</li>
+	<li>InstallSimpleProstheticHeart</li>
+	<li>InstallCochlearImplant</li>
+	<li>InstallPegLeg</li>
+	<li>InstallWoodenFoot</li>
+	<li>InstallDenture</li>
+	<li>InstallJoywire</li>
+	<li>InstallPainstopper</li>
+	<li>InstallNaturalHeart</li>
+	<li>InstallNaturalLung</li>
+	<li>InstallNaturalKidney</li>
+	<li>InstallNaturalLiver</li>
+	<li>ExciseCarcinoma</li>
+	<li>AdministerMechSerumHealer</li>
+	<li>RemoveBodyPart</li>
+	<li>Euthanize</li>
+	<li>Anesthetize</li>
+	<li>CureScaria</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+	<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+	<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+	<li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
+</recipes>
+
+<damageMultipliers>
+	<li>
+		<damageDef>Flame</damageDef>
+		<multiplier>0</multiplier>
+	</li>
+</damageMultipliers>
+
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+<AlienRace.RaceSettings>
+
+<defName>GHG_RaceSettings</defName>
+<pawnKindSettings>
+
+<startingColonists><!-- start member -->
+<li>
+	<pawnKindEntries>
+	<li>
+		<kindDefs>
+			<li>GHG_Colonist</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_MezuColonist</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_GozuColonist</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	</pawnKindEntries>
+	<factionDefs>
+		<li>GHG_PlayerFaction</li>
+	</factionDefs>
+</li>
+</startingColonists>
+
+<alienslavekinds><!-- 奴隷 -->
+	<li>
+		<kindDefs>
+			<li>GHG_Slave</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_MezuSlave</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_GozuSlave</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_Boss</li>
+		</kindDefs>
+		<chance>5.0</chance>
+	</li>
+</alienslavekinds>
+
+<alienrefugeekinds><!-- refugee -->
+	<li>
+		<kindDefs>
+			<li>GHG_Slave</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_MezuSlave</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_GozuSlave</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_Boss</li>
+		</kindDefs>
+		<chance>5.0</chance>
+	</li>
+</alienrefugeekinds>
+
+<alienwandererkinds><!-- wanderer -->
+	<li>
+		<pawnKindEntries>
+		<li>
+		<kindDefs>
+			<li>GHG_Wanderer</li>
+		</kindDefs>
+		<chance>30.0</chance>
+		</li>
+	<li>
+		<kindDefs>
+			<li>GHG_MezuWanderer</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+	<li>
+		<kindDefs>
+			<li>GHG_GozuWanderer</li>
+		</kindDefs>
+		<chance>30.0</chance>
+	</li>
+		</pawnKindEntries>
+	</li>
+</alienwandererkinds>
+
+</pawnKindSettings>
+</AlienRace.RaceSettings>
+</Defs>

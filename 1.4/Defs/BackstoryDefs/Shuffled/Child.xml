@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.AlienBackstoryDef Abstract="True" Name="GHG_BackStoryBase_Child">
+	<disallowedTraits>
+	</disallowedTraits>
+	<slot>Childhood</slot>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- わんぱく -->
+	<defName>NaughtyKids</defName>
+	<title>Naughty kid</title>
+	<titleShort>naughty kid</titleShort>
+	<baseDesc>[PAWN_nameDef] was a naughty demon kid.</baseDesc>
+	<skillGains>
+		<li><key>Melee</key><value>3</value></li>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+		<li>GHG_boss</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- オタク -->
+	<defName>OtakuKids</defName>
+	<title>Otaku kid</title>
+	<titleShort>otaku</titleShort>
+	<baseDesc>[PAWN_nameDef] was a nerdy demon kid.</baseDesc>
+	<skillGains>
+		<li><key>Intellectual</key><value>3</value></li>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 昆虫博士 -->
+	<defName>InsectKids</defName>
+	<title>Insect kid</title>
+	<titleShort>otaku</titleShort>
+	<baseDesc>[PAWN_nameDef] was into insects.</baseDesc>
+	<skillGains>
+		<li><key>Intellectual</key><value>1</value></li>
+		<li><key>Animals</key><value>3</value></li>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ねぼすけ -->
+	<defName>SleepyKids</defName>
+	<title>Sleepy kid</title>
+	<titleShort>sleepy</titleShort>
+	<baseDesc>[PAWN_nameDef] was sleepy kid.</baseDesc>
+	<disallowedTraits>
+		<QuickSleeper>0</QuickSleeper>
+	</disallowedTraits>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+</Defs>

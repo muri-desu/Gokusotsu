@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<GHG_Colonist.label>入植者</GHG_Colonist.label>
+<GHG_MezuColonist.label>入植者</GHG_MezuColonist.label>
+<GHG_GozuColonist.label>入植者</GHG_GozuColonist.label>
+<GHG_Wanderer.label>放浪者</GHG_Wanderer.label>
+<GHG_MezuWanderer.label>放浪者</GHG_MezuWanderer.label>
+<GHG_GozuWanderer.label>放浪者</GHG_GozuWanderer.label>
+<GHG_Slave.label>奴隷</GHG_Slave.label>
+<GHG_MezuSlave.label>奴隷</GHG_MezuSlave.label>
+<GHG_GozuSlave.label>奴隷</GHG_GozuSlave.label>
+<GHG_Boss.label>鬼上司</GHG_Boss.label>
+<GHG_MezuBoss.label>鬼上司</GHG_MezuBoss.label>
+<GHG_GozuBoss.label>鬼上司</GHG_GozuBoss.label>
+<GHG_Trader.label>商人</GHG_Trader.label>
+<GHG_MezuTrader.label>商人</GHG_MezuTrader.label>
+<GHG_GozuTrader.label>商人</GHG_GozuTrader.label>
+<GHG_Melee.label>剣士</GHG_Melee.label>
+<GHG_MezuMelee.label>剣士</GHG_MezuMelee.label>
+<GHG_GozuMelee.label>剣士</GHG_GozuMelee.label>
+<GHG_Ranged.label>弓士</GHG_Ranged.label>
+<GHG_MezuRanged.label>弓士</GHG_MezuRanged.label>
+<GHG_GozuRanged.label>弓士</GHG_GozuRanged.label>
+</LanguageData>

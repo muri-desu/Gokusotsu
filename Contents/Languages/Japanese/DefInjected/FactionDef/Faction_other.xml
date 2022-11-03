@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<GHG_Faction.label>遊山の獄卒たち</GHG_Faction.label>
+<GHG_Faction.description>この惑星でのバカンスを満喫している獄卒たちのグループです。</GHG_Faction.description>
+	<GHG_Faction.pawnSingular>獄卒</GHG_Faction.pawnSingular>
+<GHG_Faction.pawnsPlural>獄卒たち</GHG_Faction.pawnsPlural>
+<GHG_Faction.leaderTitle>主任</GHG_Faction.leaderTitle>
+</LanguageData>

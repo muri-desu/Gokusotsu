@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+	<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDefs_Races/Gokusotsu_Base[defName = "BaseGHG"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+		<value>
+			<li>HAR_AteAlienMeat_Know_Abhorrent</li>
+			<li>HAR_AteAlienMeat_Abhorrent</li>
+			<li>HAR_ButcheredAlien_Know_Abhorrent</li>
+			<li>HAR_AteAlienMeat_Disapproved</li>
+			<li>HAR_AteAlienMeat_Know_Disapproved</li>
+			<li>HAR_ButcheredAlien_Know_Disapproved</li>
+			<li>HAR_ButcheredAlien_Know_Disapproved_Opinion</li>
+			<li>AteHumanMeat_Abhorrent</li>
+			<li>AteHumanMeat_Know_Abhorrent</li>
+			<li>HumanLeatherApparel_Abhorrent</li>
+			<li>ButcheredHuman_Know_Abhorrent</li>
+			<li>ButcheredHuman_Know_Abhorrent_Opinion</li>
+			<li>AteHumanMeat_Horrible</li>
+			<li>AteHumanMeat_Know_Horrible</li>
+			<li>HumanLeatherApparel_Horrible</li>
+			<li>ButcheredHuman_Know_Horrible</li>
+			<li>ButcheredHuman_Know_Horrible_Opinion</li>
+			<li>AteHumanMeat_Disapproved</li>
+			<li>AteHumanMeat_Know_Disapproved</li>
+			<li>HumanLeatherApparel_Disapproved</li>
+			<li>ButcheredHuman_Know_Disapproved</li>
+			<li>ButcheredHuman_Know_Disapproved_Opinion</li>
+			<li>HarvestedOrgan_Know_Abhorrent</li>
+			<li>HarvestedOrgan_Know_Horrible</li>
+			<li>TradedOrgan_Abhorrent</li>
+			<li>TradedOrgan_Know_Abhorrent</li>
+			<li>TradedOrgan_Know_Abhorrent_Mood</li>
+			<li>InstalledOrgan_Abhorrent</li>
+			<li>InstalledOrgan_Know_Abhorrent</li>
+			<li>InstalledOrgan_Know_Abhorrent_Mood</li>
+			<li>SoldOrgan_Disapproved</li>
+			<li>SoldOrgan_Know_Horrible_Mood</li>
+			<li>SoldOrgan_Know_Disapproved</li>
+			<li>ExecutedPrisoner_Know_Abhorrent</li>
+			<li>InnocentPrisonerDied_Know_Abhorrent</li>
+			<li>ExecutedPrisoner_Know_Horrible</li>
+			<li>InnocentPrisonerDied_Know_Horrible</li>
+			<li>ExecutedPrisonerInnocent_Know_Horrible</li>
+			<li>InnocentPrisonerDied_Abhorrent</li>
+			<li>InnocentPrisonerDied_Horrible</li>
+		</value>
+			</li>
+		</operations>
+</Operation>
+</Patch>

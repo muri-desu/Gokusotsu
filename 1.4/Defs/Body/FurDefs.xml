@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<FurDef>
+	<defName>Furskin</defName>
+	<noGraphic>true</noGraphic>
+	<bodyTypeGraphicPaths>
+		<Hulk>Gokusotsu/Bodies/FurCovered_Hulk</Hulk>
+		<Fat>Gokusotsu/Bodies/FurCovered_Fat</Fat>
+		<Child>Gokusotsu/Bodies/Naked_FurChild</Child>
+		<Baby>Things/Pawn/Humanlike/Bodies/Naked_FurChild</Baby>
+	</bodyTypeGraphicPaths>
+	<!-- <headTypeGraphicPaths>
+		<Head_A>Gokusotsu/Heads/FurCovered_Head_A</Head_A>
+		<Head_B>Gokusotsu/Heads/FurCovered_Head_B</Head_B>
+		<Head_C>Gokusotsu/Heads/FurCovered_Head_C</Head_C>
+		<Head_D>Gokusotsu/Heads/FurCovered_Head_D</Head_D>
+		<Head_E>Gokusotsu/Heads/FurCovered_Head_E</Head_E>
+		<Head_F>Gokusotsu/Heads/FurCovered_Head_F</Head_F>
+		<Head_G>Gokusotsu/Heads/FurCovered_Head_G</Head_G>
+		<MezuHead>Gokusotsu/Heads/FurCovered_MezuHead</MezuHead>
+		<GozuHead>Gokusotsu/Heads/FurCovered_GozuHead</GozuHead>
+		<Child>Gokusotsu/Heads/Head_Child</Child>
+		<Baby>Things/Pawn/Humanlike/Heads/Naked_FurChild</Baby>
+	</headTypeGraphicPaths> -->
+</FurDef>
+
+</Defs>

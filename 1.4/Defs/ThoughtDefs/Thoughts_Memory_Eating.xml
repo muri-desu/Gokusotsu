@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+	<defName>AteCorpse_GHG</defName>
+	<showBubble>true</showBubble>
+	<icon>Things/Mote/ThoughtSymbol/Food</icon>
+	<durationDays>1</durationDays>
+	<stages>
+		<li>
+			<label>ate corpse</label>
+			<description>I dug into the flesh of a dead creature without even butchering or cooking it. So fresh and juicy!</description>
+			<baseMoodEffect>1</baseMoodEffect>
+		</li>
+	</stages>
+</ThoughtDef>
+
+<ThoughtDef>
+	<defName>AteHumanlikeMeatDirect_GHG</defName>
+	<showBubble>true</showBubble>
+	<icon>Things/Mote/ThoughtSymbol/Food</icon>
+	<durationDays>1</durationDays>
+	<nullifyingTraits>
+		<li>Cannibal</li>
+	</nullifyingTraits>
+	<stages>
+		<li>
+			<label>raw cannibalism</label>
+			<description>I ate some fresh human sashimi.</description>
+			<baseMoodEffect>5</baseMoodEffect>
+		</li>
+	</stages>
+</ThoughtDef>
+
+<ThoughtDef>
+	<defName>AteHumanlikeMeatAsIngredient_GHG</defName>
+	<showBubble>true</showBubble>
+	<icon>Things/Mote/ThoughtSymbol/Food</icon>
+	<durationDays>1</durationDays>
+	<nullifyingTraits>
+		<li>Cannibal</li>
+	</nullifyingTraits>
+	<stages>
+		<li>
+			<label>cooked cannibalism</label>
+			<description>I ate a meal made from the meat of human. So pleasurable. If only I had some fava beans and a nice shochu.</description>
+			<baseMoodEffect>7</baseMoodEffect>
+		</li>
+	</stages>
+</ThoughtDef>
+
+</Defs>
