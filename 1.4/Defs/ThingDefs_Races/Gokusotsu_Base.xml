@@ -220,10 +220,6 @@
 		<chance>50</chance>
 	</li>
 	<li>
-		<defName>Bisexual</defName>
-		<chance>10</chance>
-	</li>
-	<li>
 		<defName>Bloodlust</defName>
 		<chance>30</chance>
 	</li>
@@ -329,10 +325,6 @@
 		<replacer>Drunk_GHG</replacer>
 	</li>
 	<li>
-		<original>Pretty</original>
-		<replacer>Pretty_GHG</replacer>
-	</li>
-	<li>
 		<original>Ugly</original>
 		<replacer>Ugly_GHG</replacer>
 	</li>
@@ -355,6 +347,10 @@
 	<li>
 		<original>AteHumanlikeMeatAsIngredient</original>
 		<replacer>AteHumanlikeMeatAsIngredient_GHG</replacer>
+	</li>
+	<li>
+		<original>RotStink</original>
+		<replacer>RotStink_GHG</replacer>
 	</li>
 </replacerList>
 <cannotReceiveThoughts>
@@ -390,15 +386,16 @@
 	<li>JoyActivityInImpressiveRecRoom</li>
 	<li>SleptInBedroom</li>
 	<li>SleptInBarracks</li>
+	<li>RotStinkLingering</li>
 <!-- social opinion -->
 	<li>Affair</li>
 	<li>CheatedOnMe</li>
 	<li>Incestuous</li>
 	<li>AteRawHumanlikeMeat</li>
 	<li>ExecutedPrisoner</li>
-	<li>Disfigured</li>
+	<li>Pretty</li>
+	<!-- <li>Disfigured</li>
 	<li>Drunk</li>
-	<!-- <li>Pretty</li>
 	<li>Ugly</li>
 	<li>AnnoyingVoice</li>
 	<li>CreepyBreathing</li> -->

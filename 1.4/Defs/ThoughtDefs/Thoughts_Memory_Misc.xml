@@ -9,16 +9,11 @@
 	<durationDays>0.5</durationDays>
 	<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
 	<stackLimit>3</stackLimit>
-	<nullifyingTraits>
-		<li>Psychopath</li>
-		<li>Bloodlust</li>
-		<li>Cannibal</li>
-	</nullifyingTraits>
 	<stages>
 		<li>
 			<label>observed corpse</label>
-			<description>I saw a dead body laying on the ground. It can be perfect interior for guest room.</description>
-			<baseMoodEffect>3</baseMoodEffect>
+			<description>oh, a dead body.</description>
+			<baseMoodEffect>0</baseMoodEffect>
 		</li>
 	</stages>
 </ThoughtDef>
@@ -31,14 +26,24 @@
 	<durationDays>0.5</durationDays>
 	<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
 	<stackLimit>3</stackLimit>
-	<nullifyingTraits>
-		<li>Bloodlust</li>
-	</nullifyingTraits>
 	<stages>
 		<li>
 			<label>observed rotting corpse</label>
 			<description>I saw a dead body laying on the ground. The smell gave me nostalgic feeling.</description>
-			<baseMoodEffect>4</baseMoodEffect>
+			<baseMoodEffect>1</baseMoodEffect>
+		</li>
+	</stages>
+</ThoughtDef>
+
+<ThoughtDef>
+	<defName>RotStink_GHG</defName>
+	<workerClass>ThoughtWorker_RotStink</workerClass>
+	<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+	<stages>
+		<li>
+			<label>rot stink</label>
+			<description>A rotten stink makes me feel nostalgic. It reminds me of hell hole filled with dead souls.</description>
+			<baseMoodEffect>3</baseMoodEffect>
 		</li>
 	</stages>
 </ThoughtDef>

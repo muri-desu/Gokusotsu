@@ -5,7 +5,7 @@
 	<defName>Disfigured_GHG</defName>
 	<thoughtClass>Thought_SituationalSocial</thoughtClass>
 	<workerClass>ThoughtWorker_Disfigured</workerClass>
-	<validWhileDespawned>true</validWhileDespawned>
+	<!-- <validWhileDespawned>true</validWhileDespawned> -->
 	<stages>
 		<li>
 			<label>disfigured</label>
@@ -18,32 +18,11 @@
 	<defName>Drunk_GHG</defName>
 	<thoughtClass>Thought_SituationalSocial</thoughtClass>
 	<workerClass>ThoughtWorker_Drunk</workerClass>
-	<validWhileDespawned>true</validWhileDespawned>
+	<!-- <validWhileDespawned>true</validWhileDespawned> -->
 	<stages>
 		<li>
 			<label>drunk</label>
 			<baseOpinionOffset>8</baseOpinionOffset>
-		</li>
-	</stages>
-</ThoughtDef>
-
-<ThoughtDef>
-	<defName>Pretty_GHG</defName>
-	<thoughtClass>Thought_SituationalSocial</thoughtClass>
-	<workerClass>ThoughtWorker_Pretty</workerClass>
-	<validWhileDespawned>true</validWhileDespawned>
-	<nullifyingTraits>
-		<li>Ascetic</li>
-		<li>Kind</li>
-	</nullifyingTraits>
-	<stages>
-		<li>
-			<label>physically appealing</label>
-			<baseOpinionOffset>-10</baseOpinionOffset>
-		</li>
-		<li>
-			<label>physically stunning</label>
-			<baseOpinionOffset>-20</baseOpinionOffset>
 		</li>
 	</stages>
 </ThoughtDef>
@@ -73,10 +52,10 @@
 	<defName>AnnoyingVoice_GHG</defName>
 	<thoughtClass>Thought_SituationalSocial</thoughtClass>
 	<workerClass>ThoughtWorker_AnnoyingVoice</workerClass>
-	<validWhileDespawned>true</validWhileDespawned>
+	<!-- <validWhileDespawned>true</validWhileDespawned> -->
 	<stages>
 		<li>
-			<label>annoying voice</label>
+			<label>handsome voice</label>
 			<baseOpinionOffset>25</baseOpinionOffset>
 		</li>
 	</stages>
@@ -86,10 +65,10 @@
 	<defName>CreepyBreathing_GHG</defName>
 	<thoughtClass>Thought_SituationalSocial</thoughtClass>
 	<workerClass>ThoughtWorker_CreepyBreathing</workerClass>
-	<validWhileDespawned>true</validWhileDespawned>
+	<!-- <validWhileDespawned>true</validWhileDespawned> -->
 	<stages>
 		<li>
-			<label>creepy breathing</label>
+			<label>sexy breathing</label>
 			<baseOpinionOffset>25</baseOpinionOffset>
 		</li>
 	</stages>
