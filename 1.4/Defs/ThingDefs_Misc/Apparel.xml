@@ -22,6 +22,7 @@
 	<thingCategories>
 		<li>GHG_Apparel</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 	<colorGenerator Class="ColorGenerator_StandardApparel" />
 </ThingDef>	
 

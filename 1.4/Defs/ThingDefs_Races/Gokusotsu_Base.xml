@@ -316,7 +316,7 @@
 		<original>ObservedLayingRottingCorpse</original>
 		<replacer>ObservedLayingRottingCorpse_GHG</replacer>
 	</li>
-	<li>
+	<!-- <li>
 		<original>Disfigured</original>
 		<replacer>Disfigured_GHG</replacer>
 	</li>
@@ -335,7 +335,7 @@
 	<li>
 		<original>CreepyBreathing</original>
 		<replacer>CreepyBreathing_GHG</replacer>
-	</li>
+	</li> -->
 	<li>
 		<original>AteCorpse</original>
 		<replacer>AteCorpse_GHG</replacer>
@@ -394,11 +394,11 @@
 	<li>AteRawHumanlikeMeat</li>
 	<li>ExecutedPrisoner</li>
 	<li>Pretty</li>
-	<!-- <li>Disfigured</li>
+	<li>Disfigured</li>
 	<li>Drunk</li>
 	<li>Ugly</li>
 	<li>AnnoyingVoice</li>
-	<li>CreepyBreathing</li> -->
+	<li>CreepyBreathing</li>
 </cannotReceiveThoughts>
 
 </thoughtSettings>

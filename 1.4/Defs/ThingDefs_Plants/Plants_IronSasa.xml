@@ -43,7 +43,7 @@
 		<growMinGlow>0.3</growMinGlow>
 		<growDays>6</growDays>
 		<immatureGraphicPath>Things/Plant/IronSasa_Immature</immatureGraphicPath>
-		<visualSizeRange>0.5~1.05</visualSizeRange>
+		<visualSizeRange>0.5~1.1</visualSizeRange>
 	</plant>
 </ThingDef>
 

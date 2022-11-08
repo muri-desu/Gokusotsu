@@ -136,6 +136,7 @@
 	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 	<itemQuality>Normal</itemQuality>
 	<apparelMoney>500~2500</apparelMoney>
+	<invNutrition>2.55</invNutrition>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>
@@ -190,6 +191,7 @@
 	<techHediffsTags>
 		<li>Simple</li>
 	</techHediffsTags>
+	<invNutrition>2.55</invNutrition>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>
@@ -240,6 +242,7 @@
 		<li>Poor</li>
 		<li>Simple</li>
 	</techHediffsTags>
+	<invNutrition>2.55</invNutrition>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>
@@ -292,6 +295,7 @@
 		<li>Poor</li>
 		<li>Simple</li>
 	</techHediffsTags>
+	<invNutrition>2.55</invNutrition>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>

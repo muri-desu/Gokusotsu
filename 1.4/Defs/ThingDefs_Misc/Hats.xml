@@ -26,6 +26,7 @@
 	<thingCategories>
 		<li>GHG_Headgear</li>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
 </ThingDef>
 
 <ThingDef ParentName="GHG_HatBase"><!-- 眼鏡 -->
