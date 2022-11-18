@@ -37,6 +37,14 @@
 	<defName>GHG_Colonist</defName>
 	<race>Alien_Gokusotsu</race>
 	<defaultFactionType>GHG_PlayerFaction</defaultFactionType>
+
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<XenoGokusotsu>999</XenoGokusotsu>
+		</xenotypeChances>
+		<warnIfTotalAbove1>false</warnIfTotalAbove1>
+	</xenotypeSet>
+
 </PawnKindDef>
 
 <PawnKindDef ParentName="BaseGHGColonist">
@@ -146,6 +154,7 @@
 	</backstoryFiltersOverride>
 	<apparelRequired>
 		<li>Apparel_GokusotsuEarrings</li>
+		<li>Apparel_Nenju</li>
 		<li>Apparel_OufukuCape</li>
 		<li>Apparel_Koshinuno</li>
 		<li>Apparel_Kyahan</li>
@@ -155,8 +164,8 @@
 		<li>GHG_Boss</li>
 	</apparelTags>
 	<weaponMoney>
-		<min>1000</min>
-		<max>3500</max>
+		<min>2000</min>
+		<max>4500</max>
 	</weaponMoney>
 	<weaponTags>
 		<li>GHG_BossMelee</li>
@@ -209,7 +218,7 @@
 		<li>GHG_Trader</li>
 	</apparelTags>
 	<weaponMoney>
-		<min>1000</min>
+		<min>2000</min>
 		<max>3500</max>
 	</weaponMoney>
 	<weaponTags>
@@ -220,6 +229,11 @@
 <PawnKindDef ParentName="BaseGHGTrader">
 	<defName>GHG_Trader</defName>
 	<race>Alien_Gokusotsu</race>
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<XenoGokusotsu>1</XenoGokusotsu>
+		</xenotypeChances>
+	</xenotypeSet>
 </PawnKindDef>
 
 <PawnKindDef ParentName="BaseGHGTrader">
@@ -236,7 +250,7 @@
 <PawnKindDef Name="BaseGHGMelee" Abstract="True" ParentName="BaseGHGPawnKind">
 	<defaultFactionType>GHG_Faction</defaultFactionType>
 	<label>warrior</label>
-	<techHediffsChance>0.1</techHediffsChance>
+	<techHediffsChance>0.05</techHediffsChance>
 	<techHediffsMoney>500~5000</techHediffsMoney>
 	<techHediffsTags>
 		<li>Poor</li>
@@ -289,7 +303,7 @@
 <PawnKindDef Name="BaseGHGRanged" Abstract="True" ParentName="BaseGHGPawnKind">
 	<defaultFactionType>GHG_Faction</defaultFactionType>
 	<label>archer</label>
-	<techHediffsChance>0.1</techHediffsChance>
+	<techHediffsChance>0.05</techHediffsChance>
 	<techHediffsMoney>500~5000</techHediffsMoney>
 	<techHediffsTags>
 		<li>Poor</li>
@@ -303,7 +317,6 @@
 			</categories>
 		</li>
 	</backstoryFiltersOverride>
-</PawnKindDef>
 	<apparelRequired>
 		<li>Apparel_Nagatekkou</li>
 		<li>Apparel_Igote</li>
@@ -311,7 +324,7 @@
 	</apparelRequired>
 	<apparelTags>
 		<li>GHG_Basic</li>
-		<li>GHG_Melee</li>
+		<li>GHG_Ranged</li>
 	</apparelTags>
 	<weaponMoney>
 		<min>1000</min>
@@ -322,6 +335,7 @@
 		<li>NeolithicRangedDecent</li>
 		<li>NeolithicRangedHeavy</li>
 	</weaponTags>
+</PawnKindDef>
 
 <PawnKindDef ParentName="BaseGHGRanged">
 	<defName>GHG_Ranged</defName>

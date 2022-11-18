@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef ParentName="BasePawn" Name="BaseGHG" Abstract="True">
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="BaseGHG" Abstract="True">
 	<description>They were originally guards in a huge punishment facility spreading underground in another world. \nOne day, they were seduced by a newly-arrived scholar and sucked out into this world through a "gate" that they were made to build (perhaps with the promise of an endless supply of alcohol, etc.). \nFor a while afterwards, they worked together to find the scholar who had successfully escaped. \nHowever, they realized that their lives became mortal like the creatures of mortal world, and that their favorite things (alcohol, fighting, and human flesh) were available everywhere. In addition, the absence of their boss had destroyed their teamwork, and the all gokusotsu scattered to the planets to do as they pleased.</description>
 <race>
 	<baseBodySize>1.5</baseBodySize>
@@ -244,11 +244,31 @@
 </generalSettings>
 
 <graphicPaths>
-		<head>Gokusotsu/Heads/</head>
-		<body>Gokusotsu/Bodies/</body>
-		<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</skeleton>
-		<stump>Gokusotsu/Bodies/Stump</stump>
-		<skinShader>Cutout</skinShader>
+	<head>Gokusotsu/Heads/</head>
+	<body><path>Gokusotsu/Bodies/</path>
+		<bodytypeGraphics>
+			<Fat><path>Gokusotsu/Bodies/Naked_Fat</path>
+				<geneGraphics>
+					<Furskin>Gokusotsu/Bodies/FurCovered_Fat</Furskin>
+				</geneGraphics>
+			</Fat>
+			<Hulk><path>Gokusotsu/Bodies/Naked_Hulk</path>
+				<geneGraphics>
+					<Furskin>Gokusotsu/Bodies/FurCovered_Hulk</Furskin>
+				</geneGraphics>
+			</Hulk>
+			<Child><path>Gokusotsu/Bodies/Naked_Child</path>
+				<geneGraphics>
+					<Furskin>Gokusotsu/Bodies/Naked_FurChild_east</Furskin>
+				</geneGraphics>
+			</Child>
+			<Baby><path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
+			</Baby>
+		</bodytypeGraphics>
+	</body>
+	<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</skeleton>
+	<stump>Gokusotsu/Bodies/Stump</stump>
+	<skinShader>Cutout</skinShader>
 </graphicPaths>
 
 <raceRestriction>
@@ -278,21 +298,26 @@
 		<li>Apparel_SmokepopBelt</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
-		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
-		<li>Apparel_FirefoampopPack</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
+		<li>Apparel_FirefoampopPack</li>
 		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlEar</li>
 	</whiteApparelList>
-	<!-- <weaponList>
-		<li>GHG_Sasumata</li>
-		<li>GHG_Club</li>
-		<li>GHG_Tonfa</li>
-		<li>GHG_Drum</li>
-		<li>GHG_Hossu</li>
-		<li>GHG_Soroban</li>
-	</weaponList> -->
+
+<onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
+	<blackEndoCategories>
+		<li>HairColor</li>
+		<li>BodyType</li>
+		<li>Melanin</li>
+		<li>Ears</li>
+		<li>Nose</li>
+	</blackEndoCategories>
+
 </raceRestriction>
 
 <relationSettings>
@@ -316,26 +341,6 @@
 		<original>ObservedLayingRottingCorpse</original>
 		<replacer>ObservedLayingRottingCorpse_GHG</replacer>
 	</li>
-	<!-- <li>
-		<original>Disfigured</original>
-		<replacer>Disfigured_GHG</replacer>
-	</li>
-	<li>
-		<original>Drunk</original>
-		<replacer>Drunk_GHG</replacer>
-	</li>
-	<li>
-		<original>Ugly</original>
-		<replacer>Ugly_GHG</replacer>
-	</li>
-	<li>
-		<original>AnnoyingVoice</original>
-		<replacer>AnnoyingVoice_GHG</replacer>
-	</li>
-	<li>
-		<original>CreepyBreathing</original>
-		<replacer>CreepyBreathing_GHG</replacer>
-	</li> -->
 	<li>
 		<original>AteCorpse</original>
 		<replacer>AteCorpse_GHG</replacer>
@@ -353,7 +358,13 @@
 		<replacer>RotStink_GHG</replacer>
 	</li>
 </replacerList>
-<cannotReceiveThoughts>
+<restrictedThoughts>
+	<li>Disfigured_GHG</li>
+	<li>Drunk_GHG</li>
+	<li>Ugly_GHG</li>
+	<li>AnnoyingVoice_GHG</li>
+	<li>CreepyBreathing_GHG</li>
+</restrictedThoughts><cannotReceiveThoughts>
 <!-- death -->
 	<li>KnowPrisonerDiedInnocent</li>
 <!-- organ harvested sold vanished -->
@@ -380,6 +391,29 @@
 	<li>WrongApparelGender</li>
 	<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
 	<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
+	<!-- <li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Know_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Know_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Abhorrent_Opinion</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Disapproved_Opinion</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Horrible</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Horrible</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Horrible</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent_Opinion</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible_Opinion</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved</li>
+	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved_Opinion</li> -->
 	<!-- room stats, need beauty -->
 	<li>NeedBeauty</li>
 	<li>AteInImpressiveDiningRoom</li>
@@ -405,6 +439,7 @@
 </alienRace>
 
 <statBases>
+	<MarketValue>1750</MarketValue>
 	<Mass>110</Mass>
 	<MoveSpeed>4</MoveSpeed>
 	<Flammability>0.2</Flammability>
@@ -475,6 +510,5 @@
 	</li>
 </damageMultipliers>
 
-</ThingDef>
-
+</AlienRace.ThingDef_AlienRace>
 </Defs>

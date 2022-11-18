@@ -44,7 +44,7 @@
 	<structureMemeWeights>
 		<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
 	</structureMemeWeights>
-   <techLevel>Medieval</techLevel>
+   <techLevel>Neolithic</techLevel>
 	<allowedCultures>
 		<li>GHG_Culture</li>
 	</allowedCultures>
@@ -62,9 +62,9 @@
 		<li>Caravan_GHG_SakeDealer</li>
 	</visitorTraderKinds>
 	<baseTraderKinds>
+		<li>Base_Outlander_Standard</li>
 		<li>Caravan_GHG_BulkGoods</li>
 		<li>Caravan_GHG_SakeDealer</li>
-		<li MayRequire="tosenbo.Ricecultivatingcivilization.ver2">Caravan_GHG_Bento</li>
 	</baseTraderKinds>
 
 	<allowedArrivalTemperatureRange>-20~90</allowedArrivalTemperatureRange>
@@ -150,10 +150,10 @@
 </li>
 
 </pawnGroupMakers>
-	<settlementTexturePath>Things/WorldIcon/colonyicon</settlementTexturePath>
+	<settlementTexturePath>Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
 <colorSpectrum>
-	<li>(255,51,0)</li>
-	<li>(205,60,30)</li>
+	<li>(255, 85, 0)</li>
+	<li>(255, 162, 0)</li>
 </colorSpectrum>
 <apparelStuffFilter>
 	<stuffCategoriesToAllow>
@@ -174,7 +174,15 @@
 			<li>(4000, 1000)</li>
 		</points>
 	</raidLootValueFromPointsCurve>
+
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<XenoGokusotsu>1</XenoGokusotsu>
+		</xenotypeChances>
+	</xenotypeSet>
+
 </FactionDef>
+
 <ThingSetMakerDef>
 	<defName>GHGRaidLootMaker</defName>
 	<root Class="ThingSetMaker_MarketValue">

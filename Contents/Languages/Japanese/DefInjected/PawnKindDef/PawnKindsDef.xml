@@ -9,9 +9,9 @@
 <GHG_Slave.label>奴隷</GHG_Slave.label>
 <GHG_MezuSlave.label>奴隷</GHG_MezuSlave.label>
 <GHG_GozuSlave.label>奴隷</GHG_GozuSlave.label>
-<GHG_Boss.label>鬼上司</GHG_Boss.label>
-<GHG_MezuBoss.label>鬼上司</GHG_MezuBoss.label>
-<GHG_GozuBoss.label>鬼上司</GHG_GozuBoss.label>
+<GHG_Boss.label>大将</GHG_Boss.label>
+<GHG_MezuBoss.label>大将</GHG_MezuBoss.label>
+<GHG_GozuBoss.label>大将</GHG_GozuBoss.label>
 <GHG_Trader.label>商人</GHG_Trader.label>
 <GHG_MezuTrader.label>商人</GHG_MezuTrader.label>
 <GHG_GozuTrader.label>商人</GHG_GozuTrader.label>

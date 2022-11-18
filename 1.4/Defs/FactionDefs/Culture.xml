@@ -12,7 +12,7 @@
 	<allowedPlaceTags>
 		<li>OriginTribal</li>
 	</allowedPlaceTags>
-	<iconPath>Things/WorldIcon/colonyicon</iconPath>
+	<iconPath>Things/WorldIcon/GHGcolonyicon</iconPath>
 	<iconColor>(255,51,0)</iconColor>
 
 	<thingStyleCategories>

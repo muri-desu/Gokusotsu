@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>XenoGokusotsu</defName>
+		<label>gokusotsu baseliner</label>
+		<description>gokusotsu basic genes</description>
+		<descriptionShort>basic gokusotsu</descriptionShort>
+		<iconPath>UI/Icons/XenoGokusotsu</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+		<!-- <li>GokusotsuLiver</li> -->
+		<li>Body_Fat</li>
+		<li>Body_Hulk</li>
+		<li>FireResistant</li>
+		<li>Aggression_Aggressive</li>
+		<li>AddictionImmune_Alcohol</li>
+		<li>AptitudeTerrible_Cooking</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- <XenotypeDef>
+		<defName>XenoGokusotsu_Mezu</defName>
+		<label>gokusotsu mezu type</label>
+		<description>gokusotsu mezu genes</description>
+		<descriptionShort>gokusotsu mezu genes.</descriptionShort>
+		<iconPath>UI/Icons/XenoGokusotsu_Mezu</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+		<li>Body_Fat</li>
+		<li>Body_Hulk</li>
+		<li>FireResistant</li>
+		<li>Aggression_Aggressive</li>
+		<li>AddictionImmune_Alcohol</li>
+		<li>AptitudeTerrible_Cooking</li>
+		<li>Hair_LongOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>XenoGokusotsu_Gozu</defName>
+		<label>gokusotsu gozu type</label>
+		<description>gokusotsu gozu genes</description>
+		<descriptionShort>gokusotsu gozu genes.</descriptionShort>
+		<iconPath>UI/Icons/XenoGokusotsu_Gozu</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+		<li>Body_Fat</li>
+		<li>Body_Hulk</li>
+		<li>FireResistant</li>
+		<li>Aggression_Aggressive</li>
+		<li>AddictionImmune_Alcohol</li>
+		<li>AptitudeTerrible_Cooking</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		</genes>
+	</XenotypeDef> -->
+
+</Defs>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Skin Colors -->
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GokusotsuSkin_Blue</defName>
+		<label>deep blue skin</label>
+		<labelShortAdj>blue</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin a deep blue color.</description>
+		<skinColorOverride>(80, 120, 160)</skinColorOverride>
+		<displayOrderInCategory>89</displayOrderInCategory>
+		<selectionWeight>0.8</selectionWeight>
+		<symbolPack>
+			<prefixSymbols>
+				<li><symbol>blue</symbol></li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+	
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>GokusotsuSkin_Green</defName>
+		<label>deep green skin</label>
+		<labelShortAdj>green</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin a deep green color.</description>
+		<skinColorOverride>(100, 160, 95)</skinColorOverride>
+		<displayOrderInCategory>71</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li><symbol>green</symbol></li>
+				<li><symbol>jade</symbol></li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<!-- <GeneDef>
+		<defName>GokusotsuFurskin</defName>
+		<label>furskin</label>
+		<labelShortAdj>furskinned</labelShortAdj>
+		<description>Carriers of this gene grow thick fur all over their body, which protects them from cold temperatures.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>400</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<forcedHeadTypes>
+		<li>Head_A</li>
+		<li>Head_B</li>
+		<li>Head_C</li>
+		<li>Head_D</li>
+		<li>Head_E</li>
+		<li>Head_F</li>
+		<li>Head_G</li>
+		</forcedHeadTypes>
+		<beardTagFilter>
+		<whitelist>true</whitelist>
+		<tags>
+			<li>BeardLong</li>
+			<li>Furskin</li>
+		</tags>
+		</beardTagFilter>
+		<exclusionTags>
+		<li>HairStyle</li>
+		<li>Fur</li>
+		</exclusionTags>
+		<statOffsets>
+		<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+		</statOffsets>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+		<graphicData>
+		<fur>GHG_Furskin</fur>
+		<colorType>Hair</colorType>
+		<skinIsHairColor>true</skinIsHairColor>
+		<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+	</GeneDef> -->
+
+
+</Defs>

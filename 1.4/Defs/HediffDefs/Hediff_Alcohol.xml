@@ -15,13 +15,13 @@
 			<severityIndices>3~5</severityIndices>
 		</li>
 		<li Class="HediffCompProperties_SeverityPerDay">
-			<severityPerDay>-0.75</severityPerDay>
+			<severityPerDay>-0.5</severityPerDay>
 			<showHoursToRecover>true</showHoursToRecover>
 		</li>
 	</comps>
 	<stages>
 		<li>
-			<label>warm</label>
+			<!-- <label>warm</label> -->
 				<statOffsets>
 					<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 					<ImmunityGainSpeed>0.03</ImmunityGainSpeed>
@@ -31,7 +31,6 @@
 		</li>
 		<li>
 			<minSeverity>0.25</minSeverity>
-			<label>tipsy</label>
 				<statOffsets>
 					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 					<ImmunityGainSpeed>0.07</ImmunityGainSpeed>
@@ -41,7 +40,6 @@
 		</li>
 		<li>
 			<minSeverity>0.4</minSeverity>
-			<label>drunk</label>
 				<statOffsets>
 					<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 					<ImmunityGainSpeed>0.125</ImmunityGainSpeed>

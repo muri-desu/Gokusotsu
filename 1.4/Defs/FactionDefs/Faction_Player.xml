@@ -3,7 +3,7 @@
 <FactionDef Parent="FactionBase">
 	<defName>GHG_PlayerFaction</defName>
 	<label>Lost guards</label>
-		<description>A headquarter by gokusotsu who stayed for supporting ex-colleagues.</description>
+		<description>A headquarter of gokusotsu.</description>
 	<basicMemberKind>GHG_Colonist</basicMemberKind>
 	<pawnSingular>gokusotsu</pawnSingular>
 	<pawnsPlural>gokusotsu</pawnsPlural>
@@ -11,7 +11,10 @@
 	<factionNameMaker>NamerFactionTribal</factionNameMaker>
 	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-	<techLevel>Medieval</techLevel>
+	<techLevel>Neolithic</techLevel>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
 	<allowedCultures><li>GHG_Culture</li></allowedCultures>
 
 	<disallowedMemes>
@@ -37,10 +40,7 @@
 
 	<factionIconPath>Things/WorldIcon/GHGcolonyicon</factionIconPath>
 	<settlementTexturePath>Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
-	<colorSpectrum><li>(255,51,0)</li></colorSpectrum>
-	<startingResearchTags>
-		<li>TribalStart</li>
-	</startingResearchTags>
+	<colorSpectrum><li>(255,255,255)</li></colorSpectrum>
 <apparelStuffFilter>
 	<thingDefs>
 		<li>Leather_Human</li>
@@ -55,5 +55,12 @@
 		<li>(4000, 1000)</li>
 	</points>
 </raidLootValueFromPointsCurve>
+
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<XenoGokusotsu>1</XenoGokusotsu>
+		</xenotypeChances>
+	</xenotypeSet>
+
 </FactionDef>
 </Defs>

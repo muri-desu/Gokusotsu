@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- 鋼の肝臓 -->
+	<GeneDef>
+		<defName>GokusotsuLiver</defName>
+		<label>strong liver</label>
+		<labelShortAdj>strong liver</labelShortAdj>
+		<description>Carriers of this gene are immune to liver failure.</description>
+		<iconPath>UI/Icons/Genes/Gene_TotalPollutionResistance</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<immuneToCirrhosis>true</immuneToCirrhosis>
+		<customEffectDescriptions>
+		<li>cirrhosis immunity</li>
+		</customEffectDescriptions>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+		<prefixSymbols>
+			<li>
+			<symbol>zaru</symbol>
+			<weight>1</weight>
+			</li>
+		</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+
+</Defs>

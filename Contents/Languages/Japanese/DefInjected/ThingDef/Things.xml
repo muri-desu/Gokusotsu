@@ -30,7 +30,10 @@
 <Apparel_Kyahan.description>膝下に当てるゲートルのような防具です。</Apparel_Kyahan.description>
 
 <Apparel_Nenju.label>念珠</Apparel_Nenju.label>
-<Apparel_Nenju.description>守備力を上げるおおぶりの数珠です。。</Apparel_Nenju.description>
+<Apparel_Nenju.description>守備力を上げるおおぶりの数珠です。</Apparel_Nenju.description>
+
+<Apparel_Haragake.label>腹がけ</Apparel_Haragake.label>
+<Apparel_Haragake.description>簡易な子供服です。</Apparel_Haragake.description>
 
 <!-- hats -->
 <Apparel_GokusotsuGlasses.label>眼鏡</Apparel_GokusotsuGlasses.label>

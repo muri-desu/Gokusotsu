@@ -206,25 +206,58 @@
 <graphicPaths>
 		<head><path>Gokusotsu/Heads/</path>
 			<headtypeGraphics>
-				<Head_A>Gokusotsu/Heads/Head_A</Head_A>
-				<Head_B>Gokusotsu/Heads/Head_B</Head_B>
-				<Head_C>Gokusotsu/Heads/Head_C</Head_C>
-				<Head_D>Gokusotsu/Heads/Head_D</Head_D>
-				<Head_E>Gokusotsu/Heads/Head_E</Head_E>
-				<Head_F>Gokusotsu/Heads/Head_F</Head_F>
-				<Head_G>Gokusotsu/Heads/Head_G</Head_G>
+				<Head_A><path>Gokusotsu/Heads/Head_A</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_A</Furskin>
+					</geneGraphics>
+				</Head_A>
+				<Head_B><path>Gokusotsu/Heads/Head_B</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_B</Furskin>
+					</geneGraphics>
+				</Head_B>
+				<Head_C><path>Gokusotsu/Heads/Head_C</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_C</Furskin>
+					</geneGraphics>
+				</Head_C>
+				<Head_D><path>Gokusotsu/Heads/Head_D</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_D</Furskin>
+					</geneGraphics>
+				</Head_D>
+				<Head_E><path>Gokusotsu/Heads/Head_E</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_E</Furskin>
+					</geneGraphics>
+				</Head_E>
+				<Head_F><path>Gokusotsu/Heads/Head_F</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_F</Furskin>
+					</geneGraphics>
+				</Head_F>
+				<Head_G><path>Gokusotsu/Heads/Head_G</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_G</Furskin>
+					</geneGraphics>
+				</Head_G>
 			</headtypeGraphics>
 			<bodytypeGraphics>
-				<Baby>
-					<path>Gokusotsu/Heads/Head_Child</path>
+				<Baby><path>Gokusotsu/Heads/Head_Child</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_Child</Furskin>
+					</geneGraphics>
 				</Baby>
-				<Child>
-					<path>Gokusotsu/Heads/Head_Child</path>
+				<Child><path>Gokusotsu/Heads/Head_Child</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_Head_Child</Furskin>
+					</geneGraphics>
 				</Child>
 			</bodytypeGraphics>	
 		</head>
 		<skull>Gokusotsu/Heads/None_Average_Skull</skull>
 </graphicPaths>
+
 
 <styleSettings>
 		<li>
@@ -409,19 +442,42 @@
 <graphicPaths>
 		<head><path>Gokusotsu/Heads/</path>
 			<headtypeGraphics>
-				<MezuHead>Gokusotsu/Heads/MezuHead</MezuHead>
+				<MezuHead><path>Gokusotsu/Heads/MezuHead</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_MezuHead</Furskin>
+					</geneGraphics>
+				</MezuHead>
 			</headtypeGraphics>
 			<bodytypeGraphics>
-				<Baby>
-					<path>Gokusotsu/Heads/MezuHead_Child</path>
+				<Baby><path>Gokusotsu/Heads/MezuHead_Child</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_MezuHead_Child</Furskin>
+					</geneGraphics>
 				</Baby>
-				<Child>
-					<path>Gokusotsu/Heads/MezuHead_Child</path>
+				<Child><path>Gokusotsu/Heads/MezuHead_Child</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_MezuHead_Child</Furskin>
+					</geneGraphics>
 				</Child>
 			</bodytypeGraphics>	
 		</head>
 		<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
+
+<!-- 
+<apparel>
+
+	<individualPaths>
+		<li>
+			<key>Apparel_GokusotsuEarrings</key>
+			<value>Things/Apparel/Hat/EarringsMezu</value>
+		</li>
+	</individualPaths>
+
+</apparel>
+ -->
+
 </graphicPaths>
+
 
 <styleSettings>
 		<li>
@@ -645,18 +701,40 @@
 <graphicPaths>
 		<head><path>Gokusotsu/Heads/</path>
 			<headtypeGraphics>
-				<GozuHead>Gokusotsu/Heads/GozuHead</GozuHead>
+				<GozuHead><path>Gokusotsu/Heads/GozuHead</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_GozuHead</Furskin>
+					</geneGraphics>
+				</GozuHead>
 			</headtypeGraphics>
 			<bodytypeGraphics>
-				<Baby>
-					<path>Gokusotsu/Heads/GozuHead_Child</path>
+				<Baby><path>Gokusotsu/Heads/GozuHead_Child</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_GozuHead_Child</Furskin>
+					</geneGraphics>
 				</Baby>
-				<Child>
-					<path>Gokusotsu/Heads/GozuHead_Child</path>
+				<Child><path>Gokusotsu/Heads/GozuHead_Child</path>
+					<geneGraphics>
+						<Furskin>Gokusotsu/Heads/FurCovered_GozuHead_Child</Furskin>
+					</geneGraphics>
 				</Child>
 			</bodytypeGraphics>	
 		</head>
 		<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
+
+<!-- 
+<apparel>
+
+	<individualPaths>
+		<li>
+			<key>Apparel_GokusotsuEarrings</key>
+			<value>Things/Apparel/Hat/EarringsGozu</value>
+		</li>
+	</individualPaths>
+
+</apparel>
+ -->
+
 </graphicPaths>
 
 <styleSettings>

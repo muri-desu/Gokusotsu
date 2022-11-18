@@ -30,7 +30,7 @@
 				<li>Poke</li>
 			</capacities>
 			<power>23</power>
-			<cooldownTime>1.7</cooldownTime>
+			<cooldownTime>2.7</cooldownTime>
 		</li>
 		<li>
 		<label>head</label>
@@ -38,7 +38,7 @@
 				<li>Blunt</li>
 			</capacities>
 			<power>28</power>
-			<cooldownTime>2</cooldownTime>
+			<cooldownTime>3</cooldownTime>
 			<armorPenetration>0.75</armorPenetration>
 		</li>
 	</tools>
@@ -89,7 +89,7 @@
 			<capacities>
 				<li>Blunt</li>
 			</capacities>
-			<power>12</power>
+			<power>10</power>
 			<cooldownTime>0.7</cooldownTime>
 		</li>
 		<li>
@@ -250,7 +250,7 @@
 <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality"><!-- そろばん -->
 	<defName>GHG_Soroban</defName>
 		<label>Abacus</label>
-		<description>A primitive calculator. essential for itinerant traders.</description>
+		<description>A primitive calculator. Essential for itinerant traders.</description>
 		<techLevel>Medieval</techLevel>
 
 	<graphicData>

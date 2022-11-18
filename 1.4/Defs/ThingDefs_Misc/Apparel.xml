@@ -54,7 +54,7 @@
 	<apparel>
 		<bodyPartGroups>
 			<li>Waist</li>
-			<li>GenitalsBPG</li>
+			<li MayRequire="rim.job.world">GenitalsBPG</li>
 		</bodyPartGroups>
 		<layers>
 			<li>OnSkin</li>
@@ -94,7 +94,7 @@
 	<apparel>
 		<bodyPartGroups>
 			<li>Waist</li>
-			<li>GenitalsBPG</li>
+			<li MayRequire="rim.job.world">GenitalsBPG</li>
 		</bodyPartGroups>
 		<layers>
 			<li>OnSkin</li>
@@ -499,56 +499,5 @@
 		<label>amulet</label>
 		<drawOrder>510</drawOrder>
 	</ApparelLayerDef>
-
-<ThingDef ParentName="GHG_ApparelBase"><!-- 子供服 -->
-	<defName>Apparel_Haragake</defName>
-		<label>Haragake</label>
-		<description>Apparel for demon kids.</description>
-
-	<graphicData>
-		<texPath>Things/Apparel/Haragake</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-	</graphicData>
-
-	<statBases>
-		<WorkToMake>3000</WorkToMake>
-		<MaxHitPoints>250</MaxHitPoints>
-		<Mass>2</Mass>
-		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.03</ArmorRating_Heat>
-		<Insulation_Cold>0.05</Insulation_Cold>
-		<Insulation_Heat>0</Insulation_Heat>
-		<EquipDelay>3</EquipDelay>
-	</statBases>
-
-	<stuffCategories>
-		<li>Fabric</li>
-		<li>Leathery</li>
-	</stuffCategories>
-	<costStuffCount>30</costStuffCount>
-
-	<equippedStatOffsets>
-	</equippedStatOffsets>
-
-	<apparel>
-		<developmentalStageFilter>Child</developmentalStageFilter>
-		<bodyPartGroups>
-			<li>Neck</li>
-			<li>Torso</li>
-			<li>Legs</li>
-			<!-- <li>GenitalsBPG</li>
-			<li>ChestBPG</li>
-			<li>FlankBPG</li> -->
-		</bodyPartGroups>
-		<layers>
-			<li>OnSkin</li>
-		</layers>
-		<wornGraphicPath>Things/Apparel/Haragake</wornGraphicPath>
-	<tags>
-		<li>GHG_Basic</li>
-	</tags>
-	</apparel>
-</ThingDef>
 
 </Defs>
