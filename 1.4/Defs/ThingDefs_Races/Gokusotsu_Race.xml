@@ -114,7 +114,7 @@
 					<path>Gokusotsu/Horns/Child/Horn_left</path>
 				</HumanlikeChild>
 				<HumanlikePreTeenager>
-					<path>Gokusotsu/Horns/Horn_left</path>
+					<path>Gokusotsu/Horns/Child/Horn_left</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
 		<offsets>
@@ -122,18 +122,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(-0.02,0)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -159,7 +165,7 @@
 					<path>Gokusotsu/Horns/Child/Horn_right</path>
 				</HumanlikeChild>
 				<HumanlikePreTeenager>
-					<path>Gokusotsu/Horns/Horn_right</path>
+					<path>Gokusotsu/Horns/Child/Horn_right</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
 
@@ -168,18 +174,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0.02,0)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -397,7 +409,7 @@
 					<path>Gokusotsu/Horns/Child/MezuHorn</path>
 				</HumanlikeChild>
 				<HumanlikePreTeenager>
-					<path>Gokusotsu/Horns/MezuHorn</path>
+					<path>Gokusotsu/Horns/Child/MezuHorn</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
 
@@ -406,18 +418,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0.016,-0.025)</Child>
+					<Baby>(0.1,-0.015)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -611,7 +629,7 @@
 					<path>Gokusotsu/Horns/Child/GozuHorn_left</path>
 				</HumanlikeChild>
 				<HumanlikePreTeenager>
-					<path>Gokusotsu/Horns/GozuHorn_left</path>
+					<path>Gokusotsu/Horns/Child/GozuHorn_left</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
 
@@ -620,18 +638,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(-0.05,-0.1)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0.02,-0.02)</Child>
+					<Baby>(0.075,-0.05)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0.1,0)</Child>
+					<Baby>(0.1,-0.05)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -656,7 +680,7 @@
 					<path>Gokusotsu/Horns/Child/GozuHorn_right</path>
 				</HumanlikeChild>
 				<HumanlikePreTeenager>
-					<path>Gokusotsu/Horns/GozuHorn_right</path>
+					<path>Gokusotsu/Horns/Child/GozuHorn_right</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
 
@@ -665,18 +689,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0,0)</Child>
+					<Baby>(0.05,-0.1)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(-0.02,-0.02)</Child>
+					<Baby>(-0.075,-0.05)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
+					<Child>(0.1,0)</Child>
+					<Baby>(0.1,-0.05)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>

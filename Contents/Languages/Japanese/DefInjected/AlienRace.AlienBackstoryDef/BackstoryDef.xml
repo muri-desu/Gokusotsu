@@ -21,7 +21,7 @@
 <ClassOfficer.titleShort>学級委員</ClassOfficer.titleShort>
 <ClassOfficer.baseDesc>[PAWN_nameDef]は寺子屋で学級委員としてリーダーシップを発揮していました。</ClassOfficer.baseDesc>
 
-	<Oddball.title>変わり者の小鬼</Oddball.title>
+<Oddball.title>変わり者の小鬼</Oddball.title>
 <Oddball.titleShort>変わり者</Oddball.titleShort>
 <Oddball.baseDesc>[PAWN_nameDef]は風変わりな言動や立ち居振る舞いのため周りから浮いていましたが、本人はあまり気にしていませんでした。</Oddball.baseDesc>
 
@@ -64,6 +64,10 @@
 <Robotkid.title>ロボット大好き小鬼</Robotkid.title>
 <Robotkid.titleShort>ロボ好き</Robotkid.titleShort>
 <Robotkid.baseDesc>[PAWN_nameDef]は機械の体に憧れる夢見がちな子供でした。地獄での実現が難しい欲求は工作やチャンバラでかろうじて発散されました。</Robotkid.baseDesc>
+
+<Shadowkid.title>腰巾着の小鬼</Shadowkid.title>
+<Shadowkid.titleShort>腰巾着</Shadowkid.titleShort>
+<Shadowkid.baseDesc>[PAWN_nameDef]はその場その場で一番力を持っている別の小鬼に媚びへつらって子分のポジションに収まるのがうまい小鬼でした。</Shadowkid.baseDesc>
 
 <!-- Adulthood -->
 <GamblerGokusotsu.title>ギャンブラー</GamblerGokusotsu.title>
@@ -196,7 +200,7 @@
 
 <EmbezzlerGokusotsu.title>横領経理マン獄卒</EmbezzlerGokusotsu.title>
 <EmbezzlerGokusotsu.titleShort>横領経理マン</EmbezzlerGokusotsu.titleShort>
-<EmbezzlerGokusotsu.baseDesc>[PAWN_nameDef]は公金をネコババして若い愛人に注ぎ込んだ結果およそ362832167639247042148000100074291078163892000000年懲役の判決を言い渡されるため拘置エリアで待機中でした。</EmbezzlerGokusotsu.baseDesc>
+<EmbezzlerGokusotsu.baseDesc>[PAWN_nameDef]は閻魔様のへそくりをネコババして若い愛人に注ぎ込んだ結果およそ3628321676392470421480003892000000年懲役の判決を言い渡されるため拘置エリアで待機中でした。</EmbezzlerGokusotsu.baseDesc>
 
 <FireWatcherGokusotsu.title>火の見番人獄卒</FireWatcherGokusotsu.title>
 <FireWatcherGokusotsu.titleShort>火の見番人</FireWatcherGokusotsu.titleShort>
@@ -212,7 +216,7 @@
 
 <FunnnyouGokusotsu.title>肥溜め人足</FunnnyouGokusotsu.title>
 <FunnnyouGokusotsu.titleShort>肥溜め</FunnnyouGokusotsu.titleShort>
-<FunnnyouGokusotsu.baseDesc>[PAWN_nameDef]は糞尿地獄にブツを運び込む人足でした。ここ100年では地獄でも水洗便所の普及しており仕事が減ってきていました。</FunnnyouGokusotsu.baseDesc>
+<FunnnyouGokusotsu.baseDesc>[PAWN_nameDef]は糞尿地獄にブツを運び込む人足でした。ここ100年では地獄でも水洗便所の普及しており仕事が減ってきて暇を持て余していました。</FunnnyouGokusotsu.baseDesc>
 
 <ReturneeGokusotsu.title>海外出張獄卒</ReturneeGokusotsu.title>
 <ReturneeGokusotsu.titleShort>出張</ReturneeGokusotsu.titleShort>
@@ -226,9 +230,9 @@
 <FoodStallGokusotsu_B.titleShort>屋台</FoodStallGokusotsu_B.titleShort>
 <FoodStallGokusotsu_B.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした。勤務中の者には絶対アルコールを出さない堅物でしたが、きちんとした美味しい食事を出すのでまあまあ繁盛しました。</FoodStallGokusotsu_B.baseDesc>
 
-<MessengerGokusotsu.title>元飛脚</MessengerGokusotsu.title>
+<MessengerGokusotsu.title>昔気質の飛脚</MessengerGokusotsu.title>
 <MessengerGokusotsu.titleShort>飛脚</MessengerGokusotsu.titleShort>
-<MessengerGokusotsu.baseDesc>[PAWN_nameDef]は飛脚として伝書烏の届かないエリアを駆け回るのが仕事でしたが、ある日スーパーハイテクマシン”ファクシミリ”の登場によって情報電信部の内勤に転属となりました。”門”から未開の異世界に飛ばされたので機械と和解する必要がなくなりウキウキしている[PAWN_pronoun]ですが、この星の宇宙世紀技術についていけるのでしょうか……？</MessengerGokusotsu.baseDesc>
+<MessengerGokusotsu.baseDesc>[PAWN_nameDef]は飛脚として伝書烏の届かないエリアを駆け回るのが仕事でしたが、ある日スーパーハイテクマシン”ファクシミリ”の登場によって情報電信部の内勤に転属となりました。”門”から未開の異世界に飛ばされたので機械と和解する必要がなくなり大喜びの[PAWN_pronoun]ですが、この星の宇宙世紀技術についていけるのでしょうか……？</MessengerGokusotsu.baseDesc>
 
 <ConveyorGokusotsu.title>タンポポを乗せる仕事</ConveyorGokusotsu.title>
 <ConveyorGokusotsu.titleShort>タンポポ担当</ConveyorGokusotsu.titleShort>
@@ -239,7 +243,19 @@
 <UturnGokusotsu.baseDesc>[PAWN_nameDef]は夢を抱いて一度は地上に出て行きましたが行く先々で土着の妖怪や土地神、里の人間とうまくいかず元の職場に舞い戻りました。</UturnGokusotsu.baseDesc>
 
 <IturnGokusotsu.title>Iターン獄卒</IturnGokusotsu.title>
-<IturnGokusotsu.titleShort>Uターン獄卒</IturnGokusotsu.titleShort>
+<IturnGokusotsu.titleShort>Iターン獄卒</IturnGokusotsu.titleShort>
 <IturnGokusotsu.baseDesc>[PAWN_nameDef]はもともと地上で生活していましたが、人間からのプレッシャーや都市開発の影響から逃れるため地獄に移住し獄卒として再就職を果たしました。</IturnGokusotsu.baseDesc>
+
+<HotokeKyoushiGokusotsu.title>寺子屋の教員</HotokeKyoushiGokusotsu.title>
+<HotokeKyoushiGokusotsu.titleShort>先生</HotokeKyoushiGokusotsu.titleShort>
+<HotokeKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める、地獄に仏と称されるような物腰の柔らかい先生でした。</HotokeKyoushiGokusotsu.baseDesc>
+
+<OniKyoushiGokusotsu.title>寺子屋の教員</OniKyoushiGokusotsu.title>
+<OniKyoushiGokusotsu.titleShort>先生</OniKyoushiGokusotsu.titleShort>
+<OniKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める、まさに鬼教師と称されるような横暴な先生でした。</OniKyoushiGokusotsu.baseDesc>
+
+<KyomuKyoushiGokusotsu.title>寺子屋の教員</KyomuKyoushiGokusotsu.title>
+<KyomuKyoushiGokusotsu.titleShort>先生</KyomuKyoushiGokusotsu.titleShort>
+<KyomuKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める、何かあればすぐ自習にして自分は準備室で昼寝するようなだらしない先生でした。</KyomuKyoushiGokusotsu.baseDesc>
 
 </LanguageData>

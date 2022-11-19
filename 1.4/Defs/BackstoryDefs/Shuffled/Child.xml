@@ -275,4 +275,22 @@
 	</spawnCategories>
 </AlienRace.AlienBackstoryDef>
 
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 腰巾着キッズ -->
+	<defName>Shadowkid</defName>
+	<title>Bully's shadow</title>
+	<titleShort>shadow</titleShort>
+		<baseDesc>[PAWN_nameDef] was a kid who was adept at settling into the position of henchman by flattering another kid who had the most power in the moment.</baseDesc>
+	<skillGains>
+		<li><key>Melee</key><value>2</value></li>
+		<li><key>Intellectual</key><value>1</value></li>
+	</skillGains>
+	<forcedTraits>
+		<Transhumanist>0</Transhumanist>
+	</forcedTraits>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
 </Defs>

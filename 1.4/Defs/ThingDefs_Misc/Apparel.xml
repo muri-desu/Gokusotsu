@@ -114,7 +114,7 @@
 	<graphicData>
 		<texPath>Things/Apparel/Koshinuno</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
+		<!-- <shaderType>CutoutComplex</shaderType> -->
 	</graphicData>
 
 	<statBases>

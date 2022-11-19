@@ -11,11 +11,35 @@
 		<factionDef>GHG_PlayerFaction</factionDef>
 	</playerFaction>
 <parts>
-	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
-		<def>ConfigPage_ConfigureStartingPawns</def>
-		<pawnCount>5</pawnCount>
+	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+		<def>ConfigurePawnsXenotypes</def>
 		<pawnChoiceCount>10</pawnChoiceCount>
+		<overrideKinds>
+			<li>
+				<xenotype>XenoGokusotsu</xenotype>
+				<pawnKind>GHG_Colonist</pawnKind>
+			</li>
+			<li>
+				<xenotype>XenoGokusotsu</xenotype>
+				<pawnKind>GHG_MezuColonist</pawnKind>
+			</li>
+			<li>
+				<xenotype>XenoGokusotsu</xenotype>
+				<pawnKind>GHG_GozuColonist</pawnKind>
+			</li>
+		</overrideKinds>
+		<xenotypeCounts>
+			<li>
+				<xenotype>XenoGokusotsu</xenotype>
+				<count>5</count>
+				<requiredAtStart>true</requiredAtStart>
+			</li>
+		</xenotypeCounts>
 	</li>
+	<!-- <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+		<def>ConfigPage_ConfigureStartingPawns</def>
+		<pawnChoiceCount>10</pawnChoiceCount>
+	</li> -->
 	<li Class="ScenPart_PlayerPawnsArriveMethod">
 		<def>PlayerPawnsArriveMethod</def>
 		<method>Standing</method>

@@ -58,7 +58,7 @@
 	<points>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(8,100)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li><!-- Exclude 12.5-13 years -->
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
@@ -118,7 +118,7 @@
 		<capacities>
 			<li>Bite</li>
 		</capacities>
-		<power>13</power>
+		<power>15</power>
 		<cooldownTime>2</cooldownTime>
 		<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 	<surpriseAttack>
@@ -136,7 +136,7 @@
 		<capacities>
 			<li>Blunt</li>
 		</capacities>
-		<power>15</power>
+		<power>13</power>
 		<cooldownTime>2</cooldownTime>
 		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -151,6 +151,7 @@
 	<humanRecipeImport>true</humanRecipeImport>
 	<immuneToAge>true</immuneToAge>
 	<maleGenderProbability>1.0</maleGenderProbability>
+	<maxDamageForSocialfight>6</maxDamageForSocialfight>
 
 	<lovinIntervalHoursFromAge>
 		<points>
@@ -235,7 +236,7 @@
 		<reactions>
 		<li Class="IngestionOutcomeDoer_GiveHediff">
 			<hediffDef>AlcoholHigh_GHG</hediffDef>
-			<severity>0.5</severity>
+			<severity>0.666</severity>
 		</li>
 		</reactions>
 	</li>
@@ -310,14 +311,35 @@
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
-	<blackEndoCategories>
+	<blackGeneList>
+		<li>Brow_Heavy</li>
+		<li>FacialRidges</li>
+	</blackGeneList>
+	<blackGeneTags>
+		<li>SkinColor</li>
 		<li>HairColor</li>
+		<li>EyeColor</li>
 		<li>BodyType</li>
-		<li>Melanin</li>
 		<li>Ears</li>
 		<li>Nose</li>
+		<li>Jaw</li>
+		<li>Head</li>
+		<li>Headbone</li>
+		<li>HairStyle</li>
+		<li>BeardStyle</li>
+		<li>SkinColorOverride</li>
+		<li>Fur</li>
+		<li>Tail</li>
+	</blackGeneTags>
+	<blackEndoCategories>
+		<li>Melanin</li>
+		<li>HairColor</li>
+		<li>Ears</li>
+		<li>Nose</li>
+		<li>Jaw</li>
+		<li>Head</li>
+		<li>BodyType</li>
 	</blackEndoCategories>
-
 </raceRestriction>
 
 <relationSettings>
@@ -364,7 +386,8 @@
 	<li>Ugly_GHG</li>
 	<li>AnnoyingVoice_GHG</li>
 	<li>CreepyBreathing_GHG</li>
-</restrictedThoughts><cannotReceiveThoughts>
+</restrictedThoughts>
+<cannotReceiveThoughts>
 <!-- death -->
 	<li>KnowPrisonerDiedInnocent</li>
 <!-- organ harvested sold vanished -->
@@ -444,7 +467,7 @@
 	<MoveSpeed>4</MoveSpeed>
 	<Flammability>0.2</Flammability>
 	<CarryingCapacity>130</CarryingCapacity>
-	<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+	<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 	<ComfyTemperatureMax>1000</ComfyTemperatureMax>
 	<MiningSpeed>1.2</MiningSpeed>
 	<ConstructionSpeed>1.2</ConstructionSpeed>

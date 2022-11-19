@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- 鋼の肝臓 -->
+	<GeneDef>
+		<defName>GokusotsuLiver</defName>
+		<label>Robust liver</label>
+		<labelShortAdj>robust liver</labelShortAdj>
+		<description>Carriers of this gene are immune to negative effects of alcohol.</description>
+		<iconPath>UI/Icons/Gene_GokusotsuLiver</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Hangover</li>
+			<li>Cirrhosis</li>
+		</hediffGiversCannotGive>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+		<prefixSymbols>
+			<li><symbol>zaru</symbol></li>
+			<li><symbol>uwabami</symbol></li>
+			<li><symbol>jougo</symbol></li>
+		</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+<!-- やつあたり
+	<GeneDef>
+		<defName>GokusotsuEyeforEye</defName>
+		<label>eye for eye</label>
+		<labelShortAdj>eye 4 eye</labelShortAdj>
+		<description>Carriers of this gene gains more damages on fight when they are in pain.</description>
+		<iconPath>UI/Icons/Gene_GokusotsuAttack</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_Pain">
+        <statOffsets>
+          <MeleeDamageFactor>1.2</MeleeDamageFactor>
+        </statOffsets>
+ 		</li>
+    </conditionalStatAffecters>
+		<customEffectDescriptions>
+		<li>eye 4 eye</li>
+		</customEffectDescriptions>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+		<prefixSymbols>
+			<li><symbol>anger</symbol></li>
+			<li><symbol>rage</symbol></li>
+		</prefixSymbols>
+		</symbolPack>
+	</GeneDef> -->
+
+</Defs>
