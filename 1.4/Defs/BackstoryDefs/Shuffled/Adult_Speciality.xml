@@ -29,7 +29,7 @@
 	<titleShort>plumber</titleShort>
 	<baseDesc>[PAWN_nameDef] was well versed in the maintenance of all the pipes of infrastructure in hell...which means, the pipes through which boiling blood or metal, rotting guts, vomit, and liquefied dead pass.</baseDesc>
 	<skillGains>
-		<li><key>Construction</key><value>7</value></li>
+		<li><key>Construction</key><value>6</value></li>
 		<li><key>Mining</key><value>5</value></li>
 	</skillGains>
 	<spawnCategories>
@@ -85,7 +85,7 @@
 	<title>metallic craftsman</title>
 	<titleShort>craftsman</titleShort>
 	<baseDesc>[PAWN_nameDef] was a craftsman who specialized in small daily metalwork items like iron kettles and iron ladles. And was also good at making restraints and small firearms.</baseDesc>
-	<workDisables>Animals, Social</workDisables>
+	<workDisables>Animals</workDisables>
 	<skillGains>
 		<li><key>Crafting</key><value>7</value></li>
 		<li><key>Artistic</key><value>1</value></li>
@@ -101,7 +101,7 @@
 	<title>pottery craftsman</title>
 	<titleShort>craftsman</titleShort>
 	<baseDesc>[PAWN_nameDef] was a craftsman who excelled at making ceramics such as tea bowls and water bottles. And was also good at making urns and clay figurines.</baseDesc>
-	<workDisables>Animals, Social</workDisables>
+	<workDisables>Animals</workDisables>
 	<skillGains>
 		<li><key>Crafting</key><value>5</value></li>
 		<li><key>Artistic</key><value>3</value></li>
@@ -117,6 +117,10 @@
 	<title>children's limbo gokusotsu</title>
 	<titleShort>children's limbo</titleShort>
 	<baseDesc>[PAWN_nameDef] was in charge of breaking down stones piled up by dead children on the riverbank of the Sanzu River.</baseDesc>
+	<skillGains>
+		<li><key>Mining</key><value>1</value></li>
+		<li><key>Construction</key><value>1</value></li>
+	</skillGains>
 	<spawnCategories>
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
@@ -468,7 +472,7 @@
 	<skillGains>
 		<li><key>Social</key><value>2</value></li>
 		<li><key>Animals</key><value>4</value></li>
-		<li><key>Intellectual</key><value>2</value></li>
+		<li><key>Melee</key><value>2</value></li>
 	</skillGains>
 	<forcedTraits>
 		<Bloodlust />
@@ -492,7 +496,7 @@
 	<baseDesc>[PAWN_nameDef] was the kind of sloppy teacher who, if anything happened, would immediately turn to self-study and take a nap himself in the staff room.</baseDesc>
 	<skillGains>
 		<li><key>Social</key><value>1</value></li>
-		<li><key>Animals</key><value>2</value></li>
+		<li><key>Animals</key><value>1</value></li>
 		<li><key>Intellectual</key><value>4</value></li>
 	</skillGains>
 	<forcedTraits>

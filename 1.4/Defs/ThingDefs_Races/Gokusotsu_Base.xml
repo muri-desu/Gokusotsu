@@ -58,7 +58,7 @@
 	<points>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">(8,100)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li><!-- Exclude 12.5-13 years -->
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
@@ -172,13 +172,6 @@
 		<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 	</bodyTypes>
-	<headOffset>(0, 0.1)</headOffset>
-<headOffsetDirectional>
-    <north>(0.0, 0.0)</north>
-    <south>(0.0, 0.0)</south>
-    <east>(0.05, 0.0)</east>
-    <west>(-0.05, 0.0)</west>
-</headOffsetDirectional>
 	<customDrawSize>(1.2, 1.2)</customDrawSize>
 	<customHeadDrawSize>(1.1, 1.1)</customHeadDrawSize>
 	<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
@@ -316,8 +309,6 @@
 		<li>FacialRidges</li>
 	</blackGeneList>
 	<blackGeneTags>
-		<li>SkinColor</li>
-		<li>HairColor</li>
 		<li>EyeColor</li>
 		<li>BodyType</li>
 		<li>Ears</li>
@@ -332,8 +323,6 @@
 		<li>Tail</li>
 	</blackGeneTags>
 	<blackEndoCategories>
-		<li>Melanin</li>
-		<li>HairColor</li>
 		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>

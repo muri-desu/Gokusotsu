@@ -45,6 +45,13 @@
 		<li>Head_F</li>
 		<li>Head_G</li>
 	</headTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+	<north>(0.0, 0.0)</north>
+	<south>(0.0, 0.0)</south>
+	<east>(0.05, 0.0)</east>
+	<west>(-0.05, 0.0)</west>
+</headOffsetDirectional>
 		<colorChannels>
 			<li>
 			<name>skin</name>
@@ -333,10 +340,10 @@
 	<li>
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>
-		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
-		<soundDeath>Pawn_Muffalo_Death</soundDeath>
-		<soundCall>Pawn_Muffalo_Call</soundCall>
-		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+		<soundWounded>Pawn_Horse_Wounded</soundWounded>
+		<soundDeath>Pawn_Horse_Death</soundDeath>
+		<soundCall>Pawn_Horse_Call</soundCall>
+		<soundAngry>Pawn_Horse_Angry</soundAngry>
 	</li>
 	</lifeStageAges>
 	</race>
@@ -347,6 +354,13 @@
 	<headTypes Inherit="false">
 		<li>MezuHead</li>
 	</headTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+	<north>(0.0, 0.0)</north>
+	<south>(0.0, 0.0)</south>
+	<east>(0.02, -0.025)</east>
+	<west>(-0.02, -0.025)</west>
+</headOffsetDirectional>
 		<colorChannels>
 			<li>
 			<name>skin</name>
@@ -481,7 +495,7 @@
 		</head>
 		<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
 
-<!-- 
+
 <apparel>
 
 	<individualPaths>
@@ -492,7 +506,7 @@
 	</individualPaths>
 
 </apparel>
- -->
+
 
 </graphicPaths>
 
@@ -553,10 +567,10 @@
 	<li>
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>
-		<soundWounded>Pawn_Horse_Wounded</soundWounded>
-		<soundDeath>Pawn_Horse_Death</soundDeath>
-		<soundCall>Pawn_Horse_Call</soundCall>
-		<soundAngry>Pawn_Horse_Angry</soundAngry>
+		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+		<soundDeath>Pawn_Muffalo_Death</soundDeath>
+		<soundCall>Pawn_Muffalo_Call</soundCall>
+		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
 	</li>
 	</lifeStageAges>
 	</race>
@@ -567,6 +581,13 @@
 	<headTypes Inherit="false">
 		<li>GozuHead</li>
 	</headTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+	<north>(0.0, 0.0)</north>
+	<south>(0.0, 0.0)</south>
+	<east>(0.02, -0.025)</east>
+	<west>(-0.02, -0.025)</west>
+</headOffsetDirectional>
 		<colorChannels>
 			<li>
 			<name>skin</name>
@@ -752,7 +773,7 @@
 		</head>
 		<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
 
-<!-- 
+
 <apparel>
 
 	<individualPaths>
@@ -763,7 +784,7 @@
 	</individualPaths>
 
 </apparel>
- -->
+
 
 </graphicPaths>
 

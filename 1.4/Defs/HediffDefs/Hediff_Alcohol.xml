@@ -2,10 +2,10 @@
 <Defs>
 <HediffDef>
 	<defName>AlcoholHigh_GHG</defName>
-	<label>alcohol</label>
+	<label>Best medicine</label>
 	<labelNoun>drunkenness</labelNoun>
-	<description>Alcohol in the bloodstream. It increases gokusotsu's health.</description>
-	<hediffClass>Hediff_Alcohol</hediffClass>
+	<description>Alcohol in the bloodstream. It increases gokusotsu's healing factor.</description>
+	<hediffClass>Hediff_High</hediffClass>
 	<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 	<scenarioCanAdd>true</scenarioCanAdd>
 	<isBad>false</isBad>
@@ -59,10 +59,10 @@
 		<li>
 			<minSeverity>0.9</minSeverity>
 				<statOffsets>
-					<ComfyTemperatureMin>-20</ComfyTemperatureMin>
-					<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
-					<InjuryHealingFactor>0.2</InjuryHealingFactor>
-					<BedHungerRateFactor>0.2</BedHungerRateFactor>
+					<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+					<ImmunityGainSpeed>0.25</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.25</InjuryHealingFactor>
+					<BedHungerRateFactor>0.25</BedHungerRateFactor>
 				</statOffsets>
 		</li>
 	</stages>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 <GHG_Style.label>獄卒の髪型</GHG_Style.label>
-<GHG_Bold.label>坊主</GHG_Bold.label>
-<GHG_bun.label>髷A</GHG_bun.label>
 <GHG_MezuHair.label>馬頭髪</GHG_MezuHair.label>
-<GHG_Zanbara.label>ざんばら</GHG_Zanbara.label>
-<GHG_Togetoge.label>毬栗</GHG_Togetoge.label>
-<GHG_ZanbaraLong.label>目隠</GHG_ZanbaraLong.label>
+<GHG_Hair00.label>獄卒髪00</GHG_Hair00.label>
+<GHG_Hair01.label>獄卒髪01</GHG_Hair01.label>
+<GHG_Hair02.label>獄卒髪02</GHG_Hair02.label>
+<GHG_Hair03.label>獄卒髪03</GHG_Hair03.label>
+<GHG_Hair04.label>獄卒髪04</GHG_Hair04.label>
+<GHG_Hair05.label>獄卒髪05</GHG_Hair05.label>
+<GHG_Hair06.label>獄卒髪06</GHG_Hair06.label>
+<GHG_Hair07.label>獄卒髪07</GHG_Hair07.label>
+<GHG_Hair08.label>獄卒髪08</GHG_Hair08.label>
+<GHG_Hair09.label>獄卒髪09</GHG_Hair09.label>
+<GHG_Hair10.label>獄卒髪10</GHG_Hair10.label>
 </LanguageData>

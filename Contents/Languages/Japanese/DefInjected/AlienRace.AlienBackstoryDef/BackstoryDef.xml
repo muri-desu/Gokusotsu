@@ -23,7 +23,7 @@
 
 <Oddball.title>変わり者の小鬼</Oddball.title>
 <Oddball.titleShort>変わり者</Oddball.titleShort>
-<Oddball.baseDesc>[PAWN_nameDef]は風変わりな言動や立ち居振る舞いのため周りから浮いていましたが、本人はあまり気にしていませんでした。</Oddball.baseDesc>
+<Oddball.baseDesc>[PAWN_nameDef]は風変わりな言動や立ち居振る舞いのため周りから浮いていました。</Oddball.baseDesc>
 
 <Loner.title>ぼっちの小鬼</Loner.title>
 <Loner.titleShort>ぼっち</Loner.titleShort>
@@ -54,7 +54,7 @@
 <FashionLeader.baseDesc>服が好きな[PAWN_nameDef]は地上のファッション情報を学ぶためよく脱衣婆のところに行っては亡者の服をくすねて帰りました。</FashionLeader.baseDesc>
 
 <ScienceKid.title>マッドサイエンティスト小鬼</ScienceKid.title>
-<ScienceKid.titleShort>科学の小鬼</ScienceKid.titleShort>
+<ScienceKid.titleShort>科学の子</ScienceKid.titleShort>
 <ScienceKid.baseDesc>[PAWN_nameDef]はこっそり亡者をくすねてきては解剖して天才博士ごっこを楽しんでいました。</ScienceKid.baseDesc>
 
 <ChanbaraChamp.title>チャンバラチャンピオン</ChanbaraChamp.title>
@@ -75,7 +75,7 @@
 <GamblerGokusotsu.baseDesc>[PAWN_nameDef]は”宵越の金は持たない”がモットーで、有金を賭け麻雀で全部すっては頻繁に仲間に借金を作っていました。</GamblerGokusotsu.baseDesc>
 
 <KaraokeGokusotsu.title>カラオケの達人</KaraokeGokusotsu.title>
-<KaraokeGokusotsu.titleShort>カラオケ</KaraokeGokusotsu.titleShort>
+<KaraokeGokusotsu.titleShort>カラオケの達人</KaraokeGokusotsu.titleShort>
 <KaraokeGokusotsu.baseDesc>[PAWN_nameDef]の歌唱力は亡者の頭を爆破させたり耳から血を噴き出させたりするのに重宝しました。激しい振り付けで鍛えられた体力は、ケチをつけた者をぶちのめすのにも役立ちました。</KaraokeGokusotsu.baseDesc>
 
 <BootleggerGokusotsu_A.title>どぶろく職人</BootleggerGokusotsu_A.title>
@@ -175,7 +175,7 @@
 <BloodPondGardener.baseDesc>[PAWN_nameDef]の職場は亡者を放り込むための煮えたぎる血の池の整備でした。</BloodPondGardener.baseDesc>
 
 <HariyamaGardener.title>針山植林作業獄卒</HariyamaGardener.title>
-<HariyamaGardener.titleShort>植林作業</HariyamaGardener.titleShort>
+<HariyamaGardener.titleShort>植林作業員</HariyamaGardener.titleShort>
 <HariyamaGardener.baseDesc>[PAWN_nameDef]は亡者が登る針山に生える鉄松や鉄笹を扱う森林作業員でした。鉄の需要に応じて伐採したり、絡まった亡者を枝から取り除くのが主な日課でした。</HariyamaGardener.baseDesc>
 
 <CraftsmanGokusotsu_A.title>金物職人</CraftsmanGokusotsu_A.title>
@@ -206,28 +206,28 @@
 <FireWatcherGokusotsu.titleShort>火の見番人</FireWatcherGokusotsu.titleShort>
 <FireWatcherGokusotsu.baseDesc>地獄では大小様々な炎が利用されています。[PAWN_nameDef]はそれらを絶やさぬよう見まわりと共に消えそうな火種を焚きつけて吹き返す仕事を受け持っていました。</FireWatcherGokusotsu.baseDesc>
 
-<BangashiraGokusotsu_A.title>番頭獄卒</BangashiraGokusotsu_A.title>
-<BangashiraGokusotsu_A.titleShort>番頭</BangashiraGokusotsu_A.titleShort>
-<BangashiraGokusotsu_A.baseDesc>[PAWN_nameDef]は人当たりが良く頼れる番頭（ばんがしら）として部下から人気でしたが、中間管理職の気苦労がすごくノイローゼ気味でした。</BangashiraGokusotsu_A.baseDesc>
+<BangashiraGokusotsu_A.title>鬼上司</BangashiraGokusotsu_A.title>
+<BangashiraGokusotsu_A.titleShort>鬼上司</BangashiraGokusotsu_A.titleShort>
+<BangashiraGokusotsu_A.baseDesc>[PAWN_nameDef]は人当たりが良く頼れる上司として部下から人気でしたが、中間管理職の気苦労がすごくノイローゼ気味でした。</BangashiraGokusotsu_A.baseDesc>
 
-<BangashiraGokusotsu_B.title>番頭獄卒</BangashiraGokusotsu_B.title>
-<BangashiraGokusotsu_B.titleShort>番頭</BangashiraGokusotsu_B.titleShort>
-<BangashiraGokusotsu_B.baseDesc>[PAWN_nameDef]は性格の悪い番頭（ばんがしら）としてたくさんの新入り獄卒を潰しましたが、本人は気苦労がほとんどなくしぶとく職場に残り続けました。</BangashiraGokusotsu_B.baseDesc>
+<BangashiraGokusotsu_B.title>鬼上司</BangashiraGokusotsu_B.title>
+<BangashiraGokusotsu_B.titleShort>鬼上司</BangashiraGokusotsu_B.titleShort>
+<BangashiraGokusotsu_B.baseDesc>[PAWN_nameDef]は性格の悪い上司としてたくさんの新入り獄卒を潰しましたが、本人は気苦労がほとんどなくしぶとく職場に残り続けました。</BangashiraGokusotsu_B.baseDesc>
 
 <FunnnyouGokusotsu.title>肥溜め人足</FunnnyouGokusotsu.title>
-<FunnnyouGokusotsu.titleShort>肥溜め</FunnnyouGokusotsu.titleShort>
+<FunnnyouGokusotsu.titleShort>肥溜め人足</FunnnyouGokusotsu.titleShort>
 <FunnnyouGokusotsu.baseDesc>[PAWN_nameDef]は糞尿地獄にブツを運び込む人足でした。ここ100年では地獄でも水洗便所の普及しており仕事が減ってきて暇を持て余していました。</FunnnyouGokusotsu.baseDesc>
 
 <ReturneeGokusotsu.title>海外出張獄卒</ReturneeGokusotsu.title>
-<ReturneeGokusotsu.titleShort>出張</ReturneeGokusotsu.titleShort>
+<ReturneeGokusotsu.titleShort>出張研修員</ReturneeGokusotsu.titleShort>
 <ReturneeGokusotsu.baseDesc>[PAWN_nameDef]は技術革新と文化交流のため異教圏の地獄に派遣された駐在員でした。</ReturneeGokusotsu.baseDesc>
 
 <FoodStallGokusotsu_A.title>屋台の親父</FoodStallGokusotsu_A.title>
-<FoodStallGokusotsu_A.titleShort>屋台</FoodStallGokusotsu_A.titleShort>
+<FoodStallGokusotsu_A.titleShort>屋台の親父</FoodStallGokusotsu_A.titleShort>
 <FoodStallGokusotsu_A.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした。肝心の料理はたいして美味しくもないものでしたが、追加料金を出すと朝っぱらでもこっそり酒を出してくれるためまあまあ繁盛しました。</FoodStallGokusotsu_A.baseDesc>
 
 <FoodStallGokusotsu_B.title>屋台の親父</FoodStallGokusotsu_B.title>
-<FoodStallGokusotsu_B.titleShort>屋台</FoodStallGokusotsu_B.titleShort>
+<FoodStallGokusotsu_B.titleShort>屋台の親父</FoodStallGokusotsu_B.titleShort>
 <FoodStallGokusotsu_B.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした。勤務中の者には絶対アルコールを出さない堅物でしたが、きちんとした美味しい食事を出すのでまあまあ繁盛しました。</FoodStallGokusotsu_B.baseDesc>
 
 <MessengerGokusotsu.title>昔気質の飛脚</MessengerGokusotsu.title>
