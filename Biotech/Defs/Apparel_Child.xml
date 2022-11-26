@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="GHG_ApparelBase"><!-- 子供服 -->
+<ThingDef ParentName="GHG_ApparelBase"><!-- 腹がけ -->
 	<defName>Apparel_Haragake</defName>
 		<label>Haragake</label>
 		<description>Apparel for demon kids.</description>
@@ -46,6 +46,55 @@
 			<li>OnSkin</li>
 		</layers>
 		<wornGraphicPath>Things/Apparel/Haragake</wornGraphicPath>
+	<tags>
+		<li>GHG_Basic</li>
+	</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="GHG_HatBase"><!-- 雪ん子 -->
+	<defName>Apparel_Yukinko</defName>
+		<label>Yukinko</label>
+		<description>Winter cape made out of straw.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/Hat/Yukinko</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>1500</WorkToMake>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Mass>1</Mass>
+		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.03</ArmorRating_Heat>
+		<Insulation_Cold>15</Insulation_Cold>
+		<Insulation_Heat>1</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+	</statBases>
+
+	<costList>
+		<Hay>45</Hay>
+	</costList>
+
+	<equippedStatOffsets>
+	</equippedStatOffsets>
+
+	<apparel>
+		<developmentalStageFilter>Child</developmentalStageFilter>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<wornGraphicPath>Things/Apparel/Hat/Yukinko</wornGraphicPath>
 	<tags>
 		<li>GHG_Basic</li>
 	</tags>

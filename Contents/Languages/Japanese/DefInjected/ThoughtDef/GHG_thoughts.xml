@@ -6,18 +6,19 @@
 	<AteHumanlikeMeatDirect_GHG.stages.0.description>人肉刺身を食べた</AteHumanlikeMeatDirect_GHG.stages.0.description>
 	<AteHumanlikeMeatAsIngredient_GHG.stages.0.label>調理された人肉を食べた</AteHumanlikeMeatAsIngredient_GHG.stages.0.label>
 	<AteHumanlikeMeatAsIngredient_GHG.stages.0.description>人肉料理を食べた。そら豆と焼酎があればもっといい</AteHumanlikeMeatAsIngredient_GHG.stages.0.description>
+	<RotStink_GHG.stages.0.description>腐敗臭で元いた世界のことを思い出して懐かしい気持ちになった</RotStink_GHG.stages.0.description>
 
 	<ObservedLayingCorpse_GHG.stages.0.label>死体を見た</ObservedLayingCorpse_GHG.stages.0.label>
-	<ObservedLayingCorpse_GHG.stages.0.description>ああ死体かぁ</ObservedLayingCorpse_GHG.stages.0.description>
+	<ObservedLayingCorpse_GHG.stages.0.description>死体を見た</ObservedLayingCorpse_GHG.stages.0.description>
 	<ObservedLayingRottingCorpse_GHG.stages.0.label>腐乱死体を見た</ObservedLayingRottingCorpse_GHG.stages.0.label>
-	<ObservedLayingRottingCorpse_GHG.stages.0.description>諸行無常の趣がありますね</ObservedLayingRottingCorpse_GHG.stages.0.description>
+	<ObservedLayingRottingCorpse_GHG.stages.0.description>腐乱死体を見た</ObservedLayingRottingCorpse_GHG.stages.0.description>
 
 	<Disfigured_GHG.stages.0.label>不具</Disfigured_GHG.stages.0.label>
 	<Drunk_GHG.stages.0.label>よっぱらい</Drunk_GHG.stages.0.label>
-	<Ugly_GHG.stages.1.label>醜い</Ugly_GHG.stages.1.label>
-	<Ugly_GHG.stages.2.label>ひどく醜い</Ugly_GHG.stages.2.label>
+	<Ugly_GHG.stages.1.label>かわいい</Ugly_GHG.stages.1.label>
+	<Ugly_GHG.stages.2.label>とてもかわいい</Ugly_GHG.stages.2.label>
 	<AnnoyingVoice_GHG.label>かっこいい声</AnnoyingVoice_GHG.label>
-	<CreepyBreathing_GHG.stages.0.label>心地よい息遣い</CreepyBreathing_GHG.stages.0.label>
+	<CreepyBreathing_GHG.stages.0.label>セクシーな息遣い</CreepyBreathing_GHG.stages.0.label>
 
 
 </LanguageData>

@@ -35,6 +35,9 @@
 <Apparel_Haragake.label>腹がけ</Apparel_Haragake.label>
 <Apparel_Haragake.description>簡易な子供服です。</Apparel_Haragake.description>
 
+<Apparel_Yukinko.label>雪ん子</Apparel_Yukinko.label>
+<Apparel_Yukinko.description>子供を寒風から保護する蓑です。</Apparel_Yukinko.description>
+
 <!-- hats -->
 <Apparel_GokusotsuGlasses.label>眼鏡</Apparel_GokusotsuGlasses.label>
 <Apparel_GokusotsuGlasses.description>老眼率の高い獄卒たちのデスクワークをサポートするビンぞこメガネです。</Apparel_GokusotsuGlasses.description>

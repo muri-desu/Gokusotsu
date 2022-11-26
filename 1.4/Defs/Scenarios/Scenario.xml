@@ -46,11 +46,6 @@
 	</li>
 	<li Class="ScenPart_StartingThing_Defined">
 		<def>StartingThing_Defined</def>
-		<thingDef>Meat_Human</thingDef>
-		<count>125</count>
-	</li>
-	<li Class="ScenPart_StartingThing_Defined">
-		<def>StartingThing_Defined</def>
 		<thingDef>Beer</thingDef>
 		<count>50</count>
 	</li>
@@ -63,12 +58,12 @@
 	<li Class="ScenPart_StartingThing_Defined">
 		<def>StartingThing_Defined</def>
 		<thingDef>Bow_Short</thingDef>
-		<count>2</count>
+		<count>3</count>
 	</li>
 	<li Class="ScenPart_StartingThing_Defined">
 		<def>StartingThing_Defined</def>
 		<thingDef>MealSurvivalPack</thingDef>
-		<count>20</count>
+		<count>50</count>
 	</li>
 	<li Class="ScenPart_StartingThing_Defined">
 		<def>StartingThing_Defined</def>

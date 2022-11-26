@@ -211,8 +211,8 @@
 <notXenophobistTowards>
 	<li>GHG_Mezu</li>
 	<li>GHG_Gozu</li>
-	<li MayRequire="morishep.tarojun.onioftherim">Alien_AncestralAOni</li>
-	<li MayRequire="morishep.tarojun.onioftherim">AOni</li>
+	<li MayRequire="tarojun.morishep.onioftherim">Alien_AncestralAOni</li>
+	<li MayRequire="tarojun.morishep.onioftherim">AOni</li>
 	<li MayRequire="Millap.AOC">AOC</li>
 	<li MayRequire="Mlie.KolrasOniRaceMod">Alien_BlueOni</li>
 	<li MayRequire="Mlie.KolrasOniRaceMod">Alien_GreenOni</li>

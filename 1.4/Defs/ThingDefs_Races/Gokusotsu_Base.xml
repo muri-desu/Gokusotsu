@@ -35,10 +35,10 @@
 		<Handling>7</Handling>
 		<Cooking>10</Cooking>
 		<Hunting>7</Hunting>
-		<Construction>10</Construction>
-		<Growing>7</Growing>
+		<Construction>7</Construction>
+		<Growing>10</Growing>
 		<Mining>7</Mining>
-		<PlantCutting>7</PlantCutting>
+		<PlantCutting>10</PlantCutting>
 		<Smithing>13</Smithing>
 		<Tailoring>7</Tailoring>
 		<Art>10</Art>
@@ -200,13 +200,6 @@
 	<li>
 		<defName>Wimp</defName>
 	</li>
-	<li>
-		<defName>Transhumanist</defName>
-	</li>
-	<li>
-		<defName>DrugDesire</defName>
-		<degree>-1</degree>
-	</li>
 </disallowedTraits>
 <forcedRaceTraitEntries>
 	<li>
@@ -283,9 +276,10 @@
 		<li>Apparel_Nenju</li>
 		<li>Apparel_GokusotsuGlasses</li>
 		<li>Apparel_GokusotsuEarrings</li>
-		<li>Apparel_Haragake</li>
 	</apparelList>
 	<whiteApparelList>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Haragake</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Yukinko</li>
 		<li>Apparel_PsychicShockLance</li>
 		<li>Apparel_PsychicInsanityLance</li>
 		<li>Apparel_ShieldBelt</li>
@@ -307,6 +301,8 @@
 	<blackGeneList>
 		<li>Brow_Heavy</li>
 		<li>FacialRidges</li>
+		<li>Body_Thin</li>
+		<li>Body_Standard</li>
 	</blackGeneList>
 	<blackGeneTags>
 		<li>EyeColor</li>
@@ -327,7 +323,6 @@
 		<li>Nose</li>
 		<li>Jaw</li>
 		<li>Head</li>
-		<li>BodyType</li>
 	</blackEndoCategories>
 </raceRestriction>
 
@@ -375,6 +370,9 @@
 	<li>Ugly_GHG</li>
 	<li>AnnoyingVoice_GHG</li>
 	<li>CreepyBreathing_GHG</li>
+	<li>RotStink_GHG</li>
+	<li>ObservedLayingCorpse_GHG</li>
+	<li>ObservedLayingRottingCorpse_GHG</li>
 </restrictedThoughts>
 <cannotReceiveThoughts>
 <!-- death -->
@@ -454,7 +452,7 @@
 	<MarketValue>1750</MarketValue>
 	<Mass>110</Mass>
 	<MoveSpeed>4</MoveSpeed>
-	<Flammability>0.2</Flammability>
+	<Flammability>0.1</Flammability>
 	<CarryingCapacity>130</CarryingCapacity>
 	<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 	<ComfyTemperatureMax>1000</ComfyTemperatureMax>
@@ -466,7 +464,7 @@
 	<PainShockThreshold>1.2</PainShockThreshold>
 	<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 	<ArmorRating_Sharp>-0.1</ArmorRating_Sharp>
-	<ArmorRating_Heat>0.6</ArmorRating_Heat>
+	<ArmorRating_Heat>0.2</ArmorRating_Heat>
 </statBases>
 
 <recipes>
@@ -518,7 +516,7 @@
 <damageMultipliers>
 	<li>
 		<damageDef>Flame</damageDef>
-		<multiplier>0</multiplier>
+		<multiplier>0.25</multiplier>
 	</li>
 </damageMultipliers>
 

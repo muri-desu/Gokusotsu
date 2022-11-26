@@ -38,11 +38,11 @@
 	</nullifyingTraits>
 	<stages>
 		<li>
-			<label>physically unsightly</label>
+			<label>kawaii</label>
 			<baseOpinionOffset>20</baseOpinionOffset>
 		</li>
 		<li>
-			<label>physically hideous</label>
+			<label>super kawaii</label>
 			<baseOpinionOffset>40</baseOpinionOffset>
 		</li>
 	</stages>
