@@ -3,192 +3,192 @@
 <!-- Childhood -->
 <NaughtyKids.title>わんぱくな小鬼</NaughtyKids.title>
 <NaughtyKids.titleShort>わんぱく</NaughtyKids.titleShort>
-<NaughtyKids.baseDesc>[PAWN_nameDef]はわんぱくな小鬼でした。</NaughtyKids.baseDesc>
+<NaughtyKids.baseDesc>[PAWN_nameDef]はわんぱくな小鬼でした.</NaughtyKids.baseDesc>
 
 <OtakuKids.title>オタクな小鬼</OtakuKids.title>
 <OtakuKids.titleShort>オタク</OtakuKids.titleShort>
-<OtakuKids.baseDesc>[PAWN_nameDef]はオタクな小鬼でした。</OtakuKids.baseDesc>
+<OtakuKids.baseDesc>[PAWN_nameDef]はオタクな小鬼でした.</OtakuKids.baseDesc>
 
 <InsectKids.title>昆虫博士な小鬼</InsectKids.title>
 <InsectKids.titleShort>昆虫博士</InsectKids.titleShort>
-<InsectKids.baseDesc>[PAWN_nameDef]は昆虫博士な小鬼でした。</InsectKids.baseDesc>
+<InsectKids.baseDesc>[PAWN_nameDef]は昆虫博士な小鬼でした.</InsectKids.baseDesc>
 
 <SleepyKids.title>ねぼすけな小鬼</SleepyKids.title>
 <SleepyKids.titleShort>ねぼすけ</SleepyKids.titleShort>
-<SleepyKids.baseDesc>[PAWN_nameDef]はねぼすけな小鬼でした。</SleepyKids.baseDesc>
+<SleepyKids.baseDesc>[PAWN_nameDef]はねぼすけな小鬼でした.</SleepyKids.baseDesc>
 
 <ClassOfficer.title>学級委員</ClassOfficer.title>
 <ClassOfficer.titleShort>学級委員</ClassOfficer.titleShort>
-<ClassOfficer.baseDesc>[PAWN_nameDef]は寺子屋で学級委員としてリーダーシップを発揮していました。</ClassOfficer.baseDesc>
+<ClassOfficer.baseDesc>[PAWN_nameDef]は寺子屋で学級委員としてリーダーシップを発揮していました.</ClassOfficer.baseDesc>
 
 <Oddball.title>変わり者の小鬼</Oddball.title>
 <Oddball.titleShort>変わり者</Oddball.titleShort>
-<Oddball.baseDesc>[PAWN_nameDef]は風変わりな言動や立ち居振る舞いのため周りから浮いていました。</Oddball.baseDesc>
+<Oddball.baseDesc>[PAWN_nameDef]は風変わりな言動や立ち居振る舞いのため周りから浮いていました.</Oddball.baseDesc>
 
 <Loner.title>ぼっちの小鬼</Loner.title>
 <Loner.titleShort>ぼっち</Loner.titleShort>
-<Loner.baseDesc>[PAWN_nameDef]はいつも1人で行動していました。</Loner.baseDesc>
+<Loner.baseDesc>[PAWN_nameDef]はいつも1人で行動していました.</Loner.baseDesc>
 
 <PopularKid.title>モテモテの小鬼</PopularKid.title>
 <PopularKid.titleShort>モテモテ</PopularKid.titleShort>
-<PopularKid.baseDesc>[PAWN_nameDef]はモテモテでつねに同年代の友人に囲まれていました。</PopularKid.baseDesc>
+<PopularKid.baseDesc>[PAWN_nameDef]はモテモテでつねに同年代の友人に囲まれていました.</PopularKid.baseDesc>
 
 <EarthBred.title>地上生まれの小鬼</EarthBred.title>
 <EarthBred.titleShort>地上生まれ</EarthBred.titleShort>
-<EarthBred.baseDesc>[PAWN_nameDef]はどういうわけか地上に生まれ落ちた鬼子でした。人里で幾度かのトラブルを起こした後法師や陰陽師による更正プログラムを受けて育ちました。</EarthBred.baseDesc>
+<EarthBred.baseDesc>[PAWN_nameDef]はどういうわけか地上に生まれ落ちた鬼子でした.人里で幾度かのトラブルを起こした後法師や陰陽師による更正プログラムを受けて育ちました.</EarthBred.baseDesc>
 
 <PerverseKid.title>あまのじゃく</PerverseKid.title>
 <PerverseKid.titleShort>あまのじゃく</PerverseKid.titleShort>
-<PerverseKid.baseDesc>[PAWN_nameDef]はいじっぱりな天邪鬼でした。</PerverseKid.baseDesc>
+<PerverseKid.baseDesc>[PAWN_nameDef]はいじっぱりな天邪鬼でした.</PerverseKid.baseDesc>
 
 <TagKing.title>鬼ごっこの達人</TagKing.title>
 <TagKing.titleShort>鬼ごっこ王</TagKing.titleShort>
-<TagKing.baseDesc>足の速い[PAWN_nameDef]は鬼ごっこで負け知らずでした。</TagKing.baseDesc>
+<TagKing.baseDesc>足の速い[PAWN_nameDef]は鬼ごっこで負け知らずでした.</TagKing.baseDesc>
 
 <ChampofJustice.title>正義の味方</ChampofJustice.title>
 <ChampofJustice.titleShort>正義の味方</ChampofJustice.titleShort>
-<ChampofJustice.baseDesc>[PAWN_nameDef]は正義のヒーローになるのが夢でした。</ChampofJustice.baseDesc>
+<ChampofJustice.baseDesc>[PAWN_nameDef]は正義のヒーローになるのが夢でした.</ChampofJustice.baseDesc>
 
 <FashionLeader.title>ファッションリーダー</FashionLeader.title>
 <FashionLeader.titleShort>ファッションリーダー</FashionLeader.titleShort>
-<FashionLeader.baseDesc>服が好きな[PAWN_nameDef]は地上のファッション情報を学ぶためよく脱衣婆のところに行っては亡者の服をくすねて帰りました。</FashionLeader.baseDesc>
+<FashionLeader.baseDesc>服が好きな[PAWN_nameDef]は地上のファッション情報を学ぶためよく脱衣婆のところに行っては亡者の服をくすねて帰りました.</FashionLeader.baseDesc>
 
 <ScienceKid.title>マッドサイエンティスト小鬼</ScienceKid.title>
 <ScienceKid.titleShort>科学の子</ScienceKid.titleShort>
-<ScienceKid.baseDesc>[PAWN_nameDef]はこっそり亡者をくすねてきては解剖して天才博士ごっこを楽しんでいました。</ScienceKid.baseDesc>
+<ScienceKid.baseDesc>[PAWN_nameDef]はこっそり亡者をくすねてきては解剖して天才博士ごっこを楽しんでいました.</ScienceKid.baseDesc>
 
 <ChanbaraChamp.title>チャンバラチャンピオン</ChanbaraChamp.title>
 <ChanbaraChamp.titleShort>チャンバラ王</ChanbaraChamp.titleShort>
-<ChanbaraChamp.baseDesc>[PAWN_nameDef]はチャンバラが大好きで、無関係の時でも棒があると振り回して世話役の手を焼かせました。</ChanbaraChamp.baseDesc>
+<ChanbaraChamp.baseDesc>[PAWN_nameDef]はチャンバラが大好きで,無関係の時でも棒があると振り回して世話役の手を焼かせました.</ChanbaraChamp.baseDesc>
 
 <Robotkid.title>ロボット大好き小鬼</Robotkid.title>
 <Robotkid.titleShort>ロボ好き</Robotkid.titleShort>
-<Robotkid.baseDesc>[PAWN_nameDef]は機械の体に憧れる夢見がちな子供でした。地獄での実現が難しい欲求は工作やチャンバラでかろうじて発散されました。</Robotkid.baseDesc>
+<Robotkid.baseDesc>[PAWN_nameDef]は機械の体に憧れる夢見がちな子供でした. 地獄での実現が難しい欲求は工作やチャンバラでかろうじて発散されました.</Robotkid.baseDesc>
 
 <Shadowkid.title>腰巾着の小鬼</Shadowkid.title>
 <Shadowkid.titleShort>腰巾着</Shadowkid.titleShort>
-<Shadowkid.baseDesc>[PAWN_nameDef]はその場その場で一番力を持っている別の小鬼に媚びへつらって子分のポジションに収まるのがうまい小鬼でした。</Shadowkid.baseDesc>
+<Shadowkid.baseDesc>[PAWN_nameDef]はその場その場で一番力を持っている別の小鬼に媚びへつらって子分のポジションに収まるのがうまい小鬼でした.</Shadowkid.baseDesc>
 
 <!-- Adulthood -->
 <GamblerGokusotsu.title>ギャンブラー</GamblerGokusotsu.title>
 <GamblerGokusotsu.titleShort>ギャンブラー</GamblerGokusotsu.titleShort>
-<GamblerGokusotsu.baseDesc>[PAWN_nameDef]は”宵越の金は持たない”がモットーで、有金を賭け麻雀で全部すっては頻繁に仲間に借金を作っていました。</GamblerGokusotsu.baseDesc>
+<GamblerGokusotsu.baseDesc>[PAWN_nameDef]は”宵越の金は持たない”がモットーで, 有金を賭け麻雀で全部すっては頻繁に仲間に借金を作っていました.</GamblerGokusotsu.baseDesc>
 
 <KaraokeGokusotsu.title>カラオケの達人</KaraokeGokusotsu.title>
 <KaraokeGokusotsu.titleShort>カラオケの達人</KaraokeGokusotsu.titleShort>
-<KaraokeGokusotsu.baseDesc>[PAWN_nameDef]の歌唱力は亡者の頭を爆破させたり耳から血を噴き出させたりするのに重宝しました。激しい振り付けで鍛えられた体力は、ケチをつけた者をぶちのめすのにも役立ちました。</KaraokeGokusotsu.baseDesc>
+<KaraokeGokusotsu.baseDesc>[PAWN_nameDef]の歌唱力は亡者の頭を爆破させたり耳から血を噴き出させたりするのに重宝しました. 激しい振り付けで鍛えられた体力は, ケチをつけた者をぶちのめすのにも役立ちました.</KaraokeGokusotsu.baseDesc>
 
 <BootleggerGokusotsu_A.title>どぶろく職人</BootleggerGokusotsu_A.title>
 <BootleggerGokusotsu_A.titleShort>どぶろく職人</BootleggerGokusotsu_A.titleShort>
-<BootleggerGokusotsu_A.baseDesc>おいしい酒をなるべく安くたらふく飲みたいと思った[PAWN_nameDef]は酒の密造に熱中していました。</BootleggerGokusotsu_A.baseDesc>
+<BootleggerGokusotsu_A.baseDesc>おいしい酒をなるべく安くたらふく飲みたいと思った[PAWN_nameDef]は酒の密造に熱中していました.</BootleggerGokusotsu_A.baseDesc>
 
 <BootleggerGokusotsu_B.title>どぶろく職人</BootleggerGokusotsu_B.title>
 <BootleggerGokusotsu_B.titleShort>どぶろく職人</BootleggerGokusotsu_B.titleShort>
-<BootleggerGokusotsu_B.baseDesc>安く作った酒で金儲けをしようと思った[PAWN_nameDef]は亡者の肝や吐瀉物を使った密造酒を売りさばいて広範囲の食中毒アウトブレイクを起こして厳しく怒られましたが、糞尿地獄に潤沢なリソースをもたらしました。</BootleggerGokusotsu_B.baseDesc>
+<BootleggerGokusotsu_B.baseDesc>安く作った酒で金儲けをしようと思った[PAWN_nameDef]は亡者の肝や吐瀉物を使った密造酒を売りさばいて広範囲の食中毒アウトブレイクを起こして厳しく怒られましたが, 糞尿地獄に潤沢なリソースをもたらしました.</BootleggerGokusotsu_B.baseDesc>
 
 <DramaQueenGokusotsu.title>サークルクラッシャー</DramaQueenGokusotsu.title>
 <DramaQueenGokusotsu.titleShort>サークラ</DramaQueenGokusotsu.titleShort>
-<DramaQueenGokusotsu.baseDesc>[PAWN_nameDef]は常にコミュニティの主役でいたがります。自分のメンツが十分立てられていないと感じると人間関係を操作して破壊的な結末に導きがちです。</DramaQueenGokusotsu.baseDesc>
+<DramaQueenGokusotsu.baseDesc>[PAWN_nameDef]は常にコミュニティの主役でいたがります. 自分が十分注目されていないと感じると人間関係を操作して破壊的な結末に導きがちです.</DramaQueenGokusotsu.baseDesc>
 
 <ModelerGokusotsu.title>模型職人</ModelerGokusotsu.title>
 <ModelerGokusotsu.titleShort>モデラー</ModelerGokusotsu.titleShort>
-<ModelerGokusotsu.baseDesc>手先が器用な[PAWN_nameDef]は建築用のミニチュアや調度品の装飾を作るのが得意でした。ゴツくて太い指から作られるとは想像できないような繊細なディテールを仕上げてみせたものです。</ModelerGokusotsu.baseDesc>
+<ModelerGokusotsu.baseDesc>手先が器用な[PAWN_nameDef]は建築用のミニチュアや調度品の装飾を作るのが得意でした. ゴツくて太い指から作られるとは想像できないような繊細なディテールを仕上げてみせたものです.</ModelerGokusotsu.baseDesc>
 
 <FisherGokusotsu.title>釣り師</FisherGokusotsu.title>
 <FisherGokusotsu.titleShort>釣り師</FisherGokusotsu.titleShort>
-<FisherGokusotsu.baseDesc>[PAWN_nameDef]は釣りが好きで、休日にはハイキングも兼ねて血の池や三途の川にイキのいい亡者を釣りに行きました。</FisherGokusotsu.baseDesc>
+<FisherGokusotsu.baseDesc>[PAWN_nameDef]は釣りが好きで, 休日にはハイキングも兼ねて血の池や三途の川にイキのいい亡者を釣りに行きました.</FisherGokusotsu.baseDesc>
 
 <NekoDaisukiGokusotsu.title>猫ちゃん大好き</NekoDaisukiGokusotsu.title>
 <NekoDaisukiGokusotsu.titleShort>猫大好き</NekoDaisukiGokusotsu.titleShort>
-<NekoDaisukiGokusotsu.baseDesc>[PAWN_nameDef]は猫ちゃん大好きで、自宅でも亡者食い殺し任務を終えた老齢の地獄虎などを引き取って可愛がっていました。”門”の向こうに置き去りになってしまった猫ちゃん達が獄卒喰い事案を起こしてないか心配しています。</NekoDaisukiGokusotsu.baseDesc>
+<NekoDaisukiGokusotsu.baseDesc>[PAWN_nameDef]は猫ちゃん大好きで, 自宅でも亡者食い殺し任務を終えた老齢の地獄虎などを引き取って可愛がっていました. ”門”の向こうに置き去りになってしまった猫ちゃん達が獄卒喰い事案を起こしてないか心配しています.</NekoDaisukiGokusotsu.baseDesc>
 
 <HawkerGokusotsu.title>鷹匠</HawkerGokusotsu.title>
 <HawkerGokusotsu.titleShort>鷹匠</HawkerGokusotsu.titleShort>
-<HawkerGokusotsu.baseDesc>[PAWN_nameDef]は地獄原産の鷹のような猛禽を訓練して亡者を啄ばませる係で、休日には彼らとのスキンシップも欠かしませんでした。</HawkerGokusotsu.baseDesc>
+<HawkerGokusotsu.baseDesc>[PAWN_nameDef]は地獄原産の鷹のような猛禽を訓練して亡者を啄ばませる係で, 休日には彼らとのスキンシップも欠かしませんでした.</HawkerGokusotsu.baseDesc>
 
 <DIYGokusotsu.title>日曜大工</DIYGokusotsu.title>
 <DIYGokusotsu.titleShort>日曜大工</DIYGokusotsu.titleShort>
-<DIYGokusotsu.baseDesc>大工仕事が得意な[PAWN_nameDef]は休日でも自室の改造に勤しんでいました。</DIYGokusotsu.baseDesc>
+<DIYGokusotsu.baseDesc>大工仕事が得意な[PAWN_nameDef]は休日でも自室の改造に勤しんでいました.</DIYGokusotsu.baseDesc>
 
 <BookwormGokusotsu.title>本の虫</BookwormGokusotsu.title>
 <BookwormGokusotsu.titleShort>本の虫</BookwormGokusotsu.titleShort>
-<BookwormGokusotsu.baseDesc>[PAWN_nameDef]は読書家で新旧の書物を2000年分ほど積んでいました。地獄の住宅は古いものが多いので床が抜ける事故もしょっちゅうありました。</BookwormGokusotsu.baseDesc>
+<BookwormGokusotsu.baseDesc>[PAWN_nameDef]は読書家で新旧の書物を2000年分ほど積んでいました.地獄の住宅は古いものが多いので床が抜ける事故もしょっちゅうありました.</BookwormGokusotsu.baseDesc>
 
 <BandsmanGokusotsu.title>バンドマン</BandsmanGokusotsu.title>
 <BandsmanGokusotsu.titleShort>バンドマン</BandsmanGokusotsu.titleShort>
-<BandsmanGokusotsu.baseDesc>[PAWN_nameDef]は趣味の楽隊に所属して現世の楽曲を演奏したりしていました。</BandsmanGokusotsu.baseDesc>
+<BandsmanGokusotsu.baseDesc>[PAWN_nameDef]は趣味の楽隊に所属して現世の楽曲を演奏したりしていました.</BandsmanGokusotsu.baseDesc>
 
 <CamperGokusotsu.title>ソロキャンパー</CamperGokusotsu.title>
 <CamperGokusotsu.titleShort>ソロキャンパー</CamperGokusotsu.titleShort>
-<CamperGokusotsu.baseDesc>[PAWN_nameDef]はカスタムしたキャンピング火車で鬼里離れた山間に出向くのが趣味でした。鉄笹に絡まって揺れる臓物などの自然風景を堪能したり、彷徨う亡者を狩って飯盒で炊いていただいたり、優雅な休暇を過ごしたものです。</CamperGokusotsu.baseDesc>
+<CamperGokusotsu.baseDesc>[PAWN_nameDef]はカスタムしたキャンピング火車で鬼里離れた山間に出向くのが趣味でした. 鉄笹に絡まって揺れる臓物などの自然風景を堪能したり, 彷徨う亡者を狩って飯盒で炊いていただいたり, 優雅な休暇を過ごしたものです.</CamperGokusotsu.baseDesc>
 
 <EarnestGokusotsu.title>真面目な獄卒</EarnestGokusotsu.title>
 <EarnestGokusotsu.titleShort>真面目</EarnestGokusotsu.titleShort>
-<EarnestGokusotsu.baseDesc>[PAWN_nameDef]は真面目な働き者です。同僚から付き合いが悪いと言われることもしばしばです。</EarnestGokusotsu.baseDesc>
+<EarnestGokusotsu.baseDesc>[PAWN_nameDef]は真面目な働き者です. 同僚から付き合いが悪いと言われることもしばしばです.</EarnestGokusotsu.baseDesc>
 
 <LaidBackGokusotsu.title>不真面目な獄卒</LaidBackGokusotsu.title>
 <LaidBackGokusotsu.titleShort>不真面目</LaidBackGokusotsu.titleShort>
-<LaidBackGokusotsu.baseDesc>[PAWN_nameDef]は獄卒らしく威厳を誇示したりあくせくすることが苦手です。時々業務をサボってほろ酔いになったり亡者と雀卓を囲むのが[PAWN_pronoun]のお気に入りの時間でした。</LaidBackGokusotsu.baseDesc>
+<LaidBackGokusotsu.baseDesc>[PAWN_nameDef]は獄卒らしく威厳を誇示したりあくせくすることが苦手です. 時々業務をサボってほろ酔いになったり亡者と雀卓を囲むのが[PAWN_pronoun]のお気に入りの時間でした.</LaidBackGokusotsu.baseDesc>
 
 <CarelessGokusotsu.title>不注意な獄卒</CarelessGokusotsu.title>
 <CarelessGokusotsu.titleShort>ドジ</CarelessGokusotsu.titleShort>
-<CarelessGokusotsu.baseDesc>[PAWN_nameDef]はうっかり者で、酒を飲んでる飲んでないに関わらずしょっちゅう転んで針山に刺さったり足を滑らせて血の池に落ちたりしていました。防災課にとっては頭の痛くなる存在でした。</CarelessGokusotsu.baseDesc>
+<CarelessGokusotsu.baseDesc>[PAWN_nameDef]はうっかり者で, 酒を飲んでる飲んでないに関わらずしょっちゅう転んで針山に刺さったり足を滑らせて血の池に落ちたりしていました. 防災課にとっては頭の痛くなる存在でした.</CarelessGokusotsu.baseDesc>
 
 <SensitiveGokusotsu.title>繊細な獄卒</SensitiveGokusotsu.title>
 <SensitiveGokusotsu.titleShort>繊細</SensitiveGokusotsu.titleShort>
-<SensitiveGokusotsu.baseDesc>亡者の嘆きや苦しみが伝わってくるようで、[PAWN_nameDef]は自分の職場が嫌いでした。クヨクヨした振る舞いをよく馬鹿にされましたが作業内容によっては他の獄卒達を唸らせる繊細な仕事をやってのけました。</SensitiveGokusotsu.baseDesc>
+<SensitiveGokusotsu.baseDesc>亡者の嘆きや苦しみが伝わってくるようで, [PAWN_nameDef]は自分の職場が嫌いでした. クヨクヨした振る舞いをよく馬鹿にされましたが作業内容によっては他の獄卒達を唸らせる繊細な仕事をやってのけました.</SensitiveGokusotsu.baseDesc>
 
 <ShortTemperedGokusotsu.title>短気な獄卒</ShortTemperedGokusotsu.title>
 <ShortTemperedGokusotsu.titleShort>短気</ShortTemperedGokusotsu.titleShort>
-<ShortTemperedGokusotsu.baseDesc>[PAWN_nameDef]は喧嘩っ早いです。喧嘩ある所[PAWN_pronoun]が関わっている確率が高いです。</ShortTemperedGokusotsu.baseDesc>
+<ShortTemperedGokusotsu.baseDesc>[PAWN_nameDef]は喧嘩っ早いです. 喧嘩ある所[PAWN_pronoun]が関わっている確率が高いです.</ShortTemperedGokusotsu.baseDesc>
 
 <ClubberGokusotsu.title>陽気な獄卒</ClubberGokusotsu.title>
 <ClubberGokusotsu.titleShort>パリピ</ClubberGokusotsu.titleShort>
-<ClubberGokusotsu.baseDesc>[PAWN_nameDef]はパーティー大好きで陽気なお調子者です。</ClubberGokusotsu.baseDesc>
+<ClubberGokusotsu.baseDesc>[PAWN_nameDef]はパーティー大好きで陽気なお調子者です.</ClubberGokusotsu.baseDesc>
 
 <GluttonousGokusotsu.title>大食いの獄卒</GluttonousGokusotsu.title>
 <GluttonousGokusotsu.titleShort>大食い</GluttonousGokusotsu.titleShort>
-<GluttonousGokusotsu.baseDesc>[PAWN_nameDef]は食いしん坊で、隙あらば亡者をつまみ食いして名簿の帳尻を狂わせました。</GluttonousGokusotsu.baseDesc>
+<GluttonousGokusotsu.baseDesc>[PAWN_nameDef]は食いしん坊で, 隙あらば亡者をつまみ食いして名簿の帳尻を狂わせました.</GluttonousGokusotsu.baseDesc>
 
 <AbsenteeGokusotsu.title>バックラー獄卒</AbsenteeGokusotsu.title>
 <AbsenteeGokusotsu.titleShort>バックラー</AbsenteeGokusotsu.titleShort>
-<AbsenteeGokusotsu.baseDesc>[PAWN_nameDef]はしょっちゅう無断欠勤したり勝手に亡者に持ち場を任せて行方不明になったりするので周囲の顰蹙を買っていました。</AbsenteeGokusotsu.baseDesc>
+<AbsenteeGokusotsu.baseDesc>[PAWN_nameDef]はしょっちゅう無断欠勤したり勝手に亡者に持ち場を任せて行方不明になったりするので周囲の顰蹙を買っていました.</AbsenteeGokusotsu.baseDesc>
 
 <NondrinkerGokusotsu_A.title>下戸の獄卒</NondrinkerGokusotsu_A.title>
 <NondrinkerGokusotsu_A.titleShort>下戸</NondrinkerGokusotsu_A.titleShort>
-<NondrinkerGokusotsu_A.baseDesc>[PAWN_nameDef]は酒類があまり好きではありません。生前アル中だった亡者が専用の区画で罰せられているのに他の獄卒達はしょっちゅう飲んだくれている事実にも納得がいってませんでした。</NondrinkerGokusotsu_A.baseDesc>
+<NondrinkerGokusotsu_A.baseDesc>[PAWN_nameDef]は酒類があまり好きではありません. 生前アル中だった亡者が専用の区画で罰せられているのに他の獄卒達はしょっちゅう飲んだくれている事実にも納得がいってませんでした.</NondrinkerGokusotsu_A.baseDesc>
 
 <NondrinkerGokusotsu_B.title>下戸の獄卒</NondrinkerGokusotsu_B.title>
 <NondrinkerGokusotsu_B.titleShort>下戸</NondrinkerGokusotsu_B.titleShort>
-<NondrinkerGokusotsu_B.baseDesc>[PAWN_nameDef]自身は酒類があまり好きではありませんが、世渡りに利用できるような他の獄卒達の恥ずかしい振る舞いやオフレコ話をゲットするため宴の席には必ず出席しました。</NondrinkerGokusotsu_B.baseDesc>
+<NondrinkerGokusotsu_B.baseDesc>[PAWN_nameDef]自身は酒類があまり好きではありませんが, 世渡りに利用できるような他の獄卒達の恥ずかしい振る舞いやオフレコ話をゲットするため宴の席には必ず出席しました.</NondrinkerGokusotsu_B.baseDesc>
 
 <ResponseGokusotsu.title>即応警邏獄卒</ResponseGokusotsu.title>
 <ResponseGokusotsu.titleShort>即応警邏</ResponseGokusotsu.titleShort>
-<ResponseGokusotsu.baseDesc>[PAWN_nameDef]は状況に応じた見回りや即応警備に特化した職員でした。現世で大災害などがあった後は受け入れ区画に急行しほとんど休みなく任務にあたりました。錯乱して暴れる亡者をなだめるのも[PAWN_pronoun]の重要な仕事の一つでした。</ResponseGokusotsu.baseDesc>
+<ResponseGokusotsu.baseDesc>[PAWN_nameDef]は状況に応じた見回りや即応警備に特化した職員でした. 現世で大災害などがあった後は受け入れ区画に急行しほとんど休みなく任務にあたりました. 錯乱して暴れる亡者をなだめるのも[PAWN_pronoun]の重要な仕事の一つでした.</ResponseGokusotsu.baseDesc>
 
 <PlumberGokusotsu.title>配管工</PlumberGokusotsu.title>
 <PlumberGokusotsu.titleShort>配管工</PlumberGokusotsu.titleShort>
-<PlumberGokusotsu.baseDesc>[PAWN_nameDef]は地獄におけるインフラのあらゆる管…つまり煮えたぎる血や金属、腐った吐瀉物や液状化した亡者の通る管の整備に精通していました。</PlumberGokusotsu.baseDesc>
+<PlumberGokusotsu.baseDesc>[PAWN_nameDef]は地獄におけるインフラのあらゆる管…つまり煮えたぎる血や金属, 腐った吐瀉物や液状化した亡者の通る管の整備に精通していました.</PlumberGokusotsu.baseDesc>
 
 <BloodPondGardener.title>血の池造園士</BloodPondGardener.title>
 <BloodPondGardener.titleShort>造園士</BloodPondGardener.titleShort>
-<BloodPondGardener.baseDesc>[PAWN_nameDef]の職場は亡者を放り込むための煮えたぎる血の池の整備でした。</BloodPondGardener.baseDesc>
+<BloodPondGardener.baseDesc>[PAWN_nameDef]の職場は亡者を放り込むための煮えたぎる血の池の整備でした.</BloodPondGardener.baseDesc>
 
 <HariyamaGardener.title>針山植林作業獄卒</HariyamaGardener.title>
 <HariyamaGardener.titleShort>植林作業員</HariyamaGardener.titleShort>
-<HariyamaGardener.baseDesc>[PAWN_nameDef]は亡者が登る針山に生える鉄松や鉄笹を扱う森林作業員でした。鉄の需要に応じて伐採したり、絡まった亡者を枝から取り除くのが主な日課でした。</HariyamaGardener.baseDesc>
+<HariyamaGardener.baseDesc>[PAWN_nameDef]は亡者が登る針山に生える鉄松や鉄笹を扱う森林作業員でした. 鉄の需要に応じて伐採したり, 絡まった亡者を枝から取り除くのが主な日課でした.</HariyamaGardener.baseDesc>
 
 <CraftsmanGokusotsu_A.title>金物職人</CraftsmanGokusotsu_A.title>
 <CraftsmanGokusotsu_A.titleShort>金物職人</CraftsmanGokusotsu_A.titleShort>
-<CraftsmanGokusotsu_A.baseDesc>[PAWN_nameDef]は鉄瓶とか鉄柄杓のような日用小物の金属加工品が得意な職人でした。拘束具や小火器も得意です。</CraftsmanGokusotsu_A.baseDesc>
+<CraftsmanGokusotsu_A.baseDesc>[PAWN_nameDef]は鉄瓶とか鉄柄杓のような日用小物の金属加工品が得意な職人でした. 拘束具や小火器も得意です.</CraftsmanGokusotsu_A.baseDesc>
 
 <CraftsmanGokusotsu_B.title>瀬戸物職人</CraftsmanGokusotsu_B.title>
 <CraftsmanGokusotsu_B.titleShort>瀬戸物職人</CraftsmanGokusotsu_B.titleShort>
-<CraftsmanGokusotsu_B.baseDesc>[PAWN_nameDef]は茶碗とか水瓶のような陶器制作が得意な職人でした。骨壷や土偶も得意です。</CraftsmanGokusotsu_B.baseDesc>
+<CraftsmanGokusotsu_B.baseDesc>[PAWN_nameDef]は茶碗とか水瓶のような陶器制作が得意な職人でした. 骨壷や土偶も得意です.</CraftsmanGokusotsu_B.baseDesc>
 
 <SanzuRiverGokusotsu_A.title>賽の河原巡回獄卒</SanzuRiverGokusotsu_A.title>
 <SanzuRiverGokusotsu_A.titleShort>賽の河原</SanzuRiverGokusotsu_A.titleShort>
-<SanzuRiverGokusotsu_A.baseDesc>[PAWN_nameDef]はいわゆる”賽の河原”で子供が積んだ石を突き崩して回る仕事担当でした。</SanzuRiverGokusotsu_A.baseDesc>
+<SanzuRiverGokusotsu_A.baseDesc>[PAWN_nameDef]はいわゆる”賽の河原”で子供が積んだ石を突き崩して回る仕事担当でした.</SanzuRiverGokusotsu_A.baseDesc>
 
 <SanzuRiverGokusotsu_B.title>三途の川の橋大工</SanzuRiverGokusotsu_B.title>
 <SanzuRiverGokusotsu_B.titleShort>三途の橋大工</SanzuRiverGokusotsu_B.titleShort>
@@ -196,66 +196,66 @@
 
 <SanzuRiverGokusotsu_C.title>三途の下流射手</SanzuRiverGokusotsu_C.title>
 <SanzuRiverGokusotsu_C.titleShort>三途の射手</SanzuRiverGokusotsu_C.titleShort>
-<SanzuRiverGokusotsu_C.baseDesc>[PAWN_nameDef]の業務は三途の川の下流で水面に浮かんでくる亡者の頭にひたすら矢を射ることでした。</SanzuRiverGokusotsu_C.baseDesc>
+<SanzuRiverGokusotsu_C.baseDesc>[PAWN_nameDef]の業務は三途の川の下流で水面に浮かんでくる亡者の頭にひたすら矢を射ることでした.</SanzuRiverGokusotsu_C.baseDesc>
 
 <EmbezzlerGokusotsu.title>横領経理マン獄卒</EmbezzlerGokusotsu.title>
 <EmbezzlerGokusotsu.titleShort>横領経理マン</EmbezzlerGokusotsu.titleShort>
-<EmbezzlerGokusotsu.baseDesc>[PAWN_nameDef]は閻魔様のへそくりをネコババして若い愛人に注ぎ込んだ結果およそ3628321676392470421480003892000000年懲役の判決を言い渡されるため拘置エリアで待機中でした。</EmbezzlerGokusotsu.baseDesc>
+<EmbezzlerGokusotsu.baseDesc>[PAWN_nameDef]は閻魔様のへそくりをネコババして若い愛人に注ぎ込んだ結果およそ3628321676392470421480003892000000年懲役の判決を言い渡されるため拘置エリアで待機中でした.</EmbezzlerGokusotsu.baseDesc>
 
 <FireWatcherGokusotsu.title>火の見番人獄卒</FireWatcherGokusotsu.title>
 <FireWatcherGokusotsu.titleShort>火の見番人</FireWatcherGokusotsu.titleShort>
-<FireWatcherGokusotsu.baseDesc>地獄では大小様々な炎が利用されています。[PAWN_nameDef]はそれらを絶やさぬよう見まわりと共に消えそうな火種を焚きつけて吹き返す仕事を受け持っていました。</FireWatcherGokusotsu.baseDesc>
+<FireWatcherGokusotsu.baseDesc>地獄では大小様々な炎が利用されています. [PAWN_nameDef]はそれらを絶やさぬよう見まわりと共に消えそうな火種を焚きつけて吹き返す仕事を受け持っていました.</FireWatcherGokusotsu.baseDesc>
 
 <BangashiraGokusotsu_A.title>鬼上司</BangashiraGokusotsu_A.title>
 <BangashiraGokusotsu_A.titleShort>鬼上司</BangashiraGokusotsu_A.titleShort>
-<BangashiraGokusotsu_A.baseDesc>[PAWN_nameDef]は人当たりが良く頼れる上司として部下から人気でしたが、中間管理職の気苦労がすごくノイローゼ気味でした。</BangashiraGokusotsu_A.baseDesc>
+<BangashiraGokusotsu_A.baseDesc>[PAWN_nameDef]は人当たりが良く頼れる上司として部下から人気でしたが, 中間管理職の気苦労がすごくノイローゼ気味でした.</BangashiraGokusotsu_A.baseDesc>
 
 <BangashiraGokusotsu_B.title>鬼上司</BangashiraGokusotsu_B.title>
 <BangashiraGokusotsu_B.titleShort>鬼上司</BangashiraGokusotsu_B.titleShort>
-<BangashiraGokusotsu_B.baseDesc>[PAWN_nameDef]は性格の悪い上司としてたくさんの新入り獄卒を潰しましたが、本人は気苦労がほとんどなくしぶとく職場に残り続けました。</BangashiraGokusotsu_B.baseDesc>
+<BangashiraGokusotsu_B.baseDesc>[PAWN_nameDef]は性格の悪い上司としてたくさんの新入り獄卒を潰しましたが, 本人は気苦労がほとんどなくしぶとく職場に残り続けました.</BangashiraGokusotsu_B.baseDesc>
 
 <FunnnyouGokusotsu.title>肥溜め人足</FunnnyouGokusotsu.title>
 <FunnnyouGokusotsu.titleShort>肥溜め人足</FunnnyouGokusotsu.titleShort>
-<FunnnyouGokusotsu.baseDesc>[PAWN_nameDef]は糞尿地獄にブツを運び込む人足でした。ここ100年では地獄でも水洗便所の普及しており仕事が減ってきて暇を持て余していました。</FunnnyouGokusotsu.baseDesc>
+<FunnnyouGokusotsu.baseDesc>[PAWN_nameDef]は糞尿地獄にブツを運び込む人足でした. ここ100年では地獄でも水洗便所の普及しており仕事が減ってきて暇を持て余していました.</FunnnyouGokusotsu.baseDesc>
 
 <ReturneeGokusotsu.title>海外出張獄卒</ReturneeGokusotsu.title>
 <ReturneeGokusotsu.titleShort>出張研修員</ReturneeGokusotsu.titleShort>
-<ReturneeGokusotsu.baseDesc>[PAWN_nameDef]は技術革新と文化交流のため異教圏の地獄に派遣された駐在員でした。</ReturneeGokusotsu.baseDesc>
+<ReturneeGokusotsu.baseDesc>[PAWN_nameDef]は技術革新と文化交流のため異教圏の地獄に派遣された駐在員でした.</ReturneeGokusotsu.baseDesc>
 
 <FoodStallGokusotsu_A.title>屋台の親父</FoodStallGokusotsu_A.title>
 <FoodStallGokusotsu_A.titleShort>屋台の親父</FoodStallGokusotsu_A.titleShort>
-<FoodStallGokusotsu_A.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした。肝心の料理はたいして美味しくもないものでしたが、追加料金を出すと朝っぱらでもこっそり酒を出してくれるためまあまあ繁盛しました。</FoodStallGokusotsu_A.baseDesc>
+<FoodStallGokusotsu_A.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした. 肝心の料理はたいして美味しくもないものでしたが, 追加料金を出すと朝っぱらでもこっそり酒を出してくれるためまあまあ繁盛しました.</FoodStallGokusotsu_A.baseDesc>
 
 <FoodStallGokusotsu_B.title>屋台の親父</FoodStallGokusotsu_B.title>
 <FoodStallGokusotsu_B.titleShort>屋台の親父</FoodStallGokusotsu_B.titleShort>
-<FoodStallGokusotsu_B.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした。勤務中の者には絶対アルコールを出さない堅物でしたが、きちんとした美味しい食事を出すのでまあまあ繁盛しました。</FoodStallGokusotsu_B.baseDesc>
+<FoodStallGokusotsu_B.baseDesc>[PAWN_nameDef]はカスタムした野外炊事用火車を引いて方々の現場を渡り歩く屋台の親父でした. 勤務中の者には絶対アルコールを出さない堅物でしたが, きちんとした美味しい食事を出すのでまあまあ繁盛しました.</FoodStallGokusotsu_B.baseDesc>
 
 <MessengerGokusotsu.title>昔気質の飛脚</MessengerGokusotsu.title>
 <MessengerGokusotsu.titleShort>飛脚</MessengerGokusotsu.titleShort>
-<MessengerGokusotsu.baseDesc>[PAWN_nameDef]は飛脚として伝書烏の届かないエリアを駆け回るのが仕事でしたが、ある日スーパーハイテクマシン”ファクシミリ”の登場によって情報電信部の内勤に転属となりました。”門”から未開の異世界に飛ばされたので機械と和解する必要がなくなり大喜びの[PAWN_pronoun]ですが、この星の宇宙世紀技術についていけるのでしょうか……？</MessengerGokusotsu.baseDesc>
+<MessengerGokusotsu.baseDesc>[PAWN_nameDef]は飛脚として伝書烏の届かないエリアを駆け回るのが仕事でしたが, ある日スーパーハイテクマシン”ファクシミリ”の登場によって情報電信部の内勤に転属となりました. ”門”から未開の異世界に飛ばされたので機械と和解する必要がなくなり大喜びの[PAWN_pronoun]ですが, この星の宇宙世紀技術についていけるのでしょうか……？</MessengerGokusotsu.baseDesc>
 
 <ConveyorGokusotsu.title>タンポポを乗せる仕事</ConveyorGokusotsu.title>
 <ConveyorGokusotsu.titleShort>タンポポ担当</ConveyorGokusotsu.titleShort>
-<ConveyorGokusotsu.baseDesc>[PAWN_nameDef]の担当はベルトコンベアーで流れてくる亡者にタンポポを乗せる簡単な仕事でした。何のためのタンポポなのかという疑問も持たず、そもそもタンポポではなく菊だという真実も知ることなく1日50時間亡者にタンポポを乗せ続けました。</ConveyorGokusotsu.baseDesc>
+<ConveyorGokusotsu.baseDesc>[PAWN_nameDef]の担当はベルトコンベアーで流れてくる亡者にタンポポを乗せる簡単な仕事でした. 何のためのタンポポなのかという疑問も持たず, そもそもタンポポではなく菊だという真実も知ることなく1日50時間亡者にタンポポを乗せ続けました.</ConveyorGokusotsu.baseDesc>
 
 <UturnGokusotsu.title>Uターン獄卒</UturnGokusotsu.title>
 <UturnGokusotsu.titleShort>Uターン獄卒</UturnGokusotsu.titleShort>
-<UturnGokusotsu.baseDesc>[PAWN_nameDef]は夢を抱いて一度は地上に出て行きましたが行く先々で土着の妖怪や土地神、里の人間とうまくいかず元の職場に舞い戻りました。</UturnGokusotsu.baseDesc>
+<UturnGokusotsu.baseDesc>[PAWN_nameDef]は夢を抱いて一度は地上に出て行きましたが行く先々で土着の妖怪や土地神, 里の人間とうまくいかず元の職場に舞い戻りました.</UturnGokusotsu.baseDesc>
 
 <IturnGokusotsu.title>Iターン獄卒</IturnGokusotsu.title>
 <IturnGokusotsu.titleShort>Iターン獄卒</IturnGokusotsu.titleShort>
-<IturnGokusotsu.baseDesc>[PAWN_nameDef]はもともと地上で生活していましたが、人間からのプレッシャーや都市開発の影響から逃れるため地獄に移住し獄卒として再就職を果たしました。</IturnGokusotsu.baseDesc>
+<IturnGokusotsu.baseDesc>[PAWN_nameDef]はもともと地上で生活していましたが, 人間からのプレッシャーや都市開発の影響から逃れるため地獄に移住し獄卒として再就職を果たしました.</IturnGokusotsu.baseDesc>
 
 <HotokeKyoushiGokusotsu.title>寺子屋の教員</HotokeKyoushiGokusotsu.title>
 <HotokeKyoushiGokusotsu.titleShort>先生</HotokeKyoushiGokusotsu.titleShort>
-<HotokeKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める、地獄に仏と称されるような物腰の柔らかい先生でした。</HotokeKyoushiGokusotsu.baseDesc>
+<HotokeKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める, 地獄に仏と称されるような物腰の柔らかい先生でした.</HotokeKyoushiGokusotsu.baseDesc>
 
 <OniKyoushiGokusotsu.title>寺子屋の教員</OniKyoushiGokusotsu.title>
 <OniKyoushiGokusotsu.titleShort>先生</OniKyoushiGokusotsu.titleShort>
-<OniKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める、まさに鬼教師と称されるような横暴な先生でした。</OniKyoushiGokusotsu.baseDesc>
+<OniKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める, まさに鬼教師と称されるような横暴な先生でした.</OniKyoushiGokusotsu.baseDesc>
 
 <KyomuKyoushiGokusotsu.title>寺子屋の教員</KyomuKyoushiGokusotsu.title>
 <KyomuKyoushiGokusotsu.titleShort>先生</KyomuKyoushiGokusotsu.titleShort>
-<KyomuKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める、何かあればすぐ自習にして自分は準備室で昼寝するようなだらしない先生でした。</KyomuKyoushiGokusotsu.baseDesc>
+<KyomuKyoushiGokusotsu.baseDesc>[PAWN_nameDef]は寺子屋のような教育施設に勤める, 何かあればすぐ自習にして自分は準備室で昼寝するようなだらしない先生でした.</KyomuKyoushiGokusotsu.baseDesc>
 
 </LanguageData>

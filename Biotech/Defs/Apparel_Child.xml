@@ -3,8 +3,8 @@
 
 <ThingDef ParentName="GHG_ApparelBase"><!-- 腹がけ -->
 	<defName>Apparel_Haragake</defName>
-		<label>Haragake</label>
-		<description>Apparel for demon kids.</description>
+		<label>Kids' apron</label>
+		<description>An Apron-like easy cloth for kids.</description>
 
 	<graphicData>
 		<texPath>Things/Apparel/Haragake</texPath>
@@ -54,7 +54,7 @@
 
 <ThingDef ParentName="GHG_HatBase"><!-- 雪ん子 -->
 	<defName>Apparel_Yukinko</defName>
-		<label>Yukinko</label>
+		<label>Straw cape</label>
 		<description>Winter cape made out of straw.</description>
 
 	<graphicData>

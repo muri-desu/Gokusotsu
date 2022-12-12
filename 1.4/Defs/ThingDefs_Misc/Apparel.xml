@@ -22,13 +22,15 @@
 	<thingCategories>
 		<li>GHG_Apparel</li>
 	</thingCategories>
-	<tradeability>Sellable</tradeability>
 	<colorGenerator Class="ColorGenerator_StandardApparel" />
+	<tradeTags>
+		<li>GHG_Apparel</li>
+	</tradeTags>
 </ThingDef>	
 
 <ThingDef ParentName="GHG_ApparelBase"><!-- 褌A -->
 	<defName>Apparel_FundoshiA</defName>
-		<label>Fundoshi</label>
+		<label>Loincloth A</label>
 		<description>An old-fashioned undergarment made of a single piece of cloth about six feet long.</description>
 
 	<graphicData>
@@ -54,6 +56,7 @@
 	<apparel>
 		<bodyPartGroups>
 			<li>Waist</li>
+			<li>Legs</li>
 			<li MayRequire="rim.job.world">GenitalsBPG</li>
 		</bodyPartGroups>
 		<layers>
@@ -68,8 +71,8 @@
 
 <ThingDef ParentName="GHG_ApparelBase"><!-- 褌B -->
 	<defName>Apparel_FundoshiB</defName>
-		<label>Fundoshi w/ maedare</label>
-		<description>Fundoshi with a front hanging down.</description>
+		<label>Loincloth B</label>
+		<description>Loincloth with a front hanging down.</description>
 
 	<graphicData>
 		<texPath>Things/Apparel/FundoshiB</texPath>
@@ -94,6 +97,7 @@
 	<apparel>
 		<bodyPartGroups>
 			<li>Waist</li>
+			<li>Legs</li>
 			<li MayRequire="rim.job.world">GenitalsBPG</li>
 		</bodyPartGroups>
 		<layers>
@@ -108,8 +112,8 @@
 
 <ThingDef ParentName="GHG_ApparelBase"><!-- 横幅衣・腰布 -->
 	<defName>Apparel_Koshinuno</defName>
-		<label>Koshinuno</label>
-		<description>Rough garment to cover waist and hips like sarong or pareo.</description>
+		<label>Waistwrap</label>
+		<description>Rough garment to cover waist and hips like dhoti or sarong or pareo.</description>
 
 	<graphicData>
 		<texPath>Things/Apparel/Koshinuno</texPath>
@@ -347,7 +351,6 @@
 	<graphicData>
 		<texPath>Things/Apparel/Igote</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 
 	<statBases>
@@ -444,7 +447,7 @@
 
 <ThingDef ParentName="GHG_ApparelBase"><!-- 数珠 -->
 	<defName>Apparel_Nenju</defName>
-		<label>Nenju</label>
+		<label>Prayer beads</label>
 		<description>Prayer beads which can grant you protective power.</description>
 
 	<graphicData>

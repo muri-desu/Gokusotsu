@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 <GHG_PlayerFaction.label>遭難者たち</GHG_PlayerFaction.label>
-<GHG_PlayerFaction.description>遭難した獄卒たちのグループです。</GHG_PlayerFaction.description>
+<GHG_PlayerFaction.description>遭難した獄卒たちのグループです.</GHG_PlayerFaction.description>
 <GHG_PlayerFaction.pawnSingular>獄卒</GHG_PlayerFaction.pawnSingular>
 <GHG_PlayerFaction.pawnsPlural>獄卒たち</GHG_PlayerFaction.pawnsPlural>
 </LanguageData>

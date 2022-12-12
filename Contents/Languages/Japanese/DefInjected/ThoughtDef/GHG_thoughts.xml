@@ -5,7 +5,8 @@
 	<AteHumanlikeMeatDirect_GHG.stages.0.label>生の人肉を食べた</AteHumanlikeMeatDirect_GHG.stages.0.label>
 	<AteHumanlikeMeatDirect_GHG.stages.0.description>人肉刺身を食べた</AteHumanlikeMeatDirect_GHG.stages.0.description>
 	<AteHumanlikeMeatAsIngredient_GHG.stages.0.label>調理された人肉を食べた</AteHumanlikeMeatAsIngredient_GHG.stages.0.label>
-	<AteHumanlikeMeatAsIngredient_GHG.stages.0.description>人肉料理を食べた。そら豆と焼酎があればもっといい</AteHumanlikeMeatAsIngredient_GHG.stages.0.description>
+	<AteHumanlikeMeatAsIngredient_GHG.stages.0.description>人肉料理を食べた. そら豆と焼酎があればもっといい</AteHumanlikeMeatAsIngredient_GHG.stages.0.description>
+	<RotStink_GHG.stages.0.label>腐敗臭</RotStink_GHG.stages.0.label>
 	<RotStink_GHG.stages.0.description>腐敗臭で元いた世界のことを思い出して懐かしい気持ちになった</RotStink_GHG.stages.0.description>
 
 	<ObservedLayingCorpse_GHG.stages.0.label>死体を見た</ObservedLayingCorpse_GHG.stages.0.label>

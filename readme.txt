@@ -15,7 +15,6 @@
  
 - 将棋盤と雀卓（それぞれチェス盤、ポーカーテーブルと同じ機能） 
 - 服と近接武器
-- rimnude対応のグラフィック
   
 "辺獄に墜つ" (シナリオ)
 - 5人の獄卒でスタート
@@ -42,7 +41,6 @@ Gokusotsu (basic & horse-headed & bull-headed)
  
 - Shougi table and Mahjong table, which works like chess table and poker table. 
 - some apparels & weapons
-- some body part textures for rimnude
   
 "Five from hell" (scenario)
 - Starts with 5 gokusotsu.

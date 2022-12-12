@@ -3,79 +3,79 @@
 
 <!-- apparel -->
 <Apparel_FundoshiA.label>褌A</Apparel_FundoshiA.label>
-<Apparel_FundoshiA.description>六尺ほどの一枚布を使った古風な下着です。</Apparel_FundoshiA.description>
+<Apparel_FundoshiA.description>六尺ほどの一枚布を使った古風な下着です.</Apparel_FundoshiA.description>
 
 <Apparel_FundoshiB.label>褌B</Apparel_FundoshiB.label>
-<Apparel_FundoshiB.description>前垂れのついたタイプの褌です。</Apparel_FundoshiB.description>
+<Apparel_FundoshiB.description>前垂れのついたタイプの褌です.</Apparel_FundoshiB.description>
 
 <Apparel_Koshinuno.label>腰布</Apparel_Koshinuno.label>
-<Apparel_Koshinuno.description>腰回り用の装備です。</Apparel_Koshinuno.description>
+<Apparel_Koshinuno.description>腰回り用の装備です.</Apparel_Koshinuno.description>
 
 <Apparel_OufukuCape.label>横幅衣</Apparel_OufukuCape.label>
-<Apparel_OufukuCape.description>布や皮革を巻いて縛っただけの武骨なケープです。</Apparel_OufukuCape.description>
+<Apparel_OufukuCape.description>布や皮革を巻いて縛っただけの武骨なケープです.</Apparel_OufukuCape.description>
 
 <Apparel_Happi.label>法被</Apparel_Happi.label>
-<Apparel_Happi.description>少しモダンな、職人や商人のための上着です。</Apparel_Happi.description>
+<Apparel_Happi.description>少しモダンな, 職人や商人のための上着です.</Apparel_Happi.description>
 
 <Apparel_Nagatekkou.label>長手甲</Apparel_Nagatekkou.label>
-<Apparel_Nagatekkou.description>肩から手にかけてカバーするアンダーウェアです。</Apparel_Nagatekkou.description>
+<Apparel_Nagatekkou.description>肩から手にかけてカバーするアンダーウェアです.</Apparel_Nagatekkou.description>
 
 <Apparel_Kote.label>籠手</Apparel_Kote.label>
-<Apparel_Kote.description>前腕を防御する剣士用の籠手です。</Apparel_Kote.description>
+<Apparel_Kote.description>前腕を防御する剣士用の籠手です.</Apparel_Kote.description>
 
 <Apparel_Igote.label>射籠手</Apparel_Igote.label>
-<Apparel_Igote.description>射手のための長籠手です。</Apparel_Igote.description>
+<Apparel_Igote.description>射手のための長籠手です.</Apparel_Igote.description>
 
 <Apparel_Kyahan.label>脚絆</Apparel_Kyahan.label>
-<Apparel_Kyahan.description>膝下に当てるゲートルのような防具です。</Apparel_Kyahan.description>
+<Apparel_Kyahan.description>膝下に当てるゲートルのような防具です.</Apparel_Kyahan.description>
 
 <Apparel_Nenju.label>念珠</Apparel_Nenju.label>
-<Apparel_Nenju.description>守備力を上げるおおぶりの数珠です。</Apparel_Nenju.description>
+<Apparel_Nenju.description>守備力を上げるおおぶりの数珠です.</Apparel_Nenju.description>
 
 <Apparel_Haragake.label>腹がけ</Apparel_Haragake.label>
-<Apparel_Haragake.description>簡易な子供服です。</Apparel_Haragake.description>
+<Apparel_Haragake.description>簡易な子供服です.</Apparel_Haragake.description>
 
 <Apparel_Yukinko.label>雪ん子</Apparel_Yukinko.label>
-<Apparel_Yukinko.description>子供を寒風から保護する蓑です。</Apparel_Yukinko.description>
+<Apparel_Yukinko.description>子供を寒風から保護する蓑です.</Apparel_Yukinko.description>
 
 <!-- hats -->
 <Apparel_GokusotsuGlasses.label>眼鏡</Apparel_GokusotsuGlasses.label>
-<Apparel_GokusotsuGlasses.description>老眼率の高い獄卒たちのデスクワークをサポートするビンぞこメガネです。</Apparel_GokusotsuGlasses.description>
+<Apparel_GokusotsuGlasses.description>老眼率の高い獄卒たちのデスクワークをサポートするビンぞこメガネです.</Apparel_GokusotsuGlasses.description>
 
 <Apparel_GokusotsuEarrings.label>耳環</Apparel_GokusotsuEarrings.label>
-<Apparel_GokusotsuEarrings.description>時代や流行を問わず使える耳環です。</Apparel_GokusotsuEarrings.description>
+<Apparel_GokusotsuEarrings.description>時代や流行を問わず使える耳環です.</Apparel_GokusotsuEarrings.description>
 
 <!-- weapons -->
 <GHG_Club.label>金棒</GHG_Club.label>
-<GHG_Club.description>獄卒たちの基本装備です。</GHG_Club.description>
+<GHG_Club.description>獄卒たちの基本装備です.</GHG_Club.description>
 
 <GHG_Tonfa.label>トンファー</GHG_Tonfa.label>
-<GHG_Tonfa.description>攻防一体型の軽量武器です。基本的には一撃は弱いものの素早い攻撃を繰り出せます。</GHG_Tonfa.description>
+<GHG_Tonfa.description>攻防一体型の軽量武器です. 基本的には一撃は弱いものの素早い攻撃を繰り出せます.</GHG_Tonfa.description>
 
 <GHG_Sasumata.label>さすまた</GHG_Sasumata.label>
-<GHG_Sasumata.description>亡者を突いて拘束したり血の池に沈めたり、こたつで寝そべったまま遠くの物を手繰り寄せるのに使われていました。</GHG_Sasumata.description>
+<GHG_Sasumata.description>亡者を突いて拘束したり血の池に沈めたり, こたつで寝そべったまま遠くの物を手繰り寄せるのに使われていました.</GHG_Sasumata.description>
 
 <GHG_Drum.label>鬼太鼓</GHG_Drum.label>
-<GHG_Drum.description>合図をしたり味方を文字通り鼓舞するのに使われます。</GHG_Drum.description>
+<GHG_Drum.description>合図をしたり味方を文字通り鼓舞するのに使われます.</GHG_Drum.description>
 
 <GHG_Hossu.label>払子</GHG_Hossu.label>
-<GHG_Hossu.description>もともとは羽虫などを追い払う道具で、僧侶が儀式などで場を清めるために使います。</GHG_Hossu.description>
+<GHG_Hossu.description>もともとは羽虫などを追い払う道具で, 僧侶が儀式などで場を清めるために使います.</GHG_Hossu.description>
 
 <GHG_Soroban.label>そろばん</GHG_Soroban.label>
-<GHG_Soroban.description>獄卒たちには馴染みの深い計算機です。むかつく客や聞き分けのない部下の顔を珠の列でぶん殴れるように頑丈な作りになっています。</GHG_Soroban.description>
+<GHG_Soroban.description>獄卒たちには馴染みの深い計算機です. むかつく客や聞き分けのない部下の顔を珠の列でぶん殴れるように頑丈な作りになっています.</GHG_Soroban.description>
 
 <!-- items -->
 <GHG_HornRepairKit.label>ツノ補修キット</GHG_HornRepairKit.label>
-<GHG_HornRepairKit.description>樹脂や澱粉、金や鉄粉を使って金継ぎの要領で欠けたツノを補修するためのキットです。</GHG_HornRepairKit.description>
+<GHG_HornRepairKit.description>樹脂や澱粉, 金や鉄粉を使って金継ぎの要領で欠けたツノを補修するためのキットです.</GHG_HornRepairKit.description>
 
 <!-- plants -->
 <Plant_IronSasa.label>鉄笹</Plant_IronSasa.label>
-<Plant_IronSasa.description>獄卒達がもといた世界の針山の下草として自生していた全体が鉄で構成された笹のような植物です。一般的には見る者を不安にさせます。</Plant_IronSasa.description>
+<Plant_IronSasa.description>獄卒達がもといた世界の針山の下草として自生していた全体が鉄で構成された笹のような植物です. 一般的には見る者を不安にさせます.</Plant_IronSasa.description>
 
 <!-- joy -->
 <GHG_ShougiTable.label>将棋盤</GHG_ShougiTable.label>
-<GHG_ShougiTable.description>将棋盤です。チェス盤と同じ様に機能します。</GHG_ShougiTable.description>
+<GHG_ShougiTable.description>将棋盤です. チェス盤と同じ様に機能します.</GHG_ShougiTable.description>
 <GHG_MahjongTable.label>雀卓</GHG_MahjongTable.label>
-<GHG_MahjongTable.description>麻雀用テーブルです。ポーカーテーブルと同じ様に機能します。</GHG_MahjongTable.description>
+<GHG_MahjongTable.description>麻雀用テーブルです. ポーカーテーブルと同じ様に機能します.</GHG_MahjongTable.description>
 
 </LanguageData>
