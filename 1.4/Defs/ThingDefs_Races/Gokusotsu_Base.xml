@@ -246,7 +246,7 @@
 			</Hulk>
 			<Child><path>Gokusotsu/Bodies/Naked_Child</path>
 				<geneGraphics>
-					<Furskin>Gokusotsu/Bodies/Naked_FurChild_east</Furskin>
+					<Furskin>Gokusotsu/Bodies/Naked_FurChild</Furskin>
 				</geneGraphics>
 			</Child>
 			<Baby><path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
@@ -299,15 +299,10 @@
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
-	<blackGeneList>
-		<li>Brow_Heavy</li>
-		<li>FacialRidges</li>
-		<li>Body_Thin</li>
-		<li>Body_Standard</li>
-	</blackGeneList>
 	<blackGeneTags>
 		<li>EyeColor</li>
 		<li>BodyType</li>
+		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>
 		<li>Head</li>
@@ -316,9 +311,12 @@
 		<li>BeardStyle</li>
 	</blackGeneTags>
 	<blackEndoCategories>
+		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>
 		<li>Head</li>
+		<li>Headbone</li>
+		<li>BodyType</li>
 	</blackEndoCategories>
 </raceRestriction>
 
