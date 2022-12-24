@@ -141,7 +141,7 @@
 		<bodyPartGroups>
 			<li>Waist</li>
 			<li>Legs</li>
-			<li>GenitalsBPG</li>
+			<li MayRequire="rim.job.world">GenitalsBPG</li>
 		</bodyPartGroups>
 		<layers>
 			<li>Middle</li>
@@ -230,8 +230,8 @@
 			<li>Neck</li>
 			<li>Shoulders</li>
 			<li>Torso</li>
-			<li>ChestBPG</li>
-			<li>FlankBPG</li>
+			<li MayRequire="rim.job.world">ChestBPG</li>
+			<li MayRequire="rim.job.world">FlankBPG</li>
 		</bodyPartGroups>
 		<layers>
 			<li>Shell</li>

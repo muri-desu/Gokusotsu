@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="GHG_ApparelBase"><!-- 腹がけ -->
+<ThingDef ParentName="ChildApparelMakeableBase"><!-- 腹がけ -->
 	<defName>Apparel_Haragake</defName>
 		<label>Kids' apron</label>
 		<description>An Apron-like easy cloth for kids.</description>
@@ -38,9 +38,6 @@
 			<li>Neck</li>
 			<li>Torso</li>
 			<li>Legs</li>
-			<!-- <li>GenitalsBPG</li>
-			<li>ChestBPG</li>
-			<li>FlankBPG</li> -->
 		</bodyPartGroups>
 		<layers>
 			<li>OnSkin</li>
@@ -50,9 +47,16 @@
 		<li>GHG_Basic</li>
 	</tags>
 	</apparel>
+	<thingCategories>
+		<li>GHG_Apparel</li>
+	</thingCategories>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />
+	<tradeTags>
+		<li>GHG_Apparel</li>
+	</tradeTags>
 </ThingDef>
 
-<ThingDef ParentName="GHG_HatBase"><!-- 雪ん子 -->
+<ThingDef ParentName="ChildApparelMakeableBase"><!-- 雪ん子 -->
 	<defName>Apparel_Yukinko</defName>
 		<label>Straw cape</label>
 		<description>Winter cape made out of straw.</description>
@@ -99,6 +103,13 @@
 		<li>GHG_Basic</li>
 	</tags>
 	</apparel>
+	<thingCategories>
+		<li>GHG_Apparel</li>
+	</thingCategories>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />
+	<tradeTags>
+		<li>GHG_Apparel</li>
+	</tradeTags>
 </ThingDef>
 
 </Defs>

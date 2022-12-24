@@ -62,9 +62,7 @@
 		<li>Caravan_GHG_SakeDealer</li>
 	</visitorTraderKinds>
 	<baseTraderKinds>
-		<li>Base_Outlander_Standard</li>
-		<li>Caravan_GHG_BulkGoods</li>
-		<li>Caravan_GHG_SakeDealer</li>
+		<li>Base_GHG_Standard</li>
 	</baseTraderKinds>
 
 	<allowedArrivalTemperatureRange>-20~90</allowedArrivalTemperatureRange>
