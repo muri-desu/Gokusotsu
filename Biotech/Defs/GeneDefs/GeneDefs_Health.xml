@@ -24,32 +24,4 @@
 		</symbolPack>
 	</GeneDef>
 
-<!-- やつあたり
-	<GeneDef>
-		<defName>GokusotsuEyeforEye</defName>
-		<label>eye for eye</label>
-		<labelShortAdj>eye 4 eye</labelShortAdj>
-		<description>Carriers of this gene gains more damages on fight when they are in pain.</description>
-		<iconPath>UI/Icons/Gene_GokusotsuAttack</iconPath>
-		<displayOrderInCategory>101</displayOrderInCategory>
-    <conditionalStatAffecters>
-      <li Class="ConditionalStatAffecter_Pain">
-        <statOffsets>
-          <MeleeDamageFactor>1.2</MeleeDamageFactor>
-        </statOffsets>
- 		</li>
-    </conditionalStatAffecters>
-		<customEffectDescriptions>
-		<li>eye 4 eye</li>
-		</customEffectDescriptions>
-		<biostatCpx>1</biostatCpx>
-		<biostatMet>-1</biostatMet>
-		<symbolPack>
-		<prefixSymbols>
-			<li><symbol>anger</symbol></li>
-			<li><symbol>rage</symbol></li>
-		</prefixSymbols>
-		</symbolPack>
-	</GeneDef> -->
-
 </Defs>

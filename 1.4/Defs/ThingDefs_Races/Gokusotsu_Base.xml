@@ -296,10 +296,19 @@
 		<li>Apparel_FirefoampopPack</li>
 		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlEar</li>
 		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlTail</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Hirameki</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Tuchi</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Wa</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Jin</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Ikusa</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Karibito</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Hi_No_Magatama</li>
+		<li MayRequire="YokaiMura.1.32">Yokai_Nagi_no_Magatama</li>
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
 	<blackGeneTags>
+		<li>SkinColor</li>
 		<li>EyeColor</li>
 		<li>BodyType</li>
 		<li>Ears</li>

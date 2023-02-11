@@ -63,7 +63,6 @@
         </li>
         <li>
           <def>Lung</def>
-          <customLabel>left lung</customLabel>
           <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
@@ -72,7 +71,6 @@
         </li>
         <li>
           <def>Lung</def>
-          <customLabel>right lung</customLabel>
           <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
@@ -81,7 +79,6 @@
         </li>
         <li>
           <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
           <coverage>0.017</coverage>
           <depth>Inside</depth>
           <groups>
@@ -90,7 +87,6 @@
         </li>
         <li>
           <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
           <coverage>0.017</coverage>
           <depth>Inside</depth>
           <groups>
@@ -145,6 +141,7 @@
                 </li>
                 <li><!-- ツノ -->
                   <def>Horn_GHG</def>
+                  <customLabel>horn</customLabel>
                   <coverage>0.05</coverage>
 					<groups>
 						<li>UpperHead</li>
@@ -667,7 +664,6 @@
         </li>
         <li>
           <def>Lung</def>
-          <customLabel>left lung</customLabel>
           <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
@@ -676,7 +672,6 @@
         </li>
         <li>
           <def>Lung</def>
-          <customLabel>right lung</customLabel>
           <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
@@ -685,7 +680,6 @@
         </li>
         <li>
           <def>Kidney</def>
-          <customLabel>left kidney</customLabel>
           <coverage>0.017</coverage>
           <depth>Inside</depth>
           <groups>
@@ -694,7 +688,6 @@
         </li>
         <li>
           <def>Kidney</def>
-          <customLabel>right kidney</customLabel>
           <coverage>0.017</coverage>
           <depth>Inside</depth>
           <groups>
@@ -787,6 +780,7 @@
                 </li>
                 <li><!-- 左ツノ -->
                   <def>Horn_GHG</def>
+                  <customLabel>left horn</customLabel>
                   <coverage>0.05</coverage>
 					<groups>
 						<li>UpperHead</li>
@@ -796,6 +790,7 @@
                 </li>
                 <li><!-- 右ツノ -->
                   <def>Horn_GHG</def>
+                  <customLabel>right horn</customLabel>
                   <coverage>0.05</coverage>
 					<groups>
 						<li>UpperHead</li>

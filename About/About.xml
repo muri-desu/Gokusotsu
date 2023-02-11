@@ -16,8 +16,6 @@
 </modDependencies>
 <loadAfter>
 	<li>erdelf.HumanoidAlienRaces</li>
-	<li>shauaputa.rimnudeworld</li>
-	<li>rjw.pregnancy_stage_graphics</li>
 </loadAfter>
 <description>Demon race from another world's hell.</description>
 </ModMetaData>

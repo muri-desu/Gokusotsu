@@ -65,7 +65,7 @@
 
 	<apparel>
 		<bodyPartGroups>
-			<li>UpperHead</li>
+			<li>Mouth</li>
 		</bodyPartGroups>
 		<layers>
 			<li>EyeCover</li>
@@ -111,7 +111,7 @@
 
 	<apparel>
 		<bodyPartGroups>
-			<li>Mouth</li>
+			<li>UpperHead</li>
 		</bodyPartGroups>
 		<layers>
 			<li>EyeCover</li>

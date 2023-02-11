@@ -3,7 +3,7 @@
 
 <BeardDef>
 	<defName>GHG_Beard_A</defName>
-	<label>no beard</label>
+	<label>gokusotsu beard A</label>
 	<texPath>Gokusotsu/Beards/GHG_BeardA</texPath>
 	<styleTags>
 		<li>GHG_Beard</li>
@@ -12,7 +12,7 @@
 
 <BeardDef>
 	<defName>GHG_Beard_B</defName>
-	<label>no beard</label>
+	<label>gokusotsu beard B</label>
 	<texPath>Gokusotsu/Beards/GHG_BeardB</texPath>
 	<styleTags>
 		<li>GHG_Beard</li>
@@ -21,7 +21,7 @@
 
 <BeardDef>
 	<defName>GHG_Beard_C</defName>
-	<label>no beard</label>
+	<label>gokusotsu beard C</label>
 	<texPath>Gokusotsu/Beards/GHG_BeardC</texPath>
 	<styleTags>
 		<li>GHG_Beard</li>

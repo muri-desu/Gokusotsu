@@ -10,9 +10,8 @@
 		<inheritable>true</inheritable>
 		<genes>
 		<li>GokusotsuLiver</li>
-		<!-- <li>GokusotsuEyeforEye</li>
 		<li>Body_Fat</li>
-		<li>Body_Hulk</li> -->
+		<li>Body_Hulk</li>
 		<li>FireResistant</li>
 		<li>Robust</li>
 		<li>Aggression_Aggressive</li>
