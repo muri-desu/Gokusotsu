@@ -47,3 +47,6 @@ Gokusotsu (basic & horse-headed & bull-headed)
  
 NPC Gokusotsu faction
 - They love alcohols. and other drugs and meals.
+
+RJW stuffs are available here⬇️
+https://github.com/muri-desu/RJW_Gokusotsu
