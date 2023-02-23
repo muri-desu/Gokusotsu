@@ -4,6 +4,24 @@
 <RulePackDef>
 	<defName>NamerGHGUtility</defName>
 		<rulePack>
+			<rulesStrings>
+				<li>GHG_NameM->[On_First][On_Middle][Maru]</li><!-- XX丸 -->
+				<li>GHG_NameM->[Kun_First][Kun_Last]</li>
+				<li>GHG_NameM->[On_Middle][On_Last]</li>
+				<li>GHG_NameM->[Kun_First][Emon]</li><!-- XX衛門 -->
+				<li>GHG_NameM->[Kun_Last][Emon]</li>
+				<li>GHG_NameM->[On_First][Emon]</li>
+				<li>GHG_NameM->[On_Middle][Emon]</li>
+				<li>GHG_NameM->[On_Last][Emon]</li>
+				<li>GHG_NameM->[On_First][Number]</li>
+				<li>GHG_NameM->[Kun_First][Number]</li>
+				<li>GHG_NameM->[On_First][Suke_Rou]</li><!-- XX之助 -->
+				<li>GHG_NameM->[On_Middle][Suke_Rou]</li>
+				<li>GHG_NameM->[On_Last][Suke_Rou]</li>
+				<li>GHG_NameM->[Kun_First][Suke_Rou]</li>
+				<li>GHG_NameM->[Kun_Last][Suke_Rou]</li>
+				<li>GHG_Surname->[Surname]</li>
+			</rulesStrings>
 			<rulesFiles>
 				<li>On_First->Names/OnFirst</li>
 				<li>On_Middle->Names/OnMiddle</li>
@@ -14,6 +32,7 @@
 				<li>Number->Names/Number</li>
 				<li>Maru->Names/Maru</li>
 				<li>Emon->Names/Emon</li>
+				<li>Surname->Names/Surname</li>
 			</rulesFiles>
 		</rulePack>
 </RulePackDef>
@@ -25,21 +44,7 @@
 		</include>
 		<rulePack>
 			<rulesStrings>
-				<li>r_name(p=2)->[On_First][On_Middle][Maru]</li><!-- XX丸 -->
-				<li>r_name(p=2)->[Kun_First][Kun_Last]</li>
-				<li>r_name(p=2)->[On_Middle][On_Last]</li>
-				<li>r_name(p=2)->[Kun_First][Emon]</li><!-- XX衛門 -->
-				<li>r_name(p=2)->[Kun_Last][Emon]</li>
-				<li>r_name(p=2)->[On_First][Emon]</li>
-				<li>r_name(p=2)->[On_Middle][Emon]</li>
-				<li>r_name(p=2)->[On_Last][Emon]</li>
-				<li>r_name(p=2)->[On_First][Number]</li>
-				<li>r_name(p=2)->[Kun_First][Number]</li>
-				<li>r_name(p=2)->[On_First][Suke_Rou]</li><!-- XX之助 -->
-				<li>r_name(p=2)->[On_Middle][Suke_Rou]</li>
-				<li>r_name(p=2)->[On_Last][Suke_Rou]</li>
-				<li>r_name(p=2)->[Kun_First][Suke_Rou]</li>
-				<li>r_name(p=2)->[Kun_Last][Suke_Rou]</li>
+				<li>r_name->[GHG_Surname] [GHG_NameM]</li>
 			</rulesStrings>
 		</rulePack>
 </RulePackDef>
