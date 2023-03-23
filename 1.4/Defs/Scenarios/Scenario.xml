@@ -11,7 +11,7 @@
 		<factionDef>GHG_PlayerFaction</factionDef>
 	</playerFaction>
 <parts>
-	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes" MayRequire="Ludeon.RimWorld.Biotech">
 		<def>ConfigurePawnsXenotypes</def>
 		<pawnChoiceCount>10</pawnChoiceCount>
 		<overrideKinds>

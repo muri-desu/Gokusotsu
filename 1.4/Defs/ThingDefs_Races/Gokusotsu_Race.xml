@@ -120,7 +120,7 @@
 				<HumanlikeChild>
 					<path>Gokusotsu/Horns/Child/Horn_left</path>
 				</HumanlikeChild>
-				<HumanlikePreTeenager>
+				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
 					<path>Gokusotsu/Horns/Child/Horn_left</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
@@ -129,24 +129,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(-0.02,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.02,0)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -171,7 +171,7 @@
 				<HumanlikeChild>
 					<path>Gokusotsu/Horns/Child/Horn_right</path>
 				</HumanlikeChild>
-				<HumanlikePreTeenager>
+				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
 					<path>Gokusotsu/Horns/Child/Horn_right</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
@@ -181,24 +181,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0.02,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.02,0)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -227,49 +227,49 @@
 			<headtypeGraphics>
 				<Head_A><path>Gokusotsu/Heads/Head_A</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_A</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_A</Furskin>
 					</geneGraphics>
 				</Head_A>
 				<Head_B><path>Gokusotsu/Heads/Head_B</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_B</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_B</Furskin>
 					</geneGraphics>
 				</Head_B>
 				<Head_C><path>Gokusotsu/Heads/Head_C</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_C</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_C</Furskin>
 					</geneGraphics>
 				</Head_C>
 				<Head_D><path>Gokusotsu/Heads/Head_D</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_D</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_D</Furskin>
 					</geneGraphics>
 				</Head_D>
 				<Head_E><path>Gokusotsu/Heads/Head_E</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_E</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_E</Furskin>
 					</geneGraphics>
 				</Head_E>
 				<Head_F><path>Gokusotsu/Heads/Head_F</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_F</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_F</Furskin>
 					</geneGraphics>
 				</Head_F>
 				<Head_G><path>Gokusotsu/Heads/Head_G</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_G</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_G</Furskin>
 					</geneGraphics>
 				</Head_G>
 			</headtypeGraphics>
 			<bodytypeGraphics>
-				<Baby><path>Gokusotsu/Heads/Head_Child</path>
+				<Baby MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Heads/Head_Child</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_Child</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_Child</Furskin>
 					</geneGraphics>
 				</Baby>
-				<Child><path>Gokusotsu/Heads/Head_Child</path>
+				<Child MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Heads/Head_Child</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_Head_Child</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_Head_Child</Furskin>
 					</geneGraphics>
 				</Child>
 			</bodytypeGraphics>	
@@ -422,7 +422,7 @@
 				<HumanlikeChild>
 					<path>Gokusotsu/Horns/Child/MezuHorn</path>
 				</HumanlikeChild>
-				<HumanlikePreTeenager>
+				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
 					<path>Gokusotsu/Horns/Child/MezuHorn</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
@@ -432,24 +432,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0,0)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0.016,-0.025)</Child>
-					<Baby>(0.1,-0.015)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.016,-0.025)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1,-0.015)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -476,19 +476,19 @@
 			<headtypeGraphics>
 				<MezuHead><path>Gokusotsu/Heads/MezuHead</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_MezuHead</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_MezuHead</Furskin>
 					</geneGraphics>
 				</MezuHead>
 			</headtypeGraphics>
 			<bodytypeGraphics>
-				<Baby><path>Gokusotsu/Heads/MezuHead_Child</path>
+				<Baby MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Heads/MezuHead_Child</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_MezuHead_Child</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_MezuHead_Child</Furskin>
 					</geneGraphics>
 				</Baby>
-				<Child><path>Gokusotsu/Heads/MezuHead_Child</path>
+				<Child MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Heads/MezuHead_Child</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_MezuHead_Child</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_MezuHead_Child</Furskin>
 					</geneGraphics>
 				</Child>
 			</bodytypeGraphics>	
@@ -649,7 +649,7 @@
 				<HumanlikeChild>
 					<path>Gokusotsu/Horns/Child/GozuHorn_left</path>
 				</HumanlikeChild>
-				<HumanlikePreTeenager>
+				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
 					<path>Gokusotsu/Horns/Child/GozuHorn_left</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
@@ -659,24 +659,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(-0.05,-0.1)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.05,-0.1)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0.02,-0.02)</Child>
-					<Baby>(0.075,-0.05)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.02,-0.02)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.075,-0.05)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0.1,0)</Child>
-					<Baby>(0.1,-0.05)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.1,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1,-0.05)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -700,7 +700,7 @@
 				<HumanlikeChild>
 					<path>Gokusotsu/Horns/Child/GozuHorn_right</path>
 				</HumanlikeChild>
-				<HumanlikePreTeenager>
+				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
 					<path>Gokusotsu/Horns/Child/GozuHorn_right</path>
 				</HumanlikePreTeenager>
 			</ageGraphics>
@@ -710,24 +710,24 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0,0)</Child>
-					<Baby>(0.05,-0.1)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.05,-0.1)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(-0.02,-0.02)</Child>
-					<Baby>(-0.075,-0.05)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.02,-0.02)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.075,-0.05)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child>(0.1,0)</Child>
-					<Baby>(0.1,-0.05)</Baby>
+					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.1,0)</Child>
+					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1,-0.05)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -754,19 +754,19 @@
 			<headtypeGraphics>
 				<GozuHead><path>Gokusotsu/Heads/GozuHead</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_GozuHead</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_GozuHead</Furskin>
 					</geneGraphics>
 				</GozuHead>
 			</headtypeGraphics>
 			<bodytypeGraphics>
-				<Baby><path>Gokusotsu/Heads/GozuHead_Child</path>
+				<Baby MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Heads/GozuHead_Child</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_GozuHead_Child</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_GozuHead_Child</Furskin>
 					</geneGraphics>
 				</Baby>
-				<Child><path>Gokusotsu/Heads/GozuHead_Child</path>
+				<Child MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Heads/GozuHead_Child</path>
 					<geneGraphics>
-						<Furskin>Gokusotsu/Heads/FurCovered_GozuHead_Child</Furskin>
+						<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/FurCovered_GozuHead_Child</Furskin>
 					</geneGraphics>
 				</Child>
 			</bodytypeGraphics>	

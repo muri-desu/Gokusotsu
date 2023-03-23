@@ -12,7 +12,7 @@
 
 	<xenotypeSet>
 		<xenotypeChances>
-			<XenoGokusotsu>999</XenoGokusotsu>
+			<XenoGokusotsu MayRequire="Ludeon.RimWorld.Biotech">999</XenoGokusotsu>
 		</xenotypeChances>
 		<warnIfTotalAbove1>false</warnIfTotalAbove1>
 	</xenotypeSet>
@@ -231,7 +231,7 @@
 	<race>Alien_Gokusotsu</race>
 	<xenotypeSet Inherit="False">
 		<xenotypeChances>
-			<XenoGokusotsu>1</XenoGokusotsu>
+			<XenoGokusotsu MayRequire="Ludeon.RimWorld.Biotech">1</XenoGokusotsu>
 		</xenotypeChances>
 	</xenotypeSet>
 </PawnKindDef>

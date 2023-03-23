@@ -58,7 +58,7 @@
 
 	<xenotypeSet Inherit="False">
 		<xenotypeChances>
-			<XenoGokusotsu>1</XenoGokusotsu>
+			<XenoGokusotsu MayRequire="Ludeon.RimWorld.Biotech">1</XenoGokusotsu>
 		</xenotypeChances>
 	</xenotypeSet>
 

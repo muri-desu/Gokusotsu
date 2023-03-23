@@ -56,7 +56,7 @@
 	</specialShadowData>
 	<ageGenerationCurve>
 	<points>
-		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+		<li>(0,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li><!-- Exclude 12.5-13 years -->
@@ -236,20 +236,20 @@
 		<bodytypeGraphics>
 			<Fat><path>Gokusotsu/Bodies/Naked_Fat</path>
 				<geneGraphics>
-					<Furskin>Gokusotsu/Bodies/FurCovered_Fat</Furskin>
+					<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/FurCovered_Fat</Furskin>
 				</geneGraphics>
 			</Fat>
 			<Hulk><path>Gokusotsu/Bodies/Naked_Hulk</path>
 				<geneGraphics>
-					<Furskin>Gokusotsu/Bodies/FurCovered_Hulk</Furskin>
+					<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/FurCovered_Hulk</Furskin>
 				</geneGraphics>
 			</Hulk>
-			<Child><path>Gokusotsu/Bodies/Naked_Child</path>
+			<Child MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Bodies/Naked_Child</path>
 				<geneGraphics>
-					<Furskin>Gokusotsu/Bodies/Naked_FurChild</Furskin>
+					<Furskin MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_FurChild</Furskin>
 				</geneGraphics>
 			</Child>
-			<Baby><path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
+			<Baby MayRequire="Ludeon.RimWorld.Biotech"><path>Things/Pawn/Humanlike/Bodies/Naked_Child</path>
 			</Baby>
 		</bodytypeGraphics>
 	</body>
@@ -306,8 +306,8 @@
 		<li MayRequire="YokaiMura.1.32">Yokai_Nagi_no_Magatama</li>
 	</whiteApparelList>
 
-<onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
-	<blackGeneTags>
+<onlyHaveRaceRestrictedGenes MayRequire="Ludeon.RimWorld.Biotech">false</onlyHaveRaceRestrictedGenes>
+	<blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
 		<li>SkinColor</li>
 		<li>EyeColor</li>
 		<li>BodyType</li>
@@ -319,7 +319,7 @@
 		<li>HairStyle</li>
 		<li>BeardStyle</li>
 	</blackGeneTags>
-	<blackEndoCategories>
+	<blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
 		<li>Ears</li>
 		<li>Nose</li>
 		<li>Jaw</li>
