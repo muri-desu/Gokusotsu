@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="ChildApparelMakeableBase"><!-- 腹がけ -->
+<ThingDef ParentName="GHG_HatBase"><!-- 腹がけ -->
 	<defName>Apparel_Haragake</defName>
 		<label>Kids' apron</label>
 		<description>An Apron-like easy cloth for kids.</description>
@@ -35,7 +35,6 @@
 	<apparel>
 		<developmentalStageFilter>Child</developmentalStageFilter>
 		<bodyPartGroups>
-			<li>Neck</li>
 			<li>Torso</li>
 			<li>Legs</li>
 		</bodyPartGroups>
@@ -56,7 +55,7 @@
 	</tradeTags>
 </ThingDef>
 
-<ThingDef ParentName="ChildApparelMakeableBase"><!-- 雪ん子 -->
+<ThingDef ParentName="GHG_HatBase"><!-- 雪ん子 -->
 	<defName>Apparel_Yukinko</defName>
 		<label>Straw cape</label>
 		<description>Winter cape made out of straw.</description>
@@ -73,7 +72,7 @@
 		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 		<ArmorRating_Heat>0.03</ArmorRating_Heat>
-		<Insulation_Cold>15</Insulation_Cold>
+		<Insulation_Cold>25</Insulation_Cold>
 		<Insulation_Heat>1</Insulation_Heat>
 		<EquipDelay>1</EquipDelay>
 	</statBases>
@@ -88,6 +87,7 @@
 	<apparel>
 		<developmentalStageFilter>Child</developmentalStageFilter>
 		<bodyPartGroups>
+			<li>FullHead</li>
 			<li>UpperHead</li>
 			<li>Neck</li>
 			<li>Shoulders</li>
@@ -99,6 +99,9 @@
 			<li>Overhead</li>
 		</layers>
 		<wornGraphicPath>Things/Apparel/Hat/Yukinko</wornGraphicPath>
+		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<hatRenderedAboveBody>true</hatRenderedAboveBody>
+		<hatRenderedBehindHead>false</hatRenderedBehindHead>
 	<tags>
 		<li>GHG_Basic</li>
 	</tags>
@@ -106,10 +109,21 @@
 	<thingCategories>
 		<li>GHG_Apparel</li>
 	</thingCategories>
-	<colorGenerator Class="ColorGenerator_StandardApparel" />
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>1</weight>
+				<only>(1,1,1)</only>
+			</li>
+		</options>
+	</colorGenerator>
 	<tradeTags>
 		<li>GHG_Apparel</li>
 	</tradeTags>
 </ThingDef>
 
+	<StuffCategoryDef>
+		<defName>Straw</defName>
+		<label>straw</label>
+	</StuffCategoryDef>
 </Defs>

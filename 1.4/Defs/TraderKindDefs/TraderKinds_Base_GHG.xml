@@ -35,7 +35,7 @@
 	</li>
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>MedicineHerbal</thingDef>
-		<countRange>10~30</countRange>
+		<countRange>20~30</countRange>
 	</li>
 	<li Class="StockGenerator_Category">
 		<categoryDef>Textiles</categoryDef>
@@ -150,6 +150,7 @@
 	<li Class="StockGenerator_BuyExpensiveSimple" />
 	<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 	<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	<li Class="StockGenerator_BuyTradeTag"><tag>GHG_Apparel</tag></li>
 
 	</stockGenerators>
 </TraderKindDef>

@@ -82,6 +82,7 @@
 	<li Class="StockGenerator_BuyExpensiveSimple" />
 	<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 	<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	<li Class="StockGenerator_BuyTradeTag"><tag>GHG_Apparel</tag></li>
 
 	</stockGenerators>
 </TraderKindDef>
@@ -97,15 +98,15 @@
 	</li>
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>MedicineHerbal</thingDef>
-		<countRange>10~30</countRange>
-	</li>
-	<li Class="StockGenerator_SingleDef">
-		<thingDef>Neutroamine</thingDef>
 		<countRange>30~50</countRange>
 	</li>
 	<li Class="StockGenerator_SingleDef">
+		<thingDef>Neutroamine</thingDef>
+		<countRange>10~30</countRange>
+	</li>
+	<li Class="StockGenerator_SingleDef">
 		<thingDef>Beer</thingDef>
-		<countRange>30~100</countRange>
+		<countRange>70~100</countRange>
 	</li>
 	<li Class="StockGenerator_Category">
 		<categoryDef>Drugs</categoryDef>
@@ -128,6 +129,7 @@
 	<li Class="StockGenerator_BuyExpensiveSimple" />
 	<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 	<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	<li Class="StockGenerator_BuyTradeTag"><tag>GHG_Apparel</tag></li>
 
 	</stockGenerators>
 </TraderKindDef>
@@ -147,7 +149,7 @@
 	</li>
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>MedicineHerbal</thingDef>
-		<countRange>10~30</countRange>
+		<countRange>20~50</countRange>
 	</li>
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>Beer</thingDef>
@@ -185,6 +187,7 @@
 	<li Class="StockGenerator_BuyExpensiveSimple" />
 	<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 	<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	<li Class="StockGenerator_BuyTradeTag"><tag>GHG_Apparel</tag></li>
 
 	</stockGenerators>
 </TraderKindDef>

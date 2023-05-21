@@ -32,6 +32,11 @@
 
 	<styleItemTags>
 		<li>
+			<tag>Tribal</tag>
+			<baseWeight>1</baseWeight>
+			<weightFactor>1</weightFactor>
+		</li>
+		<li>
 			<tag>GHG_Hair</tag>
 			<baseWeight>1</baseWeight>
 			<weightFactor>1</weightFactor>

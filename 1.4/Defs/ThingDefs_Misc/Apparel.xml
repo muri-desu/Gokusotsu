@@ -66,6 +66,10 @@
 	<tags>
 		<li>GHG_Basic</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 </ThingDef>
 
@@ -107,6 +111,10 @@
 	<tags>
 		<li>GHG_Basic</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 </ThingDef>
 
@@ -151,6 +159,10 @@
 	<tags>
 		<li>GHG_Basic</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 </ThingDef>
 
@@ -195,6 +207,10 @@
 		<li>GHG_Ranged</li>
 		<li>GHG_Boss</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>
@@ -240,6 +256,9 @@
 	<tags>
 		<li>GHG_Trader</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>
@@ -286,6 +305,10 @@
 		<li>GHG_Boss</li>
 		<li>GHG_Trader</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>
@@ -304,12 +327,9 @@
 		<WorkToMake>5000</WorkToMake>
 		<MaxHitPoints>240</MaxHitPoints>
 		<Mass>4</Mass>
-		<Flammability>0.6</Flammability>
-		<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.10</ArmorRating_Heat>
-		<Insulation_Cold>3.5</Insulation_Cold>
-		<Insulation_Heat>1</Insulation_Heat>
+		<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>5</EquipDelay>
 	</statBases>
 
@@ -339,6 +359,9 @@
 		<li>GHG_Boss</li>
 		<li>GHG_Trader</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>
@@ -357,12 +380,9 @@
 		<WorkToMake>5000</WorkToMake>
 		<MaxHitPoints>240</MaxHitPoints>
 		<Mass>4</Mass>
-		<Flammability>0.6</Flammability>
-		<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.10</ArmorRating_Heat>
-		<Insulation_Cold>3.5</Insulation_Cold>
-		<Insulation_Heat>1</Insulation_Heat>
+		<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>5</EquipDelay>
 	</statBases>
 
@@ -393,6 +413,9 @@
 		<li>GHG_Boss</li>
 		<li>GHG_Trader</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>
@@ -411,12 +434,9 @@
 		<WorkToMake>5000</WorkToMake>
 		<MaxHitPoints>250</MaxHitPoints>
 		<Mass>4</Mass>
-		<Flammability>0.6</Flammability>
-		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.10</ArmorRating_Heat>
-		<Insulation_Cold>0.05</Insulation_Cold>
-		<Insulation_Heat>0</Insulation_Heat>
+		<StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 		<EquipDelay>5</EquipDelay>
 	</statBases>
 
@@ -441,6 +461,9 @@
 		<li>GHG_Boss</li>
 		<li>GHG_Trader</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>
@@ -460,11 +483,12 @@
 		<WorkToMake>9000</WorkToMake>
 		<MaxHitPoints>250</MaxHitPoints>
 		<Mass>1</Mass>
+		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 		<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.5</ArmorRating_Heat>
-		<Insulation_Cold>0</Insulation_Cold>
-		<Insulation_Heat>0</Insulation_Heat>
+		<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.7</ArmorRating_Heat>
 		<EquipDelay>1</EquipDelay>
 	</statBases>
 
@@ -493,6 +517,10 @@
 		<li>GHG_Boss</li>
 		<li>GHG_Trader</li>
 	</tags>
+	<defaultOutfitTags>
+		<li>Worker</li>
+		<li>Soldier</li>
+	</defaultOutfitTags>
 	</apparel>
 
 </ThingDef>

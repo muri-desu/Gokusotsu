@@ -16,10 +16,10 @@
 	</li>
 	<li Class="StockGenerator_SingleDef">
 		<thingDef>MedicineHerbal</thingDef>
-		<countRange>0~10</countRange>
+		<countRange>7~10</countRange>
 	</li>
-	<li Class="StockGenerator_Category">
-		<categoryDef>Beer</categoryDef>
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>Beer</thingDef>
 		<totalPriceRange>200~600</totalPriceRange>
 	</li>
 	<li Class="StockGenerator_Category">
@@ -39,7 +39,7 @@
 	</li>
 	<li Class="StockGenerator_Category">
 		<categoryDef>ZPLuxury</categoryDef>
-		<thingDefCountRange>3~7</thingDefCountRange>
+		<thingDefCountRange>5~7</thingDefCountRange>
 		<totalPriceRange>400~600</totalPriceRange>
 	</li>
 	<li Class="StockGenerator_Category">
@@ -68,6 +68,7 @@
 	<li Class="StockGenerator_BuyExpensiveSimple" />
 	<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
 	<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	<li Class="StockGenerator_BuyTradeTag"><tag>GHG_Apparel</tag></li>
 
 	</stockGenerators>
 </TraderKindDef>
