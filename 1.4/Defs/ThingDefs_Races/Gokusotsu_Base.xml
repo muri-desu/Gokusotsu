@@ -228,6 +228,17 @@
 	</li>
 </chemicalSettings>
 
+<reproduction MayRequire="Ludeon.RimWorld.Biotech">
+	<maleFertilityAgeFactor>
+		<points>
+			<li>(14, 0)</li>
+			<li>(18, 1)</li>
+			<li>(250, 1)</li>
+			<li>(300, 0)</li>
+		</points>
+</maleFertilityAgeFactor>
+</reproduction>
+
 </generalSettings>
 
 <graphicPaths>
