@@ -113,6 +113,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 釣り師 -->
@@ -128,6 +130,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- neko chan kawaii -->
@@ -141,6 +145,8 @@
 	<spawnCategories>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 鷹匠 -->
@@ -154,6 +160,8 @@
 	<spawnCategories>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- DIYの獄卒 -->
@@ -169,6 +177,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 本の虫獄卒 -->
@@ -185,6 +195,8 @@
 		<li>GHG_wanderer</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バンドマン獄卒 -->
@@ -200,6 +212,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- ソロキャンパー獄卒 -->
@@ -218,6 +232,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 </Defs>

@@ -56,6 +56,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 	<forcedTraitsChance>
 		<li>
 			<defName>SlowLearner</defName>
@@ -81,6 +83,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 	<forcedTraitsChance>
 		<li>
 			<defName>TorturedArtist</defName>
@@ -138,6 +142,8 @@
 		<li>GHG_player</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 	<forcedTraitsChance>
 		<li>
 			<defName>DrugDesire</defName>
@@ -205,6 +211,8 @@
 	<forcedTraits>
 		<DrugDesire>-1</DrugDesire>
 	</forcedTraits>
+	<disallowedTraits>
+	</disallowedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 下戸の獄卒B -->
@@ -224,6 +232,8 @@
 	<forcedTraits>
 		<DrugDesire>-1</DrugDesire>
 	</forcedTraits>
+	<disallowedTraits>
+	</disallowedTraits>
 </AlienRace.AlienBackstoryDef>
 
 </Defs>

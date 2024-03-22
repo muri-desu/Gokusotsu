@@ -147,7 +147,6 @@
 
 	<apparel>
 		<bodyPartGroups>
-			<li>Waist</li>
 			<li>Legs</li>
 			<li MayRequire="rim.job.world">GenitalsBPG</li>
 		</bodyPartGroups>

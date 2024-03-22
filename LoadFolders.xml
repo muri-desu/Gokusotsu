@@ -7,6 +7,8 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Dlc/Ideology</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.4/Dlc/Biotech</li>
 		<li IfModActive="tosenbo.Ricecultivatingcivilization.ver2">1.4/Mods/Rice</li>
+		<li IfModActive="VanillaExpanded.VCEF">1.4/Mods/VCEF</li>
+		<li IfModActive="VanillaExpanded.VanillaTraitsExpanded">1.4/Mods/VTE</li>
 	</v1.4>
 	<v1.5>
 	<li>Contents</li>
@@ -16,5 +18,7 @@
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Dlc/Biotech</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">1.5/Dlc/Anomaly</li>
 		<li IfModActive="tosenbo.Ricecultivatingcivilization.ver2">1.5/Mods/Rice</li>
+		<li IfModActive="VanillaExpanded.VCEF">1.5/Mods/VCEF</li>
+		<li IfModActive="VanillaExpanded.VanillaTraitsExpanded">1.5/Mods/VTE</li>
 	</v1.5>
 </loadFolders>

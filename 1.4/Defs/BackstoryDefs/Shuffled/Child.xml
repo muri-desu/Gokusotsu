@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <AlienRace.AlienBackstoryDef Abstract="True" Name="GHG_BackStoryBase_Child">
-	<disallowedTraits>
-	</disallowedTraits>
 	<slot>Childhood</slot>
 </AlienRace.AlienBackstoryDef>
 
@@ -20,6 +18,8 @@
 		<li>GHG_boss</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- オタク -->
@@ -34,6 +34,8 @@
 		<li>GHG_player</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 昆虫博士 -->
@@ -49,6 +51,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ねぼすけ -->
@@ -63,6 +67,8 @@
 		<li>GHG_player</li>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 学級委員 -->
@@ -77,6 +83,8 @@
 		<li>GHG_player</li>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- エキセントリック少年 -->
@@ -110,6 +118,10 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- モテモテ -->
@@ -126,6 +138,8 @@
 		<li>GHG_boss</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 地上生まれ -->
@@ -143,6 +157,8 @@
 		<li>GHG_boss</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 天邪鬼 -->
@@ -167,6 +183,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 鬼ごっこの達人 -->
@@ -222,6 +240,8 @@
 		<li>GHG_player</li>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 科学の子 -->
@@ -240,6 +260,10 @@
 		<li>GHG_player</li>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- チャンバラ王者 -->
@@ -255,6 +279,8 @@
 		<li>GHG_player</li>
 		<li>GHG_boss</li>
 	</spawnCategories>
+	<forcedTraits>
+	</forcedTraits>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ロボキッズ -->

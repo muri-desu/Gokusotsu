@@ -58,6 +58,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 針山剪定士 -->
@@ -72,6 +74,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 金物職人 -->
@@ -88,6 +92,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- セトモノ職人 -->
@@ -104,6 +110,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：賽の河原担当獄卒 -->
@@ -119,6 +127,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：中流担当獄卒 -->
@@ -134,6 +144,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：下流担当獄卒 -->
@@ -148,6 +160,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 横領経理マン -->
@@ -162,6 +176,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 火の見番人 -->
@@ -229,6 +245,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 帰国子女 -->
@@ -244,6 +262,8 @@
 		<li>GHG_player</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 屋台の親父A -->
@@ -260,6 +280,8 @@
 		<li>GHG_player</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 屋台の親父B -->
@@ -276,6 +298,8 @@
 		<li>GHG_player</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 元飛脚 -->

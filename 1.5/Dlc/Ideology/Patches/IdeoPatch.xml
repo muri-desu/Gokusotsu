@@ -50,7 +50,7 @@
 		</value>
 	</li>
 
-	<li Class="PatchOperationAdd">
+	<!-- <li Class="PatchOperationAdd">
 		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "BaseGHG"]/alienRace/raceRestriction/whiteApparelList</xpath>
 		<value>
 			<li>Apparel_PackJump</li>
@@ -79,7 +79,7 @@
 			<li>Lovin_SpouseOnly_Moderate</li>
 			<li>Lovin_SpouseOnly_Mild</li>
 		</value>
-	</li>
+	</li> -->
 
 	</operations>
 </Operation>

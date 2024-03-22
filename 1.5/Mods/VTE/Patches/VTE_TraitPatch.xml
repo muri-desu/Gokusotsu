@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Fishing Expanded</li>
-			<li>1914064942</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "FisherGokusotsu"]/forcedTraitsChance</xpath>
-			<value>
-				<li><defName>VCEF_Fisherman</defName></li>
-			</value>
-		</match>
-	</Operation>
-
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Vanilla Traits Expanded</li>
-		<li>2296404655</li>
-	</mods>
-
-	<match Class="PatchOperationSequence">
+<Operation Class="PatchOperationSequence">
 	<operations>
 
 	<li Class="PatchOperationAdd">
@@ -177,7 +158,6 @@
 	</li>
 
 	</operations>
-	</match>
 </Operation>
 
 </Patch>
