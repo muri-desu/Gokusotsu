@@ -125,12 +125,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：中流担当獄卒 -->
@@ -146,12 +140,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：下流担当獄卒 -->
@@ -166,12 +154,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 横領経理マン -->
@@ -202,12 +184,6 @@
 		<SpeedOffset>2</SpeedOffset>
 		<Pyromaniac>0</Pyromaniac>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バンガシラA -->
@@ -226,12 +202,6 @@
 		<Kind>0</Kind>
 		<Neurotic>2</Neurotic>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バンガシラB -->
@@ -251,12 +221,6 @@
 		<Abrasive>0</Abrasive>
 		<NaturalMood>1</NaturalMood>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>25</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 肥溜め担当 -->
@@ -271,12 +235,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>2</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 帰国子女 -->
@@ -292,12 +250,6 @@
 		<li>GHG_player</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 屋台の親父A -->
@@ -402,12 +354,6 @@
 	<forcedTraits>
 		<Nerves>-1</Nerves>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>5</value>
-		</li>
-	</possessions>
 	<spawnCategories>
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
@@ -427,12 +373,6 @@
 	<forcedTraits>
 		<Nerves>-1</Nerves>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>5</value>
-		</li>
-	</possessions>
 	<spawnCategories>
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
@@ -452,12 +392,6 @@
 	<forcedTraits>
 		<Kind />
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>15</value>
-		</li>
-	</possessions>
 	<spawnCategories>
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
@@ -477,12 +411,6 @@
 	<forcedTraits>
 		<Bloodlust />
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>5</value>
-		</li>
-	</possessions>
 	<spawnCategories>
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
@@ -502,12 +430,6 @@
 	<forcedTraits>
 		<Industriousness>-1</Industriousness>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>10</value>
-		</li>
-	</possessions>
 	<spawnCategories>
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="GHG_HatBase"><!-- 腹がけ -->
+	<defName>Apparel_Haragake</defName>
+		<label>Kids' apron</label>
+		<description>An Apron-like easy cloth for kids.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/Haragake</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>3000</WorkToMake>
+		<MaxHitPoints>250</MaxHitPoints>
+		<Mass>2</Mass>
+		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.03</ArmorRating_Heat>
+		<Insulation_Cold>0.05</Insulation_Cold>
+		<Insulation_Heat>0</Insulation_Heat>
+		<EquipDelay>3</EquipDelay>
+	</statBases>
+
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<costStuffCount>30</costStuffCount>
+
+	<equippedStatOffsets>
+	</equippedStatOffsets>
+
+	<apparel>
+		<developmentalStageFilter>Child</developmentalStageFilter>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<layers>
+			<li>OnSkin</li>
+		</layers>
+		<wornGraphicPath>Things/Apparel/Haragake</wornGraphicPath>
+	<tags>
+		<li>GHG_Basic</li>
+	</tags>
+	</apparel>
+	<thingCategories>
+		<li>GHG_Apparel</li>
+	</thingCategories>
+	<colorGenerator Class="ColorGenerator_StandardApparel" />
+	<tradeTags>
+		<li>GHG_Apparel</li>
+	</tradeTags>
+</ThingDef>
+
+<ThingDef ParentName="GHG_HatBase"><!-- 雪ん子 -->
+	<defName>Apparel_Yukinko</defName>
+		<label>Straw cape</label>
+		<description>Winter cape made out of straw.</description>
+
+	<graphicData>
+		<texPath>Things/Apparel/Hat/Yukinko</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>1500</WorkToMake>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Mass>1</Mass>
+		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.03</ArmorRating_Heat>
+		<Insulation_Cold>25</Insulation_Cold>
+		<Insulation_Heat>1</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+	</statBases>
+
+	<costList>
+		<Hay>45</Hay>
+	</costList>
+
+	<equippedStatOffsets>
+	</equippedStatOffsets>
+
+	<apparel>
+		<developmentalStageFilter>Child</developmentalStageFilter>
+		<bodyPartGroups>
+			<li>FullHead</li>
+			<li>UpperHead</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<wornGraphicPath>Things/Apparel/Hat/Yukinko</wornGraphicPath>
+		<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		<hatRenderedAboveBody>true</hatRenderedAboveBody>
+		<hatRenderedBehindHead>false</hatRenderedBehindHead> -->
+	<tags>
+		<li>GHG_Basic</li>
+	</tags>
+	</apparel>
+	<thingCategories>
+		<li>GHG_Apparel</li>
+	</thingCategories>
+	<colorGenerator Class="ColorGenerator_Options">
+		<options>
+			<li>
+				<weight>1</weight>
+				<only>(1,1,1)</only>
+			</li>
+		</options>
+	</colorGenerator>
+	<tradeTags>
+		<li>GHG_Apparel</li>
+	</tradeTags>
+</ThingDef>
+
+	<StuffCategoryDef>
+		<defName>Straw</defName>
+		<label>straw</label>
+	</StuffCategoryDef>
+</Defs>

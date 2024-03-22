@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- 鋼の肝臓 -->
+	<GeneDef>
+		<defName>GokusotsuLiver</defName>
+		<label>Robust liver</label>
+		<labelShortAdj>robust liver</labelShortAdj>
+		<description>Carriers of this gene are immune to negative effects of alcohol.</description>
+		<iconPath>UI/Icons/Gene_GokusotsuLiver</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Hangover</li>
+			<li>Cirrhosis</li>
+		</hediffGiversCannotGive>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<symbolPack>
+		<prefixSymbols>
+			<li><symbol>zaru</symbol></li>
+			<li><symbol>uwabami</symbol></li>
+			<li><symbol>jougo</symbol></li>
+		</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+</Defs>

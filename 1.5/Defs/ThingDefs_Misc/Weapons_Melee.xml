@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality"><!-- 金棒 -->
+	<defName>GHG_Club</defName>
+		<label>Iron club</label>
+		<description>A rough, gigantic iron club.</description>
+		<techLevel>Medieval</techLevel>
+
+	<graphicData>
+		<texPath>Things/Weapons/Melee/Club</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.2</drawSize>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>15000</WorkToMake>
+		<Mass>5.0</Mass>
+	</statBases>
+
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>75</costStuffCount>
+
+	<tools>
+		<li>
+		<label>handle</label>
+			<capacities>
+				<li>Poke</li>
+			</capacities>
+			<power>23</power>
+			<cooldownTime>2.7</cooldownTime>
+		</li>
+		<li>
+		<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>28</power>
+			<cooldownTime>3</cooldownTime>
+			<armorPenetration>0.75</armorPenetration>
+		</li>
+	</tools>
+	<weaponTags Inherit="false">
+		<li>GHG_BossMelee</li>
+		<li>GHG_Melee</li>
+	</weaponTags>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality"><!-- トンファー -->
+	<defName>GHG_Tonfa</defName>
+		<label>Tonfa</label>
+		<description>A weapon for quick attack.</description>
+		<techLevel>Medieval</techLevel>
+
+	<graphicData>
+		<texPath>Things/Weapons/Melee/Tonfa</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>15000</WorkToMake>
+		<Mass>2.0</Mass>
+	</statBases>
+
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>65</costStuffCount>
+
+	<equippedStatOffsets>
+		<NegotiationAbility>0.1</NegotiationAbility>
+		<MeleeDodgeChance>0.1</MeleeDodgeChance>
+	</equippedStatOffsets>
+	<equippedAngleOffset>35</equippedAngleOffset>
+
+	<tools>
+		<li>
+		<label>handle</label>
+			<capacities>
+				<li>Poke</li>
+			</capacities>
+			<power>7</power>
+			<cooldownTime>0.5</cooldownTime>
+		</li>
+		<li>
+		<label>head</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>7</power>
+			<cooldownTime>0.7</cooldownTime>
+		</li>
+		<li>
+		<label>kick</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>13</power>
+			<cooldownTime>0.8</cooldownTime>
+		</li>
+	</tools>
+	<weaponTags Inherit="false">
+		<li>GHG_Melee</li>
+	</weaponTags>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality"><!-- さすまた -->
+	<defName>GHG_Sasumata</defName>
+		<label>Sasumata</label>
+		<description>A fork-shaped weapon for restraining bad guys.</description>
+		<techLevel>Medieval</techLevel>
+
+	<graphicData>
+		<texPath>Things/Weapons/Melee/Sasumata</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.2</drawSize>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>18000</WorkToMake>
+		<Mass>2.5</Mass>
+	</statBases>
+
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
+
+	<equippedStatOffsets>
+		<ArrestSuccessChance>0.1</ArrestSuccessChance>
+		<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
+	</equippedStatOffsets>
+	<equippedAngleOffset>15</equippedAngleOffset>
+
+	<tools>
+		<li>
+		<label>shaft</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2.5</cooldownTime>
+		</li>
+		<li>
+		<label>point</label>
+			<capacities>
+				<li>Stab</li>
+				<li>Poke</li>
+			</capacities>
+			<power>23</power>
+			<cooldownTime>2.0</cooldownTime>
+		</li>
+	</tools>
+	<weaponTags Inherit="false">
+		<li>GHG_Melee</li>
+	</weaponTags>
+</ThingDef>
+
+<!-- 太鼓<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+	<defName>GHG_Drum</defName>
+		<label>Drum</label>
+		<description>A drum which can cheer your folks up.</description>
+		<techLevel>Medieval</techLevel>
+
+	<graphicData>
+		<texPath>Things/Weapons/Melee/Drum</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>18000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
+
+	<stuffCategories>
+		<li>Woody</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
+
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+	</equippedStatOffsets>
+	<equippedAngleOffset>5</equippedAngleOffset>
+
+	<tools>
+		<li>
+		<label>stick</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>0.8</cooldownTime>
+		</li>
+	</tools>
+	<weaponTags Inherit="false">
+		<li>GHG_Melee</li>
+	</weaponTags>
+</ThingDef> -->
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality"><!-- 払子 -->
+	<defName>GHG_Hossu</defName>
+		<label>Hossu</label>
+		<description>A buddhist altar fittings, originally a priest's flapper.</description>
+		<techLevel>Medieval</techLevel>
+
+	<graphicData>
+		<texPath>Things/Weapons/Melee/Hossu</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>18000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
+
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
+	<costList>
+		<WoodLog>45</WoodLog>
+	</costList>
+
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+		<PsychicSensitivity>0.1</PsychicSensitivity>
+		<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+	</equippedStatOffsets>
+	<equippedAngleOffset>0</equippedAngleOffset>
+
+	<tools>
+		<li>
+		<label>handle</label>
+			<capacities>
+				<li>Poke</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+
+	<weaponTags Inherit="false">
+		<li>GHG_BossMelee</li>
+	</weaponTags>
+
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality"><!-- そろばん -->
+	<defName>GHG_Soroban</defName>
+		<label>Abacus</label>
+		<description>A primitive calculator. Essential for itinerant traders.</description>
+		<techLevel>Medieval</techLevel>
+
+	<graphicData>
+		<texPath>Things/Weapons/Melee/Soroban</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>18000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
+
+	<stuffCategories>
+		<li>Woody</li>
+		<li>Metallic</li>
+		<li>Stony</li>
+	</stuffCategories>
+	<costStuffCount>100</costStuffCount>
+	<costList>
+		<Steel>45</Steel>
+	</costList>
+
+	<equippedStatOffsets>
+		<TradePriceImprovement>0.1</TradePriceImprovement>
+		<DrugSellPriceImprovement>0.1</DrugSellPriceImprovement>
+	</equippedStatOffsets>
+	<equippedAngleOffset>15</equippedAngleOffset>
+
+	<tools>
+		<li>
+		<label>edge</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>12</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+	<weaponTags Inherit="false">
+		<li>GHG_TraderMelee</li>
+	</weaponTags>
+
+</Defs>

@@ -40,12 +40,6 @@
 	<forcedTraits>
 		<Industriousness>-2</Industriousness>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>5</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- ドジな獄卒 -->
@@ -68,12 +62,6 @@
 			<chance>70</chance>
 		</li>
 	</forcedTraitsChance>
-	<possessions>
-		<li>
-			<key>MedicineHerbal</key>
-			<value>5</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 繊細な獄卒 -->
@@ -135,12 +123,6 @@
 			<chance>70</chance>
 		</li>
 	</forcedTraitsChance>
-	<possessions>
-		<li>
-			<key>MeleeWeapon_LongSword</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- パリピな獄卒 -->
@@ -168,16 +150,6 @@
 			<chance>100</chance>
 		</li>
 	</forcedTraitsChance>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>5</value>
-		</li>
-		<li>
-			<key>SmokeleafJoint</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 大食いの獄卒 -->
@@ -196,16 +168,6 @@
 	<forcedTraits>
 		<Gourmand>0</Gourmand>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Meat_Human</key>
-			<value>3</value>
-		</li>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バックラー獄卒 -->
@@ -225,12 +187,6 @@
 		<Industriousness>-2</Industriousness>
 		<SpeedOffset>2</SpeedOffset>
 	</forcedTraits>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 下戸の獄卒A -->

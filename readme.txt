@@ -28,7 +28,7 @@ NPC獄卒派閥
 
 contents⬇️
  
-Gokusotsu (basic & horse-headed & bull-headed)
+Gokusotsu (basic oni-like race & horse-headed & bull-headed)
 - mostly male
 - big body size
 - can eat corpses or human meat without mood debuff

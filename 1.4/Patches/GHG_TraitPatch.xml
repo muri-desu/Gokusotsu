@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Fishing Expanded</li>
+			<li>1914064942</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "FisherGokusotsu"]/forcedTraitsChance</xpath>
+			<value>
+				<li><defName>VCEF_Fisherman</defName></li>
+			</value>
+		</match>
+	</Operation>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Traits Expanded</li>
+		<li>2296404655</li>
+	</mods>
+
+	<match Class="PatchOperationSequence">
+	<operations>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "DramaQueenGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Insatiable</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "NekoDaisukiGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_CatPerson</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "HawkerGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Menagerist</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "FisherGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_ChildOfSea</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "CamperGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Wanderlust</defName><chance>50</chance></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "CarelessGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Clumsy</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "ClubberGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_FunLoving</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "AbsenteeGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_AbsentMinded</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "NondrinkerGokusotsu_A" or @Name = "NondrinkerGokusotsu_B"]/disallowedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Lush</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "PlumberGokusotsu" or @Name = "BloodPondGardener"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Groundbreaker</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "EmbezzlerGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Kleptomaniac</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "MessengerGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Technophobe</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "ConveyorGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Submissive</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "FoodStallGokusotsu_B"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Gastronomist</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "FoodStallGokusotsu_A"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Tycoon</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "KyomuKyoushiGokusotsu"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Desensitized</defName></li>
+		</value>
+	</li>
+
+	<!-- child -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "SleepyKids"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_HeavySleeper</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "Oddball"]/forcedTraitsChance</xpath>
+		<value>
+			<li><defName>VTE_Eccentric</defName></li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "Loner"]/forcedTraitsChance</xpath>
+		<value>
+			<li>
+			<options>
+				<li><defName>VTE_Schizoid</defName><chance>50</chance></li>
+				<li><defName>VTE_Anxious</defName><chance>50</chance></li>
+			<count>1</count>
+			</options>
+			</li>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[defName = "ScienceKid"]/forcedTraitsChance</xpath>
+		<value>
+			<li>
+			<options>
+				<li><defName>VTE_MadSurgeon</defName><chance>50</chance></li>
+				<li><defName>VTE_Prodigy</defName><chance>50</chance></li>
+				<li><defName>VTE_Academian</defName><chance>50</chance></li>
+			<count>1</count>
+			</options>
+			</li>
+		</value>
+	</li>
+
+	</operations>
+	</match>
+</Operation>
+
+</Patch>

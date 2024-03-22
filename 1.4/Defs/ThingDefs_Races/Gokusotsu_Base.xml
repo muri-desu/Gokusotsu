@@ -289,32 +289,13 @@
 		<li>Apparel_GokusotsuEarrings</li>
 	</apparelList>
 	<whiteApparelList>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Haragake</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Yukinko</li>
 		<li>Apparel_PsychicShockLance</li>
 		<li>Apparel_PsychicInsanityLance</li>
 		<li>Apparel_ShieldBelt</li>
 		<li>Apparel_SmokepopBelt</li>
-		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
-		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
 		<li>Apparel_FirefoampopPack</li>
 		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlEar</li>
 		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlTail</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Hirameki</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Tuchi</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Wa</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Jin</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Ikusa</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Karibito</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Hi_No_Magatama</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Nagi_no_Magatama</li>
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes MayRequire="Ludeon.RimWorld.Biotech">false</onlyHaveRaceRestrictedGenes>
@@ -415,29 +396,6 @@
 	<li>WrongApparelGender</li>
 	<li MayRequire="Smuffle.HarvestOrgansPostMortem">HarvestedHumanlikeCorpse</li>
 	<li MayRequire="Smuffle.HarvestOrgansPostMortem">KnowHarvestedHumanlikeCorpse</li>
-	<!-- <li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Know_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_AteAlienMeat_Know_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Abhorrent_Opinion</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HAR_ButcheredAlien_Know_Disapproved_Opinion</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Horrible</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Horrible</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">AteHumanMeat_Know_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Horrible</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">HumanLeatherApparel_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Abhorrent_Opinion</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Horrible_Opinion</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved</li>
-	<li MayRequire="Ludeon.RimWorld.Ideology">ButcheredHuman_Know_Disapproved_Opinion</li> -->
 	<!-- room stats, need beauty -->
 	<li>NeedBeauty</li>
 	<li>AteInImpressiveDiningRoom</li>
@@ -513,18 +471,6 @@
 	<li>Euthanize</li>
 	<li>Anesthetize</li>
 	<li>CureScaria</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
-	<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
-	<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
 </recipes>
 
 <damageMultipliers>

@@ -22,16 +22,6 @@
 		<li>GHG_wanderer</li>
 		<li>GHG_trader</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Silver</key>
-			<value>1</value>
-		</li>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- カラオケの達人 -->
@@ -135,12 +125,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- neko chan kawaii -->
@@ -154,12 +138,6 @@
 	<spawnCategories>
 		<li>GHG_boss</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 鷹匠 -->
@@ -173,12 +151,6 @@
 	<spawnCategories>
 		<li>GHG_boss</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>1</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- DIYの獄卒 -->
@@ -225,12 +197,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- ソロキャンパー獄卒 -->
@@ -249,12 +215,6 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<possessions>
-		<li>
-			<key>Beer</key>
-			<value>3</value>
-		</li>
-	</possessions>
 </AlienRace.AlienBackstoryDef>
 
 </Defs>
