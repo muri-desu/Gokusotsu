@@ -154,7 +154,7 @@
 
 <alienRace>
 <generalSettings>
-	<minAgeForAdulthood>18</minAgeForAdulthood>
+	<minAgeForAdulthood>16</minAgeForAdulthood>
 	<allowHumanBios>false</allowHumanBios>
 	<humanRecipeImport>true</humanRecipeImport>
 	<immuneToAge>true</immuneToAge>
@@ -198,39 +198,17 @@
 </alienPartGenerator>
 
 <disallowedTraits>
-	<li>
-		<defName>Beauty</defName>
-		<degree>1</degree>
-		<chance>100</chance>
-	</li>
-	<li>
-		<defName>Beauty</defName>
-		<degree>2</degree>
-		<chance>100</chance>
-	</li>
-	<li>
-		<defName>Cannibal</defName>
-	</li>
-	<li>
-		<defName>Asexual</defName>
-	</li>
-	<li>
-		<defName>Wimp</defName>
-	</li>
+	<li><defName>Beauty</defName><degree>1</degree><chance>100</chance></li>
+	<li><defName>Beauty</defName><degree>2</degree><chance>100</chance></li>
+	<li><defName>Cannibal</defName></li>
+	<li><defName>Asexual</defName></li>
+	<li><defName>Wimp</defName></li>
 </disallowedTraits>
 <forcedRaceTraitEntries>
-	<li>
-		<defName>Gay</defName>
-		<chance>50</chance>
-	</li>
-	<li>
-		<defName>Bloodlust</defName>
-		<chance>30</chance>
-	</li>
-	<li>
-		<defName>Brawler</defName>
-		<chance>20</chance>
-	</li>
+	<li><defName>Gay</defName><chance>50</chance></li>
+	<li><defName>Bisexual</defName><chance>50</chance></li>
+	<li><defName>Bloodlust</defName><chance>30</chance></li>
+	<li><defName>Brawler</defName><chance>20</chance></li>
 	</forcedRaceTraitEntries>
 
 <chemicalSettings><!-- 飲酒時hediff -->
@@ -261,17 +239,26 @@
 <graphicPaths>
 	<body><path>Gokusotsu/Bodies/</path>
 		<extendedGraphics>
-			<BodyType For="Fat">Gokusotsu/Bodies/Naked_Fat</BodyType>
-			<BodyType For="Hulk">Gokusotsu/Bodies/Naked_Hulk</BodyType>
 			<Age For="HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Stump</Age>
 			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</Age>
-			<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</Age>
+			<Age For="HumanlikeAdult">
+				<path>Gokusotsu/Bodies/</path>
+				<extendedGraphics>
+					<BodyType For="Fat">Gokusotsu/Bodies/Naked_Fat</BodyType>
+					<BodyType For="Hulk">Gokusotsu/Bodies/Naked_Hulk</BodyType>
+				</extendedGraphics>
+			</Age>
 		</extendedGraphics>
 	</body>
 	<head>Gokusotsu/Heads/</head>
 	<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</skeleton>
 	<stump>Gokusotsu/Bodies/Stump</stump>
 	<skinShader>Cutout</skinShader>
+
+<apparel>
+	<individualPaths>
+	</individualPaths>
+</apparel>
 </graphicPaths>
 
 <raceRestriction>
@@ -292,8 +279,6 @@
 		<li>Apparel_Nenju</li>
 		<li>Apparel_GokusotsuGlasses</li>
 		<li>Apparel_GokusotsuEarrings</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Haragake</li>
-		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_Yukinko</li>
 	</apparelList>
 	<whiteApparelList>
 		<li>Apparel_PsychicShockLance</li>
@@ -303,9 +288,6 @@
 		<li>Apparel_FirefoampopPack</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
 		<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_PackJump</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_PackBroadshield</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Apparel_PackJump</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackTox</li>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="GHG_HatBase"><!-- 腹がけ -->
+<ThingDef ParentName="GHG_ApparelBase"><!-- 腹がけ -->
 	<defName>Apparel_Haragake</defName>
 		<label>Kids' apron</label>
 		<description>An Apron-like easy cloth for kids.</description>
@@ -46,9 +46,6 @@
 		<li>GHG_Basic</li>
 	</tags>
 	</apparel>
-	<thingCategories>
-		<li>GHG_Apparel</li>
-	</thingCategories>
 	<colorGenerator Class="ColorGenerator_StandardApparel" />
 	<tradeTags>
 		<li>GHG_Apparel</li>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="GHG_HatBase"><!-- 腹がけ -->
+<ThingDef ParentName="GHG_ApparelBase"><!-- 腹がけ -->
 	<defName>Apparel_Haragake</defName>
 		<label>Kids' apron</label>
 		<description>An Apron-like easy cloth for kids.</description>
@@ -14,7 +14,7 @@
 	<statBases>
 		<WorkToMake>3000</WorkToMake>
 		<MaxHitPoints>250</MaxHitPoints>
-		<Mass>2</Mass>
+		<Mass>0.5</Mass>
 		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 		<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
 		<ArmorRating_Heat>0.03</ArmorRating_Heat>
@@ -46,9 +46,7 @@
 		<li>GHG_Basic</li>
 	</tags>
 	</apparel>
-	<thingCategories>
-		<li>GHG_Apparel</li>
-	</thingCategories>
+
 	<colorGenerator Class="ColorGenerator_StandardApparel" />
 	<tradeTags>
 		<li>GHG_Apparel</li>
@@ -99,13 +97,11 @@
 			<li>Overhead</li>
 		</layers>
 		<wornGraphicPath>Things/Apparel/Hat/Yukinko</wornGraphicPath>
-		<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-		<hatRenderedAboveBody>true</hatRenderedAboveBody>
-		<hatRenderedBehindHead>false</hatRenderedBehindHead> -->
 	<tags>
 		<li>GHG_Basic</li>
 	</tags>
 	</apparel>
+
 	<thingCategories>
 		<li>GHG_Apparel</li>
 	</thingCategories>

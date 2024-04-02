@@ -40,7 +40,7 @@
 		<li>GHG_wanderer</li>
 	</spawnCategories>
 	<forcedTraitsChance>
-		<li><AnnoyingVoice>0</AnnoyingVoice></li>
+		<li><defName>AnnoyingVoice</defName></li>
 	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
@@ -48,7 +48,7 @@
 	<defName>BootleggerGokusotsu_A</defName>
 	<title>bootlegger</title>
 	<titleShort>bootlegger</titleShort>
-	<description>おいしい酒をなるべく安くたらふく飲みたいと思った[PAWN_nameDef]は酒の密造に熱中し、みつかり罰せられレシピは没収され悔しい思いをしました。</description>
+	<description>[PAWN_nameDef] used to immersed himself in moonshine production just in order to drink his favorite liquor to the hilt.</description>
 	<skillGains>
 		<Cooking>2</Cooking>
 		<Plants>2</Plants>
@@ -58,6 +58,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- どぶろく職人B -->
@@ -74,6 +76,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- サークラ獄卒 -->
@@ -95,8 +99,8 @@
 		<li>GHG_boss</li>
 	</spawnCategories>
 	<forcedTraitsChance>
-		<li><Jealous>0</Jealous></li>
-		<li><Wimp>0</Wimp></li>
+		<li><defName>Jealous</defName></li>
+		<li><defName>Wimp</defName></li>
 	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 

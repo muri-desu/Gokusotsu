@@ -7,7 +7,7 @@
 	<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	<initialWillRange>1~3</initialWillRange>
 	<initialResistanceRange>10~20</initialResistanceRange>
-	<itemQuality>Poor</itemQuality>
+	<apparelMoney>350~600</apparelMoney>
 	<gearHealthRange>0.5~0.8</gearHealthRange>
 	<apparelTags>
 		<li>GHG_Basic</li>
@@ -25,9 +25,9 @@
 <PawnKindDef Name="BaseGHGColonist" ParentName="BaseGHGPawnKind" Abstract="True">
 	<label>colonist</label>
 	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-	<apparelMoney>350~600</apparelMoney>
 	<minGenerationAge>6</minGenerationAge>
 	<maxGenerationAge>150</maxGenerationAge>
+	<itemQuality>Normal</itemQuality>
 	<backstoryFiltersOverride>
 		<li>
 			<categories>
@@ -138,7 +138,7 @@
 	<label>demon chief</label>
 	<trader>true</trader>
 	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-	<itemQuality>Normal</itemQuality>
+	<itemQuality>Good</itemQuality>
 	<apparelMoney>500~2500</apparelMoney>
 	<invNutrition>2.55</invNutrition>
 	<backstoryFiltersOverride>
@@ -225,11 +225,11 @@
 <PawnKindDef ParentName="BaseGHGTrader">
 	<defName>GHG_Trader</defName>
 	<race>Alien_Gokusotsu</race>
-	<xenotypeSet Inherit="False">
+	<!--<xenotypeSet Inherit="False">
 		<xenotypeChances>
 			<XenoGokusotsu MayRequire="Ludeon.RimWorld.Biotech">1</XenoGokusotsu>
 		</xenotypeChances>
-	</xenotypeSet>
+	</xenotypeSet> -->
 </PawnKindDef>
 
 <PawnKindDef ParentName="BaseGHGTrader">

@@ -47,7 +47,7 @@
 	<defName>BootleggerGokusotsu_A</defName>
 	<title>bootlegger</title>
 	<titleShort>bootlegger</titleShort>
-	<baseDesc>おいしい酒をなるべく安くたらふく飲みたいと思った[PAWN_nameDef]は酒の密造に熱中し、みつかり罰せられレシピは没収され悔しい思いをしました。</baseDesc>
+	<baseDesc>[PAWN_nameDef] used to immersed himself in moonshine production just in order to drink his favorite liquor to the hilt.</baseDesc>
 	<skillGains>
 		<li><key>Cooking</key><value>2</value></li>
 		<li><key>Plants</key><value>2</value></li>

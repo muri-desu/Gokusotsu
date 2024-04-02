@@ -11,6 +11,13 @@
 	</li>
 
 	<li Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "BootleggerGokusotsu_A"]/forcedTraits</xpath>
+		<value>
+			<VTE_Lush>0</VTE_Lush>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAdd">
 		<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "NekoDaisukiGokusotsu"]/forcedTraits</xpath>
 		<value>
 			<VTE_CatPerson>0</VTE_CatPerson>
@@ -60,14 +67,14 @@
 	</li>
 
 	<li Class="PatchOperationAdd">
-		<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "NondrinkerGokusotsu_A" or @Name = "NondrinkerGokusotsu_B"]/disallowedTraits</xpath>
+		<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "NondrinkerGokusotsu_A" or defName = "NondrinkerGokusotsu_B"]/disallowedTraits</xpath>
 		<value>
 			<VTE_Lush>0</VTE_Lush>
 		</value>
 	</li>
 
 	<li Class="PatchOperationAdd">
-		<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "PlumberGokusotsu" or @Name = "BloodPondGardener"]/forcedTraits</xpath>
+		<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "PlumberGokusotsu" or defName = "BloodPondGardener"]/forcedTraits</xpath>
 		<value>
 			<VTE_Groundbreaker>0</VTE_Groundbreaker>
 		</value>

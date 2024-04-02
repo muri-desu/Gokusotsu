@@ -17,14 +17,14 @@
 		<def>HumanlikeChild</def>
 		<minAge>3</minAge>
 	</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">
+	<!-- <li MayRequire="Ludeon.RimWorld.Biotech">
 		<def>HumanlikePreTeenager</def>
 		<minAge>9</minAge>
 	</li>
 	<li>
 		<def>HumanlikeTeenager</def>
 		<minAge>13</minAge>
-	</li>
+	</li> -->
 	<li>
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>
@@ -328,15 +328,19 @@
 	<li>
 		<def>HumanlikeChild</def>
 		<minAge>3</minAge>
+		<soundWounded>Pawn_Horse_Wounded</soundWounded>
+		<soundDeath>Pawn_Horse_Death</soundDeath>
+		<soundCall>Pawn_Horse_Call</soundCall>
+		<soundAngry>Pawn_Horse_Angry</soundAngry>
 	</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">
+	<!-- <li MayRequire="Ludeon.RimWorld.Biotech">
 		<def>HumanlikePreTeenager</def>
 		<minAge>9</minAge>
 	</li>
 	<li>
 		<def>HumanlikeTeenager</def>
 		<minAge>13</minAge>
-	</li>
+	</li>-->
 	<li>
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>
@@ -555,15 +559,19 @@
 	<li>
 		<def>HumanlikeChild</def>
 		<minAge>3</minAge>
+		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+		<soundDeath>Pawn_Muffalo_Death</soundDeath>
+		<soundCall>Pawn_Muffalo_Call</soundCall>
+		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
 	</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">
+	<!-- <li MayRequire="Ludeon.RimWorld.Biotech">
 		<def>HumanlikePreTeenager</def>
 		<minAge>9</minAge>
 	</li>
 	<li>
 		<def>HumanlikeTeenager</def>
 		<minAge>13</minAge>
-	</li>
+	</li> -->
 	<li>
 		<def>HumanlikeAdult</def>
 		<minAge>18</minAge>

@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<!-- <Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 
-		<li Class="PatchOperationFindMod">
-			<mods>
-				<li>Biotech</li>
-			</mods> 
-			<match Class="PatchOperationAdd">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "BaseGHG"]/alienRace/raceRestriction/apparelList</xpath>
-			<value>
+	<li Class="PatchOperationAdd"><!-- こども服・パック類追加 -->
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace</xpath>
+		<value>
+		<raceRestriction>
+			<whiteApparelList>
 				<li>Apparel_Haragake</li>
 				<li>Apparel_Yukinko</li>
-			</value>
-			</match>
-		</li>
-
-
-		<li Class="PatchOperationAdd">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "BaseGHG"]/alienRace/raceRestriction/whiteApparelList</xpath>
-			<value>
 				<li>Apparel_PackControl</li>
 				<li>Apparel_PackBandwidth</li>
 				<li>Apparel_PackTox</li>
@@ -28,25 +18,11 @@
 				<li>Apparel_IntegratorHeadset</li>
 				<li>Apparel_ArmorHelmetMechCommander</li>
 				<li>Apparel_ArrayHeadset</li>
-			</value>
-		</li>
-
-		<li Class="PatchOperationAdd">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "BaseGHG"]/recipes</xpath>
-			<value>
-				<li>Vasectomy</li>
-				<li>ReverseVasectomy</li>
-				<li>TubalLigation</li>
-				<li>ExtractOvum</li>
-				<li>ExtractHemogenPack</li>
-				<li>BloodTransfusion</li>
-				<li>ImplantXenogerm</li>
-				<li>ImplantIUD</li>
-				<li>RemoveIUD</li>
-				<li>TerminatePregnancy</li>
-			</value>
-		</li>
+			</whiteApparelList>
+		</raceRestriction>
+		</value>
+	</li>
 
 		</operations>
-	</Operation> -->
+	</Operation>
 </Patch>

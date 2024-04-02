@@ -19,7 +19,7 @@
 		<li>GHG_trader</li>
 	</spawnCategories>
 	<forcedTraitsChance>
-		<li><Industriousness>2</Industriousness></li>
+		<li><defName Degree="2">Industriousness</defName></li>
 	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
@@ -38,7 +38,7 @@
 		<li>GHG_trader</li>
 	</spawnCategories>
 	<forcedTraitsChance>
-		<li><Industriousness>-2</Industriousness></li>
+		<li><defName Degree="-2">Industriousness</defName></li>
 	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
@@ -57,8 +57,7 @@
 		<li>GHG_wanderer</li>
 	</spawnCategories>
 	<forcedTraitsChance>
-		<li>
-			<defName>SlowLearner</defName>
+		<li><defName>SlowLearner</defName>
 			<chance>70</chance>
 		</li>
 	</forcedTraitsChance>
@@ -108,10 +107,8 @@
 		<li>GHG_player</li>
 		<li>GHG_wanderer</li>
 	</spawnCategories>
-	<forcedTraits>
-		<Bloodlust>0</Bloodlust>
-	</forcedTraits>
 	<forcedTraitsChance>
+		<li><defName>Bloodlust</defName></li>
 		<li>
 			<defName>Abrasive</defName>
 			<chance>70</chance>
@@ -201,6 +198,8 @@
 	<forcedTraitsChance>
 		<li><defName Degree="-1">DrugDesire</defName></li>
 	</forcedTraitsChance>
+	<disallowedTraitsChance>
+	</disallowedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 <AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 下戸の獄卒B -->
@@ -220,6 +219,8 @@
 	<forcedTraitsChance>
 		<li><defName Degree="-1">DrugDesire</defName></li>
 	</forcedTraitsChance>
+	<disallowedTraitsChance>
+	</disallowedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
 </Defs>

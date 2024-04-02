@@ -23,6 +23,9 @@
 	</recipeMaker>
 	<apparel>
 		<countsAsClothingForNudity>false</countsAsClothingForNudity><!-- false=ヌーディスト向け -->
+		<renderSkipFlags>
+			<li>None</li>
+		</renderSkipFlags>
 	</apparel>
 	<thingCategories>
 		<li>GHG_Headgear</li>

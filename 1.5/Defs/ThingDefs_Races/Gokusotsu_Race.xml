@@ -9,25 +9,17 @@
 		<useMeatFrom>Human</useMeatFrom>
 		<leatherDef>Leather_Human</leatherDef>
 	<lifeStageAges>
-	<li>
-		<def>HumanlikeBaby</def>
+	<li Class="AlienRace.LifeStageAgeAlien">
+		<def>GHG_HumanlikeBaby</def>
 		<minAge>0</minAge>
 	</li>
 	<li>
 		<def>HumanlikeChild</def>
 		<minAge>3</minAge>
 	</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">
-		<def>HumanlikePreTeenager</def>
-		<minAge>9</minAge>
-	</li>
-	<li>
-		<def>HumanlikeTeenager</def>
-		<minAge>13</minAge>
-	</li>
 	<li>
 		<def>HumanlikeAdult</def>
-		<minAge>18</minAge>
+		<minAge>16</minAge>
 	</li>
 	</lifeStageAges>
 	</race>
@@ -115,62 +107,39 @@
 		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
-		<Age For="HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech"><path>Contents/Textures/Gokusotsu/Horns/Baby/Horn_left</path>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_left
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0,0)</north>
 				<east>(-0.02,0)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech"><path>Contents/Textures/Gokusotsu/Horns/Child/Horn_left</path>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_left
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0,0)</north>
 				<east>(0,0)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech"><path>Contents/Textures/Gokusotsu/Horns/Child/Horn_left</path>
-			<offsets>
-				<south>(0,0)</south>
-				<north>(0,0)</north>
-				<east>(0,0)</east>
-			</offsets>
-	</Age>
 	</extendedGraphics>
-			<!--<ageGraphics>
-				<HumanlikeBaby>
-					<path>Gokusotsu/Horns/Baby/Horn_left</path>
-				</HumanlikeBaby>
-				<HumanlikeChild MayRequire="Ludeon.RimWorld.Biotech">
-					<path>Gokusotsu/Horns/Child/Horn_left</path>
-				</HumanlikeChild>
-				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
-					<path>Gokusotsu/Horns/Child/Horn_left</path>
-				</HumanlikePreTeenager>
-			</ageGraphics> -->
+
 		<offsets>
 			<south>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.02,0)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -190,21 +159,14 @@
 		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
-		<Age For="HumanlikeBaby"><path>Gokusotsu/Horns/Baby/Horn_right</path>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_right
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0,0)</north>
 				<east>(0.02,0)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikeChild"><path>Gokusotsu/Horns/Child/Horn_right</path>
-			<offsets>
-				<south>(0,0)</south>
-				<north>(0,0)</north>
-				<east>(0.02,0)</east>
-				</offsets>
-		</Age>
-		<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/Child/Horn_right</path>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_right
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0,0)</north>
@@ -212,41 +174,24 @@
 			</offsets>
 		</Age>
 	</extendedGraphics>
-			<!-- <ageGraphics>
-				<HumanlikeBaby>
-					<path>Gokusotsu/Horns/Baby/Horn_right</path>
-				</HumanlikeBaby>
-				<HumanlikeChild>
-					<path>Gokusotsu/Horns/Child/Horn_right</path>
-				</HumanlikeChild>
-				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
-					<path>Gokusotsu/Horns/Child/Horn_right</path>
-				</HumanlikePreTeenager>
-			</ageGraphics> -->
 
 		<offsets>
 			<south>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.02,0)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -264,24 +209,25 @@
 </generalSettings>
 
 <graphicPaths>
-
 	<head><path>Gokusotsu/Heads/</path>
 		<extendedGraphics>
-			<HeadType For="Head_A">Gokusotsu/Heads/Head_A</HeadType>
-			<HeadType For="Head_B">Gokusotsu/Heads/Head_B</HeadType>
-			<HeadType For="Head_C">Gokusotsu/Heads/Head_C</HeadType>
-			<HeadType For="Head_D">Gokusotsu/Heads/Head_D</HeadType>
-			<HeadType For="Head_E">Gokusotsu/Heads/Head_E</HeadType>
-			<HeadType For="Head_F">Gokusotsu/Heads/Head_F</HeadType>
-			<HeadType For="Head_G">Gokusotsu/Heads/Head_G</HeadType>
-			<Age For="HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/Head_Child</Age>
+			<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/Head_Child</Age>
 			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/Head_Child</Age>
-			<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/Head_Child</Age>
+			<Age For="HumanlikeAdult"><path>Gokusotsu/Heads/</path>
+				<extendedGraphics>
+					<HeadType For="Head_A">Gokusotsu/Heads/Head_A</HeadType>
+					<HeadType For="Head_B">Gokusotsu/Heads/Head_B</HeadType>
+					<HeadType For="Head_C">Gokusotsu/Heads/Head_C</HeadType>
+					<HeadType For="Head_D">Gokusotsu/Heads/Head_D</HeadType>
+					<HeadType For="Head_E">Gokusotsu/Heads/Head_E</HeadType>
+					<HeadType For="Head_F">Gokusotsu/Heads/Head_F</HeadType>
+					<HeadType For="Head_G">Gokusotsu/Heads/Head_G</HeadType>
+				</extendedGraphics>
+			</Age>
 		</extendedGraphics>
 	</head>
 	<skull>Gokusotsu/Heads/None_Average_Skull</skull>
 </graphicPaths>
-
 
 <styleSettings>
 		<li>
@@ -326,29 +272,17 @@
 		<useMeatFrom>Horse</useMeatFrom>
 		<leatherDef>Leather_Plain</leatherDef>
 	<lifeStageAges>
-	<li>
-		<def>HumanlikeBaby</def>
+	<li Class="AlienRace.LifeStageAgeAlien">
+		<def>GHG_HumanlikeBaby</def>
 		<minAge>0</minAge>
 	</li>
 	<li>
 		<def>HumanlikeChild</def>
 		<minAge>3</minAge>
 	</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">
-		<def>HumanlikePreTeenager</def>
-		<minAge>9</minAge>
-	</li>
-	<li>
-		<def>HumanlikeTeenager</def>
-		<minAge>13</minAge>
-		<soundWounded>Pawn_Horse_Wounded</soundWounded>
-		<soundDeath>Pawn_Horse_Death</soundDeath>
-		<soundCall>Pawn_Horse_Call</soundCall>
-		<soundAngry>Pawn_Horse_Angry</soundAngry>
-	</li>
 	<li>
 		<def>HumanlikeAdult</def>
-		<minAge>18</minAge>
+		<minAge>16</minAge>
 		<soundWounded>Pawn_Horse_Wounded</soundWounded>
 		<soundDeath>Pawn_Horse_Death</soundDeath>
 		<soundCall>Pawn_Horse_Call</soundCall>
@@ -426,63 +360,39 @@
 		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
-		<Age For="HumanlikeBaby"><path>Gokusotsu/Horns/Baby/MezuHorn</path>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/MezuHorn
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0,0)</north>
 				<east>(0.1,-0.015)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikeChild"><path>Gokusotsu/Horns/Child/MezuHorn</path>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/MezuHorn
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0,0)</north>
 				<east>(0.016,-0.025)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/Child/MezuHorn</path>
-			<offsets>
-				<south>(0,0)</south>
-				<north>(0,0)</north>
-				<east>(0,0)</east>
-			</offsets>
-		</Age>
 	</extendedGraphics>
-			<!-- <ageGraphics>
-				<HumanlikeBaby>
-					<path>Gokusotsu/Horns/Baby/MezuHorn</path>
-				</HumanlikeBaby>
-				<HumanlikeChild>
-					<path>Gokusotsu/Horns/Child/MezuHorn</path>
-				</HumanlikeChild>
-				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
-					<path>Gokusotsu/Horns/Child/MezuHorn</path>
-				</HumanlikePreTeenager>
-			</ageGraphics> -->
 
 		<offsets>
 			<south>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.016,-0.025)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1,-0.015)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -501,9 +411,8 @@
 <graphicPaths>
 	<head><path>Gokusotsu/Heads/MezuHead</path>
 		<extendedGraphics>
+			<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/MezuHead_Child</Age>
 			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/MezuHead_Child</Age>
-			<Age For="HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/MezuHead_Child</Age>
-			<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/MezuHead_Child</Age>
 		</extendedGraphics>
 	</head>
 	<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
@@ -558,21 +467,13 @@
 		<useMeatFrom>Cow</useMeatFrom>
 		<leatherDef>Leather_Plain</leatherDef>
 	<lifeStageAges>
-	<li>
-		<def>HumanlikeBaby</def>
+	<li Class="AlienRace.LifeStageAgeAlien">
+		<def>GHG_HumanlikeBaby</def>
 		<minAge>0</minAge>
 	</li>
 	<li>
 		<def>HumanlikeChild</def>
 		<minAge>3</minAge>
-	</li>
-	<li MayRequire="Ludeon.RimWorld.Biotech">
-		<def>HumanlikePreTeenager</def>
-		<minAge>9</minAge>
-	</li>
-	<li>
-		<def>HumanlikeTeenager</def>
-		<minAge>13</minAge>
 		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
 		<soundDeath>Pawn_Muffalo_Death</soundDeath>
 		<soundCall>Pawn_Muffalo_Call</soundCall>
@@ -580,14 +481,14 @@
 	</li>
 	<li>
 		<def>HumanlikeAdult</def>
-		<minAge>18</minAge>
+		<minAge>16</minAge>
 		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
 		<soundDeath>Pawn_Muffalo_Death</soundDeath>
 		<soundCall>Pawn_Muffalo_Call</soundCall>
 		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
 	</li>
 	</lifeStageAges>
-	</race>
+</race>
 
 <alienRace>
 <generalSettings>
@@ -659,63 +560,39 @@
 		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
-		<Age For="HumanlikeBaby"><path>Gokusotsu/Horns/Baby/GozuHorn_left</path>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/GozuHorn_left
 			<offsets>
 				<south>(0.05,-0.1)</south>
 				<north>(0.075,-0.05)</north>
 				<east>(0.1,-0.05)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikeChild"><path>Gokusotsu/Horns/Child/GozuHorn_left</path>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/GozuHorn_left
 			<offsets>
 				<south>(0,0)</south>
 				<north>(0.02,-0.02)</north>
 				<east>(0.1,0)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/Child/GozuHorn_left</path>
-			<offsets>
-				<south>(0,0)</south>
-				<north>(0,0)</north>
-				<east>(0,0)</east>
-			</offsets>
-		</Age>
 	</extendedGraphics>
-			<!-- <ageGraphics>
-				<HumanlikeBaby>
-					<path>Gokusotsu/Horns/Baby/GozuHorn_left</path>
-				</HumanlikeBaby>
-				<HumanlikeChild>
-					<path>Gokusotsu/Horns/Child/GozuHorn_left</path>
-				</HumanlikeChild>
-				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
-					<path>Gokusotsu/Horns/Child/GozuHorn_left</path>
-				</HumanlikePreTeenager>
-			</ageGraphics> -->
 
 		<offsets>
 			<south>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.05,-0.1)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.02,-0.02)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.075,-0.05)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.1,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1,-0.05)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -734,63 +611,39 @@
 		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
-		<Age For="HumanlikeBaby"><path>Gokusotsu/Horns/Baby/GozuHorn_right</path>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/GozuHorn_right
 			<offsets>
 				<south>(0.05,-0.1)</south>
 				<north>(-0.075,-0.05)</north>
 				<east>(0.1,-0.05)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikeChild"><path>Gokusotsu/Horns/Child/GozuHorn_right</path>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/GozuHorn_right
 			<offsets>
 				<south>(0.05,-0.1)</south>
 				<north>(-0.02,-0.02)</north>
 				<east>(0.1,0)</east>
 			</offsets>
 		</Age>
-		<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/Child/GozuHorn_right</path>
-			<offsets>
-				<south>(0,0)</south>
-				<north>(0,0)</north>
-				<east>(0,0)</east>
-			</offsets>
-		</Age>
 	</extendedGraphics>
-			<!-- <ageGraphics>
-				<HumanlikeBaby>
-					<path>Gokusotsu/Horns/Baby/GozuHorn_right</path>
-				</HumanlikeBaby>
-				<HumanlikeChild>
-					<path>Gokusotsu/Horns/Child/GozuHorn_right</path>
-				</HumanlikeChild>
-				<HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">
-					<path>Gokusotsu/Horns/Child/GozuHorn_right</path>
-				</HumanlikePreTeenager>
-			</ageGraphics> -->
 
 		<offsets>
 			<south>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.05,-0.1)</Baby>
 				</bodyTypes>
 			</south>
 			<north>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.02,-0.02)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.075,-0.05)</Baby>
 				</bodyTypes>
 			</north>
 			<east>
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Child MayRequire="Ludeon.RimWorld.Biotech">(0.1,0)</Child>
-					<Baby MayRequire="Ludeon.RimWorld.Biotech">(0.1,-0.05)</Baby>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -809,24 +662,20 @@
 <graphicPaths>
 	<head><path>Gokusotsu/Heads/GozuHead</path>
 		<extendedGraphics>
-			<Age For="HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/GozuHead_Child</Age>
+			<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/GozuHead_Child</Age>
 			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/GozuHead_Child</Age>
-			<Age For="HumanlikePreTeenager" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/GozuHead_Child</Age>
 		</extendedGraphics>
 	</head>
 	<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
 
 <apparel>
-
 	<individualPaths>
 		<li>
 			<key>Apparel_GokusotsuEarrings</key>
 			<value>Things/Apparel/Hat/EarringsGozu</value>
 		</li>
 	</individualPaths>
-
 </apparel>
-
 
 </graphicPaths>
 
