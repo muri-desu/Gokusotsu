@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="GHG_DrugBase" ParentName="DrugBase" Abstract="True">
+	<equippedAngleOffset>-150</equippedAngleOffset>
+	<rotatable>false</rotatable>
+	<stackLimit>25</stackLimit>
+	<statBases>
+		<MarketValue>12</MarketValue>
+		<Mass>0.3</Mass>
+		<Nutrition>0.08</Nutrition>
+	</statBases>
+	<equipmentType>Primary</equipmentType>
+	<techLevel>Neolithic</techLevel>
+	<comps>
+		<li Class="CompProperties_Drug">
+			<chemical>Alcohol</chemical>
+			<addictiveness>0.010</addictiveness>
+			<minToleranceToAddict>0.25</minToleranceToAddict>
+			<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+			<needLevelOffset>0.9</needLevelOffset>
+			<listOrder>10</listOrder>
+		</li>
+		<li>
+			<compClass>CompEquippable</compClass>
+		</li>
+	</comps>
+	<weaponClasses>
+		<li>Melee</li>
+		<li>MeleeBlunt</li>
+	</weaponClasses>
+	<tools>
+		<li>
+			<label>bottle</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>neck</label>
+			<capacities>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+	<allowedArchonexusCount>50</allowedArchonexusCount>
+</ThingDef>
+
+<ThingDef ParentName="GHG_DrugBase"><!-- 緑閃麦酒 -->
+	<defName>GHG_JadeBeer</defName>
+	<label>green flash</label>
+	<description>a flavored beer which can make you feel as liberated as if you had seen the glimmer of a setting sun. (Fulfills outdoor needs.)</description>
+	<descriptionHyperlinks>
+		<HediffDef>AlcoholHigh</HediffDef>
+		<HediffDef>AlcoholTolerance</HediffDef>
+		<HediffDef>Hangover</HediffDef>
+		<HediffDef>AlcoholAddiction</HediffDef>
+		<HediffDef>Cirrhosis</HediffDef>
+		<HediffDef>PsychiteTolerance</HediffDef>
+		<HediffDef>PsychiteAddiction</HediffDef>
+		<HediffDef>ChemicalDamageModerate</HediffDef>
+	</descriptionHyperlinks>
+	<possessionCount>6</possessionCount>
+	<graphicData>
+		<texPath>Things/Item/FlavoredBeer/GHG_JadeBeer</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<ingestible>
+		<foodType>Fluid, Processed, Liquor</foodType>
+		<joyKind>Chemical</joyKind>
+		<joy>0.17</joy>
+		<nurseable>true</nurseable>
+		<drugCategory>Social</drugCategory>
+		<ingestSound>Ingest_Beer</ingestSound>
+		<ingestHoldOffsetStanding>
+			<northDefault>
+				<offset>(0.18,0,0)</offset>
+			</northDefault>
+		</ingestHoldOffsetStanding>
+		<ingestCommandString>Drink {0}</ingestCommandString>
+		<ingestReportString>Drinking {0}.</ingestReportString>
+		<chairSearchRadius>25</chairSearchRadius>
+		<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		<tableDesired>false</tableDesired>
+		<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>AlcoholHigh</hediffDef>
+				<severity>0.15</severity>
+				<toleranceChemical>Alcohol</toleranceChemical>
+			</li>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>AlcoholTolerance</hediffDef>
+				<toleranceChemical>Alcohol</toleranceChemical>
+				<severity>0.016</severity>
+				<divideByBodySize>true</divideByBodySize>
+				<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+			</li>
+			<li Class="IngestionOutcomeDoer_OffsetNeed">
+				<need>Outdoors</need>
+				<offset>0.33</offset>
+				<toleranceChemical>Psychite</toleranceChemical>
+			</li>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>PsychiteTolerance</hediffDef>
+				<severity>0.01</severity>
+				<divideByBodySize>true</divideByBodySize>
+				<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+			</li>
+		</outcomeDoers>
+	</ingestible>
+</ThingDef>
+
+<RecipeDef>
+	<defName>Make_GHG_JadeBeer</defName>
+	<label>make green flash</label>
+	<description>Make green flash beer.</description>
+	<jobString>Making green flash beer.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>800</workAmount>
+	<targetCountAdjustment>1</targetCountAdjustment>
+	<recipeUsers>
+		<li>DrugLab</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs><li>Beer</li></thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>PsychoidLeaves</li></thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>Jade</li></thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>PsychoidLeaves</li>
+			<li>Beer</li>
+			<li>Jade</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<GHG_JadeBeer>1</GHG_JadeBeer>
+	</products>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>Make_GHG_JadeBeerBulk</defName>
+	<label>make green flash x4</label>
+	<description>Make bulk green flash beer.</description>
+	<jobString>Making bulk green flash beer.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>3200</workAmount>
+	<recipeUsers>
+		<li>DrugLab</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs><li>Beer</li></thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>PsychoidLeaves</li></thingDefs>
+			</filter>
+			<count>8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>Jade</li></thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>PsychoidLeaves</li>
+			<li>Beer</li>
+			<li>Jade</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<GHG_JadeBeer>4</GHG_JadeBeer>
+	</products>
+</RecipeDef>
+
+</Defs>

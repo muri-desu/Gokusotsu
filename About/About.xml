@@ -9,7 +9,7 @@
 </supportedVersions>
 <modDependencies>
 	<li>
-		<packageId>erdelf.HumanoidAlienRaces.dev</packageId>
+		<packageId>erdelf.HumanoidAlienRaces</packageId>
 		<displayName>Humanoid Alien Races 2.0</displayName>
 		<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
 		<downloadUrl>https://github.com/erdelf/AlienRaces/wiki</downloadUrl>

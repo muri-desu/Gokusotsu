@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<GHG_JadeBeer.label>緑閃麦酒</GHG_JadeBeer.label>
+<GHG_JadeBeer.description>太陽光の珍しい現象にちなんだ名称のフレーバービールで、飲用するとアウトドア欲求が少し満たされます。</GHG_JadeBeer.description>
+<Make_GHG_JadeBeer.description>緑閃麦酒を作る</Make_GHG_JadeBeer.description>
+<Make_GHG_JadeBeer.jobString>緑閃麦酒を作っています.</Make_GHG_JadeBeer.jobString>
+<Make_GHG_JadeBeerBulk.description>緑閃麦酒x4を作る</Make_GHG_JadeBeerBulk.description>
+<Make_GHG_JadeBeerBulk.jobString>緑閃麦酒x4を作っています.</Make_GHG_JadeBeerBulk.jobString>
+
+</LanguageData>

@@ -161,17 +161,17 @@
 	<maleGenderProbability>1.0</maleGenderProbability>
 	<maxDamageForSocialfight>6</maxDamageForSocialfight>
 
-	<lovinIntervalHoursFromAge>
-		<points>
-			<li>(16, 5)</li>
-			<li>(22, 3)</li>
-			<li>(30, 2)</li>
-			<li>(50, 1.5)</li>
-			<li>(125, 1)</li>
-			<li>(150, 1)</li>
-			<li>(300, 5)</li>
-		</points>
-	</lovinIntervalHoursFromAge>
+<lovinIntervalHoursFromAge>
+	<points>
+		<li>(16, 5)</li>
+		<li>(22, 3)</li>
+		<li>(30, 2)</li>
+		<li>(50, 1.5)</li>
+		<li>(125, 1)</li>
+		<li>(150, 1)</li>
+		<li>(300, 5)</li>
+	</points>
+</lovinIntervalHoursFromAge>
 
 <alienPartGenerator>
 	<bodyTypes>
@@ -198,15 +198,20 @@
 </alienPartGenerator>
 
 <disallowedTraits>
-	<li><defName>Beauty</defName><degree>1</degree><chance>100</chance></li>
-	<li><defName>Beauty</defName><degree>2</degree><chance>100</chance></li>
+	<li><defName Degree="1">Beauty</defName><chance>100</chance></li>
+	<li><defName Degree="2">Beauty</defName><chance>100</chance></li>
 	<li><defName>Cannibal</defName></li>
 	<li><defName>Asexual</defName></li>
 	<li><defName>Wimp</defName></li>
 </disallowedTraits>
 <forcedRaceTraitEntries>
-	<li><defName>Gay</defName><chance>50</chance></li>
-	<li><defName>Bisexual</defName><chance>50</chance></li>
+	<li>
+		<options>
+		<li><defName>Gay</defName><chance>50</chance></li>
+		<li><defName>Bisexual</defName><chance>50</chance></li>
+		</options>
+		<count>1</count>
+	</li>
 	<li><defName>Bloodlust</defName><chance>30</chance></li>
 	<li><defName>Brawler</defName><chance>20</chance></li>
 	</forcedRaceTraitEntries>
@@ -239,7 +244,7 @@
 <graphicPaths>
 	<body><path>Gokusotsu/Bodies/</path>
 		<extendedGraphics>
-			<Age For="HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Stump</Age>
+			<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Stump</Age>
 			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</Age>
 			<Age For="HumanlikeAdult">
 				<path>Gokusotsu/Bodies/</path>
@@ -295,51 +300,6 @@
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArmorHelmetMechCommander</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
-		<li MayRequire="VanillaExpanded.VMemesE">VME_TackleBox</li>
-		<li MayRequire="Solaris.RatkinRaceMod">RK_EarCostume</li>
-		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlEar</li>
-		<li MayRequire="SutSutMan.MinchoTheMintChocoSlimeHARver">Mincho_BunnyGirlTail</li>
-		<li MayRequire="Dajian.ChiTeaditional.Expanded">Apparel_JinDou</li>
-		<li MayRequire="Dajian.ChiTeaditional.Expanded">Apparel_LianHua</li>
-		<li MayRequire="Dajian.ChiTeaditional.Expanded">Apparel_FengHuoLun</li>
-		<li MayRequire="BlackMarket420.KraltechIndustries">Apparel_ShieldBeltStrong</li>
-		<li MayRequire="BlackMarket420.KraltechIndustries">Apparel_EnforcerBackPackMelee</li>
-		<li MayRequire="BlackMarket420.KraltechIndustries">Apparel_EnforcerBackPackRanger</li>
-		<li MayRequire="BlackMarket420.KraltechIndustries">Apparel_TravelersBackPack</li>
-		<li MayRequire="BlackMarket420.KraltechIndustries">Apparel_EnforcerShieldBelt</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Hirameki</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Tuchi</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Wa</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Jin</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Ikusa</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Omamori_Karibito</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Hi_No_Magatama</li>
-		<li MayRequire="YokaiMura.1.32">Yokai_Nagi_no_Magatama</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Silver</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Slate</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Medicine</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Limestone</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Granite</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Marble</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Sandstone</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Steel</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Iron</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Jade</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Gold</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Magicyte</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_Wood</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_BracersOfThePacifist</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_BracersOfDefense</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_BracersOfDeflection</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_RingOfKeenIntellect</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_RingOfBlood</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_RingOfEternalBlue</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_RingOfMalice</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_OrbOfConviction</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_OrbOfSouls</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_OrbOfSouls_Full</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_OrbOfEternal</li>
-		<li MayRequire="Torann.ARimworldOfMagic">TM_Artifact_NecroticOrb</li>
 	</whiteApparelList>
 
 <onlyHaveRaceRestrictedGenes MayRequire="Ludeon.RimWorld.Biotech">false</onlyHaveRaceRestrictedGenes>

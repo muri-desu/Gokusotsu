@@ -8,7 +8,7 @@
 	<bodyWidth>0.95</bodyWidth>
 	<bodyDrawOffset>(0, 0, -0.03)</bodyDrawOffset>
 	<voxPitch>1.6</voxPitch>
-	<headSizeFactor>0.6</headSizeFactor>
+	<headSizeFactor>0.45</headSizeFactor>
 	<eyeSizeFactor>0.7</eyeSizeFactor>
 	<foodMaxFactor>0.625</foodMaxFactor>
 	<hungerRateFactor>0.125</hungerRateFactor>

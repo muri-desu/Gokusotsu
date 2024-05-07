@@ -37,7 +37,7 @@
 		<li>GHG_wanderer</li>
 	</spawnCategories>
 	<forcedTraitsChance>
-		<li><defName Degree="1">Undergrounder</defName></li>
+		<li><defName>Undergrounder</defName></li>
 	</forcedTraitsChance>
 </AlienRace.AlienBackstoryDef>
 
