@@ -50,3 +50,6 @@ NPC Gokusotsu faction
 
 RJW stuffs are available here⬇️
 https://github.com/muri-desu/RJW_Gokusotsu
+
+ko-fi⬇️
+https://ko-fi.com/muri151075

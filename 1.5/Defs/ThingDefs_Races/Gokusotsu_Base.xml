@@ -286,6 +286,9 @@
 		<li>Apparel_GokusotsuEarrings</li>
 	</apparelList>
 	<whiteApparelList>
+		<li>OrbitalTargeterBombardment</li>
+		<li>OrbitalTargeterPowerBeam</li>
+		<li>TornadoGenerator</li>
 		<li>Apparel_PsychicShockLance</li>
 		<li>Apparel_PsychicInsanityLance</li>
 		<li>Apparel_ShieldBelt</li>

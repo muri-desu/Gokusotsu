@@ -151,7 +151,7 @@
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
 					<Baby MayRequire="ludeon.rimworld.biotech">(-0.02,0)</Baby>
-					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -211,7 +211,7 @@
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
 					<Baby MayRequire="ludeon.rimworld.biotech">(0.02,0)</Baby>
-					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
 				</bodyTypes>
 			</east>
 		</offsets>
@@ -426,8 +426,8 @@
 			<bodyTypes>
 				<Hulk>(0,0)</Hulk>
 				<Fat>(0,0)</Fat>
-				<Baby MayRequire="ludeon.rimworld.biotech">(0.1,-0.01)</Baby>
-				<Child MayRequire="ludeon.rimworld.biotech">(0.1,-0.025)</Child>
+				<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+				<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
 			</bodyTypes>
 		</east>
 	</offsets>
@@ -624,7 +624,7 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Baby MayRequire="ludeon.rimworld.biotech">(0.05,-0.1)</Baby>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
 				</bodyTypes>
 			</south>
@@ -642,7 +642,7 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Baby MayRequire="ludeon.rimworld.biotech">(0.1,-0.05)</Baby>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 					<Child MayRequire="ludeon.rimworld.biotech">(0.1,0)</Child>
 				</bodyTypes>
 			</east>
@@ -680,7 +680,7 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Baby MayRequire="ludeon.rimworld.biotech">(0.05,-0.1)</Baby>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
 				</bodyTypes>
 			</south>
@@ -698,7 +698,7 @@
 				<bodyTypes>
 					<Hulk>(0,0)</Hulk>
 					<Fat>(0,0)</Fat>
-					<Baby MayRequire="ludeon.rimworld.biotech">(0.1,-0.05)</Baby>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
 					<Child MayRequire="ludeon.rimworld.biotech">(0.1,0)</Child>
 				</bodyTypes>
 			</east>

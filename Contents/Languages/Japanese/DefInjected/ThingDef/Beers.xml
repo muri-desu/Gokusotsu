@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<GHG_JadeBeer.label>緑閃光</GHG_JadeBeer.label>
+<GHG_JadeBeer.description>太陽光の珍しい現象にちなんだ名称のフレーバービールで、飲用するとアウトドア欲求が少し満たされます.</GHG_JadeBeer.description>
+<GHG_JadeBeer.ingestible.ingestCommandString>{0}を飲む</GHG_JadeBeer.ingestible.ingestCommandString>
+<GHG_JadeBeer.ingestible.ingestReportString>{0}を飲んでいる.</GHG_JadeBeer.ingestible.ingestReportString>
+<GHG_AntiToxBeer.label>ヘルファイアウォール</GHG_AntiToxBeer.label>
+<GHG_AntiToxBeer.description>毒まみれで過酷な職場で働くあなたを応援します. 何本飲んでも大して楽しくなりませんが、毒物の蓄積による認知症や悪性腫瘍を防ぐこともできます.</GHG_AntiToxBeer.description>
+<GHG_AntiToxBeer.ingestible.ingestCommandString>{0}を飲む</GHG_AntiToxBeer.ingestible.ingestCommandString>
+<GHG_AntiToxBeer.ingestible.ingestReportString>{0}を飲んでいる.</GHG_AntiToxBeer.ingestible.ingestReportString>
+
+</LanguageData>
