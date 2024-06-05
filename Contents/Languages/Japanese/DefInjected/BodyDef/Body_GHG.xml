@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Horn_GHG.label>獄卒</Horn_GHG.label>
+	<Horn_GHG.corePart.parts.Neck.parts.Head.parts.label>獄卒</Horn_GHG.corePart.parts.Neck.parts.Head.parts.label>
+  <!-- EN: left lung -->
+  <GHG_onehorn.corePart.parts.left_lung.customLabel>左肺</GHG_onehorn.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <GHG_onehorn.corePart.parts.right_lung.customLabel>右肺</GHG_onehorn.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <GHG_onehorn.corePart.parts.left_kidney.customLabel>左腎</GHG_onehorn.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <GHG_onehorn.corePart.parts.right_kidney.customLabel>右腎</GHG_onehorn.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <GHG_onehorn.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>左眼</GHG_onehorn.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <GHG_onehorn.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>右眼</GHG_onehorn.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <GHG_onehorn.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>左耳</GHG_onehorn.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <GHG_onehorn.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>右耳</GHG_onehorn.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+  <GHG_onehorn.corePart.parts.left_shoulder.customLabel>左肩</GHG_onehorn.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>左鎖骨</GHG_onehorn.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.customLabel>左腕</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>左上腕</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>左橈骨</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>左手</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左小指</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>左薬指</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左中指</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左人差指</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左親指</GHG_onehorn.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <GHG_onehorn.corePart.parts.right_shoulder.customLabel>右肩</GHG_onehorn.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>右鎖骨</GHG_onehorn.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.customLabel>右腕</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>右上腕</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>右橈骨</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>右手</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右小指</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+<GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>右薬指</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+<!-- EN: right middle finger -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右中指</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右人差指</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右親指</GHG_onehorn.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <GHG_onehorn.corePart.parts.left_leg.customLabel>左脚</GHG_onehorn.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_femur.customLabel>左大腿</GHG_onehorn.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_tibia.customLabel>左脛骨</GHG_onehorn.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_foot.customLabel>左足</GHG_onehorn.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left little toe -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>左第五趾</GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  <!-- EN: left fourth toe -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>左第四趾</GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  <!-- EN: left middle toe -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>左第三趾</GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  <!-- EN: left second toe -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>左第二趾</GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <!-- EN: left big toe -->
+  <GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>左第一趾</GHG_onehorn.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  <!-- EN: right leg -->
+  <GHG_onehorn.corePart.parts.right_leg.customLabel>右脚</GHG_onehorn.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_femur.customLabel>右大腿</GHG_onehorn.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_tibia.customLabel>右脛骨</GHG_onehorn.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_foot.customLabel>右足</GHG_onehorn.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right little toe -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>右第五趾</GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  <!-- EN: right fourth toe -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>右第四趾</GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  <!-- EN: right middle toe -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>右第三趾</GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  <!-- EN: right second toe -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>右第二趾</GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <!-- EN: right big toe -->
+  <GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>右第一趾</GHG_onehorn.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+
+	<GHG_twohorns.label>獄卒</GHG_twohorns.label>
+	<GHG_twohorns.corePart.parts.Neck.parts.Head.parts.label>獄卒</GHG_twohorns.corePart.parts.Neck.parts.Head.parts.label>
+  <!-- EN: left lung -->
+  <GHG_twohorns.corePart.parts.left_lung.customLabel>左肺</GHG_twohorns.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <GHG_twohorns.corePart.parts.right_lung.customLabel>右肺</GHG_twohorns.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <GHG_twohorns.corePart.parts.left_kidney.customLabel>左腎</GHG_twohorns.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <GHG_twohorns.corePart.parts.right_kidney.customLabel>右腎</GHG_twohorns.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <GHG_twohorns.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>左眼</GHG_twohorns.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <GHG_twohorns.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>右眼</GHG_twohorns.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <GHG_twohorns.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>左耳</GHG_twohorns.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <GHG_twohorns.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>右耳</GHG_twohorns.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+  <GHG_twohorns.corePart.parts.left_shoulder.customLabel>左肩</GHG_twohorns.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>左鎖骨</GHG_twohorns.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.customLabel>左腕</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>左上腕</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>左橈骨</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>左手</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left pinky -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左小指</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <!-- EN: left ring finger -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>左薬指</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <!-- EN: left middle finger -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左中指</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <!-- EN: left index finger -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左人差指</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <!-- EN: left thumb -->
+  <GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左親指</GHG_twohorns.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <GHG_twohorns.corePart.parts.right_shoulder.customLabel>右肩</GHG_twohorns.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>右鎖骨</GHG_twohorns.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.customLabel>右腕</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>右上腕</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>右橈骨</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>右手</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right pinky -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右小指</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <!-- EN: right ring finger -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>右薬指</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <!-- EN: right middle finger -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右中指</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <!-- EN: right index finger -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右人差指</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <!-- EN: right thumb -->
+  <GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右親指</GHG_twohorns.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <!-- EN: left leg -->
+  <GHG_twohorns.corePart.parts.left_leg.customLabel>左脚</GHG_twohorns.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_femur.customLabel>左大腿</GHG_twohorns.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_tibia.customLabel>左脛骨</GHG_twohorns.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_foot.customLabel>左足</GHG_twohorns.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left little toe -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>左第五趾</GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  <!-- EN: left fourth toe -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>左第四趾</GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  <!-- EN: left middle toe -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>左第三趾</GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  <!-- EN: left second toe -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>左第二趾</GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <!-- EN: left big toe -->
+  <GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>左第一趾</GHG_twohorns.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  <!-- EN: right leg -->
+  <GHG_twohorns.corePart.parts.right_leg.customLabel>右脚</GHG_twohorns.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_femur.customLabel>右大腿</GHG_twohorns.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_tibia.customLabel>右脛骨</GHG_twohorns.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_foot.customLabel>右足</GHG_twohorns.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right little toe -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>右第五趾</GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  <!-- EN: right fourth toe -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>右第四趾</GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  <!-- EN: right middle toe -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>右第三趾</GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  <!-- EN: right second toe -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>右第二趾</GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <!-- EN: right big toe -->
+  <GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>右第一趾</GHG_twohorns.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+</LanguageData>

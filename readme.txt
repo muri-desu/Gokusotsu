@@ -48,7 +48,7 @@ Gokusotsu (basic oni-like race & horse-headed & bull-headed)
 NPC Gokusotsu faction
 - They love alcohols. and other drugs and meals.
 
-RJW stuffs are available here⬇️
+RJW stuffs (1.5 wip)⬇️
 https://github.com/muri-desu/RJW_Gokusotsu
 
 ko-fi⬇️

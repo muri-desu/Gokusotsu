@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>RJW Sexperience Ideology</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+<!-- thoughts -->
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+		<value>
+			<li>Bestiality_Abhorrent</li>
+			<li>Bestiality_Know_Abhorrent</li>
+			<li>Bestiality_Horrible</li>
+			<li>Bestiality_Know_Horrible</li>
+			<li>Bestiality_Disapproved</li>
+			<li>Bestiality_Know_Disapproved</li>
+			<li>Bestiality_Nonvenerated_Disapproved</li>
+			<li>Bestiality_Nonvenerated_Know_Disapproved</li>
+			<li>Bestiality_NonBonded_Disapproved</li>
+			<li>Bestiality_NonBonded_Know_Disapproved</li>
+			<li>IncestuosMarriage_Forbidden</li>
+			<li>IncestuosMarriage_Disapproved</li>
+			<li>Rape_Abhorrent</li>
+			<li>Rape_Know_Abhorrent</li>
+			<li>Rape_Horrible</li>
+			<li>Rape_Know_Horrible</li>
+			<li>Rape_Disapproved</li>
+			<li>Rape_Know_Disapproved</li>
+			<li>BeenRaped_Submissive</li>
+			<li>BeenRaped_NotSubmissive</li>
+			<li>Raped_Know_NotBeingSubmissive</li>
+		</value>
+	</match>
+</Operation>
+</Patch>

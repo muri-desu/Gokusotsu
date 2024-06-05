@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>RimNudeWorld</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+	<value>
+
+	<li><!-- penises -->
+	<path>Genitals/FeaturelessCrotch</path>
+		<userCustomizable>false</userCustomizable>
+		<shaderType>Transparent</shaderType>
+		<inFrontOfBody>true</inFrontOfBody>
+		<conditions>
+			<BodyPart>
+				<bodyPart>Genitals</bodyPart>
+			</BodyPart>
+			<Posture>
+				<drawnInBed>false</drawnInBed>
+				<drawnStanding>true</drawnStanding>
+				<drawnLaying>true</drawnLaying>
+			</Posture>
+			<Apparel>
+				<hiddenUnderApparelFor>
+					<li>GenitalsBPG</li>
+				</hiddenUnderApparelFor>
+			</Apparel>
+			<RotStage>Fresh,Rotting</RotStage>
+			<Age>HumanlikeAdult</Age>
+		</conditions>
+
+	<extendedGraphics>
+		<BodyType For="Hulk"><path>Genitals/FeaturelessCrotch</path>
+			<extendedGraphics>
+				<HeadType For="MezuHead"><path>Genitals/penis_mezuhulk_m</path>
+					<extendedGraphics>
+						<Hediff For="HorsePenis"><path>Genitals/penis_mezuhulk_m</path>
+							<extendedGraphics>
+								<Severity For="1.01">Genitals/penis_mezuhulk_l</Severity>
+								<Severity For="0.5">Genitals/penis_mezuhulk_m</Severity>
+								<Severity For="0.01">Genitals/penis_mezuhulk_s</Severity>
+							</extendedGraphics>
+					</Hediff>
+					</extendedGraphics>
+				</HeadType>
+				<HeadType For="GozuHead"><path>Genitals/penis_gozuhulk_m</path>
+					<extendedGraphics>
+						<Hediff For="DemonPenis"><path>Genitals/penis_gozuhulk_m</path>
+							<extendedGraphics>
+								<Severity For="1.01">Genitals/penis_gozuhulk_l</Severity>
+								<Severity For="0.5">Genitals/penis_gozuhulk_m</Severity>
+								<Severity For="0.01">Genitals/penis_gozuhulk_s</Severity>
+							</extendedGraphics>
+						</Hediff>
+					</extendedGraphics>
+				</HeadType>
+			</extendedGraphics>
+		</BodyType>
+		<BodyType For="Fat"><path>Genitals/FeaturelessCrotch</path>
+			<extendedGraphics>
+				<HeadType For="MezuHead"><path>Genitals/penis_mezufat_m</path>
+					<extendedGraphics>
+						<Hediff For="HorsePenis"><path>Genitals/penis_mezufat_m</path>
+							<extendedGraphics>
+								<Severity For="1.01">Genitals/penis_mezufat_l</Severity>
+								<Severity For="0.5">Genitals/penis_mezufat_m</Severity>
+								<Severity For="0.01">Genitals/penis_mezufat_s</Severity>
+							</extendedGraphics>
+						</Hediff>
+					</extendedGraphics>
+				</HeadType>
+				<HeadType For="GozuHead"><path>Genitals/penis_gozufat_m</path>
+					<extendedGraphics>
+						<Hediff For="DemonPenis"><path>Genitals/penis_gozufat_m</path>
+							<extendedGraphics>
+								<Severity For="1.01">Genitals/penis_gozufat_l</Severity>
+								<Severity For="0.5">Genitals/penis_gozufat_m</Severity>
+								<Severity For="0.01">Genitals/penis_gozufat_s</Severity>
+							</extendedGraphics>
+						</Hediff>
+					</extendedGraphics>
+				</HeadType>
+			</extendedGraphics>
+		</BodyType>
+	</extendedGraphics>
+
+		<offsets>
+			<south>
+			<layerOffset>-0.2763</layerOffset>
+				<bodyTypes>
+					<Hulk>(0, -0.8)</Hulk>
+					<Fat>(0, -0.8)</Fat>
+				</bodyTypes>
+			</south>
+			<north>
+			<layerOffset>-0.2763</layerOffset>
+				<bodyTypes>
+					<Hulk>(0, 0)</Hulk>
+					<Fat>(0, 0)</Fat>
+				</bodyTypes>
+			</north>
+			<east>
+			<layerOffset>-0.2763</layerOffset>
+				<bodyTypes>
+					<Hulk>(0.05,-0.775)</Hulk>
+					<Fat>(0,-0.765)</Fat>
+				</bodyTypes>
+			</east>
+		</offsets>
+	</li>
+
+	<li><!-- vaginas -->
+		<path>Genitals/FeaturelessCrotch</path>
+		<userCustomizable>false</userCustomizable>
+		<layerInvert>false</layerInvert>
+		<shaderType>Transparent</shaderType>
+		<inFrontOfBody>true</inFrontOfBody>
+		<conditions>
+			<BodyPart>
+				<bodyPart>Genitals</bodyPart>
+			</BodyPart>
+			<Posture>
+				<drawnInBed>false</drawnInBed>
+				<drawnStanding>true</drawnStanding>
+				<drawnLaying>true</drawnLaying>
+			</Posture>
+			<Apparel>
+				<hiddenUnderApparelFor>
+					<li>GenitalsBPG</li>
+				</hiddenUnderApparelFor>
+			</Apparel>
+			<RotStage>Fresh,Rotting</RotStage>
+			<Age>HumanlikeAdult</Age>
+		</conditions>
+
+	<extendedGraphics>
+		<Hediff For="DemonVagina"><path>Genitals/FeaturelessCrotch</path>
+			<extendedGraphics>
+				<BodyType For="Hulk"><path>Genitals/FeaturelessCrotch</path></BodyType>
+				<BodyType For="Fat"><path>Genitals/FeaturelessCrotch</path></BodyType>
+			</extendedGraphics>
+		</Hediff>
+	</extendedGraphics>
+
+		<offsets>
+			<south>
+				<layerOffset>-0.2763</layerOffset>
+				<bodyTypes>
+					<Hulk>(0, -0.8)</Hulk>
+					<Fat>(0, -0.8)</Fat>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.2763</layerOffset>
+				<bodyTypes>
+					<Hulk>(0, 0)</Hulk>
+					<Fat>(0, 0)</Fat>
+				</bodyTypes>
+			</north>
+			<east>
+				<layerOffset>-0.2763</layerOffset>
+				<bodyTypes>
+					<Hulk>(0.1,-0.772)</Hulk>
+					<Fat>(0,-0.76)</Fat>
+				</bodyTypes>
+			</east>
+		</offsets>
+	</li>
+
+	</value>
+</match>
+</Operation>
+</Patch>

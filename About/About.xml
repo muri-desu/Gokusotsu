@@ -18,5 +18,10 @@
 <loadAfter>
 	<li>erdelf.HumanoidAlienRaces</li>
 </loadAfter>
+<incompatibleWithByVersion>
+	<v1.5>
+		<li>muri.gokusotsuRJW</li>
+	</v1.5>
+</incompatibleWithByVersion>
 <description>Demon race from another world's hell.</description>
 </ModMetaData>

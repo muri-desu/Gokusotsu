@@ -161,18 +161,6 @@
 	<maleGenderProbability>1.0</maleGenderProbability>
 	<maxDamageForSocialfight>6</maxDamageForSocialfight>
 
-<lovinIntervalHoursFromAge>
-	<points>
-		<li>(16, 5)</li>
-		<li>(22, 3)</li>
-		<li>(30, 2)</li>
-		<li>(50, 1.5)</li>
-		<li>(125, 1)</li>
-		<li>(150, 1)</li>
-		<li>(300, 5)</li>
-	</points>
-</lovinIntervalHoursFromAge>
-
 <alienPartGenerator>
 	<bodyTypes>
 		<li>Hulk</li>
@@ -208,7 +196,7 @@
 	<li>
 		<options>
 		<li><defName>Gay</defName><chance>50</chance></li>
-		<li><defName>Bisexual</defName><chance>50</chance></li>
+		<li><defName>Bisexual</defName><chance>90</chance></li>
 		</options>
 		<count>1</count>
 	</li>
