@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<XenotypeDef>
-		<defName>XenoGokusotsu</defName>
-		<label>gokusotsu</label>
-		<description>typical gokusotsu genes</description>
-		<descriptionShort>basic gokusotsu</descriptionShort>
-		<iconPath>UI/Icons/XenoGokusotsu</iconPath>
-		<inheritable>true</inheritable>
-		<genes>
+<XenotypeDef>
+	<defName>XenoGokusotsu</defName>
+	<label>gokusotsu</label>
+	<description>typical gokusotsu genes</description>
+	<descriptionShort>basic gokusotsu</descriptionShort>
+	<iconPath>UI/Icons/XenoGokusotsu</iconPath>
+	<inheritable>true</inheritable>
+	<genes>
 		<li>GokusotsuLiver</li>
 		<li>Body_Fat</li>
 		<li>Body_Hulk</li>
@@ -18,7 +17,6 @@
 		<li>AptitudePoor_Cooking</li>
 		<li>AptitudePoor_Plants</li>
 		<li>AptitudeTerrible_Artistic</li>
-		</genes>
-	</XenotypeDef>
-
+	</genes>
+</XenotypeDef>
 </Defs>

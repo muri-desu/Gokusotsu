@@ -1,34 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Anomaly</li>
-		</mods>
-	<match Class="PatchOperationSequence">
-	<success>Always</success>
-		<operations>
-
-	<li Class="PatchOperationAdd"><!-- Apparels -->
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
-		<value>
-			<li>Apparel_DisruptorFlarePack</li>
-			<li>Apparel_PackTurret</li>
-			<li>Apparel_DeadlifePack</li>
-			<li>Apparel_ShardPsychicShockLance</li>
-			<li>Apparel_ShardPsychicInsanityLance</li>
-			<li>Apparel_BiomutationLance</li>
-		</value>
-	</li>
-
-		<li Class="PatchOperationAdd"><!-- シウツ -->
-			<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "BaseGHG"]/recipes</xpath>
-			<value>
-				<li>SurgicalInspection</li>
-				<li>BlissLobotomy</li>
-				<li>GhoulInfusion</li>
-			</value>
-		</li>
-	</operations>
-	</match>
+<Operation Class="PatchOperationAdd"><!-- Apparels -->
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+	<value>
+		<li>Apparel_DisruptorFlarePack</li>
+		<li>Apparel_PackTurret</li>
+		<li>Apparel_DeadlifePack</li>
+		<li>Apparel_ShardPsychicShockLance</li>
+		<li>Apparel_ShardPsychicInsanityLance</li>
+		<li>Apparel_BiomutationLance</li>
+	</value>
 </Operation>
 </Patch>

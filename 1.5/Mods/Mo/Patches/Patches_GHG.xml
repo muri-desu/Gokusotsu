@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/TraderKindDef[defName = "Base_GHG_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Category">
+				<categoryDef>DankPyon_BuildingsBook</categoryDef>
+				<thingDefCountRange>2~5</thingDefCountRange>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>DankPyon_GemStones</categoryDef>
+				<thingDefCountRange>3~6</thingDefCountRange>
+				<countRange>24~169</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_ComponentBasic</thingDef>
+				<countRange>15~35</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_RepairTools</thingDef>
+				<countRange>1~3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_IronOre</thingDef>
+				<countRange>100~195</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_SilverOre</thingDef>
+				<countRange>10~25</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_GoldOre</thingDef>
+				<countRange>10~30</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_PlasteelOre</thingDef>
+				<countRange>50~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_Coal</thingDef>
+				<countRange>350~500</countRange>
+			</li>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/TraderKindDef[defName = "Caravan_GHG_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Category">
+				<categoryDef>DankPyon_BuildingsBook</categoryDef>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_ComponentBasic</thingDef>
+				<countRange>5~15</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_RepairTools</thingDef>
+				<countRange>0~3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_IronOre</thingDef>
+				<countRange>10~95</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_SilverOre</thingDef>
+				<countRange>1~25</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_GoldOre</thingDef>
+				<countRange>0~3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_PlasteelOre</thingDef>
+				<countRange>0~30</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DankPyon_Coal</thingDef>
+				<countRange>150~300</countRange>
+			</li>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+	<value>
+		<li>DankPyon_Apparel_Quiver</li>
+		<li>DankPyon_Apparel_FlashPotBelt</li>
+		<li>DankPyon_Apparel_FirePotBelt</li>
+		<li>DankPyon_Apparel_SmokePotBelt</li>
+		<li>DankPyon_Apparel_AcidFlaskBelt</li>
+		<li>DankPyon_Ring_Holding</li>
+		<li>DankPyon_Ring_Haste</li>
+		<li>DankPyon_Ring_Tending</li>
+		<li>DankPyon_Ring_Research</li>
+		<li>DankPyon_Ring_StunImmunity</li>
+		<li>DankPyon_Headgear_WolfTimber</li>
+		<li>DankPyon_Headgear_WolfArctic</li>
+		<li>DankPyon_Headgear_BearGrizzly</li>
+		<li>DankPyon_Headgear_BearPolar</li>
+		<li>DankPyon_Apparel_DirewolfPelt</li>
+		<li>DankPyon_Apparel_HyenaPelt</li>
+		<li>DankPyon_Apparel_LindwurmCloak</li>
+		<li>DankPyon_Apparel_FurCloak</li>
+		<li>DankPyon_Apparel_BonePlating</li>
+		<li>DankPyon_Apparel_AdditionalFurPadding</li>
+		<li>DankPyon_Apparel_RunesAndSigils</li>
+		<li>DankPyon_Footwear_BootsLeather</li>
+		<li>DankPyon_Footwear_BootsSplinted</li>
+		<li>DankPyon_Footwear_BootsPlate</li>
+		<li>DankPyon_Handwear_GlovesLeather</li>
+		<li>DankPyon_Handwear_GlovesSplinted</li>
+		<li>DankPyon_Handwear_GlovesPlate</li>
+		<li>DankPyon_Necklace_Citrine</li>
+		<li>DankPyon_Necklace_Jade</li>
+		<li>DankPyon_Necklace_Amber</li>
+		<li>DankPyon_Necklace_Onyx</li>
+		<li>DankPyon_Necklace_Emerald</li>
+		<li>DankPyon_Necklace_Sapphire</li>
+		<li>DankPyon_Necklace_Ruby</li>
+		<li>DankPyon_Ring_Citrine</li>
+		<li>DankPyon_Ring_Jade</li>
+		<li>DankPyon_Ring_Amber</li>
+		<li>DankPyon_Ring_Onyx</li>
+		<li>DankPyon_Ring_Emerald</li>
+		<li>DankPyon_Ring_Sapphire</li>
+		<li>DankPyon_Ring_Ruby</li>
+		<li>DankPyon_Shield</li>
+		<li>DankPyon_ShieldKite</li>
+		<li>DankPyon_ShieldHeater</li>
+		<li>DankPyon_ShieldHeater_Amboise</li>
+		<li>DankPyon_ShieldHeater_Soren</li>
+		<li>DankPyon_ShieldHeater_Oswin</li>
+		<li>DankPyon_ShieldHeater_Hesse</li>
+		<li>DankPyon_ShieldLiving</li>
+		<li>DankPyon_ShieldLindwurm</li>
+	</value>
+</Operation>
+</Patch>

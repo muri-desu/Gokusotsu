@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-<Operation Class="PatchOperationSequence">
-	<operations>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+	<value>
+		<li>GHG_PlayerFaction</li>
+	</value>
+</Operation>
 
-	<li Class="PatchOperationAdd">
-		<xpath>Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
-		<value>
-			<li>GHG_PlayerFaction</li>
-		</value>
-	</li>
-
-	<li Class="PatchOperationAdd"><!-- Apparels -->
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
-		<value>
-			<li>OrbitalTargeterMechCluster</li>
-			<li>Apparel_PackJump</li>
-			<li>Apparel_PackBroadshield</li>
-		</value>
-	</li>
-
-	</operations>
+<Operation Class="PatchOperationAdd"><!-- Apparels -->
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+	<value>
+		<li>OrbitalTargeterMechCluster</li>
+		<li>Apparel_PackJump</li>
+		<li>Apparel_PackBroadshield</li>
+	</value>
 </Operation>
 </Patch>

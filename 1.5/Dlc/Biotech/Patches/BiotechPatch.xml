@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
+<Operation Class="PatchOperationAdd"><!-- こども服・パック類追加 -->
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+	<value>
+		<li>Apparel_Haragake</li>
+		<li>Apparel_Yukinko</li>
+		<li>Apparel_PackControl</li>
+		<li>Apparel_PackBandwidth</li>
+		<li>Apparel_PackTox</li>
+		<li>Apparel_AirwireHeadset</li>
+		<li>Apparel_IntegratorHeadset</li>
+		<li>Apparel_ArmorHelmetMechCommander</li>
+		<li>Apparel_ArrayHeadset</li>
+	</value>
+</Operation>
 
-	<li Class="PatchOperationAdd"><!-- こども服・パック類追加 -->
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+<Operation Class="PatchOperationAdd"><!-- genes -->
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Gozu"]/alienRace/generalSettings</xpath>
 		<value>
-				<li>Apparel_Haragake</li>
-				<li>Apparel_Yukinko</li>
-				<li>Apparel_PackControl</li>
-				<li>Apparel_PackBandwidth</li>
-				<li>Apparel_PackTox</li>
-				<li>Apparel_AirwireHeadset</li>
-				<li>Apparel_IntegratorHeadset</li>
-				<li>Apparel_ArmorHelmetMechCommander</li>
-				<li>Apparel_ArrayHeadset</li>
+			<raceGenes>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_demonic_genitalia</defName></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_homosexual</defName><chance>50</chance></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_bisexual</defName><chance>90</chance></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_futa</defName><chance>10</chance></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_fertile_anus</defName><chance>10</chance></li>
+			</raceGenes>
 		</value>
-	</li>
+</Operation>
 
-		</operations>
-	</Operation>
+<Operation Class="PatchOperationAdd"><!-- genes -->
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "GHG_Mezu"]/alienRace/generalSettings</xpath>
+		<value>
+			<raceGenes>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_equine_genitalia</defName></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_homosexual</defName><chance>50</chance></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_bisexual</defName><chance>90</chance></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_futa</defName><chance>10</chance></li>
+				<li MayRequire="Vegapnk.rjw.genes"><defName>rjw_genes_fertile_anus</defName><chance>10</chance></li>
+			</raceGenes>
+		</value>
+</Operation>
+
 </Patch>

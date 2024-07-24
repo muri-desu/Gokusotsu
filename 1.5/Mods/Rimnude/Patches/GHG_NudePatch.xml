@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>RimNudeWorld</li>
-	</mods>
-	<match Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
 	<value>
 
@@ -142,6 +138,5 @@
 	</li>
 
 	</value>
-</match>
 </Operation>
 </Patch>

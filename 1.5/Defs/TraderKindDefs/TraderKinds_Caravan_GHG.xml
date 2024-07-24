@@ -78,6 +78,21 @@
 		<maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
 	</li>
 
+<!-- Books -->
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>TextBook</thingDef>
+		<countRange>1~2</countRange>
+	</li>
+
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>Schematic</thingDef>
+		<countRange>1~1</countRange>
+	</li>
+
+	<li Class="StockGenerator_SingleDef">
+		<thingDef>Novel</thingDef>
+		<countRange>1~1</countRange>
+	</li>
 <!-- Buying -->
 	<li Class="StockGenerator_BuyExpensiveSimple" />
 	<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>

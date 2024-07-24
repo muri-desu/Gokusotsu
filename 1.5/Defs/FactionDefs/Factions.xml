@@ -80,10 +80,6 @@
 	<melaninRange>0.7</melaninRange>
 	<factionNameMaker>NamerFactionTribal</factionNameMaker>
 	<factionIconPath>Things/WorldIcon/GHGcolonyicon</factionIconPath>
-	<disallowedMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
-		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-	</disallowedMemes>
 	<structureMemeWeights>
 		<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
 	</structureMemeWeights>

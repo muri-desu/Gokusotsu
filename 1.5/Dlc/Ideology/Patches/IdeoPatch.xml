@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-
-	<li Class="PatchOperationAdd">
-	<xpath>Defs/ThingDefs_Races/Gokusotsu_Base[defName = "BaseGHG"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name = "BaseGHG"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
 		<value>
 			<li>HAR_AteAlienMeat_Know_Abhorrent</li>
 			<li>HAR_AteAlienMeat_Abhorrent</li>
@@ -48,20 +44,34 @@
 			<li>InnocentPrisonerDied_Abhorrent</li>
 			<li>InnocentPrisonerDied_Horrible</li>
 		</value>
-	</li>
+</Operation>
 
-	<!-- <li Class="PatchOperationAdd">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "BaseGHG"]/alienRace/raceRestriction/whiteApparelList</xpath>
-		<value>
-			<li>Apparel_PackJump</li>
-			<li>Apparel_PackBroadshield</li>
-			<li>Apparel_PackJump</li>
-		</value>
-	</li>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+	<value>
+		<li>Apparel_PackJump</li>
+		<li>Apparel_PackBroadshield</li>
+		<li>Apparel_PackJump</li>
+	</value>
+</Operation>
 
-	<li Class="PatchOperationAdd">
-		<xpath>Defs/Factions[defName = "GHG_Faction"]/disallowedPrecepts</xpath>
-		<value>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/FactionDef[defName = "GHG_Faction"]</xpath>
+	<value>
+		<allowedMemes>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Shintaoism</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_PartyLife</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+		</allowedMemes>
+		<disallowedPrecepts>
+			<li>Cannibalism_Abhorrent</li>
+			<li>Cannibalism_Horrible</li>
+			<li>Cannibalism_Disapproved</li>
+			<li>DrugUse_Prohibited</li>
+			<li>DrugUse_MedicalOnly</li>
+			<li>Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li>Nudity_Female_CoveringAnythingButGroinDisapproved</li>
 			<li>Slavery_Abhorrent</li>
 			<li>Slavery_Horrible</li>
 			<li>Slavery_Disapproved</li>
@@ -78,9 +88,7 @@
 			<li>Lovin_Horrible</li>
 			<li>Lovin_SpouseOnly_Moderate</li>
 			<li>Lovin_SpouseOnly_Mild</li>
-		</value>
-	</li> -->
-
-	</operations>
+		</disallowedPrecepts>
+	</value>
 </Operation>
 </Patch>

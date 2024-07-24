@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>tosenbo.Ricecultivatingcivilization.ver2</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-
-	<operations>
-		<li Class="PatchOperationAdd">
-		<xpath>Defs/TraderKindDefs[defName = "Caravan_GHG_SakeDealer"]/stockGenerators/li/thingDefs</xpath>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDefs[defName = "Caravan_GHG_SakeDealer"]/stockGenerators</xpath>
 			<value>
 				<li Class="StockGenerator_Category">
 					<categoryDef>ZPDrugBase</categoryDef>
@@ -17,10 +9,10 @@
 					<countRange>5~15</countRange>
 				</li>
 			</value>
-		</li>
+	</Operation>
 
-		<li Class="PatchOperationAdd">
-		<xpath>Defs/TraderKindDefs[defName = "Base_GHG_Standard"]/stockGenerators/li/thingDefs</xpath>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDefs[defName = "Base_GHG_Standard"]/stockGenerators</xpath>
 			<value>
 				<li Class="StockGenerator_Category">
 					<categoryDef>ZPDrugBase</categoryDef>
@@ -58,9 +50,5 @@
 					<countRange>10~30</countRange>
 				</li>
 			</value>
-		</li>
-
-	</operations>
-		</match>
 	</Operation>
 </Patch>
