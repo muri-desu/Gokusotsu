@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.ThingDef_AlienRace Name="Alien_Gokusotsu" ParentName="BaseGHG">
+	<defName>Alien_Gokusotsu</defName>
+	<label>gokusotsu demon</label>
+
+	<race>
+		<body>GHG_twohorns</body>
+		<useMeatFrom>Human</useMeatFrom>
+		<leatherDef>Leather_Human</leatherDef>
+	<lifeStageAges>
+	<li Class="AlienRace.LifeStageAgeAlien">
+		<def>GHG_HumanlikeBaby</def>
+		<minAge>0</minAge>
+	</li>
+	<li>
+		<def>HumanlikeChild</def>
+		<minAge>3</minAge>
+	</li>
+	<li>
+		<def>HumanlikeAdult</def>
+		<minAge>16</minAge>
+	</li>
+	</lifeStageAges>
+	</race>
+
+<alienRace>
+<generalSettings>
+
+<alienPartGenerator>
+	<headTypes Inherit="False">
+		<li>Head_A</li>
+		<li>Head_B</li>
+		<li>Head_C</li>
+		<li>Head_D</li>
+		<li>Head_E</li>
+		<li>Head_F</li>
+		<li>Head_G</li>
+		<li>HeadF_A</li>
+		<li>HeadF_B</li>
+		<li>HeadF_C</li>
+		<li>HeadF_D</li>
+	</headTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+	<north><offset>(0.0, 0.0)</offset></north>
+	<south><offset>(0.0, 0.0)</offset></south>
+	<east><offset>(0.05, 0.0)</offset></east>
+	<west><offset>(-0.05, 0.0)</offset></west>
+</headOffsetDirectional>
+	<colorChannels>
+		<li>
+		<name>skin</name>
+			<first Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>30</weight><!-- red -->
+						<min>RGBA(145,60,62,255)</min>
+						<max>RGBA(213,85,90,255)</max>
+					</li>
+					<li>
+						<weight>30</weight><!-- blue -->
+						<min>RGBA(59,88,117,255)</min>
+						<max>RGBA(80,120,160,255)</max>
+					</li>
+					<li>
+						<weight>10</weight><!-- green -->
+						<min>RGBA(78,122,73,255)</min>
+						<max>RGBA(100,160,95,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- yellow -->
+						<min>RGBA(173,153,62,255)</min>
+						<max>RGBA(210,185,75,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- black -->
+						<min>RGBA(105,102,95,255)</min>
+						<max>RGBA(74,72,67,255)</max>
+					</li>
+				</options>
+			</first>
+		</li>
+	<li>
+	<name>hair</name>
+		<first Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>1</weight><!-- red -->
+					<only>RGBA(193,87,41,255)</only>
+				</li>
+				<li>
+					<weight>1</weight><!-- yellow -->
+					<only>RGBA(240,233,123,255)</only>
+				</li>
+				<li>
+					<weight>1</weight><!-- grey -->
+					<only>RGBA(212,208,202,255)</only>
+				</li>
+			</options>
+		</first>
+	</li>
+	</colorChannels>
+
+	<bodyAddons>
+	<li>
+		<name>left horn</name>
+		<userCustomizable>false</userCustomizable>
+		<path>Gokusotsu/Horns/Horn_left</path>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>skin</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<drawSize>1.0</drawSize>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>left horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+	<extendedGraphics>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_left</Age>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_left</Age>
+		<Age For="HumanlikeAdult" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/Horn_left</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_left</Hediff>
+			</extendedGraphics>
+		</Age>
+	</extendedGraphics>
+
+		<offsets>
+			<south>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.275</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</north>
+			<east>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(-0.02,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
+				</bodyTypes>
+			</east>
+		</offsets>
+
+	</li>
+
+	<li>
+		<name>right horn</name>
+		<userCustomizable>false</userCustomizable>
+		<path>Gokusotsu/Horns/Horn_right</path>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>skin</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<drawSize>1.0</drawSize>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>right horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+	<extendedGraphics>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_right</Age>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_right</Age>
+		<Age For="HumanlikeAdult" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/Horn_right</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_right</Hediff>
+			</extendedGraphics>
+		</Age>
+	</extendedGraphics>
+
+		<offsets>
+			<south>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.275</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</north>
+			<east>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0.02,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.05,0)</Child>
+				</bodyTypes>
+			</east>
+		</offsets>
+	</li>
+
+	</bodyAddons>
+</alienPartGenerator>
+
+<notXenophobistTowards>
+	<li>GHG_Mezu</li>
+	<li>GHG_Gozu</li>
+</notXenophobistTowards>
+
+</generalSettings>
+
+<graphicPaths>
+	<head><path>Gokusotsu/Heads/</path>
+		<extendedGraphics>
+			<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/Head_Child</Age>
+			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/Head_Child</Age>
+			<Age For="HumanlikeAdult"><path>Gokusotsu/Heads/</path>
+				<extendedGraphics>
+					<HeadType For="Head_A">Gokusotsu/Heads/Head_A</HeadType>
+					<HeadType For="Head_B">Gokusotsu/Heads/Head_B</HeadType>
+					<HeadType For="Head_C">Gokusotsu/Heads/Head_C</HeadType>
+					<HeadType For="Head_D">Gokusotsu/Heads/Head_D</HeadType>
+					<HeadType For="Head_E">Gokusotsu/Heads/Head_E</HeadType>
+					<HeadType For="Head_F">Gokusotsu/Heads/Head_F</HeadType>
+					<HeadType For="Head_G">Gokusotsu/Heads/Head_G</HeadType>
+					<HeadType For="HeadF_A">Gokusotsu/Heads/HeadF_A</HeadType>
+					<HeadType For="HeadF_B">Gokusotsu/Heads/HeadF_B</HeadType>
+					<HeadType For="HeadF_C">Gokusotsu/Heads/HeadF_C</HeadType>
+					<HeadType For="HeadF_D">Gokusotsu/Heads/HeadF_D</HeadType>
+				</extendedGraphics>
+			</Age>
+		</extendedGraphics>
+	</head>
+	<skull>Gokusotsu/Heads/None_Average_Skull</skull>
+
+<apparel>
+	<individualPaths>
+		<li>
+			<key>Apparel_GokusotsuGlasses</key>
+			<value>Gokusotsu/Things/Apparel/Hat/Glasses</value>
+		</li>
+		<li>
+			<key>Apparel_GokusotsuEarrings</key>
+			<value>Gokusotsu/Things/Apparel/Hat/Earrings</value>
+		</li>
+	</individualPaths>
+</apparel>
+
+</graphicPaths>
+
+<styleSettings>
+	<li>
+		<key>HairDef</key>
+			<value>
+				<hasStyle>true</hasStyle>
+				<styleTagsOverride>
+					<li>GHG_Hair</li>
+				</styleTagsOverride>
+			</value>
+	</li>
+	<li>
+		<key>TattooDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+			</value>
+	</li>
+	<li>
+		<key>BeardDef</key>
+			<value>
+				<hasStyle>true</hasStyle>
+				<styleTagsOverride>
+					<li>GHG_Beard</li>
+					<li>Bushy</li>
+					<li>BeardRural</li>
+					<li>BeardLong</li>
+					<li>NoBeard</li>
+				</styleTagsOverride>
+			</value>
+	</li>
+</styleSettings>
+<raceRestriction>
+	<whiteApparelList>
+	</whiteApparelList>
+</raceRestriction>
+</alienRace>
+
+<ingredient>
+	<mergeCompatibilityTags>
+		<li>HumanMeat</li>
+	</mergeCompatibilityTags>
+</ingredient>
+
+</AlienRace.ThingDef_AlienRace>
+
+<!-- ＝＝＝＝＝＝＝＝＝＝＝馬頭＝＝＝＝＝＝＝＝＝＝＝ -->
+<AlienRace.ThingDef_AlienRace Name="GHG_Mezu" ParentName="BaseGHG">
+	<defName>GHG_Mezu</defName>
+	<label>gokusotsu mezu demon</label>
+
+	<race>
+		<body>GHG_onehorn</body>
+		<useMeatFrom>Horse</useMeatFrom>
+		<leatherDef>Leather_Plain</leatherDef>
+	<lifeStageAges>
+	<li Class="AlienRace.LifeStageAgeAlien">
+		<def>GHG_HumanlikeBaby</def>
+		<minAge>0</minAge>
+	</li>
+	<li>
+		<def>HumanlikeChild</def>
+		<minAge>3</minAge>
+	</li>
+	<li>
+		<def>HumanlikeAdult</def>
+		<minAge>16</minAge>
+		<soundWounded>Pawn_Horse_Wounded</soundWounded>
+		<soundDeath>Pawn_Horse_Death</soundDeath>
+		<soundCall>Pawn_Horse_Call</soundCall>
+		<soundAngry>Pawn_Horse_Angry</soundAngry>
+	</li>
+	</lifeStageAges>
+	</race>
+
+<alienRace>
+<generalSettings>
+<alienPartGenerator>
+	<headTypes Inherit="false">
+		<li>MezuHead</li>
+	</headTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+	<north><offset>(0.0, 0.0)</offset></north>
+	<south><offset>(0.0, 0.0)</offset></south>
+	<east><offset>(0.02, -0.025)</offset></east>
+	<west><offset>(-0.02, -0.025)</offset></west>
+</headOffsetDirectional>
+<customFemaleHeadDrawSize>(0.9, 0.9)</customFemaleHeadDrawSize>
+<customFemalePortraitHeadDrawSize>(0.9, 0.9)</customFemalePortraitHeadDrawSize>
+<headFemaleOffset>(0, -0.05)</headFemaleOffset>
+	<colorChannels>
+		<li>
+		<name>skin</name>
+			<first Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>1</weight><!-- 白 -->
+						<min>RGBA(214,213,210,255)</min>
+						<max>RGBA(235,235,235,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- 灰 -->
+						<min>RGBA(138,134,127,255)</min>
+						<max>RGBA(105,102,95,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- 薄茶 -->
+						<min>RGBA(163,146,122,255)</min>
+						<max>RGBA(213,188,155,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- 茶 -->
+						<min>RGBA(71,51,43,255)</min>
+						<max>RGBA(112,81,68,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- black -->
+						<min>RGBA(105,102,95,255)</min>
+						<max>RGBA(74,72,67,255)</max>
+					</li>
+				</options>
+			</first>
+			<second Class="ColorGenerator_Options">
+				<options>
+				<li>
+					<weight>1</weight><!-- red -->
+					<min>RGBA(122,39,18,255)</min>
+					<max>RGBA(255,77,59,255)</max>
+				</li>
+				<li>
+					<weight>1</weight><!-- yellow -->
+					<min>RGBA(82,76,32,255)</min>
+					<max>RGBA(255,77,59,255)</max>
+				</li>
+			</options>
+		</second>
+	</li>
+	</colorChannels>
+
+	<bodyAddons>
+	<li><!-- ツノ -->
+		<name>mezu horn</name>
+		<userCustomizable>false</userCustomizable>
+		<path>Gokusotsu/Horns/MezuHorn</path>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>skin</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<drawSize>1.0</drawSize>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+	<extendedGraphics>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/MezuHorn</Age>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/MezuHorn</Age>
+		<Age For="HumanlikeAdult" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/MezuHorn</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedMezuHorn</Hediff>
+			</extendedGraphics>
+		</Age>
+	</extendedGraphics>
+
+	<offsets>
+		<south>
+			<layerOffset>0</layerOffset>
+			<bodyTypes>
+				<Hulk>(0,0)</Hulk>
+				<Fat>(0,0)</Fat>
+				<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+				<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+			</bodyTypes>
+		</south>
+		<north>
+			<layerOffset>-0.275</layerOffset>
+			<bodyTypes>
+				<Hulk>(0,0)</Hulk>
+				<Fat>(0,0)</Fat>
+				<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+				<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+			</bodyTypes>
+		</north>
+		<east>
+			<layerOffset>0</layerOffset>
+			<bodyTypes>
+				<Hulk>(0,0)</Hulk>
+				<Fat>(0,0)</Fat>
+				<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+				<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+			</bodyTypes>
+		</east>
+	</offsets>
+	</li>
+
+</bodyAddons>
+</alienPartGenerator>
+
+<notXenophobistTowards>
+	<li>Alien_Gokusotsu</li>
+	<li>GHG_Gozu</li>
+</notXenophobistTowards>
+
+</generalSettings>
+
+<graphicPaths>
+	<head><path>Gokusotsu/Heads/MezuHead</path>
+		<extendedGraphics>
+			<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/MezuHead_Child</BodyType>
+			<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/MezuHead_Child</BodyType>
+		</extendedGraphics>
+	</head>
+	<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
+
+<apparel>
+	<individualPaths>
+		<li>
+			<key>Apparel_GokusotsuEarrings</key>
+			<value>Gokusotsu/Things/Apparel/Hat/EarringsMezu</value>
+		</li>
+	</individualPaths>
+</apparel>
+
+</graphicPaths>
+
+<styleSettings>
+	<li>
+		<key>HairDef</key>
+			<value>
+				<hasStyle>true</hasStyle>
+				<styleTagsOverride>
+					<li>GHG_MezuHair</li>
+				</styleTagsOverride>
+			</value>
+	</li>
+	<li>
+		<key>TattooDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+			</value>
+	</li>
+	<li>
+		<key>BeardDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+			</value>
+	</li>
+</styleSettings>
+
+<raceRestriction>
+	<whiteApparelList>
+	</whiteApparelList>
+</raceRestriction>
+</alienRace>
+</AlienRace.ThingDef_AlienRace>
+
+<!-- ＝＝＝＝＝＝＝＝＝＝＝牛頭＝＝＝＝＝＝＝＝＝＝＝ -->
+<AlienRace.ThingDef_AlienRace Name="GHG_Gozu" ParentName="BaseGHG">
+	<defName>GHG_Gozu</defName>
+	<label>gokusotsu gozu demon</label>
+
+	<race>
+		<body>GHG_twohorns</body>
+		<useMeatFrom>Cow</useMeatFrom>
+		<leatherDef>Leather_Plain</leatherDef>
+	<lifeStageAges>
+	<li Class="AlienRace.LifeStageAgeAlien">
+		<def>GHG_HumanlikeBaby</def>
+		<minAge>0</minAge>
+	</li>
+	<li>
+		<def>HumanlikeChild</def>
+		<minAge>3</minAge>
+		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+		<soundDeath>Pawn_Muffalo_Death</soundDeath>
+		<soundCall>Pawn_Muffalo_Call</soundCall>
+		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+	</li>
+	<li>
+		<def>HumanlikeAdult</def>
+		<minAge>16</minAge>
+		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+		<soundDeath>Pawn_Muffalo_Death</soundDeath>
+		<soundCall>Pawn_Muffalo_Call</soundCall>
+		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+	</li>
+	</lifeStageAges>
+</race>
+
+<alienRace>
+<generalSettings>
+<alienPartGenerator>
+	<headTypes Inherit="false">
+		<li>GozuHead</li>
+	</headTypes>
+	<headOffset>(0, 0.1)</headOffset>
+<headOffsetDirectional>
+	<north><offset>(0.0, 0.0)</offset></north>
+	<south><offset>(0.0, 0.0)</offset></south>
+	<east><offset>(0.02, -0.025)</offset></east>
+	<west><offset>(-0.02, -0.025)</offset></west>
+</headOffsetDirectional>
+<customFemaleHeadDrawSize>(0.9, 0.9)</customFemaleHeadDrawSize>
+<customFemalePortraitHeadDrawSize>(0.9, 0.9)</customFemalePortraitHeadDrawSize>
+<headFemaleOffset>(0, -0.05)</headFemaleOffset>
+	<colorChannels>
+		<li>
+		<name>skin</name>
+			<first Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>1</weight><!-- 白 -->
+						<min>RGBA(204,203,200,255)</min>
+						<max>RGBA(235,235,235,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- 灰 -->
+						<min>RGBA(138,134,127,255)</min>
+						<max>RGBA(105,102,95,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- 薄茶 -->
+						<min>RGBA(163,146,122,255)</min>
+						<max>RGBA(213,188,155,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- 茶 -->
+						<min>RGBA(71,51,43,255)</min>
+						<max>RGBA(112,81,68,255)</max>
+					</li>
+					<li>
+						<weight>1</weight><!-- black -->
+						<min>RGBA(105,102,95,255)</min>
+						<max>RGBA(74,72,67,255)</max>
+					</li>
+				</options>
+			</first>
+			<second Class="ColorGenerator_Options">
+				<options>
+				<li>
+					<weight>1</weight><!-- red -->
+					<min>RGBA(122,39,18,255)</min>
+					<max>RGBA(255,77,59,255)</max>
+				</li>
+				<li>
+					<weight>1</weight><!-- yellow -->
+					<min>RGBA(82,76,32,255)</min>
+					<max>RGBA(255,77,59,255)</max>
+				</li>
+			</options>
+		</second>
+	</li>
+	</colorChannels>
+
+	<bodyAddons>
+
+	<li><!-- 左ツノ -->
+		<name>gozu left horn</name>
+		<userCustomizable>false</userCustomizable>
+		<path>Gokusotsu/Horns/GozuHorn_left</path>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>skin</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<drawSize>1.0</drawSize>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>left horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+	<extendedGraphics>
+		<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/GozuHorn_left</BodyType>
+		<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/GozuHorn_left</BodyType>
+		<BodyType For="Hulk" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/GozuHorn_left</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedGozuHorn_left</Hediff>
+			</extendedGraphics>
+		</BodyType>
+		<BodyType For="Fat" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/GozuHorn_left</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedGozuHorn_left</Hediff>
+			</extendedGraphics>
+		</BodyType>
+	</extendedGraphics>
+
+		<offsets>
+			<south>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.275</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0.075,-0.05)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0.02,-0.02)</Child>
+				</bodyTypes>
+			</north>
+			<east>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0.1,0)</Child>
+				</bodyTypes>
+			</east>
+		</offsets>
+	</li>
+
+	<li><!-- 右ツノ -->
+		<name>gozu right horn</name>
+		<userCustomizable>false</userCustomizable>
+		<path>Gokusotsu/Horns/GozuHorn_right</path>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>skin</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<drawSize>1.0</drawSize>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>right horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+	<extendedGraphics>
+		<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/GozuHorn_right</BodyType>
+		<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/GozuHorn_right</BodyType>
+		<BodyType For="Hulk" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/GozuHorn_right</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedGozuHorn_right</Hediff>
+			</extendedGraphics>
+		</BodyType>
+		<BodyType For="Fat" MayRequire="Ludeon.RimWorld.Biotech"><path>Gokusotsu/Horns/GozuHorn_right</path>
+			<extendedGraphics>
+				<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedGozuHorn_right</Hediff>
+			</extendedGraphics>
+		</BodyType>
+	</extendedGraphics>
+
+		<offsets>
+			<south>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.275</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(-0.075,-0.05)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.02,-0.02)</Child>
+				</bodyTypes>
+			</north>
+			<east>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0,0)</Hulk>
+					<Fat>(0,0)</Fat>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0.1,0)</Child>
+				</bodyTypes>
+			</east>
+		</offsets>
+	</li>
+
+	</bodyAddons>
+</alienPartGenerator>
+
+<notXenophobistTowards>
+	<li>Alien_Gokusotsu</li>
+	<li>GHG_Mezu</li>
+</notXenophobistTowards>
+
+</generalSettings>
+
+<graphicPaths>
+	<head><path>Gokusotsu/Heads/GozuHead</path>
+		<extendedGraphics>
+			<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/GozuHead_Child</BodyType>
+			<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Heads/GozuHead_Child</BodyType>
+		</extendedGraphics>
+	</head>
+	<skull>Gokusotsu/Heads/None_Mezu_Skull</skull>
+
+<apparel>
+	<individualPaths>
+		<li>
+			<key>Apparel_GokusotsuEarrings</key>
+			<value>Gokusotsu/Things/Apparel/Hat/EarringsGozu</value>
+		</li>
+	</individualPaths>
+</apparel>
+
+</graphicPaths>
+
+<styleSettings>
+	<li>
+		<key>HairDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+			</value>
+	</li>
+	<li>
+		<key>TattooDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+			</value>
+	</li>
+	<li>
+		<key>BeardDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+			</value>
+	</li>
+</styleSettings>
+
+<raceRestriction>
+	<whiteApparelList>
+	</whiteApparelList>
+</raceRestriction>
+</alienRace>
+
+</AlienRace.ThingDef_AlienRace>
+</Defs>

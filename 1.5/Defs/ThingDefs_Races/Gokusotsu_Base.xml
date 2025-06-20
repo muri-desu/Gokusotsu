@@ -3,29 +3,33 @@
 <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="BaseGHG" Abstract="True">
 	<description>They were originally guards in a huge punishment facility spreading underground in another world. \nOne day, they were seduced by a newly-arrived scholar and sucked out into this world through a "gate" that they were made to build (perhaps with the promise of an endless supply of alcohol, etc.). \nFor a while afterwards, they worked together to find the scholar who had successfully escaped. \nHowever, they realized that their lives became mortal like the creatures of mortal world, and that their favorite things (alcohol, fighting, and human flesh) were available everywhere. In addition, the absence of their boss had destroyed their teamwork, and the all gokusotsu scattered to the planets to do as they pleased.</description>
 <race>
-	<renderTree>Humanlike</renderTree>
-	<soundCallIntervalRange>2000~5000</soundCallIntervalRange>
-	<canBecomeShambler>true</canBecomeShambler>
-	<bloodDef>Filth_Blood</bloodDef>
-	<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
-	<anomalyKnowledge>1</anomalyKnowledge>
-	<baseBodySize>1.5</baseBodySize>
-	<baseHealthScale>1.0</baseHealthScale>
 	<thinkTreeMain>Humanlike</thinkTreeMain>
 	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 	<intelligence>Humanlike</intelligence>
 	<makesFootprints>true</makesFootprints>
 	<lifeExpectancy>300</lifeExpectancy>
+	<bloodDef>Filth_Blood</bloodDef>
+	<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
 	<nameCategory>HumanStandard</nameCategory>
 	<nameGenerator>NamerGHG</nameGenerator>
+	<nameGeneratorFemale>NamerGHGFemale</nameGeneratorFemale>
+	<renderTree>Humanlike</renderTree>
+	<baseBodySize>1.5</baseBodySize>
+	<baseHealthScale>1.0</baseHealthScale>
 	<foodType>CarnivoreAnimal, Fluid, AnimalProduct, Liquor</foodType>
-	<hasGenders>true</hasGenders>
 	<gestationPeriodDays>100</gestationPeriodDays>
+	<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+	<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+	<soundCallIntervalRange>2000~5000</soundCallIntervalRange>
+	<canBecomeShambler>true</canBecomeShambler>
+	<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+	<anomalyKnowledge>1</anomalyKnowledge>
+	<hasGenders>true</hasGenders>
 	<litterSizeCurve>
 		<points>
 			<li>(1, 0)</li>
 			<li>(2, 100)</li>
-			<li>(3, 3)</li>
+			<li>(3, 0)</li>
 			<li>(4, 0)</li>
 		</points>
 	</litterSizeCurve>
@@ -61,7 +65,7 @@
 	</specialShadowData>
 	<ageGenerationCurve>
 	<points>
-		<li>(0,0)</li>
+		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
 		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li><!-- Exclude 12.5-13 years -->
@@ -156,7 +160,7 @@
 	<allowHumanBios>false</allowHumanBios>
 	<humanRecipeImport>true</humanRecipeImport>
 	<immuneToAge>true</immuneToAge>
-	<maleGenderProbability>1.0</maleGenderProbability>
+	<maleGenderProbability>0.9</maleGenderProbability>
 	<maxDamageForSocialfight>6</maxDamageForSocialfight>
 
 <alienPartGenerator>
@@ -167,10 +171,13 @@
 		<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 	</bodyTypes>
 	<customDrawSize>(1.2, 1.2)</customDrawSize>
-	<customHeadDrawSize>(1.1, 1.1)</customHeadDrawSize>
-	<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
-	<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
-
+	<customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
+	<customFemaleDrawSize>(1.2, 1.2)</customFemaleDrawSize>
+	<customFemaleHeadDrawSize>(1.2, 1.2)</customFemaleHeadDrawSize>
+	<headOffset>(0, 0)</headOffset>
+	<headFemaleOffset>(0, 0)</headFemaleOffset>
+	<!--<customFemaleHeadDrawSize>(0.95, 0.95)</customFemaleHeadDrawSize>
+	<customFemalePortraitHeadDrawSize>(0.95, 0.95)</customFemalePortraitHeadDrawSize>-->
 	<oldHairAgeRange>200~300</oldHairAgeRange>
 	<oldHairAgeCurve>
 		<points>
@@ -181,6 +188,349 @@
 		</points>
 	</oldHairAgeCurve>
 
+<anchorReplacements>
+<!-- Left Eye -->
+	<li><!-- ☑️ -->
+		<originalTag>LeftEye</originalTag>
+		<replacement>
+			<rotation>South</rotation>
+			<tag>LeftEye</tag>
+			<canMirror>false</canMirror>
+			<layer>Head</layer>
+		</replacement>
+		<offsets>
+			<south>
+				<layerOffset>1</layerOffset>
+				<offset>(0.11, 0.2)</offset>
+			</south>
+		</offsets>
+	</li>
+	<li><!-- ☑️ -->
+		<originalTag>LeftEye</originalTag>
+		<replacement>
+			<rotation>West</rotation>
+			<tag>LeftEye</tag>
+			<canMirror>false</canMirror>
+			<layer>Head</layer>
+		</replacement>
+		<offsets>
+			<west>
+				<layerOffset>1</layerOffset>
+				<offset>(-0.15, 0.25)</offset>
+			</west>
+		</offsets>
+	</li>
+	<li><!-- not working -->
+		<originalTag>LeftEye</originalTag>
+		<replacement>
+			<rotation>East</rotation>
+			<tag>LeftEye</tag>
+			<canMirror>false</canMirror>
+			<layer>Head</layer>
+		</replacement>
+		<offsets>
+			<east>
+				<layerOffset>-1</layerOffset>
+				<offset>(-0.15, 0.25)</offset>
+			</east>
+		</offsets>
+	</li>
+
+<!-- Right Eye -->
+	<li><!-- ☑️ -->
+		<originalTag>RightEye</originalTag>
+		<replacement>
+			<rotation>South</rotation>
+			<tag>RightEye</tag>
+			<layer>Head</layer>
+		</replacement>
+		<offsets>
+			<south>
+				<layerOffset>1</layerOffset>
+				<offset>(-0.11, 0.2)</offset>
+			</south>
+		</offsets>
+	</li>
+	<li><!-- ☑️ -->
+		<originalTag>RightEye</originalTag>
+		<replacement>
+			<rotation>East</rotation>
+			<tag>RightEye</tag>
+			<layer>Head</layer>
+			<canMirror>false</canMirror>
+		</replacement>
+		<offsets>
+			<east>
+				<layerOffset>1</layerOffset>
+				<offset>(0.15, 0.25)</offset>
+			</east>
+		</offsets>
+	</li>
+	<li><!-- not working -->
+		<originalTag>RightEye</originalTag>
+		<replacement>
+			<rotation>West</rotation>
+			<tag>RightEye</tag>
+			<layer>Head</layer>
+			<canMirror>false</canMirror>
+		</replacement>
+		<offsets>
+			<west>
+				<layerOffset>-1</layerOffset>
+				<offset>(-0.15, 0.25)</offset>
+			</west>
+		</offsets>
+	</li>
+
+<!-- Left Shoulfer -->
+	<li>
+		<originalTag>LeftShoulder</originalTag>
+		<replacement>
+			<rotation>South</rotation>
+			<tag>LeftShoulder</tag>
+			<canMirror>false</canMirror>
+		</replacement>
+		<offsets>
+			<south>
+				<layerOffset>3</layerOffset>
+				<bodyTypes>
+					<Hulk>(0.42, 0.1)</Hulk>
+					<Fat>(0.42, 0.1)</Fat>
+					<Child MayRequire="ludeon.rimworld.biotech">(0.2, 0.05)</Child>
+				</bodyTypes>
+			</south>
+		</offsets>
+	</li>
+	<li>
+		<originalTag>LeftShoulder</originalTag>
+		<replacement>
+			<rotation>North</rotation>
+			<tag>LeftShoulder</tag>
+		</replacement>
+		<offsets>
+			<north>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(-0.42, 0.1)</Hulk>
+					<Fat>(-0.42, 0.1)</Fat>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.2, 0.05)</Child>
+				</bodyTypes>
+			</north>
+		</offsets>
+	</li>
+	<li>
+		<originalTag>LeftShoulder</originalTag>
+		<replacement>
+			<rotation>West</rotation>
+			<tag>LeftShoulder</tag>
+			<canMirror>false</canMirror>
+			<range>0</range>
+			<layer>Body</layer>
+		</replacement>
+		<offsets>
+			<west>
+				<layerOffset>0.4</layerOffset>
+				<bodyTypes>
+					<Hulk>(0, 0)</Hulk>
+					<Fat>(0, 0)</Fat>
+					<Child MayRequire="ludeon.rimworld.biotech">(0, 0)</Child>
+				</bodyTypes>
+			</west>
+		</offsets>
+	</li>
+<!-- Right Shoulder -->
+	<li>
+		<originalTag>RightShoulder</originalTag>
+		<replacement>
+			<rotation>South</rotation>
+			<tag>RightShoulder</tag>
+			<canMirror>false</canMirror>
+		</replacement>
+		<offsets>
+			<south>
+				<layerOffset>3</layerOffset>
+				<bodyTypes>
+					<Hulk>(-0.42, 0.1)</Hulk>
+					<Fat>(-0.42, 0.1)</Fat>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.2, 0.05)</Child>
+				</bodyTypes>
+			</south>
+		</offsets>
+	</li>
+	<li>
+		<originalTag>RightShoulder</originalTag>
+		<replacement>
+			<rotation>North</rotation>
+			<tag>RightShoulder</tag>
+			<canMirror>false</canMirror>
+		</replacement>
+		<offsets>
+			<north>
+				<layerOffset>0</layerOffset>
+				<bodyTypes>
+					<Hulk>(0.42, 0.1)</Hulk>
+					<Fat>(0.42, 0.1)</Fat>
+					<Child MayRequire="ludeon.rimworld.biotech">(-0.2, 0.05)</Child>
+				</bodyTypes>
+			</north>
+		</offsets>
+	</li>
+	<li>
+		<originalTag>RightShoulder</originalTag>
+		<replacement>
+			<rotation>East</rotation>
+			<tag>RightShoulder</tag>
+			<canMirror>false</canMirror>
+		</replacement>
+		<offsets>
+			<east>
+				<layerOffset>0.4</layerOffset>
+				<bodyTypes>
+					<Hulk>(0, 0)</Hulk>
+					<Fat>(0, 0)</Fat>
+					<Child MayRequire="ludeon.rimworld.biotech">(0, 0)</Child>
+				</bodyTypes>
+			</east>
+		</offsets>
+	</li>
+</anchorReplacements>
+<bodyAddons>
+	<li>
+		<name>left eye</name>
+		<path>Gokusotsu/Things/Empty</path>
+		<userCustomizable>false</userCustomizable>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>base</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<BodyPart>
+				<bodyPartLabel>LeftEye</bodyPartLabel>
+				<drawWithoutPart>true</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+		<extendedGraphics>
+			<li><path>Gokusotsu/Eyes/BionicEye</path>
+				<conditions>
+					<Or>
+						<Hediff>BionicEye</Hediff>
+						<Hediff>ArchotechEye</Hediff>
+					</Or>
+				</conditions>
+			</li>
+			<li><path>Gokusotsu/Eyes/EyeClosed</path>
+				<conditions>
+					<Or>
+						<Job>Wait_Asleep</Job>
+						<Job>Wait_AsleepDormancy</Job>
+					</Or>
+				</conditions>
+			</li>
+		</extendedGraphics>
+
+		<offsets>
+			<south>
+				<offset>(0.11, 0.2)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.275</layerOffset>
+				<offset>(0.11, 0.2)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</north>
+			<east>
+				<offset>(0.15, 0.215)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</east>
+			<west>
+				<layerOffset>-0.275</layerOffset>
+				<offset>(0.15, 0.215)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</west>
+		</offsets>
+	</li>
+
+	<li>
+		<name>right eye</name>
+		<path>Gokusotsu/Things/Empty</path>
+		<userCustomizable>false</userCustomizable>
+		<inFrontOfBody>true</inFrontOfBody>
+		<colorChannel>base</colorChannel>
+		<alignWithHead>true</alignWithHead>
+		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+		<conditions>
+			<BodyPart>
+				<bodyPartLabel>RightEye</bodyPartLabel>
+				<drawWithoutPart>true</drawWithoutPart>
+			</BodyPart>
+		</conditions>
+
+		<extendedGraphics>
+			<li><path>Gokusotsu/Eyes/BionicEye</path>
+				<conditions>
+					<Or>
+						<Hediff>BionicEye</Hediff>
+						<Hediff>ArchotechEye</Hediff>
+					</Or>
+				</conditions>
+			</li>
+			<li><path>Gokusotsu/Eyes/EyeClosed</path>
+				<conditions>
+					<Or>
+						<Job>Wait_Asleep</Job>
+						<Job>Wait_AsleepDormancy</Job>
+					</Or>
+				</conditions>
+			</li>
+		</extendedGraphics>
+
+		<offsets>
+			<south>
+				<offset>(-0.11, 0.2)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</south>
+			<north>
+				<layerOffset>-0.275</layerOffset>
+				<offset>(-0.11, 0.2)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</north>
+			<east>
+				<offset>(-0.15, 0.215)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</east>
+			<west>
+				<layerOffset>-0.275</layerOffset>
+				<offset>(-0.15, 0.215)</offset>
+				<bodyTypes>
+					<Baby MayRequire="ludeon.rimworld.biotech">(0,0)</Baby>
+					<Child MayRequire="ludeon.rimworld.biotech">(0,0)</Child>
+				</bodyTypes>
+			</west>
+		</offsets>
+	</li>
+</bodyAddons>
 </alienPartGenerator>
 
 <disallowedTraits>
@@ -192,10 +542,10 @@
 </disallowedTraits>
 <forcedRaceTraitEntries>
 	<li>
-		<options>
+	<options>
 		<li><defName>Gay</defName><chance>50</chance></li>
 		<li><defName>Bisexual</defName><chance>90</chance></li>
-		</options>
+	</options>
 		<count>1</count>
 	</li>
 	<li><defName>Bloodlust</defName><chance>30</chance></li>
@@ -224,30 +574,203 @@
 		</points>
 </maleFertilityAgeFactor>
 </reproduction>
+<abilities>
+	<li MayRequire="Ludeon.RimWorld.Biotech"><defName>FireSpew</defName><chance>25</chance></li>
+</abilities>
 
 </generalSettings>
 
 <graphicPaths>
 	<body><path>Gokusotsu/Bodies/</path>
 		<extendedGraphics>
-			<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Stump</Age>
-			<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</Age>
-			<Age For="HumanlikeAdult">
-				<path>Gokusotsu/Bodies/</path>
+			<Gender For="Male"><path>Gokusotsu/Bodies/</path>
 				<extendedGraphics>
+					<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</BodyType>
+					<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</BodyType>
 					<BodyType For="Fat">Gokusotsu/Bodies/Naked_Fat</BodyType>
 					<BodyType For="Hulk">Gokusotsu/Bodies/Naked_Hulk</BodyType>
 				</extendedGraphics>
-			</Age>
+			</Gender>
+			<Gender For="Female"><path>Gokusotsu/Bodies/</path>
+				<extendedGraphics>
+					<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</BodyType>
+					<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Bodies/Naked_Child</BodyType>
+					<BodyType For="Fat">Gokusotsu/Bodies/Naked_FatF</BodyType>
+					<BodyType For="Hulk">Gokusotsu/Bodies/Naked_HulkF</BodyType>
+				</extendedGraphics>
+			</Gender>
 		</extendedGraphics>
 	</body>
 	<head>Gokusotsu/Heads/</head>
 	<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</skeleton>
+	<swaddle>Gokusotsu/Bodies/Stump</swaddle>
 	<stump>Gokusotsu/Bodies/Stump</stump>
 	<skinShader>Cutout</skinShader>
 
 <apparel>
-	<individualPaths />
+	<!--<pathPrefix><path>Gokusotsu/Things/Apparel/</path>
+		<extendedGraphics>
+			<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+				<extendedGraphics>
+					<BodyType For="Child">Gokusotsu/Things/Apparel/</BodyType>
+				</extendedGraphics>
+			</Gender>
+		</extendedGraphics>
+	</pathPrefix>-->
+<individualPaths>
+	<li>
+		<key>Apparel_FundoshiA</key>
+		<value><path>Gokusotsu/Things/Apparel/</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/FundoshiA_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/FundoshiA_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/FundoshiA_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/FundoshiA_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_FundoshiB</key>
+		<value><path>Gokusotsu/Things/Apparel/</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/FundoshiB_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/FundoshiB_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/FundoshiB_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/FundoshiB_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_Koshinuno</key>
+		<value><path>Gokusotsu/Things/Apparel/Koshinuno_Hulk</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/Koshinuno_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/Koshinuno_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/Koshinuno_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/Koshinuno_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_OufukuCape</key>
+		<value><path>Gokusotsu/Things/Apparel/OufukuCape_Hulk</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/OufukuCape_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/OufukuCape_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/OufukuCape_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/OufukuCape_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_Happi</key>
+		<value><path>Gokusotsu/Things/Apparel/Happi_Hulk</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/Happi_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/Happi_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/Happi_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/Happi_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_Nagatekkou</key>
+		<value><path>GGokusotsu/Things/Apparel/NagaTekkou_Hulk</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/NagaTekkou_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/NagaTekkou_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/NagaTekkou_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/NagaTekkou_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_Igote</key>
+		<value><path>Gokusotsu/Things/Apparel/Igote_Hulk</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/Igote_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/Igote_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/Igote_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/Igote_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+	<li>
+		<key>Apparel_Nenju</key>
+		<value><path>Gokusotsu/Things/Apparel/Nenju_Hulk</path>
+			<extendedGraphics>
+				<Gender For="Male"><path>Gokusotsu/Things/Apparel/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/Apparel/Nenju_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/Apparel/Nenju_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+				<Gender For="Female"><path>Gokusotsu/Things/ApparelF/</path>
+					<extendedGraphics>
+						<BodyType For="Hulk">Gokusotsu/Things/ApparelF/Nenju_Hulk</BodyType>
+						<BodyType For="Fat">Gokusotsu/Things/ApparelF/Nenju_Fat</BodyType>
+					</extendedGraphics>
+				</Gender>
+			</extendedGraphics>
+		</value>
+	</li>
+</individualPaths>
 </apparel>
 </graphicPaths>
 
@@ -283,7 +806,7 @@
 
 <onlyHaveRaceRestrictedGenes MayRequire="Ludeon.RimWorld.Biotech">false</onlyHaveRaceRestrictedGenes>
 	<blackGeneList MayRequire="Ludeon.RimWorld.Biotech">
-		<li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+		<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li> -->
 	</blackGeneList>
 	<blackGeneTags MayRequire="Ludeon.RimWorld.Biotech">
 		<li>EyeColor</li>
@@ -356,6 +879,8 @@
 	<li>ObservedLayingRottingCorpse_GHG</li>
 </restrictedThoughts>
 <cannotReceiveThoughts>
+	<li MayRequire="Ludeon.RimWorld.Anomaly">GHG_AteNormalPudding</li>
+	<li MayRequire="sarg.alphagenes">AG_Disgust</li>
 <!-- death -->
 	<li>KnowPrisonerDiedInnocent</li>
 <!-- organ harvested sold vanished -->

@@ -13,5 +13,8 @@
 <Make_GHG_AntiToxBeerBulk.label>ヘルフュエルx4を作る</Make_GHG_AntiToxBeerBulk.label>
 <Make_GHG_AntiToxBeerBulk.description>ビールと原料をブレンドしてヘルフュエルを作ります.</Make_GHG_AntiToxBeerBulk.description>
 <Make_GHG_AntiToxBeerBulk.jobString>ヘルフュエルx4を作っています.</Make_GHG_AntiToxBeerBulk.jobString>
+<Make_GHG_Pudding.label>ノーマルプリンを作る</Make_GHG_Pudding.label>
+<Make_GHG_Pudding.description>ごくノーマルなプリンを作ります.</Make_GHG_Pudding.description>
+<Make_GHG_Pudding.jobString>ノーマルプリンを作っています.</Make_GHG_Pudding.jobString>
 
 </LanguageData>

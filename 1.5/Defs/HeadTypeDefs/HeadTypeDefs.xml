@@ -2,52 +2,87 @@
 <Defs>
 
 <HeadTypeDef Name="GHG_HeadBase" ParentName="AverageBase" Abstract="True">
-		<gender>None</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_A</defName>
 		<graphicPath>Things/GokusotsuHeads/Head_A</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_B</defName>
 		<graphicPath>Things/Gokusotsu/Heads/Head_B</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_C</defName>
 		<graphicPath>Things/Gokusotsu/Heads/Head_C</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_D</defName>
 		<graphicPath>Things/Gokusotsu/Heads/Head_D</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_E</defName>
 		<graphicPath>Things/Gokusotsu/Heads/Head_E</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_F</defName>
 		<graphicPath>Things/Gokusotsu/Heads/Head_F</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>Head_G</defName>
 		<graphicPath>Things/Gokusotsu/Heads/Head_G</graphicPath>
+		<gender>Male</gender>
 </HeadTypeDef>
 
-<HeadTypeDef ParentName="GHG_HeadBase"><!-- 馬頭 -->
+<!-- 馬頭 -->
+<HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>MezuHead</defName>
 		<graphicPath>Things/Gokusotsu/Heads/MezuHead</graphicPath>
+		<gender>None</gender>
 </HeadTypeDef>
 
+<!-- 牛頭 -->
 <HeadTypeDef ParentName="GHG_HeadBase">
 	<defName>GozuHead</defName>
 		<graphicPath>Things/Gokusotsu/Heads/GozuHead</graphicPath>
+		<gender>None</gender>
+</HeadTypeDef>
+
+<!-- Female -->
+<HeadTypeDef ParentName="GHG_HeadBase">
+	<defName>HeadF_A</defName>
+		<graphicPath>Gokusotsu/Heads/HeadF_A</graphicPath>
+		<gender>Female</gender>
+</HeadTypeDef>
+
+<HeadTypeDef ParentName="GHG_HeadBase">
+	<defName>HeadF_B</defName>
+		<graphicPath>Gokusotsu/Heads/HeadF_B</graphicPath>
+		<gender>Female</gender>
+</HeadTypeDef>
+
+<HeadTypeDef ParentName="GHG_HeadBase">
+	<defName>HeadF_C</defName>
+		<graphicPath>Gokusotsu/Heads/HeadF_C</graphicPath>
+		<gender>Female</gender>
+</HeadTypeDef>
+
+<HeadTypeDef ParentName="GHG_HeadBase">
+	<defName>HeadF_D</defName>
+		<graphicPath>Gokusotsu/Heads/HeadF_D</graphicPath>
+		<gender>Female</gender>
 </HeadTypeDef>
 
 </Defs>

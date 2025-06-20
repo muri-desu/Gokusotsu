@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="ResourceBase"><!-- プリン -->
+	<defName>GHG_Pudding</defName>
+	<label>normal pudding</label>
+	<description>A very normal berry-flavored pudding, except for the bold use of a real skull as a vessel. Eating this pudding makes pawn feel memento mori and lowers their mood a little but increases the efficiency of entity research. Hell guards and any pawns with cannibalistic traits can eat it without any mood effect.</description>
+	<thingCategories>
+		<li>FoodMeals</li>
+	</thingCategories>
+	<tradeability>Sellable</tradeability>
+	<tickerType>Rare</tickerType>
+	<graphicData>
+		<texPath>Gokusotsu/Things/Item/Dessert/GHG_Pudding</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<soundInteract>Standard_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<stackLimit>5</stackLimit>
+	<statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<Beauty>0</Beauty>
+		<MarketValue>20</MarketValue>
+		<Mass>0.3</Mass>
+		<DeteriorationRate>10</DeteriorationRate>
+		<Nutrition>0.3</Nutrition>
+	</statBases>
+	<techLevel>Medieval</techLevel>
+	<ingestible>
+		<baseIngestTicks>80</baseIngestTicks>
+		<chairSearchRadius>25</chairSearchRadius>
+		<preferability>DesperateOnly</preferability>
+		<foodType>VegetableOrFruit, Processed</foodType>
+		<nurseable>true</nurseable>
+		<drugCategory>Social</drugCategory>
+		<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>Hediff_NormalPudding</hediffDef>
+				<severity>0.15</severity>
+			</li>
+		</outcomeDoers>
+		<ingestSound>Meal_Eat</ingestSound>
+		<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+		<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+		<ingestHoldOffsetStanding>
+			<northDefault>
+				<offset>(0.18,0,0)</offset>
+			</northDefault>
+		</ingestHoldOffsetStanding>
+		<tasteThought>GHG_AteNormalPudding</tasteThought>
+	</ingestible>
+	<comps>
+		<li Class="CompProperties_Rottable">
+			<daysToRotStart>3</daysToRotStart>
+			<rotDestroys>true</rotDestroys>
+		</li>
+		<li Class="CompProperties_Forbiddable" />
+		<li Class="CompProperties_Ingredients" />
+		<li Class="CompProperties_Drug">
+			<listOrder>9999</listOrder>
+			<teetotalerCanConsume>true</teetotalerCanConsume>
+			<overdoseSeverityOffset>0.01~0.15</overdoseSeverityOffset>
+		</li>
+	</comps>
+</ThingDef>
+
+<RecipeDef><!-- ノーマルなプリン -->
+	<defName>Make_GHG_Pudding</defName>
+	<label>make a normal pudding</label>
+	<description>Make a normal pudding.</description>
+	<jobString>Making a normal pudding.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>1700</workAmount>
+	<targetCountAdjustment>1</targetCountAdjustment>
+		<workSkill>Cooking</workSkill>
+	<recipeUsers>
+		<li>ElectricStove</li>
+		<li>FueledStove</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Skull</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>RawBerries</li></thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>AnimalProductRaw</li>
+				</categories>
+			</filter>
+			<count>7</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>AnimalProductRaw</li>
+		</categories>
+		<thingDefs>
+			<li>RawBerries</li>
+			<li>Skull</li>
+		</thingDefs>
+		<specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		</specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>AnimalProductRaw</li>
+		</categories>
+		<thingDefs>
+			<li>Skull</li>
+			<li>RawBerries</li>
+		</thingDefs>
+		<disallowedCategories>
+			<li>EggsFertilized</li>
+		</disallowedCategories>
+	</defaultIngredientFilter>
+	<skillRequirements>
+		<Cooking>5</Cooking>
+	</skillRequirements>
+	<products>
+		<GHG_Pudding>1</GHG_Pudding>
+	</products>
+</RecipeDef>
+
+<ThoughtDef>
+	<defName>GHG_AteNormalPudding</defName>
+	<durationDays>1</durationDays>
+	<nullifyingTraits>
+		<li>Cannibal</li>
+	</nullifyingTraits>
+	<stages>
+	<li>
+		<label>ate normal pudding</label>
+		<description>I ate a not so normal pudding.</description>
+		<baseMoodEffect>-4</baseMoodEffect>
+	</li>
+	</stages>
+</ThoughtDef>
+
+<HediffDef>
+	<defName>Hediff_NormalPudding</defName>
+	<hediffClass>HediffWithComps</hediffClass>
+	<label>ate some pudding</label>
+	<description>Ate some pudding.</description>
+	<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<maxSeverity>1.0</maxSeverity>
+	<isBad>false</isBad>
+	<comps>
+		<li Class="HediffCompProperties_DisappearsDisableable">
+			<disappearsAfterTicks>180000</disappearsAfterTicks> <!-- 3 day -->
+			<showRemainingTime>true</showRemainingTime>
+		</li>
+		<li Class="HediffCompProperties_DisappearsOnDeath" />
+	</comps>
+	<stages>
+		<li>
+			<statOffsets>
+				<EntityStudyRate>0.3</EntityStudyRate>
+				<StudyEfficiency>0.3</StudyEfficiency>
+			</statOffsets>
+		</li>
+	</stages>
+</HediffDef>
+</Defs>

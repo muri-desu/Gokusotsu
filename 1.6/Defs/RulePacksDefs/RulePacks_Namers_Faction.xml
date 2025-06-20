@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+	<defName>NamerGHGFactionUtility</defName>
+		<rulePack>
+			<rulesFiles>
+				<li>GHG_Work->Faction/ghg_work</li>
+				<li>GHG_Place->Faction/ghg_place</li>
+				<li>GHG_Alphabet->WordParts/CapitalLetters</li>
+			</rulesFiles>
+		</rulePack>
+</RulePackDef>
+
+<RulePackDef>
+	<defName>NamerGHGFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Wandering Hell Guards</li>
+			</rulesStrings>
+		</rulePack>
+</RulePackDef>
+
+<RulePackDef>
+	<defName>NamerGHGSettlement</defName>
+		<include>
+			<li>NamerGHGFactionUtility</li>
+		</include>
+	<rulePack>
+		<rulesStrings>
+			<li>r_name->[GHG_Work][GHG_Place] [GHG_Alphabet]-[Digit]</li>
+			<li>r_name->Hell guards' [GHG_Work][GHG_Place] [GHG_Alphabet]-[Digit]</li>
+		</rulesStrings>
+	</rulePack>
+</RulePackDef>
+
+</Defs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ScenarioDef>
-<defName>GHG_Scenario</defName>
+<ScenarioDef Name="GHG_Scenario">
+	<defName>GHG_Scenario</defName>
 	<label>five from hell</label>
 		<description>Gokusotsu, demon guards who were thrown out of hell were at their wits' end.\nAlthough most of them left, some of them decided to start their new base at where they landed.\nThey are free to create another dreadful hell or a fancy paradise on this lawless planet.</description>
 <scenario>
@@ -11,36 +11,16 @@
 		<factionDef>GHG_PlayerFaction</factionDef>
 	</playerFaction>
 <parts>
-	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes" MayRequire="Ludeon.RimWorld.Biotech">
-		<def>ConfigurePawnsXenotypes</def>
-		<pawnChoiceCount>10</pawnChoiceCount>
-		<overrideKinds>
-			<li>
-				<xenotype>XenoGokusotsu</xenotype>
-				<pawnKind>GHG_Colonist</pawnKind>
-			</li>
-			<li>
-				<xenotype>XenoGokusotsu</xenotype>
-				<pawnKind>GHG_MezuColonist</pawnKind>
-			</li>
-			<li>
-				<xenotype>XenoGokusotsu</xenotype>
-				<pawnKind>GHG_GozuColonist</pawnKind>
-			</li>
-		</overrideKinds>
-		<xenotypeCounts>
-			<li>
-				<xenotype>XenoGokusotsu</xenotype>
-				<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
-				<count>5</count>
-				<requiredAtStart>true</requiredAtStart>
-			</li>
-		</xenotypeCounts>
-	</li>
 
+	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+		<def>ConfigPage_ConfigureStartingPawns</def>
+		<pawnCount>5</pawnCount>
+		<pawnChoiceCount>10</pawnChoiceCount>
+	</li>
 	<li Class="ScenPart_PlayerPawnsArriveMethod">
 		<def>PlayerPawnsArriveMethod</def>
 		<method>Standing</method>
+		<visible>false</visible>
 	</li>
 	<li Class="ScenPart_StartingThing_Defined">
 		<def>StartingThing_Defined</def>

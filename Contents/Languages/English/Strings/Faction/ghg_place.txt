@@ -1,0 +1,13 @@
+center
+facility
+camp
+station
+base
+branch office
+hotel
+inn
+shelter
+izakaya
+tavern
+disco
+garrison

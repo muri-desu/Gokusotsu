@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<NamerGHGUtility.rulePack.rulesStrings>
+	<li>GHG_NameM->[On_First][On_Middle][Maru]</li><!-- XX丸 -->
+	<li>GHG_NameM->[Kun_First][Kun_Last]</li>
+	<li>GHG_NameM->[On_Middle][On_Last]</li>
+	<li>GHG_NameM->[Kun_First][Emon]</li><!-- XX衛門 -->
+	<li>GHG_NameM->[Kun_Last][Emon]</li>
+	<li>GHG_NameM->[On_First][Emon]</li>
+	<li>GHG_NameM->[On_Middle][Emon]</li>
+	<li>GHG_NameM->[On_Last][Emon]</li>
+	<li>GHG_NameM->[On_First][Number]</li>
+	<li>GHG_NameM->[Kun_First][Number]</li>
+	<li>GHG_NameM->[On_First][Suke_Rou]</li><!-- XX之助 -->
+	<li>GHG_NameM->[On_Middle][Suke_Rou]</li>
+	<li>GHG_NameM->[On_Last][Suke_Rou]</li>
+	<li>GHG_NameM->[Kun_First][Suke_Rou]</li>
+	<li>GHG_NameM->[Kun_Last][Suke_Rou]</li>
+	<li>GHG_Surname->[Surname]</li>
+	<li>GHG_NameF->[FemName]</li>
+	<li>GHG_NameF->[FemNameFirst][FemNameLast]</li><!-- XX子・美・江 -->
+	<li>GHG_NameF(p=0.02)->[FemName][FemNameHime]</li><!-- XX姫 -->
+	<li>GHG_Nickname(p=0.03)->[Adana]童子</li>
+	<li>GHG_Nickname(p=0.01)->[Adana]御前</li>
+	<li>GHG_NicknameF->[Adana]御前</li>
+	<li>GHG_NicknameF(p=0.1)->[Adana]納言</li>
+	<li>GHG_NicknameF(p=0.2)->[Adana]姫</li>
+</NamerGHGUtility.rulePack.rulesStrings>
+
+<NamerGHGUtility.rulePack.rulesFiles>
+	<li>On_First->Names/OnFirst</li>
+	<li>On_Middle->Names/OnMiddle</li>
+	<li>On_Last->Names/OnLast</li>
+	<li>Kun_First->Names/KunFirst</li>
+	<li>Kun_Last->Names/KunLast</li>
+	<li>Suke_Rou->Names/SukeRou</li>
+	<li>Number->Names/Number</li>
+	<li>Maru->Names/Maru</li>
+	<li>Emon->Names/Emon</li>
+	<li>Surname->Names/Surname</li>
+	<li>FemName->Names/Female</li>
+	<li>FemNameHime->Names/HimeNagon</li>
+	<li>FemNameAdana->Names/AdanaLastF</li>
+	<li>FemNameLast->Names/KoMiE</li>
+	<li>Adana->Names/AdanaFirst</li>
+	<li>AdanaLast->Names/AdanaLast</li>
+</NamerGHGUtility.rulePack.rulesFiles>
+
+<NamerGHG.rulePack.rulesStrings>
+	<li>r_name->[GHG_Surname] [GHG_NameM]</li>
+	<li>r_name(p=0.1)->[GHG_Surname] '[GHG_Nickname]' [GHG_NameM]</li>
+</NamerGHG.rulePack.rulesStrings>
+
+<NamerGHGFemale.rulePack.rulesStrings>
+	<li>r_name->[GHG_Surname] [GHG_NameF]</li>
+	<li>r_name(p=0.05)->[GHG_Surname] '[GHG_Nickname]' [GHG_NameF]</li>
+	<li>r_name(p=0.05)->[GHG_Surname] '[GHG_NicknameF]' [GHG_NameF]</li>
+</NamerGHGFemale.rulePack.rulesStrings>
+
+</LanguageData>

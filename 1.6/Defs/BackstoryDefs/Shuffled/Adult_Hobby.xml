@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.AlienBackstoryDef Abstract="True" Name="GHG_BackStoryBase">
+	<disallowedTraits>
+	</disallowedTraits>
+	<slot>Adulthood</slot>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedItems>
+		<Beer>5</Beer>
+	</forcedItems>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- ギャンブラーな獄卒 -->
+	<defName>GamblerGokusotsu</defName>
+	<title>gambler gokusotsu</title>
+	<titleShort>gambler</titleShort>
+	<description>[PAWN_nameDef]'s motto is "money is not something you keep overnight" and  he spent money as soon as he earned for mahjong and frequently borrow money from his friends.</description>
+	<skillGains>
+		<Melee>1</Melee>
+		<Social>3</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- カラオケの達人 -->
+	<defName>KaraokeGokusotsu</defName>
+	<title>master of karaoke</title>
+	<titleShort>master of karaoke</titleShort>
+	<description>[PAWN_nameDef]'s singing ability came in handy for making deads' heads explode and  ears bleed. His physical strength, developed through intense choreography, also came in handy for beating the ones who made boos.</description>
+	<skillGains>
+		<Melee>5</Melee>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName>AnnoyingVoice</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- どぶろく職人A -->
+	<defName>BootleggerGokusotsu_A</defName>
+	<title>bootlegger</title>
+	<titleShort>bootlegger</titleShort>
+	<description>[PAWN_nameDef] used to immersed himself in moonshine production just in order to drink his favorite liquor to the hilt.</description>
+	<skillGains>
+		<Cooking>2</Cooking>
+		<Plants>2</Plants>
+		<Medicine>1</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- どぶろく職人B -->
+	<defName>BootleggerGokusotsu_B</defName>
+	<title>bootlegger</title>
+	<titleShort>bootlegger</titleShort>
+	<description>Wanting to make money from cheaply made booze, [PAWN_nameDef] sold moonshine made from the livers and vomit of the deceased, causing a food poisoning outbreak that severely pissed boss off, but brought ample resources to the fecal hell.</description>
+	<skillGains>
+		<Cooking>-2</Cooking>
+		<Social>4</Social>
+		<Medicine>-1</Medicine>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- サークラ獄卒 -->
+	<defName>DramaQueenGokusotsu</defName>
+	<title>drama queen gokusotsu</title>
+	<titleShort>drama queen</titleShort>
+	<description>[PAWN_nameDef] always wants to be the star of the community. When [PAWN_pronoun] feel that [PAWN_pronoun] is not being adequately represented, [PAWN_pronoun] tend to manipulate relationships and lead them to destructive ends.</description>
+	<workDisables>
+		<li>ManualDumb</li>
+	</workDisables>
+	<skillGains>
+		<Melee>-2</Melee>
+		<Shooting>-3</Shooting>
+		<Social>7</Social>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName>Jealous</defName></li>
+		<li><defName>Wimp</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- モデラー -->
+	<defName>ModelerGokusotsu</defName>
+	<title>modeler gokusotsu</title>
+	<titleShort>modeler</titleShort>
+	<description>[PAWN_nameDef] was adept at creating architectural miniatures and furnishings. He would finish the delicate details by his stumpy, thick fingers.</description>
+	<skillGains>
+		<Crafting>5</Crafting>
+		<Artistic>1</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 釣り師 -->
+	<defName>FisherGokusotsu</defName>
+	<title>fisher gokusotsu</title>
+	<titleShort>fisher</titleShort>
+	<description>[PAWN_nameDef] loved fishing, and on days off [PAWN_pronoun] would go hiking to the Blood pond or the Sanzu river to fish for lively dead.</description>
+	<skillGains>
+		<Animals>3</Animals>
+		<Cooking>1</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- neko chan kawaii -->
+	<defName>NekoDaisukiGokusotsu</defName>
+	<title>Neko chan daisuki gokusotsu</title>
+	<titleShort>neko daisuki</titleShort>
+	<description>[PAWN_nameDef] is a cat lover and took in and cared for old kitties - which means hell tigers at home that had retired their mission to eat and torture the dead. [PAWN_pronoun] worries about the kitties left behind the "gate" and whether they are causing any gokusotsu-eating incidents.</description>
+	<skillGains>
+		<Animals>3</Animals>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 鷹匠 -->
+	<defName>HawkerGokusotsu</defName>
+	<title>Hawker</title>
+	<titleShort>hawker</titleShort>
+	<description>[PAWN_nameDef] was in charge of training hawk-like birds of prey to peck at the dead, and [PAWN_pronoun] enjoyed playind with the birds on his days off.</description>
+	<skillGains>
+		<Animals>5</Animals>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- DIYの獄卒 -->
+	<defName>DIYGokusotsu</defName>
+	<title>DIY carpenter</title>
+	<titleShort>DIY</titleShort>
+		<description>[PAWN_nameDef] was good at carpentry and worked on remodeling his room even on his days off.</description>
+	<skillGains>
+		<Construction>5</Construction>
+		<Artistic>3</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 本の虫獄卒 -->
+	<defName>BookwormGokusotsu</defName>
+	<title>bookworm gokusotsu</title>
+	<titleShort>bookworm</titleShort>
+		<description>[PAWN_nameDef] was a voracious reader and accumulated about 2000 years worth of books, old and new. Since many of the houses in hell are old, there were frequent accidents in which floors fell out.</description>
+	<skillGains>
+		<Intellectual>5</Intellectual>
+		<Social>-1</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バンドマン獄卒 -->
+	<defName>BandsmanGokusotsu</defName>
+	<title>bandsman gokusotsu</title>
+	<titleShort>bandsman</titleShort>
+		<description>[PAWN_nameDef] belonged to a band and played music imported from mortal world.</description>
+	<skillGains>
+		<Artistic>3</Artistic>
+		<Social>3</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- ソロキャンパー獄卒 -->
+	<defName>CamperGokusotsu</defName>
+	<title>camper gokusotsu</title>
+	<titleShort>camper</titleShort>
+		<description>[PAWN_nameDef] enjoyed going out to remote mountainous areas in custom-built camping fiery chariot.
+[PAWN_pronoun] spent elegant vacations enjoying the natural scenery, such as intestines swaying and entangled in iron bamboos, or hunting dead and cooking them with a messtin.</description>
+	<skillGains>
+		<Plants>3</Plants>
+		<Animals>2</Animals>
+		<Cooking>3</Cooking>
+		<Social>-5</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+</Defs>

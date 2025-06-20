@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<NamerGHGFactionUtility.rulePack.rulesFiles>
+		<li>GHG_Work->Faction/ghg_work</li>
+		<li>GHG_Place->Faction/ghg_place</li>
+		<li>GHG_Alphabet->Faction/ghg_iroha</li>
+	</NamerGHGFactionUtility.rulePack.rulesFiles>
+<NamerGHGFaction.rulePack.rulesStrings.0>r_name->遊山の獄卒</NamerGHGFaction.rulePack.rulesStrings.0>
+<NamerGHGSettlement.rulePack.rulesStrings.0>r_name->[GHG_Work][GHG_Place] [GHG_Alphabet]-[Digit]</NamerGHGSettlement.rulePack.rulesStrings.0>
+<NamerGHGSettlement.rulePack.rulesStrings.1>r_name->獄卒[GHG_Work][GHG_Place] [GHG_Alphabet]-[Digit]</NamerGHGSettlement.rulePack.rulesStrings.1>
+</LanguageData>

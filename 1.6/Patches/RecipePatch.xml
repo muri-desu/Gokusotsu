@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Biomes! Caverns</li>
+		<li>2969748433</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "Make_GHG_JadeBeer"]/ingredients/li[3]</xpath>
+					<value>
+						<li>
+							<filter>
+								<thingDefs><li>BMT_JadeGlints</li></thingDefs>
+							</filter>
+								<count>3</count>
+						</li>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "Make_GHG_JadeBeerBulk"]/ingredients/li[3]</xpath>
+					<value>
+						<li>
+							<filter>
+								<thingDefs><li>BMT_JadeGlints</li></thingDefs>
+							</filter>
+								<count>12</count>
+						</li>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName = "Make_GHG_JadeBeer" or defName = "Make_GHG_JadeBeerBulk"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<thingDefs>
+							<li>PsychoidLeaves</li>
+							<li>Beer</li>
+							<li>BMT_JadeGlints</li>
+						</thingDefs>
+					</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

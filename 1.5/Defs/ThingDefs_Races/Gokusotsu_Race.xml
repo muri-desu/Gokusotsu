@@ -9,18 +9,34 @@
 		<useMeatFrom>Human</useMeatFrom>
 		<leatherDef>Leather_Human</leatherDef>
 	<lifeStageAges>
-	<li Class="AlienRace.LifeStageAgeAlien">
-		<def>GHG_HumanlikeBaby</def>
-		<minAge>0</minAge>
-	</li>
-	<li>
-		<def>HumanlikeChild</def>
-		<minAge>3</minAge>
-	</li>
-	<li>
-		<def>HumanlikeAdult</def>
-		<minAge>16</minAge>
-	</li>
+		<li Class="AlienRace.LifeStageAgeAlien">
+			<def>GHG_HumanlikeBaby</def>
+			<minAge>0</minAge>
+			<customDrawSize>(1, 0.9)</customDrawSize>
+			<customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
+			<customFemaleDrawSize>(1, 0.9)</customFemaleDrawSize>
+			<customFemaleHeadDrawSize>(1.2, 1.2)</customFemaleHeadDrawSize>
+			<headOffsetDirectional>
+				<north><offset>(0.0, 0.15)</offset></north>
+				<south><offset>(0.0, 0.15)</offset></south>
+				<east><offset>(0.02, 0.15)</offset></east>
+				<west><offset>(-0.02, 0.15)</offset></west>
+			</headOffsetDirectional>
+			<headFemaleOffsetDirectional>
+				<north><offset>(0.0, 0.15)</offset></north>
+				<south><offset>(0.0, 0.15)</offset></south>
+				<east><offset>(0.02, 0.15)</offset></east>
+				<west><offset>(-0.02, 0.15)</offset></west>
+			</headFemaleOffsetDirectional>
+		</li>
+		<li>
+			<def>HumanlikeChild</def>
+			<minAge>3</minAge>
+		</li>
+		<li>
+			<def>HumanlikeAdult</def>
+			<minAge>16</minAge>
+		</li>
 	</lifeStageAges>
 	</race>
 
@@ -36,14 +52,40 @@
 		<li>Head_E</li>
 		<li>Head_F</li>
 		<li>Head_G</li>
+		<li>HeadF_A</li>
+		<li>HeadF_B</li>
+		<li>HeadF_C</li>
+		<li>HeadF_D</li>
 	</headTypes>
-	<headOffset>(0, 0.1)</headOffset>
+
 <headOffsetDirectional>
-	<north><offset>(0.0, 0.0)</offset></north>
-	<south><offset>(0.0, 0.0)</offset></south>
-	<east><offset>(0.05, 0.0)</offset></east>
-	<west><offset>(-0.05, 0.0)</offset></west>
+	<north><offset>(0.0, 0.26)</offset></north>
+	<south><offset>(0.0, 0.2)</offset></south>
+	<east><offset>(0.02, 0.2)</offset></east>
+	<west><offset>(-0.02, 0.2)</offset></west>
 </headOffsetDirectional>
+<headFemaleOffsetDirectional>
+	<north><offset>(0.0, 0.26)</offset></north>
+	<south><offset>(0.0, 0.2)</offset>
+		<portraitBodyTypes>
+			<Hulk>(0.0, 0.2)</Hulk>
+			<Fat>(0.0, 0.2)</Fat>
+		</portraitBodyTypes>
+	</south>
+	<east><offset>(0.05, 0.23)</offset>
+		<portraitBodyTypes>
+			<Hulk>(0.05, 0.23)</Hulk>
+			<Fat>(0.05, 0.23)</Fat>
+		</portraitBodyTypes>
+	</east>
+	<west><offset>(-0.05, 0.23)</offset>
+		<portraitBodyTypes>
+			<Hulk>(-0.05, 0.23)</Hulk>
+			<Fat>(-0.05, 0.23)</Fat>
+		</portraitBodyTypes>
+	</west>
+</headFemaleOffsetDirectional>
+
 	<colorChannels>
 		<li>
 		<name>skin</name>
@@ -108,22 +150,19 @@
 		<alignWithHead>true</alignWithHead>
 		<drawSize>1.0</drawSize>
 		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-		<angle>0</angle>
-		<shaderType>Cutout</shaderType>
 		<conditions>
-			<BodyPart>
-				<bodyPart>Horn_GHG</bodyPart>
-				<bodyPartLabel>left horn</bodyPartLabel>
-			</BodyPart>
 			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>left horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
 		</conditions>
-		<defaultOffset>Center</defaultOffset>
 
 	<extendedGraphics>
-		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_left
-		</Age>
-		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_left
-		</Age>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_left</Age>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_left</Age>
+		<Hediff For="MissingBodyPart">Gokusotsu/Horns/MissingHorn_left</Hediff>
+		<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_left</Hediff>
 	</extendedGraphics>
 
 		<offsets>
@@ -162,28 +201,24 @@
 		<name>right horn</name>
 		<userCustomizable>false</userCustomizable>
 		<path>Gokusotsu/Horns/Horn_right</path>
-		<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 		<inFrontOfBody>true</inFrontOfBody>
 		<colorChannel>skin</colorChannel>
 		<alignWithHead>true</alignWithHead>
 		<drawSize>1.0</drawSize>
 		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-		<angle>0</angle>
-		<shaderType>Cutout</shaderType>
 		<conditions>
-			<BodyPart>
-				<bodyPart>Horn_GHG</bodyPart>
-				<bodyPartLabel>right horn</bodyPartLabel>
-			</BodyPart>
 			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>right horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
 		</conditions>
-		<defaultOffset>Center</defaultOffset>
 
 	<extendedGraphics>
-		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_right
-		</Age>
-		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_right
-		</Age>
+		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/Horn_right</Age>
+		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/Horn_right</Age>
+		<Hediff For="MissingBodyPart">Gokusotsu/Horns/MissingHorn_right</Hediff>
+		<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_right</Hediff>
 	</extendedGraphics>
 
 		<offsets>
@@ -241,6 +276,10 @@
 					<HeadType For="Head_E">Gokusotsu/Heads/Head_E</HeadType>
 					<HeadType For="Head_F">Gokusotsu/Heads/Head_F</HeadType>
 					<HeadType For="Head_G">Gokusotsu/Heads/Head_G</HeadType>
+					<HeadType For="HeadF_A">Gokusotsu/Heads/HeadF_A</HeadType>
+					<HeadType For="HeadF_B">Gokusotsu/Heads/HeadF_B</HeadType>
+					<HeadType For="HeadF_C">Gokusotsu/Heads/HeadF_C</HeadType>
+					<HeadType For="HeadF_D">Gokusotsu/Heads/HeadF_D</HeadType>
 				</extendedGraphics>
 			</Age>
 		</extendedGraphics>
@@ -253,9 +292,9 @@
 		<key>HairDef</key>
 			<value>
 				<hasStyle>true</hasStyle>
-				<styleTags>
-				<li>GHG_Hair</li>
-				</styleTags>
+				<styleTagsOverride>
+					<li>GHG_Hair</li>
+				</styleTagsOverride>
 			</value>
 	</li>
 	<li>
@@ -268,12 +307,13 @@
 		<key>BeardDef</key>
 			<value>
 				<hasStyle>true</hasStyle>
-				<styleTags>
-				<li>GHG_Beard</li>
-				<li>Bushy</li>
-				<li>BeardRural</li>
-				<li>BeardLong</li>
-				</styleTags>
+				<styleTagsOverride>
+					<li>GHG_Beard</li>
+					<li>Bushy</li>
+					<li>BeardRural</li>
+					<li>BeardLong</li>
+					<li>NoBeard</li>
+				</styleTagsOverride>
 			</value>
 	</li>
 </styleSettings>
@@ -295,22 +335,38 @@
 		<useMeatFrom>Horse</useMeatFrom>
 		<leatherDef>Leather_Plain</leatherDef>
 	<lifeStageAges>
-	<li Class="AlienRace.LifeStageAgeAlien">
-		<def>GHG_HumanlikeBaby</def>
-		<minAge>0</minAge>
-	</li>
-	<li>
-		<def>HumanlikeChild</def>
-		<minAge>3</minAge>
-	</li>
-	<li>
-		<def>HumanlikeAdult</def>
-		<minAge>16</minAge>
-		<soundWounded>Pawn_Horse_Wounded</soundWounded>
-		<soundDeath>Pawn_Horse_Death</soundDeath>
-		<soundCall>Pawn_Horse_Call</soundCall>
-		<soundAngry>Pawn_Horse_Angry</soundAngry>
-	</li>
+		<li Class="AlienRace.LifeStageAgeAlien">
+			<def>GHG_HumanlikeBaby</def>
+			<minAge>0</minAge>
+			<customDrawSize>(1, 0.9)</customDrawSize>
+			<customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
+			<customFemaleDrawSize>(1, 0.9)</customFemaleDrawSize>
+			<customFemaleHeadDrawSize>(1.2, 1.2)</customFemaleHeadDrawSize>
+			<headOffsetDirectional>
+				<north><offset>(0.0, 0.15)</offset></north>
+				<south><offset>(0.0, 0.15)</offset></south>
+				<east><offset>(0.02, 0.15)</offset></east>
+				<west><offset>(-0.02, 0.15)</offset></west>
+			</headOffsetDirectional>
+			<headFemaleOffsetDirectional>
+				<north><offset>(0.0, 0.15)</offset></north>
+				<south><offset>(0.0, 0.15)</offset></south>
+				<east><offset>(0.02, 0.15)</offset></east>
+				<west><offset>(-0.02, 0.15)</offset></west>
+			</headFemaleOffsetDirectional>
+		</li>
+		<li>
+			<def>HumanlikeChild</def>
+			<minAge>3</minAge>
+		</li>
+		<li>
+			<def>HumanlikeAdult</def>
+			<minAge>16</minAge>
+			<soundWounded>Pawn_Horse_Wounded</soundWounded>
+			<soundDeath>Pawn_Horse_Death</soundDeath>
+			<soundCall>Pawn_Horse_Call</soundCall>
+			<soundAngry>Pawn_Horse_Angry</soundAngry>
+		</li>
 	</lifeStageAges>
 	</race>
 
@@ -320,13 +376,34 @@
 	<headTypes Inherit="false">
 		<li>MezuHead</li>
 	</headTypes>
-	<headOffset>(0, 0.1)</headOffset>
 <headOffsetDirectional>
-	<north><offset>(0.0, 0.0)</offset></north>
-	<south><offset>(0.0, 0.0)</offset></south>
-	<east><offset>(0.02, -0.025)</offset></east>
-	<west><offset>(-0.02, -0.025)</offset></west>
+	<north><offset>(0.0, 0.26)</offset></north>
+	<south><offset>(0.0, 0.2)</offset></south>
+	<east><offset>(0.02, 0.2)</offset></east>
+	<west><offset>(-0.02, 0.2)</offset></west>
 </headOffsetDirectional>
+<headFemaleOffsetDirectional>
+	<north><offset>(0.0, 0.26)</offset></north>
+	<south><offset>(0.0, 0.15)</offset>
+		<portraitBodyTypes>
+			<Hulk>(0.0, 0.2)</Hulk>
+			<Fat>(0.0, 0.2)</Fat>
+		</portraitBodyTypes>
+	</south>
+	<east><offset>(0.02, 0.2)</offset>
+		<portraitBodyTypes>
+			<Hulk>(0.02, 0.2)</Hulk>
+			<Fat>(0.02, 0.2)</Fat>
+		</portraitBodyTypes>
+	</east>
+	<west><offset>(-0.02, 0.2)</offset>
+		<portraitBodyTypes>
+			<Hulk>(-0.02, 0.2)</Hulk>
+			<Fat>(-0.02, 0.2)</Fat>
+		</portraitBodyTypes>
+	</west>
+</headFemaleOffsetDirectional>
+
 	<colorChannels>
 		<li>
 		<name>skin</name>
@@ -334,7 +411,7 @@
 				<options>
 					<li>
 						<weight>1</weight><!-- 白 -->
-						<min>RGBA(204,203,200,255)</min>
+						<min>RGBA(214,213,210,255)</min>
 						<max>RGBA(235,235,235,255)</max>
 					</li>
 					<li>
@@ -387,19 +464,18 @@
 		<drawSize>1.0</drawSize>
 		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 		<conditions>
-			<BodyPart>
-				<bodyPart>Horn_GHG</bodyPart>
-				<bodyPartLabel>horn</bodyPartLabel>
-			</BodyPart>
 			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
 		</conditions>
-		<angle>0</angle>
-		<defaultOffset>Center</defaultOffset>
-		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
 		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/MezuHorn</Age>
 		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/MezuHorn</Age>
+		<Hediff For="MissingBodyPart">Gokusotsu/Horns/MissingHorn_middle</Hediff>
+		<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_middle</Hediff>
 	</extendedGraphics>
 
 	<offsets>
@@ -470,9 +546,9 @@
 		<key>HairDef</key>
 			<value>
 				<hasStyle>true</hasStyle>
-				<styleTags>
-				<li>GHG_MezuHair</li>
-				</styleTags>
+				<styleTagsOverride>
+					<li>GHG_MezuHair</li>
+				</styleTagsOverride>
 			</value>
 	</li>
 	<li>
@@ -506,26 +582,42 @@
 		<useMeatFrom>Cow</useMeatFrom>
 		<leatherDef>Leather_Plain</leatherDef>
 	<lifeStageAges>
-	<li Class="AlienRace.LifeStageAgeAlien">
-		<def>GHG_HumanlikeBaby</def>
-		<minAge>0</minAge>
-	</li>
-	<li>
-		<def>HumanlikeChild</def>
-		<minAge>3</minAge>
-		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
-		<soundDeath>Pawn_Muffalo_Death</soundDeath>
-		<soundCall>Pawn_Muffalo_Call</soundCall>
-		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
-	</li>
-	<li>
-		<def>HumanlikeAdult</def>
-		<minAge>16</minAge>
-		<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
-		<soundDeath>Pawn_Muffalo_Death</soundDeath>
-		<soundCall>Pawn_Muffalo_Call</soundCall>
-		<soundAngry>Pawn_Muffalo_Angry</soundAngry>
-	</li>
+		<li Class="AlienRace.LifeStageAgeAlien">
+			<def>GHG_HumanlikeBaby</def>
+			<minAge>0</minAge>
+			<customDrawSize>(1, 0.9)</customDrawSize>
+			<customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
+			<customFemaleDrawSize>(1, 0.9)</customFemaleDrawSize>
+			<customFemaleHeadDrawSize>(1.2, 1.2)</customFemaleHeadDrawSize>
+			<headOffsetDirectional>
+				<north><offset>(0.0, 0.15)</offset></north>
+				<south><offset>(0.0, 0.15)</offset></south>
+				<east><offset>(0.02, 0.15)</offset></east>
+				<west><offset>(-0.02, 0.15)</offset></west>
+			</headOffsetDirectional>
+			<headFemaleOffsetDirectional>
+				<north><offset>(0.0, 0.15)</offset></north>
+				<south><offset>(0.0, 0.15)</offset></south>
+				<east><offset>(0.02, 0.15)</offset></east>
+				<west><offset>(-0.02, 0.15)</offset></west>
+			</headFemaleOffsetDirectional>
+		</li>
+		<li>
+			<def>HumanlikeChild</def>
+			<minAge>3</minAge>
+			<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+			<soundDeath>Pawn_Muffalo_Death</soundDeath>
+			<soundCall>Pawn_Muffalo_Call</soundCall>
+			<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+		</li>
+		<li>
+			<def>HumanlikeAdult</def>
+			<minAge>16</minAge>
+			<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+			<soundDeath>Pawn_Muffalo_Death</soundDeath>
+			<soundCall>Pawn_Muffalo_Call</soundCall>
+			<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+		</li>
 	</lifeStageAges>
 </race>
 
@@ -535,13 +627,34 @@
 	<headTypes Inherit="false">
 		<li>GozuHead</li>
 	</headTypes>
-	<headOffset>(0, 0.1)</headOffset>
 <headOffsetDirectional>
-	<north><offset>(0.0, 0.0)</offset></north>
-	<south><offset>(0.0, 0.0)</offset></south>
-	<east><offset>(0.02, -0.025)</offset></east>
-	<west><offset>(-0.02, -0.025)</offset></west>
+	<north><offset>(0.0, 0.2)</offset></north>
+	<south><offset>(0.0, 0.2)</offset></south>
+	<east><offset>(0.05, 0.15)</offset></east>
+	<west><offset>(-0.05, 0.15)</offset></west>
 </headOffsetDirectional>
+<headFemaleOffsetDirectional>
+	<north><offset>(0.0, 0.1)</offset></north>
+	<south><offset>(0.0, 0.15)</offset>
+		<portraitBodyTypes>
+			<Hulk>(0.0, 0.15)</Hulk>
+			<Fat>(0.0, 0.15)</Fat>
+		</portraitBodyTypes>
+	</south>
+	<east><offset>(0.05, 0.15)</offset>
+		<portraitBodyTypes>
+			<Hulk>(0.05, 0.15)</Hulk>
+			<Fat>(0.05, 0.15)</Fat>
+		</portraitBodyTypes>
+		</east>
+	<west><offset>(-0.02, 0.23)</offset>
+		<portraitBodyTypes>
+			<Hulk>(-0.02, 0.23)</Hulk>
+			<Fat>(-0.02, 0.23)</Fat>
+		</portraitBodyTypes>
+		</west>
+</headFemaleOffsetDirectional>
+
 	<colorChannels>
 		<li>
 		<name>skin</name>
@@ -603,19 +716,18 @@
 		<drawSize>1.0</drawSize>
 		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 		<conditions>
-			<BodyPart>
-				<bodyPart>Horn_GHG</bodyPart>
-				<bodyPartLabel>left horn</bodyPartLabel>
-			</BodyPart>
 			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>left horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
 		</conditions>
-		<angle>0</angle>
-		<defaultOffset>Center</defaultOffset>
-		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
 		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/GozuHorn_left</Age>
 		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/GozuHorn_left</Age>
+		<Hediff For="MissingBodyPart">Gokusotsu/Horns/MissingHorn_left</Hediff>
+		<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_left</Hediff>
 	</extendedGraphics>
 
 		<offsets>
@@ -659,19 +771,18 @@
 		<drawSize>1.0</drawSize>
 		<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 		<conditions>
-			<BodyPart>
-				<bodyPart>Horn_GHG</bodyPart>
-				<bodyPartLabel>left horn</bodyPartLabel>
-			</BodyPart>
 			<RotStage>Fresh,Rotting,Dessicated</RotStage>
+			<BodyPart>
+				<bodyPartLabel>right horn</bodyPartLabel>
+				<drawWithoutPart>false</drawWithoutPart>
+			</BodyPart>
 		</conditions>
-		<angle>0</angle>
-		<defaultOffset>Center</defaultOffset>
-		<shaderType>Cutout</shaderType>
 
 	<extendedGraphics>
 		<Age For="GHG_HumanlikeBaby" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Baby/GozuHorn_right</Age>
 		<Age For="HumanlikeChild" MayRequire="Ludeon.RimWorld.Biotech">Gokusotsu/Horns/Child/GozuHorn_right</Age>
+		<Hediff For="MissingBodyPart">Gokusotsu/Horns/MissingHorn_right</Hediff>
+		<Hediff For="RepairedHorn_GHG">Gokusotsu/Horns/RepairedHorn_right</Hediff>
 	</extendedGraphics>
 
 		<offsets>

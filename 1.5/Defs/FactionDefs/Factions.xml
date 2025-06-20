@@ -8,8 +8,8 @@
 	<pawnSingular>gokusotsu</pawnSingular>
 	<pawnsPlural>gokusotsu</pawnsPlural>
 	<isPlayer>true</isPlayer>
-	<factionNameMaker>NamerFactionTribal</factionNameMaker>
-	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+	<factionNameMaker>NamerGHGFaction</factionNameMaker>
+	<settlementNameMaker>NamerGHGSettlement</settlementNameMaker>
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 	<techLevel>Neolithic</techLevel>
 	<startingResearchTags>
@@ -38,8 +38,8 @@
 		<li>GHG_player</li>
 	</backstoryCategories>
 
-	<factionIconPath>Things/WorldIcon/GHGcolonyicon</factionIconPath>
-	<settlementTexturePath>Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
+	<factionIconPath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</factionIconPath>
+	<settlementTexturePath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
 	<colorSpectrum><li>(255,255,255)</li></colorSpectrum>
 <apparelStuffFilter>
 	<thingDefs>
@@ -73,13 +73,13 @@
 	<humanlikeFaction>true</humanlikeFaction>
 	<requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<settlementGenerationWeight>1</settlementGenerationWeight>
-	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+	<settlementNameMaker>NamerGHGSettlement</settlementNameMaker>
 	<canMakeRandomly>true</canMakeRandomly>
 	<canSiege>false</canSiege>
 	<canStageAttacks>true</canStageAttacks>
 	<melaninRange>0.7</melaninRange>
-	<factionNameMaker>NamerFactionTribal</factionNameMaker>
-	<factionIconPath>Things/WorldIcon/GHGcolonyicon</factionIconPath>
+	<factionNameMaker>NamerGHGFaction</factionNameMaker>
+	<factionIconPath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</factionIconPath>
 	<structureMemeWeights>
 		<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
 	</structureMemeWeights>
@@ -187,7 +187,7 @@
 </li>
 
 </pawnGroupMakers>
-	<settlementTexturePath>Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
+	<settlementTexturePath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
 <colorSpectrum>
 	<li>(255, 85, 0)</li>
 	<li>(255, 162, 0)</li>

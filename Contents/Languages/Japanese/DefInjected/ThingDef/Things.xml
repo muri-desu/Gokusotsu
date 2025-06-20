@@ -55,8 +55,8 @@
 <GHG_Sasumata.label>さすまた</GHG_Sasumata.label>
 <GHG_Sasumata.description>亡者を突いて拘束したり血の池に沈めたり, こたつで寝そべったまま遠くの物を手繰り寄せるのに使われていました.</GHG_Sasumata.description>
 
-<GHG_Drum.label>鬼太鼓</GHG_Drum.label>
-<GHG_Drum.description>合図をしたり味方を文字通り鼓舞するのに使われます.</GHG_Drum.description>
+<!-- <GHG_Drum.label>鬼太鼓</GHG_Drum.label>
+<GHG_Drum.description>合図をしたり味方を文字通り鼓舞するのに使われます.</GHG_Drum.description> -->
 
 <GHG_Hossu.label>払子</GHG_Hossu.label>
 <GHG_Hossu.description>もともとは羽虫などを追い払う道具で, 僧侶が儀式などで場を清めるために使います.</GHG_Hossu.description>
@@ -65,17 +65,20 @@
 <GHG_Soroban.description>獄卒たちには馴染みの深い計算機です. むかつく客や聞き分けのない部下の顔を珠の列でぶん殴れるように頑丈な作りになっています.</GHG_Soroban.description>
 
 <!-- items -->
-<GHG_HornRepairKit.label>ツノ補修キット</GHG_HornRepairKit.label>
+<GHG_HornRepairKit.label>獄卒ツノ補修キット</GHG_HornRepairKit.label>
 <GHG_HornRepairKit.description>樹脂や澱粉, 金や鉄粉を使って金継ぎの要領で欠けたツノを補修するためのキットです.</GHG_HornRepairKit.description>
 
 <!-- plants -->
 <Plant_IronSasa.label>鉄笹</Plant_IronSasa.label>
 <Plant_IronSasa.description>獄卒達がもといた世界の針山の下草として自生していた全体が鉄で構成された笹のような植物です. 一般的には見る者を不安にさせます.</Plant_IronSasa.description>
 
-<!-- joy -->
+<!-- buildings -->
 <GHG_ShougiTable.label>将棋盤</GHG_ShougiTable.label>
 <GHG_ShougiTable.description>将棋盤です. チェス盤と同じ様に機能します.</GHG_ShougiTable.description>
 <GHG_MahjongTable.label>雀卓</GHG_MahjongTable.label>
 <GHG_MahjongTable.description>麻雀用テーブルです. ポーカーテーブルと同じ様に機能します.</GHG_MahjongTable.description>
+
+<GokusotsuWorkbench.label>獄卒作業台</GokusotsuWorkbench.label>
+<GokusotsuWorkbench.description>雑多な作業台です. 獄卒の物品はだいたい作成できます.</GokusotsuWorkbench.description>
 
 </LanguageData>

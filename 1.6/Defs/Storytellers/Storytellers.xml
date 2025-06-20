@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<StorytellerDef ParentName="BaseStoryteller">
+	<defName>GHG_Storyteller</defName>
+	<label>Hokuto Hoarder</label>
+		<description>Hokuto will make every effort to ensure that you enjoy your stay at the colony. He will send you many resources, and many of your friends will visit and mess up your colony.\n\nThe late Dr. Hokuto Hōda had been lived in a notorious hoarder mansion. After his death, he escaped to RimWorld by tricking hell guards and became an AI-like form that continues to collect junk in virtual space.</description>
+	<portraitLarge>Gokusotsu/UI/HeroArt/Storytellers/HokutoHoarder</portraitLarge>
+	<portraitTiny>Gokusotsu/UI/HeroArt/Storytellers/HokutoHoarderTiny</portraitTiny>
+	<listOrder>99</listOrder>
+	<populationIntentFactorFromPopCurve>
+		<points>
+			<li>0,  7.0</li>
+			<li>2,  5.0</li>
+			<li>5,  2.5</li>
+			<li>10,  1</li>
+			<li>50,  0</li>
+		</points>
+	</populationIntentFactorFromPopCurve>
+	<populationIntentFactorFromPopAdaptDaysCurve>
+			<points>
+				<li>( 0, 0)</li>
+				<li>(5, 1)</li>
+			</points>
+	</populationIntentFactorFromPopAdaptDaysCurve>
+	<comps>
+<!-- Intro -->
+	<li Class="StorytellerCompProperties_ClassicIntro"/>
+<!-- Home threats -->
+	<li Class="StorytellerCompProperties_OnOffCycle">
+		<category>ThreatBig</category>
+		<minDaysPassed>11</minDaysPassed>
+		<onDays>4</onDays>
+		<offDays>7</offDays>
+		<numIncidentsRange>2~4</numIncidentsRange>
+		<forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
+		<disallowedTargetTags>
+			<li>Map_RaidBeacon</li>
+		</disallowedTargetTags>
+	</li>
+	<li Class="StorytellerCompProperties_RandomMain">
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+		<minDaysPassed>0.3</minDaysPassed>
+		<mtbDays>0.8</mtbDays>
+		<maxThreatBigIntervalDays>5</maxThreatBigIntervalDays>
+		<randomPointsFactorRange>0.75~2</randomPointsFactorRange>
+		<skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
+		<categoryWeights>
+		<Misc>2</Misc>
+		<ThreatBig>2</ThreatBig>
+		<OrbitalVisitor>5</OrbitalVisitor>
+		<FactionArrival>5</FactionArrival>
+		<ThreatSmall>0.5</ThreatSmall>
+		<ShipChunkDrop>2</ShipChunkDrop>
+		</categoryWeights>
+	</li>
+	<li Class="StorytellerCompProperties_ThreatsGenerator">
+		<allowedTargetTags>
+			<li>Map_RaidBeacon</li>
+		</allowedTargetTags>
+		<parms>
+			<allowedThreats>Raids</allowedThreats>
+			<onDays>1.0</onDays>
+			<offDays>0.5</offDays>
+			<minSpacingDays>0.04</minSpacingDays>
+			<numIncidentsRange>1~2</numIncidentsRange>
+			<minThreatPoints>500</minThreatPoints>
+		</parms>
+	</li>
+<!-- Home misc incidents-->
+	<li Class="StorytellerCompProperties_CategoryMTB">
+		<category>Misc</category>
+		<allowedTargetTags>
+		<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+		<minDaysPassed>5</minDaysPassed>
+		<mtbDays>4.8</mtbDays>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle"><!-- pod資源-->
+		<incident>ResourcePodCrash</incident>
+		<minDaysPassed>0</minDaysPassed>
+		<onDays>2</onDays>
+		<offDays>0.5</offDays>
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+		<numIncidentsRange>1~3</numIncidentsRange>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle"><!-- メテオ-->
+		<incident>MeteoriteImpact</incident>
+		<onDays>7</onDays>
+		<offDays>1</offDays>
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+		<numIncidentsRange>0.2~1</numIncidentsRange>
+	</li>
+	<li Class="StorytellerCompProperties_ShipChunkDrop"/>
+	<li Class="StorytellerCompProperties_Disease">
+		<category>DiseaseHuman</category>
+		<minDaysPassed>6</minDaysPassed>
+	</li>
+	<li Class="StorytellerCompProperties_Disease">
+		<category>DiseaseAnimal</category>
+		<minDaysPassed>9</minDaysPassed>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="VanillaExpanded.VEE">
+		<incident MayRequire="VanillaExpanded.VEE">VEE_Cargopodsweapons</incident>
+		<onDays>2</onDays>
+		<offDays>1</offDays>
+		<numIncidentsRange>1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>VanillaExpanded.VEE</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="VanillaExpanded.VEE">
+		<incident MayRequire="VanillaExpanded.VEE">VEE_MeteoriteShower</incident>
+		<onDays>5</onDays>
+		<offDays>1</offDays>
+		<numIncidentsRange>1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>VanillaExpanded.VEE</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="VanillaExpanded.VEE">
+		<incident MayRequire="VanillaExpanded.VEE">VEE_Cargopodsapparel</incident>
+		<onDays>2</onDays>
+		<offDays>1</offDays>
+		<numIncidentsRange>0.2~1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>VanillaExpanded.VEE</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="sarg.alphaanimals">
+		<incident MayRequire="sarg.alphaanimals">AA_IncidentBlizzariskClutchMother</incident>
+		<onDays>7</onDays>
+		<offDays>1</offDays>
+		<numIncidentsRange>0~1</numIncidentsRange>
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+		<enableIfAnyModActive>
+			<li>sarg.alphaanimals</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="sarg.alphaanimals">
+		<incident MayRequire="sarg.alphaanimals">AA_IncidentDunealiskClutchMother</incident>
+		<onDays>7</onDays>
+		<offDays>1</offDays>
+		<numIncidentsRange>0~1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>sarg.alphaanimals</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="sarg.alphaanimals">
+		<incident MayRequire="sarg.alphaanimals">AA_IncidentFeraliskClutchMother</incident>
+		<onDays>7</onDays>
+		<offDays>1</offDays>
+		<numIncidentsRange>0~1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>sarg.alphaanimals</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="sarg.alphaanimals">
+		<incident MayRequire="sarg.alphaanimals">AA_ResourcePodCrash</incident>
+		<onDays>10</onDays>
+		<offDays>0</offDays>
+		<numIncidentsRange>0~1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>sarg.alphaanimals</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="SR.ModRimworld.FactionalWarContinued">
+		<incident MayRequire="SR.ModRimworld.FactionalWarContinued">SrFactionWar</incident>
+		<onDays>5</onDays>
+		<offDays>2</offDays>
+		<numIncidentsRange>2~5</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>SR.ModRimworld.FactionalWarContinued</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="SR.ModRimworld.RaidExtension">
+		<incident MayRequire="SR.ModRimworld.RaidExtension">SrHositleCaravanPassing</incident>
+		<onDays>3</onDays>
+		<offDays>0</offDays>
+		<numIncidentsRange>2~5</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>SR.ModRimworld.RaidExtension</li>
+		</enableIfAnyModActive>
+	</li>
+	<li Class="StorytellerCompProperties_OnOffCycle" MayRequire="Mlie.BetterBeggars">
+		<incident MayRequire="Mlie.BetterBeggars">GiveQuest_Beggars_Chased</incident>
+		<onDays>7</onDays>
+		<offDays>3</offDays>
+		<numIncidentsRange>0~1</numIncidentsRange>
+		<enableIfAnyModActive>
+			<li>Mlie.BetterBeggars</li>
+		</enableIfAnyModActive>
+	</li>
+<!-- Ally/neutral interaction -->
+	<li Class="StorytellerCompProperties_FactionInteraction">
+		<incident>RaidFriendly</incident>
+		<baseIncidentsPerYear>90</baseIncidentsPerYear>
+		<minSpacingDays>0</minSpacingDays>
+		<fullAlliesOnly>false</fullAlliesOnly>
+		<minDanger>High</minDanger>
+	</li>
+	<li Class="StorytellerCompProperties_FactionInteraction">
+		<incident>TraderCaravanArrival</incident>
+		<minDaysPassed>3</minDaysPassed>
+		<baseIncidentsPerYear>30</baseIncidentsPerYear>
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+	</li>
+	<li Class="StorytellerCompProperties_FactionInteraction">
+		<incident>VisitorGroup</incident>
+		<minDaysPassed>3</minDaysPassed>
+		<baseIncidentsPerYear>25</baseIncidentsPerYear>
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+	</li>
+	<li Class="StorytellerCompProperties_FactionInteraction">
+		<incident>TravelerGroup</incident>
+		<minDaysPassed>1</minDaysPassed>
+		<baseIncidentsPerYear>16</baseIncidentsPerYear>
+		<allowedTargetTags>
+			<li>Map_PlayerHome</li>
+		</allowedTargetTags>
+	</li>
+<!-- Caravan / temp map -->
+	<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+		<category>Misc</category>
+		<allowedTargetTags>
+			<li>Caravan</li>
+			<li>Map_TempIncident</li>
+		</allowedTargetTags>
+	</li>
+	<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+		<category>ThreatSmall</category>
+		<applyCaravanVisibility>true</applyCaravanVisibility>
+		<allowedTargetTags>
+			<li>Caravan</li>
+			<li>Map_TempIncident</li>
+		</allowedTargetTags>
+	</li>
+	<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+		<category>ThreatBig</category>
+		<applyCaravanVisibility>true</applyCaravanVisibility>
+		<allowedTargetTags>
+			<li>Caravan</li>
+			<li>Map_TempIncident</li>
+		</allowedTargetTags>
+	</li>
+<!-- Quests - non-Royalty -->
+	<li Class="StorytellerCompProperties_RandomQuest">
+		<category>GiveQuest</category>
+		<allowedTargetTags>
+			<li>World</li>
+		</allowedTargetTags>
+		<onDays>3</onDays>
+		<numIncidentsRange>1</numIncidentsRange>
+		<acceptFractionByDaysPassedCurve>
+		<points>
+			<li>(8, 0)</li>
+			<li>(15, 1)</li>
+		</points>
+		</acceptFractionByDaysPassedCurve>
+		<minSpacingDays>0.5</minSpacingDays>
+		<disableIfAnyModActive>
+			<li>Ludeon.RimWorld.Royalty</li>
+		</disableIfAnyModActive>
+	</li>
+<!-- Quests - Royalty -->
+	<li Class="StorytellerCompProperties_RandomQuest">
+		<category>GiveQuest</category>
+		<allowedTargetTags>
+			<li>World</li>
+		</allowedTargetTags>
+		<onDays>5</onDays>
+		<numIncidentsRange>2~4</numIncidentsRange>
+		<acceptFractionByDaysPassedCurve>
+		<points>
+			<li>(8, 0)</li>
+			<li>(15, 1)</li>
+		</points>
+		</acceptFractionByDaysPassedCurve>
+		<minSpacingDays>0.5</minSpacingDays>
+		<enableIfAnyModActive>
+			<li>Ludeon.RimWorld.Royalty</li>
+		</enableIfAnyModActive>
+	</li>
+<!-- World misc incidents-->
+	<li Class="StorytellerCompProperties_CategoryMTB">
+		<category>Misc</category>
+		<allowedTargetTags>
+			<li>World</li>
+		</allowedTargetTags>
+		<minDaysPassed>1.5</minDaysPassed>
+		<mtbDays>7.5</mtbDays>
+	</li>
+<!-- Orbital trader -->
+	<li Class="StorytellerCompProperties_OnOffCycle">
+		<incident>OrbitalTraderArrival</incident>
+		<onDays>3</onDays>
+		<offDays>0</offDays>
+		<numIncidentsRange>1~4</numIncidentsRange>
+	</li>
+<!-- Triggered -->
+	<li Class="StorytellerCompProperties_Triggered">
+		<incident>StrangerInBlackJoin</incident>
+		<delayTicks>180</delayTicks>
+	</li>
+</comps>
+</StorytellerDef>
+
+</Defs>

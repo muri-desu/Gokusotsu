@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<FactionDef Parent="FactionBase">
+	<defName>GHG_PlayerFaction</defName>
+	<label>Lost guards</label>
+		<description>A headquarter of gokusotsu.</description>
+	<basicMemberKind>GHG_Colonist</basicMemberKind>
+	<pawnSingular>gokusotsu</pawnSingular>
+	<pawnsPlural>gokusotsu</pawnsPlural>
+	<isPlayer>true</isPlayer>
+	<factionNameMaker>NamerGHGFaction</factionNameMaker>
+	<settlementNameMaker>NamerGHGSettlement</settlementNameMaker>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<techLevel>Neolithic</techLevel>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
+	<allowedCultures><li>GHG_Culture</li></allowedCultures>
+	<disallowedPrecepts>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+	</disallowedPrecepts>
+	<backstoryCategories>
+		<li>GHG_player</li>
+	</backstoryCategories>
+	<factionIconPath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</factionIconPath>
+	<settlementTexturePath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
+	<colorSpectrum><li>(255,255,255)</li></colorSpectrum>
+<apparelStuffFilter>
+	<thingDefs>
+		<li>DevilstrandCloth</li>
+	</thingDefs>
+</apparelStuffFilter>
+<raidLootValueFromPointsCurve>
+	<points>
+		<li>(35,     15)</li>
+		<li>(100,   120)</li>
+		<li>(1000,  500)</li>
+		<li>(2000,  800)</li>
+		<li>(4000, 1000)</li>
+	</points>
+</raidLootValueFromPointsCurve>
+
+	<!-- <xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<XenoGokusotsu MayRequire="Ludeon.RimWorld.Biotech">999</XenoGokusotsu>
+		</xenotypeChances>
+	</xenotypeSet> -->
+</FactionDef>
+
+<FactionDef Parent="FactionBase"><!-- NPC派閥 -->
+	<defName>GHG_Faction</defName>
+	<label>Guards on vacation</label>
+	<description>A group of Gokusotsu enjoying a vacation on this planet.</description>
+	<pawnSingular>gokusotsu</pawnSingular>
+	<pawnsPlural>gokusotsu</pawnsPlural>
+	<leaderTitle>boss</leaderTitle>
+	<humanlikeFaction>true</humanlikeFaction>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<settlementGenerationWeight>1</settlementGenerationWeight>
+	<settlementNameMaker>NamerGHGSettlement</settlementNameMaker>
+	<canMakeRandomly>true</canMakeRandomly>
+	<canSiege>false</canSiege>
+	<canStageAttacks>true</canStageAttacks>
+	<melaninRange>0.7</melaninRange>
+	<factionNameMaker>NamerGHGFaction</factionNameMaker>
+	<factionIconPath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</factionIconPath>
+	<structureMemeWeights>
+		<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+	</structureMemeWeights>
+   <techLevel>Neolithic</techLevel>
+	<allowedCultures>
+		<li>GHG_Culture</li>
+	</allowedCultures>
+	<backstoryCategories>
+		<li>Offworld</li>
+	</backstoryCategories>
+	<arrivalLayerWhitelist>Surface</arrivalLayerWhitelist>
+
+	<caravanTraderKinds>
+		<li>Caravan_GHG_BulkGoods</li>
+		<li>Caravan_GHG_SakeDealer</li>
+		<li MayRequire="tosenbo.Ricecultivatingcivilization.ver2">Caravan_GHG_Bento</li>
+	</caravanTraderKinds>
+	<visitorTraderKinds>
+		<li>Caravan_GHG_BulkGoods</li>
+		<li>Caravan_GHG_SakeDealer</li>
+	</visitorTraderKinds>
+	<baseTraderKinds>
+		<li>Base_GHG_Standard</li>
+	</baseTraderKinds>
+
+	<allowedArrivalTemperatureRange>-20~90</allowedArrivalTemperatureRange>
+	<maxPawnCostPerTotalPointsCurve>
+		<points>
+			<li>(0,35)</li>
+			<li>(70, 500)</li>
+			<li>(800, 1000)</li>
+			<li>(1300, 1500)</li>
+			<li>(100000, 100000)</li>
+		</points>
+	</maxPawnCostPerTotalPointsCurve>
+	<raidLootMaker>GHGRaidLootMaker</raidLootMaker>
+<pawnGroupMakers>
+	<li>
+		<kindDef>Combat</kindDef>
+		<commonality>100</commonality>
+		<options>
+			<GHG_Boss>5</GHG_Boss>
+			<GHG_Melee>50</GHG_Melee>
+			<GHG_Ranged>50</GHG_Ranged>
+		</options>
+	</li>
+	<li>
+		<kindDef>Trader</kindDef>
+		<traders>
+			<GHG_Trader>1</GHG_Trader>
+		</traders>
+		<carriers>
+			<Muffalo>6</Muffalo>
+			<Dromedary>5</Dromedary>
+			<Alpaca>2.5</Alpaca>
+			<Elephant>2</Elephant>
+		</carriers>
+		<guards>
+			<GHG_Melee>50</GHG_Melee>
+			<GHG_Ranged>50</GHG_Ranged>
+		</guards>
+	</li>
+	<li>
+		<kindDef>Settlement</kindDef>
+		<options>
+			<GHG_Boss>5</GHG_Boss>
+			<GHG_Melee>50</GHG_Melee>
+			<GHG_Ranged>50</GHG_Ranged>
+		</options>
+	</li>
+	<li>
+		<kindDef>Peaceful</kindDef>
+		<options>
+			<GHG_Melee>50</GHG_Melee>
+			<GHG_Ranged>50</GHG_Ranged>
+		</options>
+	</li>
+
+<li MayRequire="Ludeon.RimWorld.Ideology">
+	<kindDef>Miners</kindDef>
+	<commonality>1</commonality>
+		<options>
+			<GHG_Melee>1</GHG_Melee>
+		</options>
+</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">
+	<kindDef>Hunters</kindDef>
+	<commonality>1</commonality>
+		<options>
+			<GHG_Ranged>1</GHG_Ranged>
+		</options>
+</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">
+	<kindDef>Loggers</kindDef>
+	<commonality>1</commonality>
+		<options>
+			<GHG_Melee>1</GHG_Melee>
+		</options>
+</li>
+<li MayRequire="Ludeon.RimWorld.Ideology">
+	<kindDef>Farmers</kindDef>
+	<commonality>1</commonality>
+		<options>
+			<GHG_Melee>1</GHG_Melee>
+		</options>
+</li>
+
+</pawnGroupMakers>
+	<settlementTexturePath>Gokusotsu/Things/WorldIcon/GHGcolonyicon</settlementTexturePath>
+<colorSpectrum>
+	<li>(255, 85, 0)</li>
+	<li>(255, 162, 0)</li>
+</colorSpectrum>
+<apparelStuffFilter>
+	<stuffCategoriesToAllow>
+		<li>Fabric</li>
+		<li>Leathery</li>
+		<li>Woody</li>
+		<li>Metallic</li>
+	</stuffCategoriesToAllow>
+</apparelStuffFilter>
+	<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+	<configurationListOrderPriority>90</configurationListOrderPriority>
+	<raidLootValueFromPointsCurve>
+		<points>
+			<li>(35,     15)</li>
+			<li>(100,   120)</li>
+			<li>(1000,  500)</li>
+			<li>(2000,  800)</li>
+			<li>(4000, 1000)</li>
+		</points>
+	</raidLootValueFromPointsCurve>
+
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<XenoGokusotsu MayRequire="Ludeon.RimWorld.Biotech">1</XenoGokusotsu>
+		</xenotypeChances>
+	</xenotypeSet>
+
+</FactionDef>
+
+<ThingSetMakerDef>
+	<defName>GHGRaidLootMaker</defName>
+	<root Class="ThingSetMaker_MarketValue">
+		<fixedParams>
+			<filter>
+				<thingDefs>
+					<li>MedicineHerbal</li>
+					<li>Beer</li>
+					<li>Ambrosia</li>
+				</thingDefs>
+			</filter>
+		</fixedParams>
+	</root>
+</ThingSetMakerDef>
+</Defs>

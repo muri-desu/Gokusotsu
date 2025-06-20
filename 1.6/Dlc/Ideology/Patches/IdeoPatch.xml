@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name = "BaseGHG" or defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/thoughtSettings/cannotReceiveThoughts</xpath>
+		<value>
+			<li>HAR_AteAlienMeat_Know_Abhorrent</li>
+			<li>HAR_AteAlienMeat_Abhorrent</li>
+			<li>HAR_ButcheredAlien_Know_Abhorrent</li>
+			<li>HAR_AteAlienMeat_Disapproved</li>
+			<li>HAR_AteAlienMeat_Know_Disapproved</li>
+			<li>HAR_ButcheredAlien_Know_Disapproved</li>
+			<li>HAR_ButcheredAlien_Know_Disapproved_Opinion</li>
+			<li>AteHumanMeat_Abhorrent</li>
+			<li>AteHumanMeat_Know_Abhorrent</li>
+			<li>HumanLeatherApparel_Abhorrent</li>
+			<li>ButcheredHuman_Know_Abhorrent</li>
+			<li>ButcheredHuman_Know_Abhorrent_Opinion</li>
+			<li>AteHumanMeat_Horrible</li>
+			<li>AteHumanMeat_Know_Horrible</li>
+			<li>HumanLeatherApparel_Horrible</li>
+			<li>ButcheredHuman_Know_Horrible</li>
+			<li>ButcheredHuman_Know_Horrible_Opinion</li>
+			<li>AteHumanMeat_Disapproved</li>
+			<li>AteHumanMeat_Know_Disapproved</li>
+			<li>HumanLeatherApparel_Disapproved</li>
+			<li>ButcheredHuman_Know_Disapproved</li>
+			<li>ButcheredHuman_Know_Disapproved_Opinion</li>
+			<li>HarvestedOrgan_Know_Abhorrent</li>
+			<li>HarvestedOrgan_Know_Horrible</li>
+			<li>TradedOrgan_Abhorrent</li>
+			<li>TradedOrgan_Know_Abhorrent</li>
+			<li>TradedOrgan_Know_Abhorrent_Mood</li>
+			<li>InstalledOrgan_Abhorrent</li>
+			<li>InstalledOrgan_Know_Abhorrent</li>
+			<li>InstalledOrgan_Know_Abhorrent_Mood</li>
+			<li>SoldOrgan_Disapproved</li>
+			<li>SoldOrgan_Know_Horrible_Mood</li>
+			<li>SoldOrgan_Know_Disapproved</li>
+			<li>ExecutedPrisoner_Know_Abhorrent</li>
+			<li>InnocentPrisonerDied_Know_Abhorrent</li>
+			<li>ExecutedPrisoner_Know_Horrible</li>
+			<li>InnocentPrisonerDied_Know_Horrible</li>
+			<li>ExecutedPrisonerInnocent_Know_Horrible</li>
+			<li>InnocentPrisonerDied_Abhorrent</li>
+			<li>InnocentPrisonerDied_Horrible</li>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+	<value>
+		<li>Apparel_PackJump</li>
+		<li>Apparel_PackBroadshield</li>
+		<li>Apparel_PackJump</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/FactionDef[defName = "GHG_PlayerFaction" or defNAme = "GHG_Faction"]</xpath>
+	<value>
+		<allowedMemes>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Structure_Shintaoism</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_PartyLife</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+		</allowedMemes>
+		<disallowedPrecepts>
+			<li>ApparelDesired_Strong_Subordinate</li>
+			<li>Cannibalism_Abhorrent</li>
+			<li>Cannibalism_Horrible</li>
+			<li>Cannibalism_Disapproved</li>
+			<li>Execution_Abhorrent</li>
+			<li>Execution_Horrible</li>
+			<li>MeatEating_Abhorrent</li>
+			<li>MeatEating_Horrible</li>
+			<li>MeatEating_Disapproved</li>
+			<li>Nudity_Male_Mandatory</li>
+			<li>Nudity_Female_Mandatory</li>
+			<li>Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li>Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+			<li>Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			<li>Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			<li>Nudity_Male_UncoveredGroinChestOrHairDisapproved</li>
+			<li>Nudity_Female_UncoveredGroinChestOrHairDisapproved</li>
+			<li>Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li>Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li>OrganUse_Abhorrent</li>
+			<li>OrganUse_HorribleNoSell</li>
+			<li>OrganUse_HorribleSellOK</li>
+			<li>Skullspike_Disapproved</li>
+			<li>Slavery_Abhorrent</li>
+			<li>Slavery_Horrible</li>
+			<li>Slavery_Disapproved</li>
+		</disallowedPrecepts>
+	</value>
+</Operation>
+</Patch>

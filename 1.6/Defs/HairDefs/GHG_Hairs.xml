@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StyleItemCategoryDef>
+		<defName>GHG_Style</defName>
+		<label>gokusotsu style</label> 
+	</StyleItemCategoryDef>
+
+<HairDef>
+	<defName>GHG_MezuHair</defName>
+	<label>Mezu hair</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/MezuHair</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_MezuHair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair00</defName>
+	<label>Gokusotsu hair 00</label>
+	<hairGender>Any</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair00</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair01</defName>
+	<label>Gokusotsu hair 01</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair01</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair02</defName>
+	<label>Gokusotsu hair 02</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair02</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair03</defName>
+	<label>Gokusotsu hair 03</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair03</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair04</defName>
+	<label>Gokusotsu hair 04</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair04</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair05</defName>
+	<label>Gokusotsu hair 05</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair05</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair06</defName>
+	<label>Gokusotsu hair 06</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair06</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair07</defName>
+	<label>Gokusotsu hair 07</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair07</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair08</defName>
+	<label>Gokusotsu hair 08</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair08</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair09</defName>
+	<label>Gokusotsu hair 09</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair09</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_Hair10</defName>
+	<label>Gokusotsu hair 10</label>
+	<hairGender>Male</hairGender>
+	<texPath>Gokusotsu/Hairs/Hair10</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_FemHair00</defName>
+	<label>Gokusotsu female hair 00</label>
+	<hairGender>Female</hairGender>
+	<texPath>Gokusotsu/Hairs/FemHair00</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_FemHair01</defName>
+	<label>Gokusotsu female hair 01</label>
+	<hairGender>Female</hairGender>
+	<texPath>Gokusotsu/Hairs/FemHair01</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_FemHair02</defName>
+	<label>Gokusotsu female hair 02</label>
+	<hairGender>Female</hairGender>
+	<texPath>Gokusotsu/Hairs/FemHair02</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_FemHair03</defName>
+	<label>Gokusotsu female hair 03</label>
+	<hairGender>Female</hairGender>
+	<texPath>Gokusotsu/Hairs/FemHair03</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_FemHair04</defName>
+	<label>Gokusotsu female hair 04</label>
+	<hairGender>Female</hairGender>
+	<texPath>Gokusotsu/Hairs/FemHair04</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+<HairDef>
+	<defName>GHG_FemHair05</defName>
+	<label>Gokusotsu female hair 05</label>
+	<hairGender>Female</hairGender>
+	<texPath>Gokusotsu/Hairs/FemHair05</texPath>
+	<category>GHG_Style</category>
+		<styleTags>
+			<li>GHG_Hair</li>
+		</styleTags>
+</HairDef>
+
+</Defs>

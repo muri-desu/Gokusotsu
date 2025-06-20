@@ -5,7 +5,7 @@
     <defName>GHG_onehorn</defName>
     <label>gokusotsu</label>
     <corePart>
-      <def>Torso</def>
+      <def>GHG_Torso</def>
       <height>Middle</height>
       <depth>Outside</depth>
       <groups>
@@ -139,26 +139,30 @@
                     </li>
                   </parts>
                 </li>
-                <li><!-- ツノ -->
-                  <def>Horn_GHG</def>
-                  <customLabel>horn</customLabel>
-                  <coverage>0.05</coverage>
+				<li><!-- ツノ -->
+					<def>GHG_Horn</def>
+					<customLabel>horn</customLabel>
+					<coverage>0.05</coverage>
 					<groups>
 						<li>UpperHead</li>
-						<li>FullHead</li>
 						<li>HeadAttackTool</li>
-                  </groups>
-                  <woundAnchorTag>LeftEye</woundAnchorTag>
-                </li>
+					</groups>
+					<woundAnchorTag>MiddleHorn</woundAnchorTag>
+				</li>
                 <li>
                   <def>Eye</def>
                   <customLabel>left eye</customLabel>
+			<flipGraphic>true</flipGraphic>
                   <coverage>0.07</coverage>
                   <groups>
                     <li>FullHead</li>
                     <li>Eyes</li>
                   </groups>
                   <woundAnchorTag>LeftEye</woundAnchorTag>
+                  <visibleHediffRots>
+                    <li>South</li>
+                    <li>West</li>
+                  </visibleHediffRots>
                 </li>
                 <li>
                   <def>Eye</def>
@@ -169,10 +173,15 @@
                     <li>Eyes</li>
                   </groups>
                   <woundAnchorTag>RightEye</woundAnchorTag>
+                  <visibleHediffRots>
+                    <li>South</li>
+                    <li>East</li>
+                  </visibleHediffRots>
                 </li>
                 <li>
                   <def>Ear</def>
                   <customLabel>left ear</customLabel>
+			<flipGraphic>true</flipGraphic>
                   <coverage>0.07</coverage>
                   <groups>
                     <li>UpperHead</li>
@@ -218,14 +227,15 @@
             </li>
           </parts>
         </li>
-        <li>
-          <def>Shoulder</def>
-          <customLabel>left shoulder</customLabel>
-          <coverage>0.12</coverage>
-          <woundAnchorTag>LeftShoulder</woundAnchorTag>
-          <groups>
-            <li>Shoulders</li>
-          </groups>
+	<li>
+		<def>Shoulder</def>
+			<customLabel>left shoulder</customLabel>
+			<coverage>0.12</coverage>
+			<woundAnchorTag>LeftShoulder</woundAnchorTag>
+			<flipGraphic>true</flipGraphic>
+			<groups>
+				<li>Shoulders</li>
+			</groups>
           <parts>
             <li>
               <def>Clavicle</def>
@@ -233,6 +243,7 @@
               <coverage>0.09</coverage>
               <height>Top</height>
               <depth>Inside</depth>
+              <flipGraphic>true</flipGraphic>
               <groups>
                 <li>Torso</li>
               </groups>
@@ -240,6 +251,7 @@
             <li>
               <def>Arm</def>
               <customLabel>left arm</customLabel>
+			<flipGraphic>true</flipGraphic>
               <coverage>0.77</coverage>
               <groups>
                 <li>Arms</li>
@@ -268,6 +280,7 @@
                   <customLabel>left hand</customLabel>
                   <coverage>0.14</coverage>
                   <height>Bottom</height>
+                  <flipGraphic>true</flipGraphic>
                   <groups>
                     <li>Hands</li>
                   </groups>
@@ -441,6 +454,7 @@
         <li>
           <def>Leg</def>
           <customLabel>left leg</customLabel>
+			<flipGraphic>true</flipGraphic>
           <coverage>0.14</coverage>
           <height>Bottom</height>
           <groups>
@@ -469,6 +483,7 @@
             <li>
               <def>Foot</def>
               <customLabel>left foot</customLabel>
+			<flipGraphic>true</flipGraphic>
               <coverage>0.1</coverage>
               <groups>
                 <li>Feet</li>
@@ -527,7 +542,7 @@
             <li>Legs</li>
           </groups>
           <woundAnchorTag>RightLeg</woundAnchorTag>
-          <parts>
+			<parts>
             <li>
               <def>Femur</def>
               <customLabel>right femur</customLabel>
@@ -606,7 +621,7 @@
     <defName>GHG_twohorns</defName>
     <label>gokusotsu</label>
     <corePart>
-      <def>Torso</def>
+      <def>GHG_Torso</def>
       <height>Middle</height>
       <depth>Outside</depth>
       <groups>
@@ -740,10 +755,34 @@
                     </li>
                   </parts>
                 </li>
+				<li><!-- 左ツノ -->
+					<def>GHG_Horn</def>
+					<customLabel>left horn</customLabel>
+			<flipGraphic>true</flipGraphic>
+					<coverage>0.05</coverage>
+					<groups>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+						<li>HeadAttackTool</li>
+					</groups>
+					<woundAnchorTag>LeftHorn</woundAnchorTag>
+				</li>
+				<li><!-- 右ツノ -->
+					<def>GHG_Horn</def>
+					<customLabel>right horn</customLabel>
+					<coverage>0.05</coverage>
+					<groups>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+						<li>HeadAttackTool</li>
+					</groups>
+					<woundAnchorTag>RightHorn</woundAnchorTag>
+				</li>
                 <li>
                   <def>Eye</def>
                   <customLabel>left eye</customLabel>
-                  <coverage>0.07</coverage>
+ 			<flipGraphic>true</flipGraphic>
+                 <coverage>0.07</coverage>
                   <groups>
                     <li>FullHead</li>
                     <li>Eyes</li>
@@ -776,26 +815,6 @@
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
-                  </groups>
-                </li>
-                <li><!-- 左ツノ -->
-                  <def>Horn_GHG</def>
-                  <customLabel>left horn</customLabel>
-                  <coverage>0.05</coverage>
-					<groups>
-						<li>UpperHead</li>
-						<li>FullHead</li>
-						<li>HeadAttackTool</li>
-                  </groups>
-                </li>
-                <li><!-- 右ツノ -->
-                  <def>Horn_GHG</def>
-                  <customLabel>right horn</customLabel>
-                  <coverage>0.05</coverage>
-					<groups>
-						<li>UpperHead</li>
-						<li>FullHead</li>
-						<li>HeadAttackTool</li>
                   </groups>
                 </li>
                 <li>
@@ -831,6 +850,7 @@
         <li>
           <def>Shoulder</def>
           <customLabel>left shoulder</customLabel>
+			<flipGraphic>true</flipGraphic>
           <coverage>0.12</coverage>
           <woundAnchorTag>LeftShoulder</woundAnchorTag>
           <groups>
@@ -843,6 +863,7 @@
               <coverage>0.09</coverage>
               <height>Top</height>
               <depth>Inside</depth>
+              <flipGraphic>true</flipGraphic>
               <groups>
                 <li>Torso</li>
               </groups>
@@ -850,6 +871,7 @@
             <li>
               <def>Arm</def>
               <customLabel>left arm</customLabel>
+			<flipGraphic>true</flipGraphic>
               <coverage>0.77</coverage>
               <groups>
                 <li>Arms</li>
@@ -876,6 +898,7 @@
                 <li>
                   <def>Hand</def>
                   <customLabel>left hand</customLabel>
+			<flipGraphic>true</flipGraphic>
                   <coverage>0.14</coverage>
                   <height>Bottom</height>
                   <groups>
@@ -982,7 +1005,7 @@
                 <li>
                   <def>Hand</def>
                   <customLabel>right hand</customLabel>
-                  <coverage>0.14</coverage>
+                 <coverage>0.14</coverage>
                   <height>Bottom</height>
                   <groups>
                     <li>Hands</li>
@@ -1051,6 +1074,7 @@
         <li>
           <def>Leg</def>
           <customLabel>left leg</customLabel>
+			<flipGraphic>true</flipGraphic>
           <coverage>0.14</coverage>
           <height>Bottom</height>
           <groups>
@@ -1079,6 +1103,7 @@
             <li>
               <def>Foot</def>
               <customLabel>left foot</customLabel>
+				<flipGraphic>true</flipGraphic>
               <coverage>0.1</coverage>
               <groups>
                 <li>Feet</li>
@@ -1136,7 +1161,6 @@
           <groups>
             <li>Legs</li>
           </groups>
-          <woundAnchorTag>RightLeg</woundAnchorTag>
           <parts>
             <li>
               <def>Femur</def>

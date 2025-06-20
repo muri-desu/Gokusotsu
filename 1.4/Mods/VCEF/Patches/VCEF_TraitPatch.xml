@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-	<Operation Class="PatchOperationAdd">
-			<xpath>Defs/AlienRace.AlienBackstoryDef[defName = "FisherGokusotsu"]/forcedTraits</xpath>
-			<value>
-				<VCEF_Fisherman>0</VCEF_Fisherman>
-			</value>
-	</Operation>
-</Patch>

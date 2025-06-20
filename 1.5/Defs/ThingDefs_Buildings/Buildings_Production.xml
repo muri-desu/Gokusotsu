@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<ThingDef ParentName="BenchBase">
+	<defName>GokusotsuWorkbench</defName>
+	<label>hell guard's workbench</label>
+	<description>A sloppy workbench for making various hell guards' things.</description>
+	<thingClass>Building_WorkTable</thingClass>
+	<graphicData>
+		<texPath>Gokusotsu/Things/Building/Production/GHG_workbench</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<drawSize>(3,1.5)</drawSize>
+		<shadowData>
+			<volume>(2.8, 0.35, 0.59)</volume>
+			<offset>(0, 0, 0.08)</offset>
+		</shadowData>
+		<damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+	</graphicData>
+	<costStuffCount>55</costStuffCount>
+	<costList>
+		<Steel>20</Steel>
+		<ComponentIndustrial>1</ComponentIndustrial>
+	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+		<li>Woody</li>
+	</stuffCategories>
+	<altitudeLayer>Building</altitudeLayer>
+	<fillPercent>0.5</fillPercent>
+	<useHitPoints>True</useHitPoints>
+	<statBases>
+		<WorkToBuild>1200</WorkToBuild>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Flammability>1</Flammability>
+	</statBases>
+	<size>(3,1)</size>
+	<designationCategory>Production</designationCategory>
+	<uiOrder>2411</uiOrder>
+	<passability>PassThroughOnly</passability>
+	<pathCost>50</pathCost>
+	<hasInteractionCell>True</hasInteractionCell>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<surfaceType>Item</surfaceType>
+	<inspectorTabs>
+		<li>ITab_Bills</li>
+	</inspectorTabs>
+	<comps>
+		<li Class="CompProperties_AffectedByFacilities">
+			<linkableFacilities>
+				<li>ToolCabinet</li>
+			</linkableFacilities>
+		</li>
+	</comps>
+	<building>
+		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		<paintable>true</paintable>
+	</building>
+	<placeWorkers>
+		<li>PlaceWorker_ShowFacilitiesConnections</li>
+	</placeWorkers>
+</ThingDef>
+
+</Defs>

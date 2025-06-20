@@ -3,10 +3,12 @@
 
 <AlcoholHigh_GHG.label>百薬の長</AlcoholHigh_GHG.label>
 <AlcoholHigh_GHG.description>酒の力で回復力が高まっています.</AlcoholHigh_GHG.description>
-<GHG_AntiTox.label>ヘルファイアウォール</GHG_AntiTox.label>
-	<GHG_AntiTox.description>フレーバービールの効果により毒物の悪影響が軽減されます.</GHG_AntiTox.description>
+<GHG_AntiTox.label>ヘルフュエル</GHG_AntiTox.label>
+<GHG_AntiTox.description>フレーバービールの効果により毒物の悪影響が軽減されます.</GHG_AntiTox.description>
 <GHG_AntiTox.stages.0.label>効果・小</GHG_AntiTox.stages.0.label>
 <GHG_AntiTox.stages.1.label>効果・中</GHG_AntiTox.stages.1.label>
 <GHG_AntiTox.stages.2.label>効果・大</GHG_AntiTox.stages.2.label>
+<Hediff_NormalPudding.label>ノーマルプリンを食べた</Hediff_NormalPudding.label>
+<Hediff_NormalPudding.description>あまりノーマルではないプリンを食べた</Hediff_NormalPudding.description>
 
 </LanguageData>

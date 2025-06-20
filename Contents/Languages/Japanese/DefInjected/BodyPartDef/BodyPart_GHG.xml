@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<Horn_GHG.label>獄卒のツノ</Horn_GHG.label>
+	<GHG_Horn.label>ツノ</GHG_Horn.label>
+	<GHG_Horn_left.label>左ツノ</GHG_Horn_left.label>
+	<GHG_Horn_right.label>右ツノ</GHG_Horn_right.label>
+	<GHG_Torso.label>胴</GHG_Torso.label>
 </LanguageData>

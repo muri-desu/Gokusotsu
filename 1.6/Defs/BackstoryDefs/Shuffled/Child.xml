@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.AlienBackstoryDef Abstract="True" Name="GHG_BackStoryBase_Child">
+	<slot>Childhood</slot>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- わんぱく -->
+	<defName>NaughtyKids</defName>
+	<title>Naughty kid</title>
+	<titleShort>naughty kid</titleShort>
+	<description>[PAWN_nameDef] was a naughty demon kid.</description>
+	<skillGains>
+		<Melee>3</Melee>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+		<li>GHG_boss</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- オタク -->
+	<defName>OtakuKids</defName>
+	<title>Otaku kid</title>
+	<titleShort>otaku</titleShort>
+	<description>[PAWN_nameDef] was a nerdy demon kid.</description>
+	<skillGains>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 昆虫博士 -->
+	<defName>InsectKids</defName>
+	<title>Insect kid</title>
+	<titleShort>otaku</titleShort>
+	<description>[PAWN_nameDef] was into insects.</description>
+	<skillGains>
+		<Intellectual>1</Intellectual>
+		<Animals>3</Animals>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ねぼすけ -->
+	<defName>SleepyKids</defName>
+	<title>Sleepy kid</title>
+	<titleShort>sleepy</titleShort>
+	<description>[PAWN_nameDef] was sleepy kid.</description>
+	<disallowedTraitsChance>
+		<li><defName>QuickSleeper</defName></li>
+	</disallowedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 学級委員 -->
+	<defName>ClassOfficer</defName>
+	<title>class officer</title>
+	<titleShort>class officer</titleShort>
+	<description>[PAWN_nameDef] had taken a leadership role in the school as a member of the class officer.</description>
+	<forcedTraitsChance>
+		<li><defName Degree="2">Industriousness</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- エキセントリック少年 -->
+	<defName>Oddball</defName>
+	<title>oddball</title>
+	<titleShort>oddball</titleShort>
+	<description>Eccentric behavior and demeanor made [PAWN_nameDef] stand out, but [PAWN_pronoun] didn't care much.</description>
+	<skillGains>
+		<Social>-2</Social>
+		<Artistic>3</Artistic>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName Degree="2">PsychicSensitivity</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ぼっち -->
+	<defName>Loner</defName>
+	<title>loner</title>
+	<titleShort>loner</titleShort>
+	<description>[PAWN_nameDef] was always acting alone.</description>
+	<skillGains>
+		<Social>-5</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- モテモテ -->
+	<defName>PopularKid</defName>
+	<title>popular kid</title>
+	<titleShort>popular kid</titleShort>
+	<description>[PAWN_nameDef] was irresistible and always surrounded by friends [PAWN_possessive] own age.</description>
+	<skillGains>
+		<Social>5</Social>
+		<Crafting>-3</Crafting>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 地上生まれ -->
+	<defName>EarthBred</defName>
+	<title>Earth-bred</title>
+	<titleShort>loner</titleShort>
+	<description>[PAWN_nameDef]はどういうわけか地上に生まれ落ちた鬼子でした。人里で幾度かのトラブルを起こした後法師や陰陽師による更正プログラムを受けて育ちました。</description>
+	<skillGains>
+		<Social>2</Social>
+		<Plants>3</Plants>
+		<Intellectual>1</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 天邪鬼 -->
+	<defName>PerverseKid</defName>
+	<title>Perverse kid</title>
+	<titleShort>perverse kid</titleShort>
+	<description>[PAWN_nameDef] was a little perverse demon.</description>
+	<workDisables>
+		<li>Social</li>
+	</workDisables>
+	<skillGains>
+		<Melee>2</Melee>
+		<Intellectual>1</Intellectual>
+	</skillGains>
+	<forcedTraitsChance>
+		<li>
+			<defName>Abrasive</defName>
+			<chance>80</chance>
+		</li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 鬼ごっこの達人 -->
+	<defName>TagKing</defName>
+	<title>Tag game king</title>
+	<titleShort>tag king</titleShort>
+	<description>Fast on his feet, [PAWN_nameDef] was unbeatable in a game of tag.</description>
+	<forcedTraitsChance>
+		<li><defName Degree="2">SpeedOffset</defName></li>
+	</forcedTraitsChance>
+	<disallowedTraitsChance>
+		<li><defName>Undergrounder</defName></li>
+	</disallowedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 正義の味方 -->
+	<defName>ChampofJustice</defName>
+	<title>Champion of justice</title>
+	<titleShort>champ of justice</titleShort>
+	<description>[PAWN_nameDef] dreamed of being a hero of justice.</description>
+	<skillGains>
+		<Melee>3</Melee>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName>Kind</defName></li>
+	</forcedTraitsChance>
+	<disallowedTraitsChance>
+		<li><defName>Undergrounder</defName></li>
+	</disallowedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ファッションリーダー -->
+	<defName>FashionLeader</defName>
+	<title>Fashion leader</title>
+	<titleShort>fashion leader</titleShort>
+		<description>[PAWN_nameDef] loved fashion culture. [PAWN_pronoun] often went to the edge of the Sanzu River and steal clothes from the earth which is stripped from dead souls.</description>
+	<skillGains>
+		<Artistic>3</Artistic>
+		<Crafting>2</Crafting>
+	</skillGains>
+	<disallowedTraitsChance>
+		<li><defName>Undergrounder</defName></li>
+	</disallowedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 科学の子 -->
+	<defName>ScienceKid</defName>
+	<title>Science kid</title>
+	<titleShort>science kid</titleShort>
+		<description>[PAWN_nameDef] loved playing genius scientist, dissecting dead souls.</description>
+	<skillGains>
+		<Medicine>3</Medicine>
+		<Intellectual>1</Intellectual>
+	</skillGains>
+	<disallowedTraitsChance>
+		<li><defName>Undergrounder</defName></li>
+	</disallowedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- チャンバラ王者 -->
+	<defName>ChanbaraChamp</defName>
+	<title>Chanbara champion</title>
+	<titleShort>chanbara champ</titleShort>
+		<description>[PAWN_nameDef] loved chambara, and even when [PAWN_pronoun] was not involved, [PAWN_pronoun] would wave a stick around when [PAWN_pronoun] had one, give [PAWN_possessive] caretakers a lot of trouble.</description>
+	<skillGains>
+		<Melee>4</Melee>
+		<Intellectual>-1</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- ロボキッズ -->
+	<defName>Robotkid</defName>
+	<title>Robot wannabe</title>
+	<titleShort>robot wannabe</titleShort>
+		<description>[PAWN_nameDef] was a dreamy child who longed for a machine body. A desire that was difficult to realize in hell was barely dissipated by crafts and chanbara.</description>
+	<skillGains>
+		<Melee>2</Melee>
+		<Intellectual>1</Intellectual>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName>Transhumanist</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase_Child"><!-- 腰巾着キッズ -->
+	<defName>Shadowkid</defName>
+	<title>Bully's shadow</title>
+	<titleShort>shadow</titleShort>
+		<description>[PAWN_nameDef] was a kid who was adept at settling into the position of henchman by flattering another kid who had the most power in the moment.</description>
+	<skillGains>
+		<Melee>2</Melee>
+		<Intellectual>1</Intellectual>
+	</skillGains>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+</Defs>

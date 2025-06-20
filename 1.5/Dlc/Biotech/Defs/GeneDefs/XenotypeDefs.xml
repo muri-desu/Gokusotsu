@@ -5,7 +5,7 @@
 	<label>gokusotsu</label>
 	<description>typical gokusotsu genes</description>
 	<descriptionShort>basic gokusotsu</descriptionShort>
-	<iconPath>UI/Icons/XenoGokusotsu</iconPath>
+	<iconPath>Gokusotsu/UI/Icons/XenoGokusotsu</iconPath>
 	<inheritable>true</inheritable>
 	<genes>
 		<li>GokusotsuLiver</li>
@@ -17,6 +17,12 @@
 		<li>AptitudePoor_Cooking</li>
 		<li>AptitudePoor_Plants</li>
 		<li>AptitudeTerrible_Artistic</li>
+		<li>Hair_Blonde</li>
+		<li>Hair_LightOrange</li>
+		<li>Hair_SandyBlonde</li>
+		<li>Hair_ReddishBrown</li>
+		<li>Hair_MidBlack</li>
+		<li>Hair_BrightRed</li>
 	</genes>
 </XenotypeDef>
 </Defs>

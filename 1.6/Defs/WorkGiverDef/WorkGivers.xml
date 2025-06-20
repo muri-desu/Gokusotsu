@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>GokusotsuMake</defName>
+		<label>Make hell guard's things</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Tailoring</workType>
+		<priorityInType>111</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GokusotsuWorkbench</li>
+		</fixedBillGiverDefs>
+		<verb>craft</verb>
+		<gerund>crafting at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+</Defs>
+
+<!-- <Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="DoBillsUseCraftingSpot"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>GokusotsuWorkbench</li>
+		</value>
+	</Operation>
+</Patch> -->

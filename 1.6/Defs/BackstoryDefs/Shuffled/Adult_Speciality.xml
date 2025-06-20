@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 即応警邏獄卒 -->
+	<defName>ResponseGokusotsu</defName>
+	<title>response gokusotsu</title>
+	<titleShort>response guards</titleShort>
+	<description>[PAWN_nameDef] was a gokusotsu who specialized in patrolling and immediate response security according to the situation. After major disasters in mortal world, [PAWN_pronoun] would rush to the reception area and perform duties almost without a break. Calming down delirious, violent dead was also [PAWN_possessive] important job.</description>
+	<workDisables>
+		<li>ManualSkilled</li>
+	</workDisables>
+	<skillGains>
+		<Shooting>5</Shooting>
+		<Melee>7</Melee>
+		<Social>2</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName Degree="1">Industriousness</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 配管工獄卒 -->
+	<defName>PlumberGokusotsu</defName>
+	<title>plumber gokusotsu</title>
+	<titleShort>plumber</titleShort>
+	<description>[PAWN_nameDef] was well versed in the maintenance of all the pipes of infrastructure in hell...which means, the pipes through which boiling blood or metal, rotting guts, vomit, and liquefied dead pass.</description>
+	<skillGains>
+		<Construction>6</Construction>
+		<Mining>5</Mining>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName>Undergrounder</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 血の池造園士 -->
+	<defName>BloodPondGardener</defName>
+	<title>blood Pond gardener gokusotsu</title>
+	<titleShort>blood Pond gardener</titleShort>
+	<description>[PAWN_nameDef]'s workplace was the maintenance area of boiling pools and blood pond to throw the dead into.</description>
+	<workDisables>
+		<li>Intellectual</li>
+	</workDisables>
+	<skillGains>
+		<Construction>5</Construction>
+		<Mining>2</Mining>
+		<Plants>3</Plants>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 針山剪定士 -->
+	<defName>HariyamaGardener</defName>
+	<title>hariyama gardener</title>
+	<titleShort>hariyama gardener</titleShort>
+	<description>[PAWN_nameDef] was a forest worker who worked with the iron pines and iron bamboos that grew on the needle mountains where the dead was forced to climb. [PAWN_possessive] main daily routine was to cut woods down according to the demand for iron and to remove tangled dead from their branches.</description>
+	<skillGains>
+		<Plants>7</Plants>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 金物職人 -->
+	<defName>CraftsmanGokusotsu_A</defName>
+	<title>metallic craftsman</title>
+	<titleShort>craftsman</titleShort>
+	<description>[PAWN_nameDef] was a craftsman who specialized in small daily metalwork items like iron kettles and iron ladles. And was also good at making restraints and small firearms.</description>
+	<workDisables>Animals</workDisables>
+	<skillGains>
+		<Crafting>7</Crafting>
+		<Artistic>1</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- セトモノ職人 -->
+	<defName>CraftsmanGokusotsu_B</defName>
+	<title>pottery craftsman</title>
+	<titleShort>craftsman</titleShort>
+	<description>[PAWN_nameDef] was a craftsman who excelled at making ceramics such as tea bowls and water bottles. And was also good at making urns and clay figurines.</description>
+	<workDisables>Animals</workDisables>
+	<skillGains>
+		<Crafting>5</Crafting>
+		<Artistic>3</Artistic>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：賽の河原担当獄卒 -->
+	<defName>SanzuRiverGokusotsu_A</defName>
+	<title>children's limbo gokusotsu</title>
+	<titleShort>children's limbo</titleShort>
+	<description>[PAWN_nameDef] was in charge of breaking down stones piled up by dead children on the riverbank of the Sanzu River.</description>
+	<skillGains>
+		<Mining>1</Mining>
+		<Construction>1</Construction>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：中流担当獄卒 -->
+	<defName>SanzuRiverGokusotsu_B</defName>
+	<title>sanzu river carpenter</title>
+	<titleShort>river carpenter</titleShort>
+	<description>[PAWN_nameDef] was in charge of maintaining the bridge over the middle reaches of the Sanzu River. [PAWN_pronoun] was also put in charge of mining precious stones for decoration.</description>
+	<skillGains>
+		<Mining>7</Mining>
+		<Construction>3</Construction>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 三途の川：下流担当獄卒 -->
+	<defName>SanzuRiverGokusotsu_C</defName>
+	<title>sanzu river shooter</title>
+	<titleShort>river shooter</titleShort>
+	<description>[PAWN_nameDef]'s task was to shoot arrows at the heads of the dead swimming in the Sanzu River downstream.</description>
+	<skillGains>
+		<Shooting>9</Shooting>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 横領経理マン -->
+	<defName>EmbezzlerGokusotsu</defName>
+	<title>embezzler gokusotsu</title>
+	<titleShort>embezzler</titleShort>
+		<description>[PAWN_nameDef] was waiting in the detention area to be sentenced to approximately 36283216763924704214800100074291078163892000000 years in prison as a result of embezzling public funds and pouring them into young lover.</description>
+	<skillGains>
+		<Intellectual>3</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 火の見番人 -->
+	<defName>FireWatcherGokusotsu</defName>
+	<title>fire watch</title>
+	<titleShort>fire watch</titleShort>
+		<description>In hell, flames of all sizes are used. [PAWN_nameDef] was in charge of watching over them to keep them alive, as well as burning the sparks that were about to go out and blowing them back.</description>
+	<workDisables>Firefighting, Cleaning</workDisables>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName Degree="2">SpeedOffset</defName></li>
+		<li><defName>Pyromaniac</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バンガシラA -->
+	<defName>BangashiraGokusotsu_A</defName>
+	<title>bangashira</title>
+	<titleShort>bangashira</titleShort>
+		<description>[PAWN_nameDef] was popular among subordinates as a personable and dependable boss, but was very neurotic because of the hardships of middle management.</description>
+	<workDisables>Cooking, PlantWork</workDisables>
+	<skillGains>
+		<Social>9</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName>Kind</defName></li>
+		<li><defName Degree="2">Neurotic</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- バンガシラB -->
+	<defName>BangashiraGokusotsu_B</defName>
+	<title>bangashira</title>
+	<titleShort>bangashira</titleShort>
+		<description>[PAWN_nameDef] bullied many new subordinates as a bad boss, but [PAWN_nameDef] himself was not stressed and enjoyed [PAWN_possessive] work.</description>
+	<workDisables>ManualDumb</workDisables>
+	<skillGains>
+		<Social>9</Social>
+		<Intellectual>-5</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_boss</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+		<li><defName>Abrasive</defName></li>
+		<li><defName Degree="1">NaturalMood</defName></li>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 肥溜め担当 -->
+	<defName>FunnnyouGokusotsu</defName>
+	<title>manure-pond gokusotsu</title>
+	<titleShort>manure-pond gokusotsu</titleShort>
+		<description>[PAWN_nameDef] was a manpower to carry resources to the manure pond which the dead were thrown in. In the last 100 years, the number of jobs has been decreasing due to the spread of flush toilets in hell.</description>
+	<skillGains>
+		<Social>-3</Social>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 帰国子女 -->
+	<defName>ReturneeGokusotsu</defName>
+	<title>returnee gokusotsu</title>
+	<titleShort>returnee</titleShort>
+		<description>[PAWN_nameDef] was an expatriate sent to the interfaith hell for technological innovation and cultural exchange.</description>
+	<skillGains>
+		<Social>5</Social>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 屋台の親父A -->
+	<defName>FoodStallGokusotsu_A</defName>
+	<title>food stall gokusotsu</title>
+	<titleShort>food staller</titleShort>
+		<description>[PAWN_nameDef] was a food cart owner who traveled from site to site pulling custom chuckwagon. The food was not very good, but for an extra fee, [PAWN_nameDef] would sneak in a few drinks even in working time, so it was a thriving business.</description>
+	<workDisables>Animals, Mining</workDisables>
+	<skillGains>
+		<Social>5</Social>
+		<Cooking>2</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 屋台の親父B -->
+	<defName>FoodStallGokusotsu_B</defName>
+	<title>food stall gokusotsu</title>
+	<titleShort>food staller</titleShort>
+		<description>[PAWN_nameDef] was a food cart owner who traveled from site to site pulling custom chuckwagon. [PAWN_pronoun] was a hard man who would never serve alcohol to those on duty, but served good, proper food so it was a thriving business.</description>
+	<workDisables>Animals, Crafting</workDisables>
+	<skillGains>
+		<Social>2</Social>
+		<Cooking>5</Cooking>
+	</skillGains>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_trader</li>
+	</spawnCategories>
+	<forcedTraitsChance>
+	</forcedTraitsChance>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 元飛脚 -->
+	<defName>MessengerGokusotsu</defName>
+	<title>Express messenger</title>
+	<titleShort>messenger</titleShort>
+	<description>[PAWN_nameDef]'s job was to run around areas where messenger ravens couldn't reach, but one day [PAWN_pronoun] was transferred to office work inside the Information and Telegraph Department when a super high-tech machine called a "facsimile" appeared on the scene. [PAWN_nameDef] is excited because [PAWN_pronoun] no longer has to reconcile with the machines since [PAWN_pronoun] was sent from the "gate" to an uncivilized alien world, but will [PAWN_pronoun] be able to keep up with the spacer technology on this planet...?</description>
+	<workDisables>
+		<li>ManualSkilled</li>
+		<li>Intellectual</li>
+		<li>Artistic</li>
+	</workDisables>
+	<disallowedTraitsChance>
+		<li><defName>Undergrounder</defName></li>
+	</disallowedTraitsChance>
+	<forcedTraitsChance>
+		<li><defName Degree="2">SpeedOffset</defName></li>
+		<li><defName>Nimble</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- ベルコン作業マン -->
+	<defName>ConveyorGokusotsu</defName>
+	<title>Belt conveyor worker</title>
+	<titleShort>dandelions</titleShort>
+	<description>[PAWN_nameDef]s job was to put a dandelion on the dead as they came down the conveyor belt. [PAWN_pronoun] put dandelions on the dead for 50 hours a day without questioning what they were for, and without knowing that they were not dandelions at all but chrysanthemums.</description>
+	<skillGains>
+		<Intellectual>-7</Intellectual>
+	</skillGains>
+	<forcedTraitsChance>
+		<li>
+			<defName>Undergrounder</defName>
+			<chance>70</chance>
+		</li>
+		<li>
+			<defName Degree="2">SpeedOffset</defName>
+			<chance>0</chance>
+		</li>
+		<li>
+			<defName Degree="1">SpeedOffset</defName>
+			<chance>0</chance>
+		</li>
+		<li>
+			<defName Degree="2">Nerves</defName>
+			<chance>100</chance>
+		</li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- Uターン獄卒 -->
+	<defName>UturnGokusotsu</defName>
+	<title>U-turn gokusotsu</title>
+	<titleShort>U-turn gokusotsu</titleShort>
+	<description>[PAWN_nameDef] had a dream and once went out to the earth, but wherever [PAWN_pronoun] went, [PAWN_pronoun] could not get along with the native yokai, land gods, and local people, so [PAWN_nameDef] returned to [PAWN_possessive] former workplace.</description>
+	<skillGains>
+		<Mining>2</Mining>
+		<Melee>2</Melee>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName Degree="-1">Nerves</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- Iターン獄卒 -->
+	<defName>IturnGokusotsu</defName>
+	<title>I-turn gokusotsu</title>
+	<titleShort>I-turn gokusotsu</titleShort>
+	<description>[PAWN_nameDef] originally lived on earth, but moved to hell to escape human pressure and the effects of urban development, and was re-employed as a hell guard.</description>
+	<skillGains>
+		<Plants>5</Plants>
+		<Animals>3</Animals>
+		<Melee>3</Melee>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName Degree="-1">Nerves</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 仏教師獄卒 -->
+	<defName>HotokeKyoushiGokusotsu</defName>
+	<title>Teacher gokusotsu</title>
+	<titleShort>Teacher gokusotsu</titleShort>
+	<description>[PAWN_nameDef] was a soft-spoken teacher who worked at an educational institution was known as a Buddha in hell.</description>
+	<skillGains>
+		<Social>5</Social>
+		<Animals>2</Animals>
+		<Intellectual>2</Intellectual>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName>Kind</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 鬼教師獄卒 -->
+	<defName>OniKyoushiGokusotsu</defName>
+	<title>Teacher gokusotsu</title>
+	<titleShort>Teacher gokusotsu</titleShort>
+	<description>[PAWN_nameDef] was a soft-spoken teacher who worked at an educational institution was known as a true demon teacher.</description>
+	<skillGains>
+		<Social>2</Social>
+		<Animals>4</Animals>
+		<Melee>2</Melee>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName>Bloodlust</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef ParentName="GHG_BackStoryBase"><!-- 虚無教師獄卒 -->
+	<defName>KyomuKyoushiGokusotsu</defName>
+	<title>Teacher gokusotsu</title>
+	<titleShort>Teacher gokusotsu</titleShort>
+	<description>[PAWN_nameDef] was the kind of sloppy teacher who, if anything happened, would immediately turn to self-study and take a nap himself in the staff room.</description>
+	<skillGains>
+		<Social>1</Social>
+		<Animals>1</Animals>
+		<Intellectual>4</Intellectual>
+	</skillGains>
+	<forcedTraitsChance>
+		<li><defName Degree="-1">Industriousness</defName></li>
+	</forcedTraitsChance>
+	<spawnCategories>
+		<li>GHG_player</li>
+		<li>GHG_wanderer</li>
+	</spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+</Defs>

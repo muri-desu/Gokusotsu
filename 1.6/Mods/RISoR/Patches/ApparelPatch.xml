@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationAdd"><!-- Apparels -->
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Gokusotsu" or defName = "GHG_Mezu" or defName = "GHG_Gozu"]/alienRace/raceRestriction/whiteApparelList</xpath>
+		<value>
+			<li>XXK_RI_HannyaBoy</li>
+			<li>XXK_RI_AutumBall</li>
+		</value>
+
+</Patch>

@@ -7,7 +7,7 @@
 	<AteHumanlikeMeatAsIngredient_GHG.stages.0.label>調理された人肉を食べた</AteHumanlikeMeatAsIngredient_GHG.stages.0.label>
 	<AteHumanlikeMeatAsIngredient_GHG.stages.0.description>人肉料理を食べた. そら豆と焼酎があればもっといい</AteHumanlikeMeatAsIngredient_GHG.stages.0.description>
 	<RotStink_GHG.stages.0.label>腐敗臭</RotStink_GHG.stages.0.label>
-	<RotStink_GHG.stages.0.description>腐敗臭で元いた世界のことを思い出して懐かしい気持ちになった</RotStink_GHG.stages.0.description>
+	<RotStink_GHG.stages.0.description>死臭はいつでも懐かしい気持ちにさせてくれる</RotStink_GHG.stages.0.description>
 
 	<ObservedLayingCorpse_GHG.stages.0.label>死体を見た</ObservedLayingCorpse_GHG.stages.0.label>
 	<ObservedLayingCorpse_GHG.stages.0.description>死体を見た</ObservedLayingCorpse_GHG.stages.0.description>
@@ -21,5 +21,7 @@
 	<AnnoyingVoice_GHG.label>かっこいい声</AnnoyingVoice_GHG.label>
 	<CreepyBreathing_GHG.stages.0.label>セクシーな息遣い</CreepyBreathing_GHG.stages.0.label>
 
+	<GHG_AteNormalPudding.stages.0.label>ノーマルプリンを食べた</GHG_AteNormalPudding.stages.0.label>
+	<GHG_AteNormalPudding.stages.0.description>それほどノーマルではないプリンを食べた</GHG_AteNormalPudding.stages.0.description>
 
 </LanguageData>

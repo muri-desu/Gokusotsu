@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef><!-- 緑閃光 -->
+	<defName>Make_GHG_JadeBeer</defName>
+	<label>make green flash</label>
+	<description>Make green flash beer.</description>
+	<jobString>Making green flash beer.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>800</workAmount>
+	<targetCountAdjustment>1</targetCountAdjustment>
+	<recipeUsers>
+		<li>Brewery</li>
+		<li>GokusotsuWorkbench</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs><li>Beer</li></thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>PsychoidLeaves</li></thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>Jade</li></thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>PsychoidLeaves</li>
+			<li>Beer</li>
+			<li>Jade</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<GHG_JadeBeer>1</GHG_JadeBeer>
+	</products>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>Make_GHG_JadeBeerBulk</defName>
+	<label>make green flash x4</label>
+	<description>Make bulk green flash beer.</description>
+	<jobString>Making bulk green flash beer.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>3200</workAmount>
+	<recipeUsers>
+		<li>Brewery</li>
+		<li>GokusotsuWorkbench</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs><li>Beer</li></thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>PsychoidLeaves</li></thingDefs>
+			</filter>
+			<count>8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>Jade</li></thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>PsychoidLeaves</li>
+			<li>Beer</li>
+			<li>Jade</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<GHG_JadeBeer>4</GHG_JadeBeer>
+	</products>
+</RecipeDef>
+
+<RecipeDef><!-- ヘルフュエル -->
+	<defName>Make_GHG_AntiToxBeer</defName>
+	<label>make hell-fire fuel</label>
+	<description>Make hell-fire fuel.</description>
+	<jobString>Making hell-fire fuel.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>800</workAmount>
+	<targetCountAdjustment>1</targetCountAdjustment>
+	<recipeUsers>
+		<li>Brewery</li>
+		<li>GokusotsuWorkbench</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs><li>Beer</li></thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>MedicineHerbal</li></thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>Chemfuel</li></thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>MedicineHerbal</li>
+			<li>Beer</li>
+			<li>Chemfuel</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<GHG_AntiToxBeer>1</GHG_AntiToxBeer>
+	</products>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>Make_GHG_AntiToxBeerBulk</defName>
+	<label>make hell-fire fuel x4</label>
+	<description>Make bulk hell-fire fuel.</description>
+	<jobString>Making bulk hell-fire fuel.</jobString>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>3200</workAmount>
+	<recipeUsers>
+		<li>Brewery</li>
+		<li>GokusotsuWorkbench</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs><li>Beer</li></thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>MedicineHerbal</li></thingDefs>
+			</filter>
+			<count>8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs><li>Chemfuel</li></thingDefs>
+			</filter>
+			<count>4</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>MedicineHerbal</li>
+			<li>Beer</li>
+			<li>Chemfuel</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<GHG_AntiToxBeer>4</GHG_AntiToxBeer>
+	</products>
+</RecipeDef>
+
+</Defs>
